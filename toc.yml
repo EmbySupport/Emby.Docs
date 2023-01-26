@@ -1,0 +1,215 @@
+- name: Emby Support
+  href: ../index.md
+  items:
+  - name: Wiki home
+    href: home.md
+  - name: Quick start
+    href: Quick-start.md
+  - name: System requirements
+    href: System-requirements.md
+- name: Media organization
+  items:
+  - name: Movie naming
+    href: Movie-naming.md
+  - name: TV naming
+    href: TV-naming.md
+  - name: Music naming
+    href: Music-naming.md
+  - name: Audio Book naming
+    href: Audio-Book-naming.md
+  - name: Book naming
+    href: Book-naming.md
+  - name: 3D videos
+    href: 3D-videos.md
+  - name: Excluding files
+    href: Excluding-files-&-folders.md
+  - name: Media stubs
+    href: Media-stubs.md
+  - name: Strm files
+    href: Strm-files.md
+  - name: Subtitles
+    href: Subtitles.md
+  - name: Automatic Subtitle Downloads
+    href: Automatic-Subtitle-Downloads.md
+  - name: Manual Subtitle Downloads
+    href: Manual-Subtitle-Downloads.md
+  - name: Theme songs & videos
+    href: Theme-songs-&-videos.md
+  - name: Trailers
+    href: Trailers.md
+  - name: Identify
+    href: Identify.md
+  - name: New Media Date Handling
+    href: New-Media-Date-Handling.md
+- name: Server
+  items:
+  - name: Installation
+    href: Installation.md
+  - name: Connectivity
+    href: Connectivity.md
+  - name: Library setup
+    href: Library-Setup.md
+  - name: Optional Network Paths
+    href: Optional-Network-Paths.md
+  - name: Server settings
+    href: Server-Settings.md
+  - name: Log Files
+    href: Log-Files.md
+  - name: Auto-Organize
+    href: Auto-Organize.md
+  - name: Camera upload
+    href: Camera-upload.md
+  - name: Channels
+    href: Channels.md
+  - name: Cinema Intros
+    href: Cinema-Intros.md
+  - name: Collections
+    href: Collections.md
+  - name: Devices
+    href: Devices.md
+  - name: Hosting settings
+    href: Hosting-Settings.md
+  - name: Live TV
+    href: Live-TV.md
+  - name: Notifications
+    href: Notifications.md
+  - name: Plugins
+    href: Plugins.md
+  - name: Scheduled tasks
+    href: Scheduled-tasks.md
+  - name: Transcoding
+    href: Transcoding.md
+  - name: Backing up Emby Server
+    href: Backup.md
+  - name: Emby Server as a Windows Service
+    href: Running-Emby-Server-as-a-Windows-Service.md
+  - name: Open Subtitles
+    href: Open-Subtitles.md
+  - name: Secure Your Server
+    href: Secure-Your-Server.md
+  - name: Webhooks
+    href: Webhooks.md
+- name: Emby 4.0 Migration
+  items:
+  - name: New Folder-based Access Control
+    href: New-Folder-based-Access-Control.md
+- name: Hardware Acceleration
+  items:
+  - name: Overview
+    href: Hardware-Acceleration-Overview.md
+  - name: Windows
+    href: Hardware-Acceleration-on-Windows.md
+  - name: Linux
+    href: Hardware-Acceleration-on-Linux.md
+  - name: Android
+    href: Hardware-Acceleration-on-Android.md
+- name: Users
+  items:
+  - name: Users
+    href: Users.md
+  - name: Parental controls
+    href: Parental-controls.md
+  - name: Passwords
+    href: Passwords.md
+  - name: Content access
+    href: Content-Access.md
+  - name: Device access
+    href: Device-Access.md
+  - name: Emby Connect
+    href: Emby-Connect.md
+  - name: Emby Connect Password Reset
+    href: Password-Reset.md
+- name: Live TV
+  items:
+  - name: Live TV
+    href: Live-TV.md (setup.md
+  - name: Live TV Plugins
+    href: Live-TV-Plugins.md
+  - name: DVR Settings
+    href: DVR-Settings.md
+- name: Emby Apps
+  items:
+  - name: Apple TV
+    href: Apple-TV.md
+  - name: Amazon Alexa
+    href: Alexa.md
+  - name: Amazon Fire TV
+    href: Fire-TV.md
+  - name: Android Mobile
+    href: Android-Mobile.md
+  - name: Android TV
+    href: Android-TV.md
+  - name: Chromecast
+    href: Chromecast.md
+  - name: Emby Theater for Windows
+    href: Emby-Theater-for-Windows.md
+  - name: Google Home
+    href: Google-Home.md
+  - name: iOS
+    href: iOS.md
+  - name: Roku
+    href: Roku.md
+  - name: Web App
+    href: Web-Client.md
+  - name: Keyboard and Remote Support
+    href: Keyboard-and-Remote-Support.md
+- name: Offline Downloading
+  items:
+  - name: Offline access
+    href: Offline-Access.md
+- name: Dlna
+  items:
+  - name: Dlna settings
+    href: Dlna-settings.md
+  - name: Dlna profiles
+    href: Dlna-profiles.md
+- name: Sync
+  items:
+  - name: Sync Introduction
+    href: Sync-Introduction.md
+  - name: Sync
+    href: Sync.md
+  - name: Sync jobs
+    href: Sync-Jobs.md
+  - name: Folder sync
+    href: Folder-Sync.md
+  - name: Google Drive
+    href: Google-Drive.md
+- name: Plugins
+  items:
+  - name: Plugins
+    href: Plugins.md
+  - name: AutoBoxSets
+    href: AutoBoxSets.md
+- name: Emby Premiere
+  items:
+  - name: Emby Premiere
+    href: Emby-Premiere.md
+  - name: How do I purchase?
+    href: How-do-I-purchase-Emby-Premiere.md
+  - name: Membership Options
+    href: What-Emby-Premiere-membership-options-are-there.md
+  - name: Feature Matrix
+    href: Emby-Premiere-Feature-Matrix.md
+  - name: How do I get my key?
+    href: How-is-the-Emby-Premiere-key-delivered-to-me.md
+  - name: Is my Emby Premiere key still valid with Emby 4.0?
+    href: Is-My-Emby-Premiere-Key-Still-Valid-with-Emby-4.0.md
+  - name: What if I lose my key?
+    href: What-if-I-lose-my-Emby-Premiere-key.md
+  - name: My Emby Key Says it is Invalid or Missing
+    href: https://github.com/MediaBrowser/Wiki/wiki/My-Emby-Key-Says-it-is-Invalid-or-Missing.md
+  - name: How do I upgrade my membership?
+    href: How-do-I-upgrade-my-Emby-Premiere-membership.md
+  - name: Is there a limit to Premiere?
+    href: Is-there-a-limit-to-Emby-Premiere.md
+  - name: Why is the price different in the App store?
+    href: Why-is-the-Emby-Premiere-price-different-in-the-app-stores.md
+  - name: How do I cancel my membership?
+    href: How-do-I-cancel-an-Emby-Premiere-subscription.md
+  - name: Multiple servers
+    href: Can-I-use-my-Emby-Premiere-key-on-more-than-one-server.md
+- name: Advanced Topics
+  items:
+  - name: Collections – Manual Migration
+    href: Collections-–-Manual-Migration.md
