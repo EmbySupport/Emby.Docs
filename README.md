@@ -1,22 +1,23 @@
-[Emby Wiki](https://github.com/MediaBrowser/Wiki/wiki)
-====
-
-[Getting started](https://github.com/MediaBrowser/Wiki/wiki)
-  
-  
+# [Emby.Docs](https://github.com/EmbySupport/Emby.Docs)
 
 
-How to Contribute
-====
+This repository contains support documentation for Emby - https://emby.media/
 
-The wiki can be edited directly from the github website. 
 
-To add an image:
+## How to Contribute
 
-* Clone https://github.com/MediaBrowser/Wiki.wiki.git
-* Add images, for example, "images/category/image.png"
-* Commit and push the image
-* Add an image from a wiki page, the url based on above will be "images/category/image.png"
-* Make images as minimal as possible. Do not show the entire application window but instead just the relevant parts. Describe the menu navigation rather than displaying it. This will decrease the chances of the image becoming obsolete as navigation changes.
-* Configuration screenshots should display default values
-* Don't assume the user has advanced knowledge of anything. If another part of the system requires setup, then mention it and link to it.
+### Create an Issue
+
+The recommended way is to [Submit a new Issue](https://github.com/EmbySupport/Emby.Docs/issues/new/choose) in this repository.
+
+It's easier for us when you use the links at the bottom of the support pages named "Submit Feedback on this Article". This allows us to easily correlate your feedback to the right article.
+
+### Suggest an Edit
+
+You can also suggest a change to an article by editing it directly here on GitHub and submitting it as a Pull Request.
+
+Please note though, that your PR might not be merged but re-written by us instead. Use PRs only when it makes it easier for you to convey your suggested change, like for example to indicate a typo directly instead of writing a long explanation about where you have seen it exactly.
+
+
+---
+EMBY LLC. Please see our [Terms of Use](https://emby.media/terms.html) and [Privacy Policy](https://emby.media/privacy.html).
