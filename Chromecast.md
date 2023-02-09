@@ -1,3 +1,9 @@
+---
+uid: Chromecast
+title: Chromecast 
+legacyUrl: /support/solutions/articles/44001161600-chromecast
+---
+
 Emby supports casting to Chromecast in the following apps:
 
 - [Android Mobile (Google Play)](https://play.google.com/store/apps/details?id=com.mb.android "Android Mobile (Play Store)")

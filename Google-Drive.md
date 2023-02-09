@@ -1,3 +1,9 @@
+---
+uid: Google-Drive
+title: Google Drive
+legacyUrl: /support/solutions/articles/44001162194-google-drive
+---
+
 To install Google Drive, click the Plugins menu option on the left from your web Dashboard.  Then click the Catalog option up top on the right side.  Scroll down until you find.
 
 ![googledrive1.png](images/plugins/googledrive1.png)

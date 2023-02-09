@@ -1,3 +1,10 @@
+---
+uid: Plugins
+title: Plugins Overview
+legacyUrl: /support/solutions/articles/44001162214-plugins-overview
+# TODO: Duplicated as Plugins-Duplicate.md
+---
+
 Plugins extend the functionality of Emby by providing additional features and services. To manage your plugins, open the server dashboard and navigate to **Plugins**.
 
 ## My Plugins

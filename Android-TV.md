@@ -1,3 +1,9 @@
+---
+uid: Android-TV
+title: Android TV
+legacyUrl: /support/solutions/articles/44001161573-android-tv
+---
+
 Requires Android TV 5.1 on higher OS.
 
 Emby for Android TV can be installed from the App store on your Android TV device (Google Nexus Player, Nvidia Shield, Sony Android TV, etc.) or you can push it to your device from the [Google Play Store](https://play.google.com/store/apps/details?id=tv.emby.embyatv).
@@ -11,8 +17,8 @@ Install the app using one of the above methods, the app will then automatically 
 ## Direct Play Media Formats
 Video — m4v,mov,xvid,vob,mkv,wmv,asf,ogm,ogv,mp4,webm 
 Note: The exact containers and codecs that will direct play depends on both the device the app is on and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.).  The device with the widest support is the NVidia Shield.  
-Subtitles - srt,dvdsub,ssa,ass,sub,vtt,pgs  
-Audio – aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,opus,ac3 (Dolby Digital), DTS, DTS-HD MA, TrueHD  
+Subtitles - srt,ssa,ass,sub,vtt,pgs  
+Audio – aac,mp3,mpa,wav,mp2,ogg,oga,webma,ape,opus,ac3 (Dolby Digital), DTS, DTS-HD MA, TrueHD  
 
 *Dolby Digital and DTS direct play requres Android version 6.0+*  
 

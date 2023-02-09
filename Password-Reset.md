@@ -1,3 +1,9 @@
+---
+uid: Password-Reset
+title: Emby Connect Password Reset
+legacyUrl: /support/solutions/articles/44001160356-emby-connect-password-reset
+---
+
 If you have forgotten your Emby Community password, you can reset it.
 
 From the sign-in page, click on "I've forgotten my password".

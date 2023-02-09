@@ -1,3 +1,9 @@
+---
+uid: Hardware-Acceleration-on-Linux
+title: Hardware Acceleration on Linux
+legacyUrl: /support/solutions/articles/44001160207-hardware-acceleration-on-linux
+---
+
 Emby supports the following hardware acceleration variants on Linux
 
 - **[Nvidia NVDEC & NVENC](#nvidia-nvdec-nvenc)**  
@@ -43,18 +49,25 @@ devices. Detailed information about supported hardware can be found in Nvidias
 
 #### Required Setup Steps
 
-Install the latest drivers for your Nvidia hardware either directly from 
-[Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx) page
-or from the driver repository of the respective Linux distribution.
-The procedure may vary by distribution.
-The minimum required driver version on Linux is **390.25**  
+> [!IMPORTANT]
+> Always follow the instructions on the Nvidia site, even when the installed driver version appears to be sufficient!
+
+Install drivers from here:
+[Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx) 
+
+**Not from your distro**
+
+
+The minimum required driver version on Linux is **470.57**
 
 #### Remarks
 
+- Nvidia drivers which are included in or provided by Linux distributions, often include only a subset of the Nvidia drivers. It is always recommended to install the full Linux drivers from the Nvidia website.
 - Emby supports headless operation for Nvidia  
   It is not required to connect a monitor
 
 #### Further Reading
+
 [Nvidia Video Codec SDK](https://developer.nvidia.com/nvidia-video-codec-sdk)  
 [GPU Support Matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)  
 [Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx)  
@@ -105,6 +118,9 @@ The latest Intel drivers are included with Emby server.
 ##### AMD
 
 [Radeon™ Software for Linux® Installation](https://www.amd.com/en/support/kb/faq/amdgpu-installation)
+
+> [!IMPORTANT]
+> Do not choose "headless mode" during setup because this would skip the installation of graphics drivers.
 
 #### Further Reading
 

@@ -1,3 +1,9 @@
+---
+uid: Android-Mobile
+title: Android Mobile
+legacyUrl: /support/solutions/articles/44001161551-android-mobile
+---
+
 Emby for Android Mobile is available in multiple ways:
 * [Amazon App Store](http://www.amazon.com/Emby-for-Android/dp/B00GVH9O0I)
 * [Google Play Store](https://play.google.com/store/apps/details?id=com.mb.android)

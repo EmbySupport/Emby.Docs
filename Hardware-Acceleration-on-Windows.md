@@ -1,3 +1,9 @@
+---
+uid: Hardware-Acceleration-on-Windows
+title: Hardware Acceleration on Windows
+legacyUrl: /support/solutions/articles/44001160185-hardware-acceleration-on-windows
+---
+
 Emby supports the following hardware acceleration variants on Windows
 
 - **[Nvidia NVDEC & NVENC](#nvidia-nvdec-nvenc)**  
@@ -52,7 +58,7 @@ Install the latest drivers for your Nvidia hardware directly from
 [Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx) page.
 It is highly recommended to use these drivers instead of the ones that are 
 shipped with Windows.
-The minimum required driver version on Windows is **390.77**  
+The minimum required driver version on Windows is **471.41**  
 It is not required to install any other tools or SDKs from Nvidia.
 
 #### Remarks
@@ -105,13 +111,7 @@ It is not required to install the Intel Media SDK.
 
 #### Remarks
 
-- Emby currently **does not support** headless operation with Intel QuickSync
-  You will either need to connect a physical monitor to the video output
-  or you can acquire a "dummy monitor plug" to make the GPU think that 
-  a monitor is connected
-- QuickSync acceleration **does not work** when Emby is run as a Windows service
-
-``Note: Support for headless mode is planned for the future``
+- Emby only supports headless operation (and running as a service) with Intel QuickSync when using the D3D11 codec.  For normal mode you will need to connect a physical monitor to the video output.
 
 #### Further Reading
 [Intel QuickSync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)  
@@ -146,13 +146,8 @@ The minumum required software version is:
 
 #### Remarks
 
-- Emby currently **does not support** headless operation with AMD AMF
-  You will either need to connect a physical monitor to the video output
-  or you can acquire a "dummy monitor plug" to make the GPU think that 
-  a monitor is connected
-- AMD AMF acceleration **does not work** when Emby is run as a Windows service
-
-``Note: Support for headless mode is planned for the future``
+- Emby currently does not support headless operation with AMD AMF You will need to connect a physical monitor to the video output.
+- AMD AMF acceleration does not work when Emby is run as a Windows service
 
 #### Further Reading
 [AMD Advanced Media Framework](https://gpuopen.com/gaming-product/advanced-media-framework/)  
@@ -188,11 +183,11 @@ Installing the latest drivers from the manufacturers' websites might still be a 
 
 #### Remarks
 
-- Emby currently **does not support** headless operation with DXVA2
-  You will either need to connect a physical monitor to the video output
-  or you can acquire a "dummy monitor plug" to make the GPU think that 
-  a monitor is connected
-- DXVA2 acceleration **does not work** when Emby is run as a Windows service
+- Emby only supports headless operation (and running as a service) with D311VA codecs.  For plain DXVA2 you will need to connect a physical monitor to the video output.
+
+### Common Issues and Solutions
+
+- Hardware Acceleration Fails with Remote Desktop (RDP) on Windows
 
 ``Note: Support for headless mode is planned for the future``
 

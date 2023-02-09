@@ -1,3 +1,9 @@
+---
+uid: Audio-Book-Naming
+title: Audio Book Naming
+legacyUrl: /support/solutions/articles/44001159114-audio-book-naming
+---
+
 The recommended folder structure for audio books is Author\Book Name\Chapter
 
 ```

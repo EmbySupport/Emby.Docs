@@ -1,3 +1,9 @@
+---
+uid: Hardware-Acceleration-on-Android
+title: Hardware Acceleration on Android
+legacyUrl: /support/solutions/articles/44001160208-hardware-acceleration-on-android
+---
+
 Emby supports the following hardware acceleration variants on Android
 
 - **Android MediaCodec**  

@@ -1,10 +1,9 @@
 ---
-uid: LandingPage
-type: landing
-documentType: landing
+uid: Home
+title: Emby Support Home
+longTitle: Your starting point for browsing the documentation
+legacyUrl: /support/solutions/articles/44001089172-home
 ---
-
-![](wiki/images/logo/logo96.png)
 
 Emby is a free personal media server. It is built with a number of popular open source technologies. To download Emby, visit:
 
@@ -14,19 +13,19 @@ http://emby.media/
 
 See the menu on the right-hand side of this page for a complete listing. Some key areas are:
 
-* [Quick start](Quick-start)
-* [System requirements](System-requirements)
-* [Movie naming](Movie-naming)
-* [TV naming](TV-naming)
-* [Music naming](Music-naming)
-* [Subtitles](Subtitles)
-* [Server installation](Installation)
-* [Users](Users)
-* [Sync](Sync)
+* [Quick start](xref:Quick-start)
+* [System requirements](xref:System-requirements)
+* [Movie naming](xref:Movie-naming)
+* [TV naming](xref:TV-naming)
+* [Music naming](xref:Music-naming)
+* [Subtitles](xref:Subtitles)
+* [Server installation](xref:Installation)
+* [Users](xref:Users)
+* [Sync](xref:Sync)
 
 ## Community
 
-In addition to what's displayed here, the [community forums](https://emby.media/community/) is another great place for useful information.
+In addition to what's displayed here, the [Community Forums](https://emby.media/community/) is another great place for useful information.
 
 ## Emby Apps
 

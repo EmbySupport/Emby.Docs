@@ -1,3 +1,9 @@
+---
+uid: Emby-Guide-Data
+title: Emby Guide Data
+legacyUrl: /support/solutions/articles/44001848801-emby-guide-data
+---
+
 Emby has built in guide data for the United States, Canada and the United Kingdom. If you live in one of these areas then Emby Guide Data should be your first choice of providers to use.  Unlike other guide solutions, everything needed to use is built right into your Emby Server with no 3rd party setup or payments needed.
 
 Emby Guide Data not only includes the basic data provided by other solutions but also has full descriptions of shows,  movies, news and sporting events.  The difference in guide data will be especially noticeable for sports fans! Not only does Emby’s internal solution deliver a rich assortment of information but it also provides posters and artwork delivered from a very fast content delivery network which allows your server to load this data very quickly!
@@ -18,7 +24,7 @@ Click Next
 
 ![gracenote2](images/server/gracenote2.png)
 
-Enter our Postal Code.
+Enter your Postal Code. If UK only enter the 1st part or 3 letters!
 
 Select the proper linup from the drop down selection list. In this case we selected our local over the air (OTA) lineup to match our HDHomeRun/antenna setup.
 

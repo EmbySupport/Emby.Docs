@@ -1,3 +1,9 @@
+---
+uid: Trailers
+title: Trailers
+legacyUrl: /support/solutions/articles/44001159193-trailers
+---
+
 For video files and games, trailers can be stored in the same folder as the media and named identically with a -trailer suffix.
 
 ```

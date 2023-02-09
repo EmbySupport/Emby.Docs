@@ -1,3 +1,9 @@
+---
+uid: Quick-Start
+title: Quick Start
+legacyUrl: /support/solutions/articles/44001159034-quick-start
+---
+
 Emby has two distinct parts:
 
 * Server — Store your media library in a central place

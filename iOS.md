@@ -1,3 +1,9 @@
+---
+uid: iOS
+title: iOS
+legacyUrl: /support/solutions/articles/44001161688-ios
+---
+
 Emby for iPhone and iPad is available in the [Apple App Store](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8).
 
 Emby for iOS can handle just about any type of media thanks to [Emby Server transcoding](Transcoding). If you would like to learn how to prepare your media for Direct Play, read below.

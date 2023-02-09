@@ -1,3 +1,9 @@
+---
+uid: Apple-TV
+title: Apple TV
+legacyUrl: /support/solutions/articles/44001160796-apple-tv
+---
+
 Emby for Apple TV can be installed from the App store on your 4th generation Apple TV device.
 
 
@@ -13,3 +19,6 @@ Audio – aac,ac3 (Dolby Digital),mp3
 
 ## Best Practices for Direct Play
 Ensure your media meets the above criteria.
+
+> [!TIP]
+> If using h.265 make sure your videos are tagged as hcv1 and not as hev1.

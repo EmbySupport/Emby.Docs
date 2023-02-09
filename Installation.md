@@ -1,3 +1,9 @@
+---
+uid: Installation
+title: Installation
+legacyUrl: /support/solutions/articles/44001159243-installation
+---
+
 Emby Server is available on the following platforms:
 
 * Windows

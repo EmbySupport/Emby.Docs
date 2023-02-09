@@ -1,4 +1,12 @@
-For a simple TV folder structure, the recommended folder layout is Series (year)\Season #\Episode or Series (year)\Episode. When setting up the library make sure to select **TV** as the content type.  Having the year in the series name is not strictly mandatory as Emby can usually match a series without it but it helps tremendously with rebooted series and those that have broadcast in different years such as Battlestar Galactica (1978) and Battlestar Galactica (2003).  The year is also very helpful for some series such as Africa (2013) which could potentially match to a few different shows without the year.
+---
+uid: TV-Naming
+title: TV Naming
+legacyUrl: /support/solutions/articles/44001159110-tv-naming
+---
+
+For a simple TV folder structure, the recommended folder layout is Series (year)\Season #\Episode. The Episode name itself should contain the show name,  the season and the episode episode number which is covered below.
+
+When setting up the library make sure to select **TV** as the content type.  Having the year in the series name is not strictly mandatory as Emby can usually match a series without it but it helps tremendously with rebooted series and those that have broadcast in different years such as Battlestar Galactica (1978) and Battlestar Galactica (2003).  The year is also very helpful for some series such as Africa (2013) which could potentially match to a few different shows without the year.
 
 For example:
 
@@ -39,7 +47,7 @@ In the above example, the recommended setup is to create a TV media folder, and 
 
 For more information on setting up the library, see [Library Setup](Library-Setup).
 
-### Dvd and Blu-ray episodes
+### DVD and Blu-ray episodes
 
 Dvd and Blu-ray folder structures are also supported. The folders can have any name, but using episode numbers will improve the ability to download and display metadata. 
 
@@ -87,7 +95,7 @@ Common for long-running daily shows, you can also use the date the episode aired
 * anything_1996-11-14.ext
 * anything_14.11.1996.ext
 
-## Multi-Version Episode
+## Multi-Version Episodes
 
 Multi-Version Episodes are best using the following format:
 
@@ -101,7 +109,9 @@ Star Trek, The Next Generation - S01E01 - Digital Remix.mkv
 anything following the "-" (dash) up to the file extension will be used in the drop down version selector in your Emby client. In this case the two versions show in the interface will be "Original Broadcast" & "Digital Remix".
 
 
-## Multi-episode files
+## Multi-Episode files
+
+All multi-episode files must be part of the same season.
 
 The following conventions are supported:
 
@@ -113,7 +123,9 @@ The following conventions are supported:
 * S01E02-X03 episode name.ext
 * 01x02 01x03 episode name.ext
 * 01x02 - 01x03 episode name.ext
+* 01x02 - 01x05 episode name.ext (includes episodes 2,3,4 and 5)
 * 01x02 - x03 episode name.ext
+* 01x02 - x05 episode name.ext
 * S01x02.S01x03 episode name.ext
 * S01x02 - S01x03 episode name.ext
 * show name 01x02x03 episode name.ext
@@ -121,7 +133,9 @@ The following conventions are supported:
 * show name S01E02E03 episode name.ext
 * show name S01xE02xE03 episode name.ext
 * show name S01E02-E03 episode name.ext
+* show name S01E02-E05 episode name.ext
 * show name S01E02-X03 episode name.ext
+* show name S01E02-X05 episode name.ext
 * show name 01x02 01x03 episode name.ext
 * show name 01x02 - 01x03 episode name.ext
 * show name 01x02 - x03 episode name.ext
@@ -145,6 +159,9 @@ For example:
           Glee S00E01.mp4
 
 ```
+
+> [!TIP]
+> Please see Ordering TV Show Special/Extras to learn how to place these specials in the proper timeline.
 
 ## Series & Season Images
 
@@ -234,8 +251,6 @@ For example:
           Glee S01E01-thumb.jpg
        \Season 2
           Glee S02E01.mp4
-          /metadata
-              Glee S02E01.jpg
 
 ```
 

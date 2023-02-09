@@ -1,3 +1,13 @@
+---
+uid: Connectivity
+title: Connectivity
+legacyUrl: /support/solutions/articles/44001849007-connectivity
+# TODO: This is identical to @Advanced-Menu and @Remote-Setup
+---
+
+.
+## TODO: This is identical to @Advanced-Menu and @Remote-Setup
+
 This purpose of this document is to discuss how to connect to Emby Server from additional devices, both within your home network and external. To learn how to grant users access to your server, see [Users](Users).
 
 In most cases you won't need to do anything to connect to your server from other devices, as Emby apps are built to automatically know how to connect to it. But on some systems some manual configuration might be necessary. This document is primarily designed as for troubleshooting when the automatic features do not work.

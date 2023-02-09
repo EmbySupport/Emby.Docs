@@ -1,3 +1,9 @@
+---
+uid: Sync-Jobs
+title: Sync Jobs
+legacyUrl: /support/solutions/articles/44001162175-sync-jobs
+---
+
 Sync jobs can be created from a number of areas, including, syncing by categories:
 
 ![](images/server/sync1.png)

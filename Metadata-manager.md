@@ -1,3 +1,9 @@
+---
+uid: Metadata-Manager
+title: Metadata Manager
+legacyUrl: /support/solutions/articles/44001848783-metadata-manager
+---
+
 One of the areas in which MediaBrowser shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the metadata for every item in your library in one place.
 
 The metadata manager can be accessed via the slideout in the web client in the top left hand corner of the screen.
@@ -70,6 +76,9 @@ To make sure the tags don't disappear in a library refresh, lock the **Tags** fi
 
 ![](images/server/metadatamanager6.png)
 
+> [!TIP]
+> Tags can also be used for custom Cinema Intro trailers. Simply add a tag to each movie/episode such as "HomeMovies".  Then you configure a path in Custom Intros for a Custom Codecs directory and add a movie with a tag (done externally) of "HomeMovies".  This allows Emby to display your custom Intro for any movie tagged with the same name.
+
 ## Subtitles
 
 For your movies and TV shows, the metadata manager is the place to manage subtitles . You can see which subtitles you have, whether they are graphical or text, and what languages the subtitles are in.
@@ -89,3 +98,5 @@ Images are downloaded from Fanart.tv, TheMovieDB, The Open Movie Database, and T
 To change the image used, simply click on the cloud underneath each image and the server will search all of the databases for new images.
 
 ![](images/server/metadatamanager9.png)
+
+Images can be edited using our image editing feature.

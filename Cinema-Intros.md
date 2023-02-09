@@ -1,6 +1,12 @@
+---
+uid: Cinema-Intros
+title: Cinema Intros
+legacyUrl: /support/solutions/articles/44001848833-cinema-intros
+---
+
 Cinema Intros brings the theater experience straight to your living room with the ability to play trailers and custom intros before the main feature.
 
-Cinema Intros is configured in the server dashboard by navigating to **Playback** -> **Cinema Intros**. By default it is disabled.
+Cinema Intros is configured in the server dashboard by navigating to the Cinema Intros menu. By default it is disabled.
 
 ## Choosing when to enable Cinema Intros
 
@@ -44,20 +50,28 @@ The following fields are used to determine a match:
 * Audio Profile
 * Tags
 
-Here are some examples:
+Here are some examples: (extension doesn't matter)
 
 * A movie has h264 video, intro file is named "h264.mp4"
 * A movie has ac3 audio, intro file is named "ac3.mkv"
+* A movie has eac3 audio, intro file is named eac3.mp4
 * A movie has DTS-HD MA audio profile, intro file is named "dts-hd ma.avi"
 * You've added a tag to a movie called "waffle", intro file is named "waffle.mpg".
 
-**Tip**: To review the media information for one of your videos, visit the detail screen in the web app.
+> [!TIP]
+> The file name (before extension) should be the same name as the codec shown when looking at a video for either audio codec or video codec. To review the media information for one of your videos, visit the detail screen in the web app.
 
 Simply create a folder containing the videos, and enter the path in the codec intro field:
 
 ![](images/server/cinemamode5.png)
 
-**Important**: Make sure to run a library scan after adding new intro files.
+> [!Important]
+> Make sure to run a library scan after adding new intro files.
+
+> [!TIP]
+> With the use of Custom Intro directories you can make use of Tags for each movie/episode such as "HomeMovies".  These tags can be added using the MetaData Manager.  
+Make sure that Intros added to the custom directories above have proper tags in the files before adding them to Emby.  You can use Windows or other tag editor to assist with this. This allows Emby to display your custom Intro for any movie tagged with the same name.
+
 
 ## Parental Control
 
@@ -69,8 +83,8 @@ The unwatched setting will prevent trailers that you've already seen from being 
 
 Once you've enabled cinema intros in the server dashboard, they'll be turned on for all users by default. Each user can opt-out of cinema intros individually by disabling it in their user profile settings.
 
-This is accessed by clicking the user icon in the top right hand corner of the web interface, then selecting **Preferences**-> **Profile**.
+This is accessed by clicking the user icon in the top right hand corner of the web interface, then selecting **Preferences**-> **Playback**.
 
 ![](images/server/cinemamode6.png)
 
-As an administrator, if you would like to personally change this for a user, you can access this page from the **Server Dashboard** -> **Users** -> **Click User** -> **Edit this user's profile settings**.
+As an administrator, if you would like to personally change this for a user, you can access this page from the **Server Dashboard** -> **Users** -> **Click User** -> **Edit this user's playback settings**.

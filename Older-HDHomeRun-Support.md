@@ -1,3 +1,9 @@
+---
+uid: Older-HDHomeRun-Support
+title: Older HDHomeRun Support
+legacyUrl: /support/solutions/articles/44001848798-older-hdhomerun-support
+---
+
 Older HDHomeRun tuners without support for DLNA are supported by Emby but require a bit of pre-setup before Emby can use them.
 
 The required steps are as follows:

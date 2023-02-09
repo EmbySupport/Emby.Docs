@@ -1,4 +1,13 @@
-Emby supports Schedules Direct as a guide data source. To add Schedules Direct guide data, add a guide provider on the Live TV setup screen, and select "Schedules Direct".
+---
+uid: Schedules-Direct
+title: Schedules Direct
+legacyUrl: /support/solutions/articles/44001848805-schedules-direct
+---
+
+> [!WARNING]
+> Schedules Direct use has been replaced with built in Emby Guide Data.
+
+ guide data, add a guide provider on the Live TV setup screen, and select "Schedules Direct".
 
 ![](images/server/guidedataadd.png)
 

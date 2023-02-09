@@ -1,3 +1,9 @@
+---
+uid: Users
+title: Users
+legacyUrl: /support/solutions/articles/44001160237-users
+---
+
 Most operations within Emby are based around users. Users can have their own personalized media libraries, user data, recommendations, security settings, and more.
 
 Users are managed within the server dashboard by navigating to **Users**. 

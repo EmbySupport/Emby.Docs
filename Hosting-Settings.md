@@ -1,8 +1,14 @@
-Hosting settings allow you to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Advanced** -> **Hosting**.
+---
+uid: Hosting-Settings
+title: Network (Hosting) Settings
+legacyUrl: /support/solutions/articles/44001159601-network-hosting-settings
+---
+
+Hosting settings allow you to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Server** -> **Network**.
 
 For the purposes of this document we are defining local as within your home network, and external as outside your network away from home.
 
-## Http Port
+## Http Ports
 
 The http port settings allow you to specify both the local, system port that the server should bind to, as well as the external port that the server should use when reporting it's external url to clients.
 
@@ -20,7 +26,7 @@ If for some reason you need to customize this value, or it is not detected prope
 
 Most users can leave this blank and rely on the server's automatic detection. If you are using a DDNS, or the Https feature with a self-signed certificate, then you may prefer to customize it.
 
-## Https Port
+## Https Ports
 
 The local and public https ports can be configured in much the same way as regular http:
 
@@ -43,3 +49,6 @@ Emby apps use http by default. In order to force them to use https, you can conf
 By default the server will attempt to automatically map public to local ports by configuring your router. You can disable this as necessary here.
 
 ![](images/server/hosting6.png)
+
+TODO TODO TODO:
+Please see this Knowledge Base article for extended help setting up for Remote Access

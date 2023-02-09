@@ -1,3 +1,9 @@
+---
+uid: Hardware-Acceleration-Overview
+title: Hardware Acceleration Overview
+legacyUrl: /support/solutions/articles/44001160148-hardware-acceleration-overview
+---
+
 Emby supports a broad range of hardware accelerated video transcoding methods on its supported platforms:
 
 ## Windows
@@ -48,6 +54,8 @@ OpenMax is an API specification covering various aspects of media acceleration. 
 **I've enabled hardware acceleration but CPU usage is still very high when transcoding and PGS or DVD subtitles are enabled.**
 
 In many cases these subtitle formats will need to be burned into the video on the fly with transcoding. Most GPU's do not support this and as a result there will be some significant CPU involvement. This is a very taxing process for even a powerful server, and it's generally something you want to avoid. Here are the best ways to avoid burning in subtitles:
-* Turn off the subtitles prior to playback using the pre-playback subtitle selection menu
-* Use external text-based subtitles instead, such as .srt files. Emby Server's subtitle download features can help automate the process of acquiring these.
-* Use an Emby app that can direct play these subtitle formats without transcoding, such as Emby Theater, Android, or iOS.
+- Turn off the subtitles prior to playback using the pre-playback subtitle selection menu
+- Use external text-based subtitles instead, such as .srt files. Emby Server's subtitle download features can help automate the process of acquiring these.
+- Use an Emby app that can direct play these subtitle formats without transcoding, such as Emby Theater, Android, or iOS.
+
+- If you are using Windows with Remote Desktop and have trouble getting hardware acceleration please read [this article](https://support.emby.media/support/solutions/articles/44001894172-hardware-acceleration-fails-with-remote-desktop-rdp-on-windows).

@@ -1,10 +1,34 @@
-Collections are simply a grouping of like content.  You could for example have a collection of James Bond Movies, a set of similar titles like "Back to the Future" or a collection of titles related to a director, actor or even awards.
+---
+uid: Collections
+title: Collections
+legacyUrl: /support/solutions/articles/44001159487-collections
+---
 
-Collections are generally used to group movies together but can be used for TV Series and other library content as well.
+Collections are the grouping of like media such as:
 
-## How to Create a Manual Collection
+Back to the Future Collection
+- Back to the Future
+- Back to the Future II
+- Back to the Future III
 
-To create a collection in the web interface, start with a Movie, Series, or other item in your Emby library. Open the context menu for that item using one of the following methods:
+The Terminator Collection
+- The Terminator
+- Terminator 2: Judgment Day
+- Terminator 3: Rise of the Machines
+- Terminator Salvation
+- Terminator Genisys
+
+
+Automatic Creation of Collections
+Collections for Movies can be created automatically by Emby Server by by configuring each movie library on your system.
+
+There are only two options that need to be set.  The first option is to either import collection information or not.
+
+The second option is the required number of movies your system must have to be considered a Collections.
+
+## How to Create a Collection Manually
+
+To create a collection manually, start with a Movie, Series, or any other item in your Emby library. Open the context menu for that item using one of the following methods:
 
 * Right click on the poster
 * Use the 3-Dot menu on the detail screen
@@ -16,9 +40,18 @@ When the context menu appears, select "Add to Collection". You'll then be presen
 
 ![collections2.png](images/server/collections2.png)
 
+The easiest way to automatically download image art and meta-data is to use the same name as the collection found on TheMovieDb.Org.
 
+You can check the name on TheMovieDb.Org by doing a “collection” search on their site like "Star Wars Collection". In this case it would return 4 collections you can match against:
 
-Here is an example of a collection useful for grouping movies to a particular artist such as Charlie Chaplin.
+Star Wars Collection
+Lego Star Wars Collection
+Robot Chicken: Star Wars Collection
+Star Wars: The Ewok Adventures Collection
+Just choose the proper collection name from the returned results.
+
+As mentioned you can add several movies at a time to a collection and also use collection names that aren’t on TheMovieDb.Org. Here is an example of a collection useful for grouping movies to a particular artist such as Charlie Chaplin.
+
 
 First we long press on the first poster we wish to add until we get this
 
@@ -36,7 +69,7 @@ We now have a collection added for Charlie Chaplin without poster art or meta-da
 
 ![collections-multi4.png](images/server/collections-multi4.png)
 
-We can now edit the information shown for the collection by clicking the 3 dot menu and choosing “Edit metadata” from the popup menu as shown below. When finished remember to click Save.
+Next, we can add our own information by editing the collection. First we can edit the text that shows up for the collection. We do this by clicking the 3 dot menu and choosing “Edit metadata” from the popup menu. We then scroll down and fill in our description in the “Overview” field and then we click Save.
 
 ![collections-multi5.png](images/server/collections-multi5.png)
 
@@ -48,7 +81,13 @@ We now click the PLUS sign above to arrive at this screen
 
 ![collections-multi7.png](images/server/collections-multi7.png)
 
-From here you have a couple of choices.  You can drag and drop an image into the dashed box or you can click the Browse button to navigate to a local image on your computer.  (also see tip at the bottom of the pages for loading images directly from the internet)
+From here you have a couple of choices. You can drag and drop an image into the dashed box or you can click the Browse button to navigate to a local image on your computer. Besides navigating and selecting local files there is a neat trick you can use to automatically download internet artwork.
+
+If you open a new tab in your browser you can do a Google Image search for Charlie Chaplin. Once you find an image that interests you right click the artwork and click the “Copy image address” option.
+
+Now that we are back to our Emby tab we click the Browse button which will open a dialog box (on Windows). We then RIGHT CLICK the file name field to paste the location we just copied from the Internet previously into this field.
+
+After pasting in the link click the Windows Open button and Emby will import the image.
 
 ![collections-multi10.png](images/server/collections-multi10.png)
 
@@ -70,31 +109,3 @@ To remove an item, click the 3-dot menu, then select "Remove from Collection".
 
 ![collections5.png](images/server/collections5.png)
 
-NOTE: It's important to understand that collections are bound to the location of the media at the time the collection is created.  If you move any file that is part of a collection or change a library type from drive letter to UNC or vice versa this will break the collection.  You can manually edit or migrate your collections using the following advanced topic.
-* [Collections – Manual Migration](Collections-–-Manual-Migration)
-
-## How to Create Collection Automatically
-Collections for Movies can automated by use of the [AutoBoxSets](AutoBoxSets) Plugin. This plugin will create collections based on "boxed sets" such as a "Back to the Future" or "Terminator" collection.
-
-## Tips
-### Naming your manual collections
-When creating a manual collection, you use a name as found on TheMovieDb.org.  This will make it easy for Emby to automatically download image art and meta-data for the new collection.
-
-You can check the name on TheMovieDb.Org by doing a “collection” search on their site like "Star Wars Collection".  In this case it would return 4 collections you can match against:
-* Star Wars Collection
-* Lego Star Wars Collection
-* Robot Chicken: Star Wars Collection
-* Star Wars: The Ewok Adventures Collection
-
-### Using artwork directly from the Internet
-Besides navigating and selecting local files there is a neat trick you can use to automatically download internet artwork.
-
-If you open a new tab in your browser you can do a Google Image search for Charlie Chaplin.  Once you find an image that interests you right click the artwork and click the “Copy image address” option.
-
-![collections-multi8.png](images/server/collections-multi8.png)
-
-Now instead of browsing a local file to upload to your server from the dialog box we paste the link as shown below.
-
-![collections-multi9.png](images/server/collections-multi9.png)
-
-After pasting in the link click the Windows Open button and Emby will import the image.

@@ -1,3 +1,9 @@
+---
+uid: Sync
+title: Sync Types
+legacyUrl: /support/solutions/articles/44001162174-sync-types
+---
+
 The sync feature allows you to copy content to external devices for backup purposes, archiving in multiple resolutions, and offline viewing.
 
 ## Cloud Sync
@@ -19,7 +25,7 @@ Folder sync allows you to copy content to folders and external hard drives, for 
 
 When content is archived in multiple resolutions, Emby apps will automatically choose the version that is most efficient for them. This will help relieve stress on your server's CPU.
 
-For more information see [Folder Sync](Folder Sync).
+For more information see [Folder Sync](Folder-Sync).
 
 ## Creating Sync Jobs
 

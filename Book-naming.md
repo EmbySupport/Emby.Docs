@@ -1,3 +1,9 @@
+---
+uid: Book-Naming
+title: Book Naming
+legacyUrl: /support/solutions/articles/44001159115-book-naming
+---
+
 This file naming guide applies to books, both electronic and audio books.
 
 ### Library Setup

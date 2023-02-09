@@ -1,3 +1,9 @@
+---
+uid: Identify
+title: Identify
+legacyUrl: /support/solutions/articles/44001159229-identify
+---
+
 On occasion, content may be mismatched as something else.
 
 To correct this, there is the **IDENTIFY** option available on a per-item basis. 

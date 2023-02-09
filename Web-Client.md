@@ -1,3 +1,9 @@
+---
+uid: Web-Client
+title: Web Client
+legacyUrl: /support/solutions/articles/44001161840-web-client
+---
+
 The Emby Web App is the main interface between you and your Emby Server, allowing you to manage server settings, share content with friends and view media content.
 
 # Setup Guide
@@ -6,7 +12,7 @@ The Emby Web App is included with your installation of Emby Server.
 To access it just open a web browser and visit: http://{your server ip}:8086.  
 
 # Server Management
-The Emby Web App is a convenient place to manage all aspects of your Emby Server, including the [Library](Library Setup), [Users](Users), [Dlna](Dlna Server), [Plugins](Plugins), and more.
+The Emby Web App is a convenient place to manage all aspects of your Emby Server, including the Library Setup, Users, Plugins, and more.
 
 # Chromecast and Remote Control
 The Emby Web App supports casting to [Chromecast](Chromecast) devices and other Emby apps. To connect to your Chromecast device, simply click the cast icon in the top right corner of the app. You'll then be asked which device you'd like to connect to.

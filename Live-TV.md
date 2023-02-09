@@ -1,4 +1,11 @@
+---
+uid: Live-TV
+title: Live TV Setup
+legacyUrl: /support/solutions/articles/44001160415-live-tv-setup
+---
+
 ## Introduction
+
 Emby provides a flexible and very powerful Live TV and DVR solution.  With Emby’s TV you will be able to stream Live or Recorded TV content to any device you have with an Emby client or web browser.
 
 You can use Emby to eliminate the need for cable STBs (Set Top Boxes) or you can eliminate your cable provider entirely by cutting the cord and switching to OTA (Over the Air) broadcasts for local channels.
@@ -16,9 +23,10 @@ Setup of Live TV can be broken down into a few steps:
 
 Out of the box, Emby Server currently supports the following TV Tuners:
 
-* [HDHomerun Network Tuner](HDHomeRun-Setup) (Models available for both OTA and Cable)
-* Hauppauge TV Tuners (on Emby Server for Windows)
-* [M3U files (or urls)](M3U-Tuners). See examples of m3u files at http://xmtvplayer.com/build-m3u-file
+- [HDHomerun Network Tuner](xref:HDHomeRun-Setup) (Models available for both OTA and Cable)
+- Hauppauge TV Tuners (on Emby Server for Windows - Requires Win TV 8.5 or greater to be installed)
+- @M3U-Tuners  
+M3U files (or urls). See examples of m3u files at http://xmtvplayer.com/build-m3u-file
 
 Support for additional tuners can be added by installing a [Live TV Plugin](Live-TV-Plugins).
 
@@ -28,8 +36,10 @@ In most cases, Emby Server will automatically discover your HDHomerun on your ne
 
 Out of the box, Emby Server currently supports the following TV Guide data sources:
 
-* [Emby Guide Data](Emby-Guide-Data)  (United States, Canada and United Kingdom)
-* [Schedules Direct](Schedules-Direct)
+* [Emby Guide Data](Emby-Guide-Data)  
+  (United States, Canada and United Kingdom)
+* [Schedules Direct](Schedules-Direct)  
+  (Do not use on new setups. Will stop working June 1st, 2021)
 * [Xml TV](Xml-Tv)
 
 Support for additional sources can be added by installing a [Live TV Plugin](Live-TV-Plugins).

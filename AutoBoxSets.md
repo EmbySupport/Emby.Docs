@@ -1,3 +1,9 @@
+---
+uid: AutoBoxSets
+title: AutoBoxSets
+legacyUrl: /support/solutions/articles/44001162222-autoboxsets
+---
+
 Automatically create collections for your movies. You no longer have to make special folders or maintain your own collections. This plug-in will keep all your movies organized into collections for you, based on the same **TmdbCollectionId** data from [The Movie DB](https://www.themoviedb.org/). 
 
 To install the plugin, click **Plugins** in the side-bar menu of the Emby server dashboard, and select the **Catalogue** tab.

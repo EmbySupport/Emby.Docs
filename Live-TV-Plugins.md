@@ -1,3 +1,9 @@
+---
+uid: Live-TV-Plugins
+title: Live TV Plugins
+legacyUrl: /support/solutions/articles/44001160487-live-tv-plugins
+---
+
 Out of the box, Emby supports the most popular tuners on the market. If you need to add support for other tuners, need specific tuner functionality not included in the base Emby TV experience or already run a dedicated DVR/PVR server you can install a Live TV Plugin to gain functionality of an external program dedicated to your needs.
 
 Emby Server currently supports the most popular DVR servers on the market including:

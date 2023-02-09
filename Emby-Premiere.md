@@ -1,3 +1,9 @@
+---
+uid: Emby-Premiere
+title: Emby Premiere
+legacyUrl: /support/solutions/articles/44001162223-emby-premiere
+---
+
 An Emby Premiere subscription allows you to enjoy additional features in both the server and Emby-provided apps.  Some apps provide individual unlocks for basic functionality but only Emby Premiere allows you to experience the full array of features in both the server and Emby apps.
 
 Emby Premiere is attached to your server by [entering a key](How-is-the-Emby-Premiere-key-delivered-to-me).  The features are tied to this key, not any particular "account".  So, anyone who connects to your server will enjoy the benefits of Premiere (within the specified [limits](Is-there-a-limit-to-Emby-Premiere) of your subscription). 

@@ -1,11 +1,21 @@
-By allowing Emby apps direct access to media folders on the server, they may be able to play them directly over the network and avoid using server resources to stream and transcode. Optional Network Paths (formerly Path substitution) can help achieve this by mapping a path on the server to a network path that can be accessed by other devices.
+---
+uid: Optional-Network-Paths
+title: Optional Network Paths
+legacyUrl: /support/solutions/articles/44001159320-optional-network-paths
+---
 
-Network Paths are entered when you define the locations for your individual libraries.  Below the area where you indicate the local path to the location, there is an Optional Network Path field.  Enter the network share or UNC path for that same location into this field.
+By allowing Emby apps direct access to media folders on the server, they may be able to play them directly over the network and avoid using server resources to stream and transcode. Optional Network Paths can help achieve this without having to change your local mount points.
+
+Network Paths are entered in UNC format and care should be taken to make sure the case (caps and lower case letters) are exact.  Some devices will only mount and use a server name with all capital letters. This will require you to rename your file server and NAS boxes using all capital letters.
 
 ### Example:
 
-You have a Movies library on the server as **D:\Movies**. This folder is also shared on the network as **\\\\Server\Movies**. You'd like to allow an Emby app on another machine direct access to the shared folder.
+You have a Movies library on the server using C:\Movies. This folder is also shared on the network with a share name of "Movies-C". The UNC format of this resource would then be similar to \\SERVER\Movies-C
 
-To do this, create the location pointing to D:\Movies and fill in the optional Network Path as \\\\Server\Movies
+Here are a few examples on a server name EMBYSERVER (using all caps in the name).  There are multiple shares setup on this machine (one for each HDD).
 
-This will allow some Emby apps to access the media directly and avoid having to stream or transcode using Emby Server.
+
+![Network Paths](images/server/network_paths.png)
+
+> [!NOTE]
+> Please test your UNC path access outside of Emby to make sure apps and devices have proper access. Most OSes will allow you to grant read only privilege's to everyone or to a guest account if needed.

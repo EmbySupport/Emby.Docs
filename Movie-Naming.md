@@ -1,6 +1,12 @@
+---
+uid: Movie-Naming
+title: Movie Naming
+legacyUrl: /support/solutions/articles/44001159102-movie-naming
+---
+
 This file naming guide applies to movies, home videos and music videos. For tv episode naming, see [TV naming](TV-naming).
 
-### Library Setup
+## Library Setup
 
 When setting up the library, make sure to select **Movies**, **Home videos**, or **Music videos** as the content type.
 
@@ -10,7 +16,8 @@ A much better way of building a large Emby library of content is to prepare you 
 
 ## Naming your media
 
-Once you've prepared your media files, it's time to name your media in a way that allows Emby the best chance of determining what it is.  The best way to do this is to use the format: "MovieName (year).extension" such as "Top Gun (1986).mp4" or "Avatar (2009).mkv".  Because Emby allows many other advanced functions that can be used with your media we want to create a folder structure that aids in this use.  The simplest method of doing this is to put all media related to a Movie in the same folder using a name "MovieName (year). It will look like this:
+Once you've prepared your media files, it's time to name your media in a way that allows Emby the best chance of determining what it is.  The best way to do this is to use the format: "MovieName (year).extension" such as "Top Gun (1986).mp4" or "Avatar (2009).mkv".  Because Emby allows many other advanced functions that can be used with your media we want to create a folder structure that aids in this use.  The simplest method of doing this is to put all media related to a Movie in the same folder using a name "MovieName (year). Emby will then use the folder name to determine the movie.  
+It will look like this:
 
 ```
 \Movies\Avatar (2009)\Avatar (2009).mkv
@@ -31,6 +38,30 @@ If you plan on having thousands of movies in your library you may want to add an
 ```
 When viewing your media outside of Emby using conventional tools such as Windows Explorer this allows you to navigate your library much quicker without having to wait for thousands of folders to load.  It saves you from scrolling through thousands of folders to get to your "W" movies for example. Emby will work just fine with or without this additional folder!
 
+## ID Tags in Folder & File Names
+Emby can also read a Meta-Data ID from the name.
+
+Format: 
+```
+Name (Year) [tmdbid=xxxx]
+```
+Example:
+
+```
+Alone (2020) [tmdbid=509635]
+```
+
+Emby supports the following tags with the host website for lookup.
+
+- tmdbid  (https://www.themoviedb.org/)
+
+- imdbid  (https://www.imdb.com/)
+
+- tvdbid  (https://thetvdb.com/)
+
+
+
+Note:  tmdbid is the prefered tag to use for most uses
 ## Multi-version movies
  
 Multiple versions of the same content can be stored in a single movie folder.
@@ -38,19 +69,20 @@ Multiple versions of the same content can be stored in a single movie folder.
 ```
 /Movies
   /300 (2006)
-    /300 (2006) - 1080p.mkv
-    /300 (2006) - 4K.mkv
-    /300 (2006) - 720p.mp4
-    /300 (2006) - extended edition.mp4
-    /300 (2006) - directors cut.mp4
-    /300 (2006) - 3D.hsbs.mp4
+  /300 (2006)/300 (2006) - 1080p.mkv
+  /300 (2006)/300 (2006) - 4K.mkv
+  /300 (2006)/300 (2006) - 720p.mp4
+  /300 (2006)/300 (2006) - extended edition.mp4
+  /300 (2006)/300 (2006) - directors cut.mp4
+  /300 (2006)/300 (2006) - 3D.hsbs.mp4
 ```
 
 Each version must begin with the folder name, followed by " - ". 
 
 If using the dash method anything following the dash will be what you see in the Emby client app.
 
-**Note**: The above example includes a 3D version, which is discussed in the [3D Video](3D-Videos) naming guide.
+> [!NOTE]
+> The above example includes a 3D version, which is discussed in the [3D Video](3D-Videos) naming guide.  Also, this feature is primarily designed for multiple qualities of the same item.  It can be used for different "cuts" but there may be some limitations in doing that.
 
 ## Movie extras
 
@@ -163,7 +195,7 @@ ISOs should be named just like any other video file, with one minor difference. 
 
 ## Split video files (file stacking)
 
-The following are default stacking extensions that can be added to file names. # can be 1 through 9 or A through D. Stacking is supported for video files as well as dvd and blu-ray folder structures.
+The following are default stacking extensions that can be added to file names. # can be 1 through 9 or A through D. Stacking is supported for video files (but only when each video is in its own folder as in the example below) as well as dvd and blu-ray folder structures. Split videos require all parts be in the same movie folder with no other videos present in that folder.
 
 * ​part#​
 * ​cd#​

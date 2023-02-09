@@ -1,3 +1,9 @@
+---
+uid: Fire-TV
+title: Fire TV 
+legacyUrl: /support/solutions/articles/44001161548-fire-tv
+---
+
 Emby for Fire TV can be installed from the App store on your Fire TV device (Fire TV 1st or 2nd gen or Fire TV Stick) or you can push it to your device from the [Amazon Store](http://www.amazon.com/Emby-for-Fire-TV/dp/B00VVJKTW8?ie=UTF8&keywords=emby&qid=1459793610&ref_=sr_1_1&sr=8-1).
 
 
@@ -10,6 +16,9 @@ Install the app using one of the above methods, the app will then automatically 
 Video — m4v,mov,xvid,vob,mkv,wmv,asf,ogm,ogv,mp4,webm Note: The exact containers and codecs that will direct play depends on both the exact version of Fire TV and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.). 
 Subtitles - srt,vobsub,ssa,pgs,pgssub,ass,sub,vtt 
 Audio – flac,aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,ac3 (Dolby Digital)
+
+You can check the capabilities of your Fire model [here](https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-cube.html?v=ftvcubegen2).
+
 ## Best Practices for Direct Play
 Ensure your media meets the above criteria.
 

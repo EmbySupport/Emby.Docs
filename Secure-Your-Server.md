@@ -1,4 +1,8 @@
-## Secure your server
+---
+uid: Secure-Your-Server
+title: Secure Your Server
+legacyUrl: /support/solutions/articles/44001160086-secure-your-server
+---
 
 This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa or Google Home. If you are interested in an even more secure setup, here is a community-written guide on [HOW TO: NGINX Reverse Proxy](https://emby.media/community/index.php?/topic/47508-how-to-nginx-reverse-proxy/).
 
@@ -6,10 +10,10 @@ You'll need two things:
 * A domain that supports TXT records
 * A ssl certificate (PKCS #12)
 
-#### Get your domain
+### Get your domain
 Sign up for a free domain of your choice. You could use [Freenom](https://my.freenom.com/) or [Dynu](https://www.dynu.com/en-US/).
 
-#### SSL certificate
+### SSL certificate
 We will now create Let's encrypt ssl certificates and add it to your domain. Here is a free service to help with this [SSL for free](https://www.sslforfree.com/).
 1. Enter your domain on the site. i.e. yourdomain.com and create a free SSL certificate
 2. Select Manual Verification (DNS) > Manually verify domain. We now have 2 TXT records (step 2 on the SSL for free website). We will copy back the TXT records to the domain provider. Leave the SSL for free page open. We will come back to it.
@@ -28,7 +32,7 @@ We will now create Let's encrypt ssl certificates and add it to your domain. Her
 5. Wait about 15 minutes. Let the domain name and changes propagate.
 6. Back to the SSL for free website. Look at step 3, you'll see a link or two to click. Click them. If it is successful, go ahead and click Download SSL certificate. If it is not successful, wait a little longer and retry.
 
-#### Setup Emby with your domain and SSL certificate
+### Setup Emby with your domain and SSL certificate
 Now you should have a domain and a folder of ssl certificate (ca_bundle.crt, certificate.crt, private.key).
 We are almost done. Your Emby server requires a PKCS #12 certificate (certificate.crt and private.key combined).
 

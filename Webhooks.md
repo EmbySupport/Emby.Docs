@@ -1,3 +1,9 @@
+---
+uid: Webhooks
+title: Webhooks
+legacyUrl: /support/solutions/articles/44001848859-webhooks
+---
+
 Do you love home automation? With Emby Premiere you can setup webhooks. Emby can dim the lights when you start a movie, or send a tweet after you finish watching an episode of your favorite TV show.
 
 A webhook (also called a web callback or HTTP push API) is a way for an app to provide other applications with real-time information. 

@@ -1,3 +1,12 @@
+---
+uid: Sync-Introduction
+title: Sync Introduction
+legacyUrl: /support/solutions/articles/44001161893-sync-introduction
+---
+
+.
+## TODO - Complete migration
+
 The sync feature allows you to make use of content without playing it back directly from the Emby Server.  It's a unique feature with many practical uses. With Emby Sync, you can choose specific media, then a device or destination such as a cloud provider along with criteria such as resolution and bit rate and Emby will prepare/convert the media to the format requested, then copy it to the destination.
 
 There are a few different types of sync built into Emby.  Some of these sync types are only available to the administrator for setup while other types can be used by users of the Emby server (if given permission).

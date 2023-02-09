@@ -1,3 +1,9 @@
+---
+uid: Content-Access
+title: Content Access
+legacyUrl: /support/solutions/articles/44001160272-content-access
+---
+
 Content access allows you to configure the libraries and channels a user is allowed to access.
 
 To manage content access for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Access**.

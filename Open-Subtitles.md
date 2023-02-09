@@ -1,3 +1,9 @@
+---
+uid: Open-Subtitles
+title: Open Subtitles
+legacyUrl: /support/solutions/articles/44001160043-open-subtitles
+---
+
 Emby can automatically download subtitle files for your media.  This requires the loading of a plugin and proper setup of your libraries which is shown below. OpenSubtitles is one of many subtitle addons that can be used in Emby including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins) Catalog.
 
 ## Install the Open Subtitle Plugin
@@ -19,3 +25,19 @@ Simply fill in your Open Subtitles username and password that you have previousl
 ![OpenSubtitles4.png](images/server/OpenSubtitles4.png)
 
 Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads) to learn how to setup your libraries for automatic subtitle downloading.
+
+
+### Limits and Temporary Bans:
+
+- VIP members can download 1000 files per 24 hour period.
+- Non VIP members can download 200 files per 24 hour period.
+
+If you get timeouts or errors in your server log file you can check the following link to see check on your current status and amount of downloads available. Bans are normally lifted once you fall back within you allotted download amounts.
+
+> [Open Subtitles - Banned Status and Download Counts](https://www.opensubtitles.org/addons/show_my_ip.php)
+
+
+Related Pages:
+Subtitles
+Automatic Subtitle Downloads
+Manual Subtitle Downloads

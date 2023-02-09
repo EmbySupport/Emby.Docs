@@ -1,3 +1,9 @@
+---
+uid: New-Media-Date-Handling
+title: New Media Date Handling
+legacyUrl: /support/solutions/articles/44001159241-new-media-date-handling
+---
+
 When adding new media to Emby there are two ways the date can be configured for newly added media.
 The first method is to have Emby use the date the file is scanned into the system.
 The second method is to have Emby use the date created time stamp of the media file itself.
@@ -9,8 +15,6 @@ There are two different ways that people use Emby and half of the users want thi
 This can be useful for example if you setup a new library or server pointing to existing media. In this case you would likely want the system to use the media creation date during the initial library build.  You could then change this to use the date scanned into the library after that by changing the option.
 
 You can set this by selecting Library on the left hand administrator menu, then selecting the "Advanced" menu option on the header in the right side up top.
-
-![library-advanced-file-date.png](images/server/library-advanced-file-date.png)
 
 Don't forget to click the "Save" button after making any changes to this setting.
 

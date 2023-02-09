@@ -1,26 +1,32 @@
-The devices section displays all devices that have connected to your server, both active and inactive. It allows you to customize various device settings such as the display name.
+---
+uid: Devices
+title: Devices
+legacyUrl: /support/solutions/articles/44001159497-devices
+---
+
+The devices section displays all devices that have connected to your server, both active and inactive. It also allows you to customize the display name.
 
 Devices are accessed from the server dashboard by navigating to **Devices**. A list of devices will be displayed, for example: 
 
-![](images/server/devices1.png)
+![Devices1](images/server/devices1.png)
+
+
+Or by clicking the 3 dot menu you can change the view to "list" for this:
+
+![Devices2](images/server/devices2.png)
 
 ## Removing a device
 
-To remove a device from the list, click the minus button on the right-hand side. Please note that the device will re-appear the next time it connects. Removing a device is useful when you know it will no longer be used with your server.
+To remove a device from the list, hover over the image to get the three dot menu. In list view the 3 dots are on the right.
 
-## Device Settings
+![Device3](images/server/device3.png)
 
-Click into a device in order to customize it's options. 
 
-The display name can be changed in order to personalize how it will appear in your Emby apps. The original name reported by the device is displayed above in a read-only fashion.
+Click the 3 dot menu for a popup that looks like this:
 
-![](images/server/devices2.png)
 
-If the device supports camera upload, you can also customize the path in which images are uploaded for that device:
+![Devices4](images/server/devices4.png)
 
-![](images/server/devices3.png)
+From here you can delete the device or edit the display name.
 
-**Note**: When using a custom upload path, you will need to add that path to the server library.
-
-For more information, please see [camera upload](Camera-upload).
-
+![Devices5](images/server/devices5.png)

@@ -1,53 +1,37 @@
-# Emby with Amazon Alexa
-[Emby skill](https://skills-store.amazon.com/deeplink/dp/B07F8VC9F9?deviceType=app&share&refSuffix=ss_copy) Available in English US, UK, Canada, Australia, India  
-_The skill in German and French is being worked on. This page will be updated when the skill will be available in the Amazon Skills Store._
+---
+uid: Alexa
+title: Amazon Alexa
+legacyUrl: /support/solutions/articles/44001160798-amazon-alexa
+---
 
-
-1. [What is Alexa?](Alexa#what-is-alexa)
-2. [Get started](Alexa#get-started)
-    * [Why is Emby connect required?](Alexa#why-is-emby-connect-required)
-    * [Amazon Alexa account linking](Alexa#amazon-alexa-account-linking)
-    * [My server is not available to be selected](Alexa#my-server-is-not-available-to-be-selected-what-do-i-do)
-3. [Training Alexa](Alexa#training-alexa)
-3. [Commands](Alexa#commands)
-    * [How to use Alexa](Alexa#how-to-use-alexa)
-    * [Playback on Alexa](Alexa#using-alexa-as-a-player)
-    * [Select a player](Alexa#which-player)
-    * [Select an Emby user](Alexa#which-emby-user)
-    * [Additional users](Alexa#additional-users)
-    * [Navigation](Alexa#navigation)
-    * [Playback](Alexa#playback)
-    * [Media playback](Alexa#media-playback)
-    * [Suggestion to watch](Alexa#suggestions)
-    * [Play random content](Alexa#play-random-content)
-    * [Play random music](Alexa#play-random-music)
-    * [Recently added](Alexa#recently-added)
-    * [Next up](Alexa#next-up)
-    * [Continue playing](Alexa#continue-playing)
-    * [Item modification](Alexa#item-modification)
-    * [Help with commands](Alexa#help)
-4. [Change Emby connect account](Alexa#change-your-emby-connect-account)
-5. [Frequently asked questions](Alexa#FAQs)
+.
+## TODO - Complete Migration
 
 ### What is Alexa?  
-Amazon Alexa is a cloud-based voice service, so it is always getting smarter. Ask Alexa to play music, hear the news, check weather, control your smart home, and more.
+
+Amazon Alexa is a cloud-based voice service that allows you to retrieve information via voice as well as control device and apps in your Environment including Emby.  You can ask Alexa to play music, hear the news, check weather, control your smart home, and more.
  
 The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have succesfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
-The first step is to add [Emby with Alexa](Alexa#emby-with-amazon-alexa) to your Amazon account. Once this is done, you will need [Emby Connect](Emby-Connect) to link your Emby account to Alexa. Emby with Alexa also requires [Emby premiere](https://emby.media/premiere.html). 
+
+The first step is to make sure your Emby Server is setup for remote use and has Emby Premiere..  Since Alexa is a cloud based service it will need access to your Emby server from the Internet.  Please follow our instructions for setting up Remote Access.
 
 Alexa requests are sent from outside your network. You will need to ensure your Emby server is accessible remotely. 
 
 #### Why is Emby connect required?
+
 Emby connect is used to provide your server information to Alexa over a secure connection.
 
 #### Amazon Alexa account linking
+
 In the Amazon Alexa app or the [Amazon Alexa web app](http://alexa.amazon.com/spa/index.html), navigate to the following:  
 `Skills > Your Skills > Emby > Link Account`
 
 ![Skills screenshot](https://emby.media/community/uploads/inline/4388/58fd8d3a8680b_Instructions_small.jpg)
+
 #### My server is not available to be selected, what do I do?
+
 If you don't have an Emby account, follow the steps [here](Emby-Connect), otherwise:
 1. In your server dashboard, Users > Select the Emby user with Emby connect (green cloud icon)
 2. Remove the username or email from the Emby connect field, hit save.

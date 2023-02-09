@@ -1,3 +1,9 @@
+---
+uid: DVR-Settings
+title: DVR Settings
+legacyUrl: /support/solutions/articles/44001160502-dvr-settings
+---
+
 To set the optional DVR settings, click DVR in the administrator dashboard under the Live TV Menu.
 
 ![dvr-setting1](images/server/dvr-setting1.png)
@@ -14,7 +20,7 @@ You can set custom start and end times to pad your recordings.  These are blank 
 
 With the above settings in place all recordings schedule will have a default start time of 5 minutes before the scheduled time and will end 5 minutes after the scheduled end time.
 
-When individual events are schedule to record by a user in any Emby Application these settings will be the default used.  This can be overwrode for each individual recording if needed.  For example people recording sporting events will often change the end time to 30 or 60 minutes to make any overtime play is taken into consideration.
+When individual events are schedule to record by a user in any Emby Application these settings will be the default used.  This can be overrode for each individual recording if needed.  For example people recording sporting events will often change the end time to 30 or 60 minutes to make any overtime play is taken into consideration.
 
 ![dvr-setting3](images/server/dvr-setting3.png)
 

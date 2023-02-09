@@ -1,3 +1,12 @@
+---
+uid: Live-TV-Channel-Mapping
+title: Live TV Channel Mapping
+legacyUrl: /support/solutions/articles/44001848809-live-tv-channel-mapping
+---
+
+.
+## TODO: Complete Migration
+
 The last thing to do after setting up your tuner and guide data provider is to map your channel lineup.
 
 Emby tries to automate as much of the mapping as possible.  What we are doing in this process is mapping a station id from our tuner lineup to the same station in our guide data.  This is how Emby links the data to each station when presenting the EPG (Electronic Programming Guide) in the different Emby Client Applications.

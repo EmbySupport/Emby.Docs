@@ -1,3 +1,9 @@
+---
+uid: System-Requirements
+title: System Requirements
+legacyUrl: /support/solutions/articles/44001159036-system-requirements
+---
+
 The hardware requirements for the server will depend on a number of factors including the format of your prepared media, the type of client devices used as well as how much bandwidth is available between the client and the server.
 
 If you prepare you media in a format that all devices can use, such as MP4 container, using H.264 video with a stereo AAC audio track then you won't need a powerful server normally because all Emby apps can use that format directly.  If however you don't prepare your media ahead of time like this or if you don't have adequate bandwidth between the client and server to play the media AS IS then the Emby Server will assist you by transcoding (converting) your media on the fly in real-time.  
@@ -10,7 +16,7 @@ Transcoding is the process where media is converted from one resolution or forma
 * At least 1GB RAM for Windows/Mac OS X
 * At least 512MB RAM for Linux
 * Windows: Vista or later
-* OS X: Snow Leopard 10.6.3 or later
+* OS X: MacOS 10.13 or later
 * Ubuntu, Debian, Fedora, CentOS or SuSE Linux
 
 ### Recommended Configuration — transcoding HD Content:
@@ -18,7 +24,7 @@ Transcoding is the process where media is converted from one resolution or forma
 * If transcoding for multiple devices, a faster CPU may be required
 * At least 2GB RAM
 * Windows: Vista or later
-* OS X: Snow Leopard 10.6.3 or later
+* OS X: MacOS 10.13 or later
 * Ubuntu, Debian, Fedora, CentOS or SuSE Linux
 
 > [!NOTE]

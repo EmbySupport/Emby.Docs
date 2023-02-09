@@ -1,3 +1,9 @@
+---
+uid: Google-Home
+title: Google Home
+legacyUrl: /support/solutions/articles/44001161655-google-home
+---
+
 # Emby with Google Home
 
 1. [What is Google Home?](Google-Home#what-is-google-home)
@@ -20,8 +26,6 @@
     * [Continue playing](Google-Home#continue-playing)
     * [Item modification](Google-Home#item-modification)
     * [Help with commands](Google-Home#help)
-4. [Change Emby connect account](Google-Home#change-your-emby-connect-account)
-5. [Frequently asked questions](Google-Home#FAQs)
 
 ### What is Google Home?  
 Google Home is a powerful speaker and voice Assistant. Play your music. Call your friends. Ask it questions. Control your home. It's your own Google, always ready to help.

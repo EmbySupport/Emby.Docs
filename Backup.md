@@ -1,10 +1,16 @@
+---
+uid: Backup
+title: Configuration Backup
+legacyUrl: /support/solutions/articles/44001159936-configuration-backup
+---
+
 This guide will go over how to migrate your settings from Emby Server from one machine to another. There are two methods to backing up Emby Server settings and we'll go over them here.
 
-## Use the Emby Backup Plugin
+## Use the Server Configuration Backup Plugin
 
-We recommend using the Emby Backup plugin, which is designed to make this process really painless by doing the work for you. Emby Backup requires Emby Premiere and can be found in our plugin catalog.
+We recommend using the Server Configuration Backup plugin, which is designed to make this process really painless by doing the work for you. This plugin requires Emby Premiere and can be found in our plugin catalog.
 
-The Emby Backup plugin can help you backup and restore the following:
+The Server Configuration Backup plugin can help you backup and restore the following:
 
 * Server configuration
 * Users
@@ -13,16 +19,28 @@ The Emby Backup plugin can help you backup and restore the following:
 * Plugin settings
 * Playlists
 
-This will not backup library contents and metadata. To keep a permanent copy of metadata, we suggest enabling saving of local metadata to media folders.
+This will not backup library contents and metadata. To keep a permanent copy of metadata, we suggest enabling saving of local metadata to media folders.  The plug-in also does not backup live TV recording settings or series at this time.
 
-## How to use the Emby Backup Plugin
+## How to use the Server Configuration Backup Plugin
 * Be sure your Emby Premiere key is properly installed and validated.  Configuration Backup requires Emby Premiere.
 * Install the plugin into your existing Emby Server
 * Configure the Backup plugin by setting a folder to save the backups within.
 By default, this process will run every 12 hours and will retain at most 3 backups. You can monitor your folder to see that backups are created.
-* Install the plugin on your new Emby Server installation, then configure to backup folder to the same folder that contains your backups.
+* Install the plugin on your new Emby Server installation, then configure to backup folder to the same parent folder that contains your backups.
 * Click on a backup, you'll then be taken to the restore screen where you can run a restore.
-You're done !
+
+ote: if previous backups do not show up correctly, check to make sure you have selected the parent folder and not the specific folder holding the backups.
+
+## How to Restore from a Backup
+- Goto Plugins
+- Click on the Server Configuration Backup plugin
+- This is the configuration screen that will also show you current backups
+- Scroll down to "Current Backup"
+- Click on the Backup that you wish to restore.
+- You will get a screen that gives you options of things that can be - restored.
+- You can optionally do restores of only certain parts of the system or for  -only specific users.  Configure as needed.
+- Click the "Restore Now" button.
+- You're done !
 
 If you prefer to backup manually, read on....
 
@@ -53,10 +71,6 @@ Shutdown the old server instance and backup the following files and directories:
 * /ProgramData/data/displaypreferences.db/ProgramData/data/userdata_v2.db (if present)
 * /ProgramData/data/users.db
 
-Additionally, backup the library database file, but put it into a separate place from the others. This file will not be copied into your new Emby Server installation, but we will migrate your user data, such as watched data, favorites, etc.
-/ProgramData/data/library.db
-This will backup saved configurations, installed plugins, collections you've created, playlists, display preferences and the user database.
-
 **Note**:  Unless you use a custom Metadata path you will want to backup your /ProgramData/metadata folder to preserve your People images.  The only two folder in metadata you don't need are library and views.
 
 ### Install Emby Server on the new machine
@@ -70,10 +84,3 @@ Then launch the new server, sign into the dashboard and setup your library paths
 ### After the Scan
 
 If your library was configured with identical paths as the old setup then user data will generally be preserved as well as user library permissions. You may still want to review the library access for each user to ensure their channel and folder access is restricted as desired.
-
-### Restore User Data
-
-Your user data is stored in our old library.db file, and we'll need to run some sql queries to import this into the new library.db in the new Emby Server installation. You'll need a Sqlite database editor such as DB Browser for Sqlite.
-
-You'll need to open the old library.db file, then attach the new library.db file. You can then migrate the data using:
-`REPLACE INTO NewDB.userdatas SELECT * FROM userdatas`

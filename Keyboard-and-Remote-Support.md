@@ -1,3 +1,9 @@
+---
+uid: Keyboard-and-Remote-Support
+title: Keyboard and Remote Support
+legacyUrl: /support/solutions/articles/44001161841-keyboard-and-remote-support
+---
+
 This document applies to the following apps:
 
 * Emby Theater Web app
@@ -61,6 +67,7 @@ The following special keys on Windows keyboards are supported:
 * search/find: launch app search function
 * favorites: navigate to favorites
 * home: navigate to home
+* esc: escape back to previous screen (back)
 * menu/info: show menu or info for selected content (if available)
 * back
 * forward

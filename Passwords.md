@@ -1,3 +1,9 @@
+---
+uid: Passwords
+title: Passwords
+legacyUrl: /support/solutions/articles/44001160269-passwords
+---
+
 By default, users have the ability to change their own passwords.
 
 If you would like to change the password for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Password**.

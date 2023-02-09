@@ -1,3 +1,9 @@
+---
+uid: Media-Stubs
+title: Media Stubs
+legacyUrl: /support/solutions/articles/44001159146-media-stubs
+---
+
 Emby has support for offline media stub files. These are files that represent a media outside of the online digital infrastructure and allow Emby's library to index your "offline" media collection, as well as ask for the media when selected for playback.
 
 A stub file is an empty file with a ".disc" extension.
