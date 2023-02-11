@@ -12,9 +12,6 @@ The server has several settings that can be used to customize how it presents it
 
 - **This is another bullet**
 
-> [!TIP]
-> Look at what a nice box I've added
-
 ## Advanced settings
 
 - **Cache path**: set a custom cache path if you do not want the cache to be located in the server's default app data directory.
