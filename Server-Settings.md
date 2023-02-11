@@ -10,6 +10,8 @@ The server has several settings that can be used to customize how it presents it
 
 - **Preferred display language**: used to set the language for the server's web interface. 
 
+- **This is another bullet**
+
 > [!TIP]
 > Look at what a nice box I've added
 
