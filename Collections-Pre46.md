@@ -80,10 +80,10 @@ To remove an item, click the 3-dot menu, then select "Remove from Collection".
 ![collections5.png](images/server/collections5.png)
 
 NOTE: It's important to understand that collections are bound to the location of the media at the time the collection is created.  If you move any file that is part of a collection or change a library type from drive letter to UNC or vice versa this will break the collection.  You can manually edit or migrate your collections using the following advanced topic.
-* [Collections – Manual Migration](Collections-–-Manual-Migration)
+* [Collections – Manual Migration](Collections-Manual-Migration.md)
 
 ## How to Create Collection Automatically
-Collections for Movies can automated by use of the [AutoBoxSets](AutoBoxSets) Plugin. This plugin will create collections based on "boxed sets" such as a "Back to the Future" or "Terminator" collection.
+Collections for Movies can automated by use of the [AutoBoxSets](AutoBoxSets.md) Plugin. This plugin will create collections based on "boxed sets" such as a "Back to the Future" or "Terminator" collection.
 
 ## Tips
 ### Naming your manual collections

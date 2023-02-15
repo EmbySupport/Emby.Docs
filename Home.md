@@ -13,15 +13,15 @@ http://emby.media/
 
 See the menu on the right-hand side of this page for a complete listing. Some key areas are:
 
-* [Quick start](xref:Quick-start)
-* [System requirements](xref:System-requirements)
-* [Movie naming](xref:Movie-naming)
-* [TV naming](xref:TV-naming)
-* [Music naming](xref:Music-naming)
-* [Subtitles](xref:Subtitles)
-* [Server installation](xref:Installation)
-* [Users](xref:Users)
-* [Sync](xref:Sync)
+* [Quick start](Quick-Start.md)
+* [System requirements](System-Requirements.md)
+* [Movie naming](Movie-Naming.md)
+* [TV naming](TV-Naming.md)
+* [Music naming](Music-naming.md)
+* [Subtitles](Subtitles.md)
+* [Server installation](Installation.md)
+* [Users](Users.md)
+* [Sync](Sync.md)
 
 ## Community
 

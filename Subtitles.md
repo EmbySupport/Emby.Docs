@@ -62,15 +62,15 @@ It is sometimes useful to have other "names" in the subtitle to help identify it
 
 ## Plugins that automate subtitle downloading
 
-* [Open Subtitles](Open-Subtitles).
+* [Open Subtitles](Open-Subtitles.md).
 * Podnapisi
 * SubDb
 
 ##### See also
-- [Open Subtitles](open-subtitles.md)
+- [Open Subtitles](Open-Subtitles.md)
 - [Plugins](Plugins) for more information on use
-- [Automatic Subtitle Downloads](automatic-subtitle-downloads.md)
-- [Manual Subtitle Downloads](manual-subtitle-downloads.md)
+- [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md)
+- [Manual Subtitle Downloads](Manual-Subtitle-Downloads.md)
 
 ## ISO and Country codes used together
 
@@ -78,13 +78,12 @@ Sometimes you may need to use a country code in addition to the ISO code.  This 
 
 Using both the ISO and Country code allows you to specify this. zh is the ISO code for Chinese. To distinguish simplified vs traditional in the naming of your subtitle files you would follow the following format:
 
-| | |
-|---|---|
-zh-CN | ext for mainland China (simplified)
-zh-SG  | ext for Singapore (simplified)
-zh-TW | ext for Taiwan (traditional)
-zh-HK | ext for Hong Kong (traditional)
-
+|       |                                     |
+|-------|-------------------------------------|
+| zh-CN | ext for mainland China (simplified) |
+| zh-SG | ext for Singapore (simplified)      |
+| zh-TW | ext for Taiwan (traditional)        |
+| zh-HK | ext for Hong Kong (traditional)     |
 
 ##### Reference
 - [ISO Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)

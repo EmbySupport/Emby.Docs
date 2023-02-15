@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160207-hardware-acceleration-on-linu
 
 Emby supports the following hardware acceleration variants on Linux
 
-- **[Nvidia NVDEC & NVENC](#nvidia-nvdec-nvenc)**  
+- **[Nvidia NVDEC & NVENC](#nvidia-nvdec--nvenc)**  
 API for video encoding and decoding acceleration using Nvidia GPUs
 
 - **[VA API](#va-api)**  
@@ -18,8 +18,8 @@ Video Acceleration API for Linux is supported by several device manufacturers
 
 ## Nvidia NVDEC & NVENC
 Nvidia provides two hardware acceleration interfaces: 
-- NVENCODE API for video encode acceleration
-- NVDECODE API for video decode acceleration (formerly called NVCUVID API)
+- NVENC API for video encode acceleration
+- NVDEC API for video decode acceleration (formerly called NVCUVID API)
 
 NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations. 
 
@@ -44,7 +44,7 @@ and that not all hardware devices will support all accelerations.
 #### Hardware Requirements
 Hardware acceleration is available for most Nvidia devices starting with GPUs from the 
 Kepler generation (e.g. GeForce GT 630) onwards, including both consumer and professional
-devices. Detailed information about supported hardware can be found in Nvidias 
+devices. Detailed information about supported hardware can be found in Nvidia's
 [GPU Support Matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix).
 
 #### Required Setup Steps
@@ -149,7 +149,7 @@ and that not all hardware devices will support all accelerations.
   - Deinterlacing
 
 #### Hardware Requirements
-Quick Sync was initially built into some Sandy Bridge CPUs, but not into Sandy Bridge Pentiums or Celerons.  
+Quick Sync was initially built into some Sandy Bridge CPUs, but not into Sandy Bridge Pentium or Celeron CPUs.  
 An overview of acceleration capabilities built into the various CPU generations
 can be found under the following links: 
 

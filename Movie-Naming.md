@@ -61,7 +61,7 @@ Emby supports the following tags with the host website for lookup.
 
 
 
-Note:  tmdbid is the prefered tag to use for most uses
+Note:  tmdbid is the preferred tag to use for most uses
 ## Multi-version movies
  
 Multiple versions of the same content can be stored in a single movie folder.
@@ -119,37 +119,37 @@ Images are supported in video folders. Below is a table of the supported image f
 
 Several image types support multiple file names. They are listed in the order that they're checked for.
 
-| Image Type | Supported file names  |
-| ------------- |---------------|
-| Primary      | {name}.ext |
-|              | {name}-poster.ext |
-|              | {name}-cover.ext |
-|              | {name}-default.ext |
-|              | {name}-movie.ext |
-|              | folder.ext |
-|              | poster.ext |
-|              | cover.ext |
-|              | default.ext |
-|              | movie.ext |
-| Art      | {name}-clearart.ext      |
-|          | clearart.ext      |
-| Backdrop  | backdrop.ext, backdropX.ext |
-|           | fanart.ext, fanart-X.ext |
-|           | background.ext, background-X.ext      |
-|           | art.ext, art-X.ext      |
-|           | extrafanart (subfolder)/fanartX.ext      |
-| Banner   | {name}-banner.ext      |
-|          | banner.ext      |
-| Disc     | {name}-disc.ext      |
-|          | {name}-cdart.ext      |
-|          | disc.ext      |
-|          | cdart.ext      |
-| Logo     | {name}-logo.ext      |
-|          | logo.ext      |
-| Thumb     | {name}-thumb.ext      |
-|           | {name}-landscape.ext      |
-|           | thumb.ext      |
-|           | landscape.ext      |
+| Image Type | Supported file names                |
+|------------|-------------------------------------|
+| Primary    | {name}.ext                          |
+|            | {name}-poster.ext                   |
+|            | {name}-cover.ext                    |
+|            | {name}-default.ext                  |
+|            | {name}-movie.ext                    |
+|            | folder.ext                          |
+|            | poster.ext                          |
+|            | cover.ext                           |
+|            | default.ext                         |
+|            | movie.ext                           |
+| Art        | {name}-clearart.ext                 |
+|            | clearart.ext                        |
+| Backdrop   | backdrop.ext, backdropX.ext         |
+|            | fanart.ext, fanart-X.ext            |
+|            | background.ext, background-X.ext    |
+|            | art.ext, art-X.ext                  |
+|            | extrafanart (subfolder)/fanartX.ext |
+| Banner     | {name}-banner.ext                   |
+|            | banner.ext                          |
+| Disc       | {name}-disc.ext                     |
+|            | {name}-cdart.ext                    |
+|            | disc.ext                            |
+|            | cdart.ext                           |
+| Logo       | {name}-logo.ext                     |
+|            | logo.ext                            |
+| Thumb      | {name}-thumb.ext                    |
+|            | {name}-landscape.ext                |
+|            | thumb.ext                           |
+|            | landscape.ext                       |
 
 {name} represents the video file name, without extension. For videos that are not contained within their own folder, only the conventions using {name} are supported.
 
@@ -234,7 +234,7 @@ Subtitles are supported. See [subtitles](Subtitles).
 
 ## Theme songs & videos
 
-Theme songs & videos are supported. See [theme songs & videos](Theme-songs-&-videos).
+Theme songs & videos are supported. See [theme songs & videos](Theme-Songs-Videos.md).
 
 ## Trailers
 

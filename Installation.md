@@ -10,7 +10,7 @@ Emby Server is available on the following platforms:
 * Mac
 * Linux
 * BSD
-* NAS Devices - Asustor, FreeNAS, Open Media Vault, QNAP, [Synology](../wiki/Synology-:-Help-and-Support).
+* NAS Devices - Asustor, FreeNAS, Open Media Vault, QNAP, Synology
 * Docker
 * Android
 

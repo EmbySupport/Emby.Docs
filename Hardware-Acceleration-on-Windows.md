@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160185-hardware-acceleration-on-wind
 
 Emby supports the following hardware acceleration variants on Windows
 
-- **[Nvidia NVDEC & NVENC](#nvidia-nvdec-nvenc)**  
+- **[Nvidia NVDEC & NVENC](#nvidia-nvdec--nvenc)**  
 API for video encoding and decoding acceleration using Nvidia GPUs
 
 - **[Intel QuickSync Video](#intel-quicksync-video)**  
@@ -23,8 +23,8 @@ API for video encoding and decoding acceleration using Nvidia GPUs
 
 ## Nvidia NVDEC & NVENC
 Nvidia provides two hardware acceleration interfaces: 
-- NVENCODE API for video encode acceleration
-- NVDECODE API for video decode acceleration (formerly called NVCUVID API)
+- NVENC API for video encode acceleration
+- NVDEC API for video decode acceleration (formerly called NVCUVID API)
 
 NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations. 
 
@@ -49,7 +49,7 @@ and that not all hardware devices will support all accelerations.
 #### Hardware Requirements
 Hardware acceleration is available for most Nvidia devices starting with GPUs from the 
 Kepler generation (e.g. GeForce GT 630) onwards, including both consumer and professional
-devices. Detailed information about supported hardware can be found in Nvidias 
+devices. Detailed information about supported hardware can be found in Nvidia's 
 [GPU Support Matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix).
 
 #### Required Setup Steps
@@ -96,7 +96,7 @@ and that not all hardware devices will support all accelerations.
   - Deinterlacing
 
 #### Hardware Requirements
-Quick Sync was initially built into some Sandy Bridge CPUs, but not into Sandy Bridge Pentiums or Celerons.  
+Quick Sync was initially built into some Sandy Bridge CPUs, but not into Sandy Bridge Pentium or Celeron CPUs.  
 An overview of acceleration capabilities built into the various CPU generations
 can be found here: [Hardware decoding and encoding](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding).
 and here [GPU Acceleration Capabilities](https://en.wikipedia.org/wiki/Intel_Graphics_Technology#Capabilities_(GPU_video_acceleration)).
@@ -121,7 +121,7 @@ It is not required to install the Intel Media SDK.
 
 ## AMD AMF
 
-AMD Advanced Media Framework is a light-weight, portable multimedia framework that abstracts away most of the platform and API-specific details and allows for easy implementation of multimedia applications using a variety of technologies, such as DirectX 11, OpenGL, and OpenCL and facilitates an efficient interop between them.
+AMD Advanced Media Framework is a light-weight, portable multimedia framework that abstracts away most of the platform and API-specific details and allows for easy implementation of multimedia applications using a variety of technologies, such as DirectX 11, OpenGL, and OpenCL and facilitates an efficient interoperability between them.
 
 #### Supported Accelerations
 The following accelerations are currently supported by Emby.
@@ -141,7 +141,7 @@ families and newer.
 Install the latest Radeon Software directly from AMD's website: 
 [AMD Drivers & Support](https://www.amd.com/en/support) 
 It is not required to install the AMF SDK.
-The minumum required software version is: 
+The minimum required software version is: 
 **AMD Radeon Software Crimson Edition 16.7.3 (16.30.2311)** 
 
 #### Remarks

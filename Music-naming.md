@@ -58,24 +58,24 @@ Supported image extensions are **jpg**, **jpeg**, **png** and **tbn**.
 
 Several image types support multiple file names. They are listed in the order that they're checked for.
 
-| Image Type | Supported file names  |
-| ------------- |---------------|
-| Primary      | folder.ext |
-|              | poster.ext |
-|              | cover.ext |
-|              | default.ext |
-| Art      | clearart.ext      |
-| Backdrop  | backdrop.ext, backdropX.ext |
-|           | fanart.ext, fanart-X.ext |
-|           | background.ext, background-X.ext      |
-|           | art.ext, art-X.ext      |
-|           | extrafanart (subfolder)/fanartX.ext      |
-| Banner   | banner.ext      |
-| Disc      | disc.ext      |
-|           | cdart.ext      |
-| Logo     | logo.ext      |
-| Thumb     | thumb.ext      |
-|           | landscape.ext      |
+| Image Type | Supported file names                |
+|------------|-------------------------------------|
+| Primary    | folder.ext                          |
+|            | poster.ext                          |
+|            | cover.ext                           |
+|            | default.ext                         |
+| Art        | clearart.ext                        |
+| Backdrop   | backdrop.ext, backdropX.ext         |
+|            | fanart.ext, fanart-X.ext            |
+|            | background.ext, background-X.ext    |
+|            | art.ext, art-X.ext                  |
+|            | extrafanart (subfolder)/fanartX.ext |
+| Banner     | banner.ext                          |
+| Disc       | disc.ext                            |
+|            | cdart.ext                           |
+| Logo       | logo.ext                            |
+| Thumb      | thumb.ext                           |
+|            | landscape.ext                       |
 
 For backdrops, X represents a number, and you can have any amount of numbered backdrops. For example:
 

@@ -23,7 +23,7 @@ Setup of Live TV can be broken down into a few steps:
 
 Out of the box, Emby Server currently supports the following TV Tuners:
 
-- [HDHomerun Network Tuner](xref:HDHomeRun-Setup) (Models available for both OTA and Cable)
+- [HDHomerun Network Tuner](HDHomeRun-Setup.md) (Models available for both OTA and Cable)
 - Hauppauge TV Tuners (on Emby Server for Windows - Requires Win TV 8.5 or greater to be installed)
 - @M3U-Tuners  
 M3U files (or urls). See examples of m3u files at http://xmtvplayer.com/build-m3u-file
@@ -53,7 +53,7 @@ The final step of setting up Live TV is matching the tuner's stations to the Gui
 
 You can optionally change a few options used for DVR purposes.  These options include:
 * Amount of days of Guide Data loaded
-* Default recording pathes
+* Default recording paths
 * Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
 
 * [DVR Settings](DVR-Settings)
