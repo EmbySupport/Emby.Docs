@@ -5,9 +5,6 @@ legacyUrl: /support/solutions/articles/44001159720-plugins
 # TODO: Duplicate of Plugins.md
 ---
 
-.
-# TODO: Duplicate of Plugins.md
-
 Plugins extend the functionality of Emby by providing additional features and services. To manage your plugins, open the server dashboard and navigate to **Plugins**.
 
 ## My Plugins

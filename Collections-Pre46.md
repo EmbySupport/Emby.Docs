@@ -5,8 +5,6 @@ legacyUrl: /support/solutions/articles/44002311268-collections-emby-server-versi
 # TODO: This is the original wiki content
 ---
 
-.
-## TODO: This is the original Wiki content
 Collections are simply a grouping of like content.  You could for example have a collection of James Bond Movies, a set of similar titles like "Back to the Future" or a collection of titles related to a director, actor or even awards.
 
 Collections are generally used to group movies together but can be used for TV Series and other library content as well.

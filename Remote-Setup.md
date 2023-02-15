@@ -5,9 +5,6 @@ legacyUrl: /support/solutions/articles/44002137137-remote-setup
 # TODO: This is partially identical to @Advanced-Menu and @Connectivity
 ---
 
-.
-# TODO: This is partially identical to @Advanced-Menu and @Connectivity
-
 ## External Connections
 
 Emby Server allows you to optionally connect outside your home network. Before we begin, make sure you can connect to your Emby Server properly with apps and devices on your local network.
