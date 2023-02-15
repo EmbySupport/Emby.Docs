@@ -13,6 +13,7 @@ Before being able to setup automatic downloading of subtitles you will need to s
 Once you've installed a subtitle plugin, restarted the server and configured the plugin you are ready to configure each of your libraries to use the plugin.
 
 You can now edit or setup a new library.  When editing a library make sure to click the top right option "show advanced settings".  You can now scroll down to find the following items.
+
 ![OpenSubtitles5.png](images/server/OpenSubtitles5.png)
 
 There are two options shown above.  You will want to configure the language preference of any subtitles you want to download.  The above picture shows English subtitles chosen for download.
@@ -29,6 +30,7 @@ Subtitles will now be downloaded as needed when available, via the Download Subt
 If subtitles are not automatically downloading you should check the options listed above.  For example "Require a hash match" requires your media file to exactly match (byte for byte) the source file of the subtitle.  This option when activated can greatly reduce your chances of downloading subtitles but will make sure the subtitle is "perfect" for you file.
 
 You should also check the following link to see how to manage [Manual Subtitle Downloads](Manual-Subtitle-Downloads).
+
 ## Tips
 Emby supports many subtitle providers including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins) Catalog.
 
