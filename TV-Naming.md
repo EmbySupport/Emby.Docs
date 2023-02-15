@@ -260,7 +260,7 @@ For example:
 
 ## Media stubs
 
-Media stubs are supported as episodes. See [media stubs](_Media-Stubs.md).
+Media stubs are supported as episodes. See [media stubs](Media-Stubs.md).
 
 ## Strm files
 

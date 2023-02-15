@@ -18,7 +18,7 @@
     - name: TV Naming
       href: TV-naming.md
     - name: Music Naming
-      href: _Music-Naming.md
+      href: Music-Naming.md
     - name: Audio Book Naming
       href: Audio-Book-naming.md
     - name: Metadata Manager
@@ -30,7 +30,7 @@
     - name: Excluding Files & Folders
       href: Excluding-Files-Folders.md
     - name: Media Stubs
-      href: _Media-Stubs.md
+      href: Media-Stubs.md
     - name: Strm Files
       href: Strm-files.md
     - name: Subtitles

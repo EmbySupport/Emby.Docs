@@ -222,7 +222,7 @@ Examples:
 
 ## Media stubs
 
-Media stubs are supported. See [media stubs](_Media-Stubs.md).
+Media stubs are supported. See [media stubs](Media-Stubs.md).
 
 ## Strm files
 
