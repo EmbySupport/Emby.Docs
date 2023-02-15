@@ -8,19 +8,19 @@
     - name: Home
       href: home.md
     - name: Quick start
-      href: Quick-start.md
+      href: Quick-Start.md
     - name: System requirements
-      href: System-requirements.md
+      href: System-Sequirements.md
   - name: Media Preparation
     items:
-    - name: Movie naming
-      href: Movie-naming.md
+    - name: Movie Naming
+      href: Movie-Naming.md
     - name: TV Naming
-      href: TV-naming.md
+      href: TV-Naming.md
     - name: Music Naming
       href: Music-Naming.md
     - name: Audio Book Naming
-      href: Audio-Book-naming.md
+      href: Audio-Book-Naming.md
     - name: Metadata Manager
       href: Metadata-Manager.md
     - name: Book Naming
@@ -32,10 +32,10 @@
     - name: Media Stubs
       href: Media-Stubs.md
     - name: Strm Files
-      href: Strm-files.md
+      href: Strm-Files.md
     - name: Subtitles
       href: Subtitles.md
-    - name: Theme songs & videos
+    - name: Theme Songs & Videos
       href: Theme-Songs-Videos.md
     - name: Trailers
       href: Trailers.md
@@ -65,7 +65,7 @@
     items:
     - name: Installation
       href: Installation.md
-    - name: Hosting settings
+    - name: Hosting Settings
       href: Hosting-Settings.md
     - name: Running as Windows Service
       href: Run-as-Windows-Service.md
@@ -115,13 +115,13 @@
     items:
     - name: Users
       href: Users.md
-    - name: Parental controls
-      href: Parental-controls.md
+    - name: Parental Controls
+      href: Parental-Controls.md
     - name: Passwords
       href: Passwords.md
-    - name: Content access
+    - name: Content Access
       href: Content-Access.md
-    - name: Device access
+    - name: Device Access
       href: Device-Access.md
     - name: Emby Connect
       href: Emby-Connect.md
@@ -133,7 +133,7 @@
     items:
     - name: Collections – Manual Migration
       href: Collections-Manual-Migration.md
-    - name: Library setup
+    - name: Library Setup
       href: Library-Setup.md
     - name: Optional Network Paths
       href: Optional-Network-Paths.md
@@ -165,7 +165,7 @@
         href: Hwa-Fails-with-RDP.md
   - name: Cinema Intros
     href: Cinema-Intros.md
-  - name: Server settings
+  - name: Server Settings
     href: Server-Settings.md
   - name: Convert Media
     href: Convert-Media.md
@@ -239,25 +239,25 @@
     href: Webhooks.md
   - name: Notifications
     href: Notifications.md
-  - name: Scheduled tasks
+  - name: Scheduled Tasks
     href: Scheduled-Tasks.md
 - name: Devices
   items:
   - name: Devices
     href: Devices.md
-  - name: Camera upload
+  - name: Camera Upload
     href: Camera-Upload.md
   - name: Download & Sync
     items:
-    - name: Offline access
+    - name: Offline Access
       href: Offline-Access.md
     - name: Sync Introduction
       href: Sync-Introduction.md
     - name: Sync Types
       href: Sync.md
-    - name: Sync jobs
+    - name: Sync Jobs
       href: Sync-Jobs.md
-    - name: Folder sync
+    - name: Folder Sync
       href: Folder-Sync.md
     - name: Google Drive
       href: Google-Drive.md
