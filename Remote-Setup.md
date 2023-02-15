@@ -2,7 +2,7 @@
 uid: Remote-Setup
 title: Remote Setup
 legacyUrl: /support/solutions/articles/44002137137-remote-setup
-# TODO: This is partially identical to @Advanced-Menu and  @Connectivity
+# TODO: This is partially identical to @Advanced-Menu and @Connectivity
 ---
 
 ## External Connections
