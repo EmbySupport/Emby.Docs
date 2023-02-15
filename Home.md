@@ -17,7 +17,7 @@ See the menu on the right-hand side of this page for a complete listing. Some ke
 * [System requirements](System-Requirements.md)
 * [Movie naming](Movie-Naming.md)
 * [TV naming](TV-Naming.md)
-* [Music naming](Music-naming.md)
+* [Music naming](_Music-Naming.md)
 * [Subtitles](Subtitles.md)
 * [Server installation](Installation.md)
 * [Users](Users.md)

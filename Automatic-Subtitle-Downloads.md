@@ -24,7 +24,7 @@ The second option will show any subtitle plugins you may have installed.  In thi
 
 The above picture shows several options available for you to configure. These should be self explanatory with possibly the exception of "Require a hash match". If this option is enabled as shown, then subtitles will ONLY be downloaded when your media file matches EXACTLY "byte for byte" with the Open Subtitle's database.  If you're ripping your own titles or using the DVR service to record files you will never get a hash match and will not be able to use this option.
 
-Subtitles will now be downloaded as needed when available, via the Download Subtitles [Scheduled Task](Scheduled-tasks.md).
+Subtitles will now be downloaded as needed when available, via the Download Subtitles [Scheduled Task](_Scheduled-Tasks.md).
 
 ## If Subtitles are not automatically downloading
 If subtitles are not automatically downloading you should check the options listed above.  For example "Require a hash match" requires your media file to exactly match (byte for byte) the source file of the subtitle.  This option when activated can greatly reduce your chances of downloading subtitles but will make sure the subtitle is "perfect" for you file.

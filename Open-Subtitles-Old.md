@@ -10,6 +10,6 @@ Once registered, enter the username and password in the form above and click Sav
 
 To manage subtitle downloading, click on a library in [Emby library setup](Library-Setup.md#subtitles), and edit the subtitle downloading settings.
 
-Subtitles will now be downloaded as needed when available, via the Download Subtitles [Scheduled Task](Scheduled-tasks.md).
+Subtitles will now be downloaded as needed when available, via the Download Subtitles [Scheduled Task](_Scheduled-Tasks.md).
 
 Note: Emby also supports other subtitle providers. You can always find the latest list in the [Plugins](Plugins.md) Catalog.

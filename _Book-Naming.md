@@ -21,7 +21,7 @@ For electronic books, the following types are supported:
 * cbz
 * azw3
 
-For audio books, the all of the same audio formats from [music libraries](Music-naming.md) are also supported.
+For audio books, the all of the same audio formats from [music libraries](_Music-Naming.md) are also supported.
 
 ### File Naming
 

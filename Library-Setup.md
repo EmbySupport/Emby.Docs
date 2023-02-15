@@ -12,7 +12,7 @@ It's important to first prepare your media. See other sections of the documentat
 
 * [Movie naming](Movie-Naming.md)
 * [TV naming](TV-Naming.md)
-* [Music naming](Music-naming.md)
+* [Music naming](_Music-Naming.md)
 * [Subtitles](Subtitles.md)
 
 ### Library Setup Page

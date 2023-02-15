@@ -18,19 +18,19 @@
     - name: TV Naming
       href: TV-naming.md
     - name: Music Naming
-      href: Music-naming.md
+      href: _Music-Naming.md
     - name: Audio Book Naming
       href: Audio-Book-naming.md
     - name: Metadata Manager
       href: Metadata-Manager.md
     - name: Book Naming
-      href: Book-naming.md
+      href: Book-Naming.md
     - name: 3D Videos
       href: 3D-videos.md
     - name: Excluding Files & Folders
       href: Excluding-Files-Folders.md
     - name: Media Stubs
-      href: Media-stubs.md
+      href: _Media-Stubs.md
     - name: Strm Files
       href: Strm-files.md
     - name: Subtitles
