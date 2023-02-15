@@ -56,7 +56,7 @@ If your LG TV is year 2019+ and has eARC, then you can pass the HD Audio to your
 ### Option 2
  
 ![Lg Atmos12](images/server/lg_atmos12.png)
-If your LG TV does not have eARC, then you can pass the HD Audio to your Receiver or Soundbar(*) directly by means of an External Player. Video only is then passed to the LG TV. No ARC or eARC is required. (*) Note the soundbar/receiver must have an HDMI passthough interface.
+If your LG TV does not have eARC, then you can pass the HD Audio to your Receiver or Soundbar(*) directly by means of an External Player. Video only is then passed to the LG TV. No ARC or eARC is required. (*) Note the soundbar/receiver must have an HDMI passthrough interface.
 
 ![Lg Atmos3](images/server/lg_atmos3.png)
 

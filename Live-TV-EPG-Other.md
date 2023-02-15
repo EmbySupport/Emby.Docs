@@ -53,10 +53,10 @@ List of Countries
 - Belarus
 - Belgium
 - Benin
-- Bolivia (Plurinational State of)
+- Bolivia
 - Bosnia and Herzegovina
 - Brazil
-- Brunei Darussalam
+- Brunei
 - Bulgaria
 - Canada
 - Chile
@@ -65,7 +65,7 @@ List of Countries
 - Costa Rica
 - Croatia
 - Cuba
-- Curaçao
+- CuraÃ§ao
 - Cyprus
 - Czech Republic
 - Denmark
@@ -153,5 +153,5 @@ List of Countries
 - United Kingdom of Great Britain and Northern Ireland
 - United States of America
 - Uruguay
-- Venezuela (Bolivarian Republic of)
+- Venezuela
 - Viet Nam

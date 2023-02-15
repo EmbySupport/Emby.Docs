@@ -26,7 +26,7 @@ Click Next
 
 Enter your Postal Code. If UK only enter the 1st part or 3 letters!
 
-Select the proper linup from the drop down selection list. In this case we selected our local over the air (OTA) lineup to match our HDHomeRun/antenna setup.
+Select the proper lineup from the drop down selection list. In this case we selected our local over the air (OTA) lineup to match our HDHomeRun/antenna setup.
 
 We have selected to enable this guide data for all tuners in the system.
 

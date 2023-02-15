@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44002311271-synology-nas
 
 [Upgrading to DSM 7 and Migrating Emby Data](https://emby.media/community/index.php?/topic/99745-dsm-6-to-dsm-7-emby-migration-instructions/)
 
-If you had Emby installed on DSM 6 and just installed DSM 7 or are about to upgrade to DSM 7 please follow this link for special instructions and video walking you through the needed migration processes. Please follw the link for instructions.
+If you had Emby installed on DSM 6 and just installed DSM 7 or are about to upgrade to DSM 7 please follow this link for special instructions and video walking you through the needed migration processes. Please follow the link for instructions.
 DSM 6 to DSM 7 Emby Migration Instructions
 
 

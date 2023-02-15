@@ -11,7 +11,7 @@ legacyUrl: /support/solutions/articles/44001160798-amazon-alexa
 
 Amazon Alexa is a cloud-based voice service that allows you to retrieve information via voice as well as control device and apps in your Environment including Emby.  You can ask Alexa to play music, hear the news, check weather, control your smart home, and more.
  
-The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have succesfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
+The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
 
@@ -76,7 +76,7 @@ The Amazon Alexa app offers feedback cards for skills. This allows Alexa to self
 - Every command needs to start with: **Alexa, tell/ask m. b. home  -to [insert command]**
 - Alternatively, you can start an Emby session with: **Alexa, - start/begin/open m. b. home**  
   The benefit of using an Emby session is it allows you to give  multiple commands without needing to invoke Emby for as long  as the session is active. Sessions are automatically terminated after 8 seconds of inactivity (when the blue ring of your Alexa device fades).
-- You can stop whatever Alexa is doing with: **Alexa, cancel/ nevermind**. Alexa will also abandon your request if you don't reply within 8 seconds
+- You can stop whatever Alexa is doing with: **Alexa, cancel/ never-mind**. Alexa will also abandon your request if you don't reply within 8 seconds
 - Not all commands are compatible with every Emby apps. If you encounter an issue, post here
 - To direct a command to a specific player, append **on another player** or **on [player name]** to the end of your command
 - Here is the list of supported media types:

@@ -32,7 +32,7 @@ This option allows you to select Mobile, TV or Custom profiles to use. Mobile an
 
 
 
-#### Qualit
+#### Quality
 
 The quality drop down box gives you several choices in Megabits per second to choose.
 

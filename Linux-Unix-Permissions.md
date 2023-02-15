@@ -36,7 +36,7 @@ Then "/mnt/library" is your base. Servers with multiple storage volumes and exte
 
 
 On the Emby server with the media to be shared, create a group for media if it doesn't exist. The group name is arbitrary though it helps to be descriptive:
-groupadd media
+group add media
 
 
 

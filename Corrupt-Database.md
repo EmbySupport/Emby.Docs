@@ -83,7 +83,7 @@ This should return an integrity_check back of "OK" with no errors reported. If e
 
 4. Rename library.db to library.old
 
-5. Rename library-recoved.db to library.db
+5. Rename library-recovered.db to library.db
 
 6. Restart Emby Server
 

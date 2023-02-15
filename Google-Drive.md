@@ -30,7 +30,7 @@ Here we create a new project, select “Create a project” and then click the c
 
 ![googledrive1f.png](images/plugins/googledrive1f.png)
 
-Click the “Go to credentials” button above. You’ll be met with a wizard that trys to determine what type of credentials you’ll need.  Just ignore this and click the “Credentials” menu on the left.
+Click the “Go to credentials” button above. You’ll be met with a wizard that tries to determine what type of credentials you’ll need.  Just ignore this and click the “Credentials” menu on the left.
 
 Click the “OAuth consent screen” option in the middle
 
@@ -54,7 +54,7 @@ Click “Create credentials
 
 ![googledrive1j.png](images/plugins/googledrive1j.png)
 
-Select applicate type of “Other” and name this “Emby”.  Press the “Create” button.
+Select application type of “Other” and name this “Emby”.  Press the “Create” button.
 
 You should now have your Client ID & client secret codes.
 

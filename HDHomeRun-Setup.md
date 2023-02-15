@@ -40,7 +40,7 @@ For this example using a Quatro we will enable the restriction of favorite chann
 
 ## HDHomeRun Favorite Setup
 
-In order to make use of favorites with your HDHomeRun tuner you need to set this up outside of Emby.  You do this by opening the built in web app on your tuner in a web brower and then selecting the Channel Lineup menu option.  You can also just type the URL into your brower which will look similar to this:
+In order to make use of favorites with your HDHomeRun tuner you need to set this up outside of Emby.  You do this by opening the built in web app on your tuner in a web browser and then selecting the Channel Lineup menu option.  You can also just type the URL into your browser which will look similar to this:
 
 http://192.168.100.23/lineup.html
 

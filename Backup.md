@@ -14,7 +14,7 @@ The Server Configuration Backup plugin can help you backup and restore the follo
 
 * Server configuration
 * Users
-* User data (playstates, favorites, etc).
+* User data (play-states, favorites, etc).
 * Installed plugins
 * Plugin settings
 * Playlists
@@ -68,7 +68,8 @@ Shutdown the old server instance and backup the following files and directories:
 * /ProgramData/plugins
 * /ProgramData/data/collections
 * /ProgramData/data/playlists
-* /ProgramData/data/displaypreferences.db/ProgramData/data/userdata_v2.db (if present)
+* /ProgramData/data/displaypreferences.db
+* /ProgramData/data/userdata_v2.db (if present)
 * /ProgramData/data/users.db
 
 **Note**:  Unless you use a custom Metadata path you will want to backup your /ProgramData/metadata folder to preserve your People images.  The only two folder in metadata you don't need are library and views.

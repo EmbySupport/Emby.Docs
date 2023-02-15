@@ -38,6 +38,6 @@ Transcoding is the process where media is converted from one resolution or forma
 
 ### Recommended configuration
 * An ADSL/Cable/WiFi Internet connection for media metadata and software updates
-* 10 Meganit upload bandwidth (minimum) if serving content remotely
+* 10 Megabit upload bandwidth (minimum) if serving content remotely
 * Uncongested, WIFI with strong signal using 802.11AC wireless network
 * Wired Gigabit Ethernet network

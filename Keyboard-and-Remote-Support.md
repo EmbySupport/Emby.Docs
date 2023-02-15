@@ -29,8 +29,8 @@ This document will list all of the supported keys that are recognized. Please no
 * page-down: scroll backward in list
 * end: scroll to end of list
 * home: return to app home screen
-* control-t: Nagivate to Live TV
-* control-g: Nagivate to Live TV Guide
+* control-t: Navigate to Live TV
+* control-g: Navigate to Live TV Guide
 * control-r: Record - works when highlighting a program or on program detail screen
 * control-o: Navigate to Recorded TV
 * control-d: show menu or info for selected content (if available)

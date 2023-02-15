@@ -30,7 +30,7 @@ legacyUrl: /support/solutions/articles/44001161655-google-home
 ### What is Google Home?  
 Google Home is a powerful speaker and voice Assistant. Play your music. Call your friends. Ask it questions. Control your home. It's your own Google, always ready to help.
  
-The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have succesfully linked your Emby account to Google Home, you can start playing your favorite movies, TV shows on your devices with your voice.
+The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Google Home, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
 The first step is to add Emby to your Google Home account by following the [steps here](https://support.google.com/googlehome/answer/7126338?co=GENIE.Platform%3DAndroid&hl=en) and searching for the Emby home app within actions (this is not a home control app). Once this is done, you will need [Emby Connect](Emby-Connect) to link your Emby account to Google Home. Emby home also requires [Emby premiere](https://emby.media/premiere.html). 

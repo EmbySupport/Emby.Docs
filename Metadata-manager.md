@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001848783-metadata-manager
 
 One of the areas in which MediaBrowser shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the metadata for every item in your library in one place.
 
-The metadata manager can be accessed via the slideout in the web client in the top left hand corner of the screen.
+The metadata manager can be accessed via the slide-out in the web client in the top left hand corner of the screen.
 
 ![](images/server/metadatamanager1.png)
 
@@ -32,7 +32,7 @@ The **Metadata refresh mode** options will only affect the text metadata.
 The **Image refresh mode** options will only affect the images that the server uses.
 
 - Download only missing images (the default option) will only download images that are missing from the existing image collection.
-- Download and replace images will force the server to redownload all of the images for the media item.
+- Download and replace images will force the server to re-download all of the images for the media item.
 - Selecting **None** will prevent the server from changing any of the existing images and keep it from downloading more.
 
 #### Identifying items

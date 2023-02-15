@@ -18,7 +18,7 @@ You have 2 brothers and 3 cousins running Emby Servers. You have been given acce
 ## Guide for Administrators
 
 You can optionally use Emby Connect for any user that requests it. Have them give you their Emby Connect username which you add to their account on your system and your job is done.
-  Your Emby Server needs to be setup and ttested to allow Internet access to your server. 
+  Your Emby Server needs to be setup and tested to allow Internet access to your server. 
  If this hasn't been done follow the KB article to get remote access working before using Emby Connect  Remote Setup
 
 

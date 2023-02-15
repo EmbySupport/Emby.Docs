@@ -22,7 +22,7 @@ For example:
 You can optionally add media source flags to the filename before ".stub". This can be used to indicate the type of media (DVD, BLURAY, VHS, etc) that the movie resides on, which can be used for display purposes.
 
 * DVD, if the filename contains DVD.
-* Bluray, if the filename contains BLURAY, BRRIP, BD25, or BD50.
+* Bluray, if the filename contains BLURAY, BDRIP, BD25, or BD50.
 * HDDVD, if the filename contains HDDVD.
 * TV, if the filename contains HDTV, PDTV, or DSR.
 * VHS, if the filename contains VHS.

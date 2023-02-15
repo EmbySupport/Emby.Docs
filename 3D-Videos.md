@@ -4,7 +4,7 @@ title: 3D Videos
 legacyUrl: /support/solutions/articles/44001159116-3d-videos
 ---
 
-There are mulitple ways to identify a video as 3D.
+There are multiple ways to identify a video as 3D.
 
 ## Identify using the web interface
 

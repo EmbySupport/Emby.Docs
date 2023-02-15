@@ -20,7 +20,7 @@ Note: The exact containers and codecs that will direct play depends on both the 
 Subtitles - srt,ssa,ass,sub,vtt,pgs  
 Audio – aac,mp3,mpa,wav,mp2,ogg,oga,webma,ape,opus,ac3 (Dolby Digital), DTS, DTS-HD MA, TrueHD  
 
-*Dolby Digital and DTS direct play requres Android version 6.0+*  
+*Dolby Digital and DTS direct play requires Android version 6.0+*  
 
 *DTS HD and TrueHD require compatible hardware (Nvidia Shield)*  
 
