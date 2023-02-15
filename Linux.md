@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44002311270-linux
 
 ### Installation:
 
-Emby-Server is packaged and supported on as many platforms and architectures as possible. You can find installation instructions that are distribution specific either [here](./Installation) or on our [OBS project page](https://software.opensuse.org/download.html?project=home%3Aemby&package=emby-server). Additionally, you can find our official docker images on the hub which support armv7l and amd64.
+Emby-Server is packaged and supported on as many platforms and architectures as possible. You can find installation instructions that are distribution specific either [here](Installation.md) or on our [OBS project page](https://software.opensuse.org/download.html?project=home%3Aemby&package=emby-server). Additionally, you can find our official docker images on the hub which support armv7l and amd64.
 
 ### Before running the Wizard:
 

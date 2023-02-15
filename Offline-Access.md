@@ -8,8 +8,8 @@ The offline downloading feature allows you to copy your content to mobile device
 
 The Emby apps that currently support offline downloading are:
 
-* [Emby for Android Mobile](Android-Mobile)
-* [Emby for iOS](iOS)
+* [Emby for Android Mobile](Android-Mobile.md)
+* [Emby for iOS](iOS.md)
 
 The feature is also available in the following third party apps:
 

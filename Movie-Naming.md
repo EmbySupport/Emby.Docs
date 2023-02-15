@@ -4,7 +4,7 @@ title: Movie Naming
 legacyUrl: /support/solutions/articles/44001159102-movie-naming
 ---
 
-This file naming guide applies to movies, home videos and music videos. For tv episode naming, see [TV naming](TV-naming).
+This file naming guide applies to movies, home videos and music videos. For tv episode naming, see [TV naming](TV-Naming.md).
 
 ## Library Setup
 
@@ -82,7 +82,7 @@ Each version must begin with the folder name, followed by " - ".
 If using the dash method anything following the dash will be what you see in the Emby client app.
 
 > [!NOTE]
-> The above example includes a 3D version, which is discussed in the [3D Video](3D-Videos) naming guide.  Also, this feature is primarily designed for multiple qualities of the same item.  It can be used for different "cuts" but there may be some limitations in doing that.
+> The above example includes a 3D version, which is discussed in the [3D Video](3D-Videos.md) naming guide.  Also, this feature is primarily designed for multiple qualities of the same item.  It can be used for different "cuts" but there may be some limitations in doing that.
 
 ## Movie extras
 
@@ -218,19 +218,19 @@ Examples:
 
 ## 3D videos
 
-3D video files are supported. See [3D videos](3D-Videos).
+3D video files are supported. See [3D videos](3D-Videos.md).
 
 ## Media stubs
 
-Media stubs are supported. See [media stubs](Media-stubs).
+Media stubs are supported. See [media stubs](Media-stubs.md).
 
 ## Strm files
 
-Strm files are supported. See [strm files](Strm-files).
+Strm files are supported. See [strm files](Strm-Files.md).
 
 ## Subtitles
 
-Subtitles are supported. See [subtitles](Subtitles).
+Subtitles are supported. See [subtitles](Subtitles.md).
 
 ## Theme songs & videos
 
@@ -238,4 +238,4 @@ Theme songs & videos are supported. See [theme songs & videos](Theme-Songs-Video
 
 ## Trailers
 
-Trailers are supported. See [trailers](Trailers).
+Trailers are supported. See [trailers](Trailers.md).

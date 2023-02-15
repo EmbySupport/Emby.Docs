@@ -34,13 +34,13 @@ The first page will ask you to choose a display language. We have been working h
 
 Next you'll be asked to create an initial user account. You'll have the ability to create more accounts later after the setup process has completed. 
 
-As an option, you also have the ability to link the account to [Emby Connect](Emby-Connect). Emby Connect makes it easy to connect to your Emby Server while you're away from home. This is purely an optional step and can be skipped if desired. You can always do this later after completing the startup wizard by visiting the [Users](Users) section of the server's web interface.
+As an option, you also have the ability to link the account to [Emby Connect](Emby-Connect.md). Emby Connect makes it easy to connect to your Emby Server while you're away from home. This is purely an optional step and can be skipped if desired. You can always do this later after completing the startup wizard by visiting the [Users](Users.md) section of the server's web interface.
 
 ![](images/server/wizard2.png)
 
 ### Add Media Libraries
 
-Now, you'll add your media libraries. See [Library Setup](Library-Setup) for more information.
+Now, you'll add your media libraries. See [Library Setup](Library-Setup.md) for more information.
 
 ![](images/server/wizard4.png)
 
@@ -72,10 +72,10 @@ Once you've completed the above screens, you'll then be taken to the Emby Server
 
 Be sure to check out:
 
-* [Users](Users)
-* [Sync](Sync)
-* [Live TV](Live-TV)
-* [Plugins](Plugins)
+* [Users](Users.md)
+* [Sync](Sync.md)
+* [Live TV](Live-TV.md)
+* [Plugins](Plugins.md)
 
 ## Get Emby Premiere
 

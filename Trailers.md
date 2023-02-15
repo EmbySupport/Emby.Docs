@@ -28,4 +28,4 @@ Alternatively, trailers can also be stored in a trailers sub-folder. Bluray and 
 * Trailers - Streams trailers for your movies.
 * Cinema Mode - Can be used to simulate the theater experience where you want a couple of trailers before the main show!
 
-For more information, see [plugins](Plugins).
+For more information, see [plugins](Plugins.md).

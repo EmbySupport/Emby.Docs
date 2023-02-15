@@ -13,11 +13,11 @@ API for video encoding and decoding acceleration using Nvidia GPUs
  Intel's brand for its dedicated video encoding and decoding hardware 
  core
 
-- **[AMD AMF](#AMD-AMF)**  
+- **[AMD AMF](#amd-amf)**  
  AMD Advanced Media Framework - multimedia API  AMD hardware for 
  real-time processing of multimedia
 
-- **[Microsoft DXVA](#Microsoft-DXVA)**  
+- **[Microsoft DXVA](#microsoft-dxva)**  
  Microsoft DirectX Video Acceleration API - hardware independent API 
  for hardware accelerated video decoding
 

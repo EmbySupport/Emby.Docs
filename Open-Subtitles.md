@@ -4,7 +4,7 @@ title: Open Subtitles
 legacyUrl: /support/solutions/articles/44001160043-open-subtitles
 ---
 
-Emby can automatically download subtitle files for your media.  This requires the loading of a plugin and proper setup of your libraries which is shown below. OpenSubtitles is one of many subtitle addons that can be used in Emby including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins) Catalog.
+Emby can automatically download subtitle files for your media.  This requires the loading of a plugin and proper setup of your libraries which is shown below. OpenSubtitles is one of many subtitle addons that can be used in Emby including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins.md) Catalog.
 
 ## Install the Open Subtitle Plugin
 To install the plugin, click Plugins in the side-bar menu of the Emby server (Expert Menu) dashboard. Now click the Catalog link at the top of the main page.
@@ -24,7 +24,7 @@ After restarting your server, navigate back to the plugin section of the dashboa
 Simply fill in your Open Subtitles username and password that you have previously created at [opensubtitles.org](http://www.opensubtitles.org). If you are a Open Subtitle VIP member also make sure to click the VIP checkbox.  Click the Save button once complete
 ![OpenSubtitles4.png](images/server/OpenSubtitles4.png)
 
-Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads) to learn how to setup your libraries for automatic subtitle downloading.
+Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md) to learn how to setup your libraries for automatic subtitle downloading.
 
 
 ### Limits and Temporary Bans:

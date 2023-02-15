@@ -9,7 +9,7 @@ Emby allows you to manually download subtitle files for your media as needed.  T
 
 ## Install a Subtitle Plugin
 
-Before being able to setup downloading of subtitles you will need to setup a plugin such as [Open Subtitles](Open-Subtitles). Please make sure you have configured your plugin before continuing.
+Before being able to setup downloading of subtitles you will need to setup a plugin such as [Open Subtitles](Open-Subtitles.md). Please make sure you have configured your plugin before continuing.
 
 ### Manual Subtitle Download
 

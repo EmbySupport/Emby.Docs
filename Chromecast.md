@@ -14,7 +14,7 @@ Emby supports casting to Chromecast in the following apps:
 
 To connect to your Chromecast device, simply click the cast icon in the top right corner of the app. You'll then be asked which device you'd like to connect to.
 
-Emby for Chromecast can handle just about any type of media thanks to [Emby Server transcoding](Transcoding). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Chromecast can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
 
 # Direct Play Media Formats
 

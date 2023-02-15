@@ -50,4 +50,4 @@ There are several optional Premium plugins that can assist with this.  See indiv
 * TV Theme Songs
 * TV Theme Videos
 
-See [Plugins](Plugins) for more information on use.
+See [Plugins](Plugins.md) for more information on use.

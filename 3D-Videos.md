@@ -8,7 +8,7 @@ There are multiple ways to identify a video as 3D.
 
 ## Identify using the web interface
 
-A video can be identified as 3D using the the [metadata manager](Metadata-manager). Simply edit a video:
+A video can be identified as 3D using the the [metadata manager](Metadata-manager.md). Simply edit a video:
 
 ![](images/server/musicvideos1.png)
 
@@ -54,7 +54,7 @@ For example:
 
 ## Multiple Versions
 
-3D can even be combined with the multi-version video support discussed in the [Movie Naming](Movie-naming) article.
+3D can even be combined with the multi-version video support discussed in the [Movie Naming](Movie-Naming.md) article.
 
 Here's an example of a movie containing multiple versions in a single movie folder, some 3D and others 2D:
 

@@ -15,7 +15,7 @@ When content is archived in multiple resolutions, Emby apps will automatically c
 Cloud Sync is currently available for:
 
 * Drop box
-* [Google Drive](Google-Drive)
+* [Google Drive](Google-Drive.md)
 
 Note: Cloud Sync does not move content from your local server to the cloud, nor add content from the cloud to Emby.  All media must originate and be part of the Emby Server media collection locally.
 
@@ -25,11 +25,11 @@ Folder sync allows you to copy content to folders and external hard drives, for 
 
 When content is archived in multiple resolutions, Emby apps will automatically choose the version that is most efficient for them. This will help relieve stress on your server's CPU.
 
-For more information see [Folder Sync](Folder-Sync).
+For more information see [Folder Sync](Folder-Sync.md).
 
 ## Creating Sync Jobs
 
-See [Sync jobs](Sync-Jobs)
+See [Sync jobs](Sync-Jobs.md)
 
 ## User Access
 
@@ -37,4 +37,4 @@ Access to the sync feature can be managed individually for each user.
 
 ![](images/server/users21.png)
 
-For more information, see [Users](Users).
+For more information, see [Users](Users.md).

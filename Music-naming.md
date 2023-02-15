@@ -115,9 +115,9 @@ Multiple artists can be listed for tracks and should be separated with a "; " (s
 
 ## Music Videos
 
-To add music videos, setup a library with the type "Music Videos". The naming conventions for music videos are identical to [movies](Movie-naming).
+To add music videos, setup a library with the type "Music Videos". The naming conventions for music videos are identical to [movies](Movie-Naming.md).
 
-To identify the artists and albums of music videos, use the [metadata manager](Metadata-manager). Simply edit a music video:
+To identify the artists and albums of music videos, use the [metadata manager](Metadata-manager.md). Simply edit a music video:
 
 ![](images/server/musicvideos1.png)
 

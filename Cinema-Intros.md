@@ -23,11 +23,11 @@ A vast library of internet trailers are available for use with cinema intros. Th
 This feature has two requirements:
 
 * An [active Emby Premiere subscription](http://emby.media/donate)
-* Installation of the [Trailer plugin](Plugins), either before or after enabling cinema intros.
+* Installation of the [Trailer plugin](Plugins.md), either before or after enabling cinema intros.
 
 ## Local Trailers
 
-If your movie folders contain local trailers, enabling this option will allow these trailers to be used within cinema intros. See [trailers](Trailers) for more information.
+If your movie folders contain local trailers, enabling this option will allow these trailers to be used within cinema intros. See [trailers](Trailers.md) for more information.
 
 ![](images/server/cinemamode2.png)
 

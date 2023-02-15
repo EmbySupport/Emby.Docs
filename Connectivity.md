@@ -8,7 +8,7 @@ legacyUrl: /support/solutions/articles/44001849007-connectivity
 .
 ## TODO: This is identical to @Advanced-Menu and @Remote-Setup
 
-This purpose of this document is to discuss how to connect to Emby Server from additional devices, both within your home network and external. To learn how to grant users access to your server, see [Users](Users).
+This purpose of this document is to discuss how to connect to Emby Server from additional devices, both within your home network and external. To learn how to grant users access to your server, see [Users](Users.md).
 
 In most cases you won't need to do anything to connect to your server from other devices, as Emby apps are built to automatically know how to connect to it. But on some systems some manual configuration might be necessary. This document is primarily designed as for troubleshooting when the automatic features do not work.
 
@@ -52,7 +52,7 @@ If you're certain you've opened the port and are still unable to connect, the ne
 
 Emby Server also allows you to connect when away from home. We call these external connections because they're out of our home network. Before we begin, we'll assume everything covered above in the **In-Network Connections** section is functioning correctly with your Emby Server, and that you're able to connect using other devices in your home network. If not, then you'll want to go over that section first.
 
-From here, we suggest using the [Emby Connect](Emby-Connect) feature as it takes the guesswork out of external connectivity. You only need to read below if you're not using Emby Connect, or you're having trouble connecting.
+From here, we suggest using the [Emby Connect](Emby-Connect.md) feature as it takes the guesswork out of external connectivity. You only need to read below if you're not using Emby Connect, or you're having trouble connecting.
 
 ### Locate Your External Address
 

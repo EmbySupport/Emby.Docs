@@ -6,26 +6,26 @@ legacyUrl: /support/solutions/articles/44001161655-google-home
 
 # Emby with Google Home
 
-1. [What is Google Home?](Google-Home#what-is-google-home)
-2. [Get started](Google-Home#get-started)
-    * [Why is Emby connect required?](Google-Home#why-is-emby-connect-required)
-    * [Google Home account linking](Google-Home#google-home-account-linking)
-    * [My server is not available to be selected](Google-Home#my-server-is-not-available-to-be-selected-what-do-i-do)
-3. [Commands](Google-Home#commands)
-    * [How to use Google Home](Google-Home#how-to-use-google-home)
-    * [Select a player](Google-Home#which-player)
-    * [Additional users](Google-Home#additional-users)
-    * [Navigation](Google-Home#navigation)
-    * [Playback](Google-Home#playback)
-    * [Media playback](Google-Home#media-playback)
-    * [Suggestion to watch](Google-Home#suggestions)
-    * [Play random content](Google-Home#play-random-content)
-    * [Play random music](Google-Home#play-random-music)
-    * [Recently added](Google-Home#recently-added)
-    * [Next up](Google-Home#next-up)
-    * [Continue playing](Google-Home#continue-playing)
-    * [Item modification](Google-Home#item-modification)
-    * [Help with commands](Google-Home#help)
+1. [What is Google Home?](#what-is-google-home)
+2. [Get started](#get-started)
+    * [Why is Emby connect required?](#why-is-emby-connect-required)
+    * [Google Home account linking](#google-home-account-linking)
+    * [My server is not available to be selected](#my-server-is-not-available-to-be-selected-what-do-i-do)
+3. [Commands](#commands)
+    * [How to use Google Home](#how-to-use-google-home)
+    * [Select a player](#which-player)
+    * [Additional users](#additional-users)
+    * [Navigation](#navigation)
+    * [Playback](#playback)
+    * [Media playback](#media-playback)
+    * [Suggestion to watch](#suggestions)
+    * [Play random content](#play-random-content)
+    * [Play random music](#play-random-music)
+    * [Recently added](#recently-added)
+    * [Next up](#next-up)
+    * [Continue playing](#continue-playing)
+    * [Item modification](#item-modification)
+    * [Help with commands](#help)
 
 ### What is Google Home?  
 Google Home is a powerful speaker and voice Assistant. Play your music. Call your friends. Ask it questions. Control your home. It's your own Google, always ready to help.
@@ -33,7 +33,7 @@ Google Home is a powerful speaker and voice Assistant. Play your music. Call you
 The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Google Home, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
-The first step is to add Emby to your Google Home account by following the [steps here](https://support.google.com/googlehome/answer/7126338?co=GENIE.Platform%3DAndroid&hl=en) and searching for the Emby home app within actions (this is not a home control app). Once this is done, you will need [Emby Connect](Emby-Connect) to link your Emby account to Google Home. Emby home also requires [Emby premiere](https://emby.media/premiere.html). 
+The first step is to add Emby to your Google Home account by following the [steps here](https://support.google.com/googlehome/answer/7126338?co=GENIE.Platform%3DAndroid&hl=en) and searching for the Emby home app within actions (this is not a home control app). Once this is done, you will need [Emby Connect](Emby-Connect.md) to link your Emby account to Google Home. Emby home also requires [Emby premiere](https://emby.media/premiere.html). 
 
 Google Home requests are sent from outside your network. You will need to ensure your Emby server is accessible remotely. 
 
@@ -48,7 +48,7 @@ You can link or unlink your Emby account [here](https://assistant.google.com/ser
 
 
 #### My server is not available to be selected, what do I do?
-If you don't have an Emby account, follow the steps [here](Emby-Connect), otherwise:
+If you don't have an Emby account, follow the steps [here](Emby-Connect.md), otherwise:
 1. In your server dashboard, Users > Select the Emby user with Emby connect (green cloud icon)
 2. Remove the username or email from the Emby connect field, hit save.
 3. Re-add the information to recreate the Emby connect link.

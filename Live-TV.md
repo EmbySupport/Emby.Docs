@@ -28,7 +28,7 @@ Out of the box, Emby Server currently supports the following TV Tuners:
 - @M3U-Tuners  
 M3U files (or urls). See examples of m3u files at http://xmtvplayer.com/build-m3u-file
 
-Support for additional tuners can be added by installing a [Live TV Plugin](Live-TV-Plugins).
+Support for additional tuners can be added by installing a [Live TV Plugin](Live-TV-Plugins.md).
 
 In most cases, Emby Server will automatically discover your HDHomerun on your network with no configuration required. You can manually add a tuner as well.  Simply open the server dashboard, navigate to **Live TV**, then click **Add** underneath tuner devices.
 
@@ -36,18 +36,18 @@ In most cases, Emby Server will automatically discover your HDHomerun on your ne
 
 Out of the box, Emby Server currently supports the following TV Guide data sources:
 
-* [Emby Guide Data](Emby-Guide-Data)  
+* [Emby Guide Data](Emby-Guide-Data.md)  
   (United States, Canada and United Kingdom)
-* [Schedules Direct](Schedules-Direct)  
+* [Schedules Direct](Schedules-Direct.md)  
   (Do not use on new setups. Will stop working June 1st, 2021)
-* [Xml TV](Xml-Tv)
+* [Xml TV](Xml-Tv.md)
 
-Support for additional sources can be added by installing a [Live TV Plugin](Live-TV-Plugins).
+Support for additional sources can be added by installing a [Live TV Plugin](Live-TV-Plugins.md).
 
 ## Match your Channel Lineup to Guide Data
 The final step of setting up Live TV is matching the tuner's stations to the Guide Data you have setup.
 
-* [Live TV Channel Mapping](Live-TV-Channel-Mapping)
+* [Live TV Channel Mapping](Live-TV-Channel-Mapping.md)
 
 ## DVR Settings (optional)
 
@@ -56,7 +56,7 @@ You can optionally change a few options used for DVR purposes.  These options in
 * Default recording paths
 * Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
 
-* [DVR Settings](DVR-Settings)
+* [DVR Settings](DVR-Settings.md)
 
 ## Emby Live TV & DVR is Ready to Use.
 Congratulations, your Emby Server should now be configured properly and ready to use for Live TV and DVR.

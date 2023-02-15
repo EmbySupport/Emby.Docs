@@ -68,7 +68,7 @@ It is sometimes useful to have other "names" in the subtitle to help identify it
 
 ##### See also
 - [Open Subtitles](Open-Subtitles.md)
-- [Plugins](Plugins) for more information on use
+- [Plugins](Plugins.md) for more information on use
 - [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md)
 - [Manual Subtitle Downloads](Manual-Subtitle-Downloads.md)
 

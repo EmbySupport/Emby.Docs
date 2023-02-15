@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001161688-ios
 
 Emby for iPhone and iPad is available in the [Apple App Store](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8).
 
-Emby for iOS can handle just about any type of media thanks to [Emby Server transcoding](Transcoding). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for iOS can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
 
 # Setup Guide
 
@@ -34,4 +34,4 @@ The app supports casting to Chromecast devices. To connect to your Chromecast de
 
 Once connected, any content you play will be sent to the Chromecast device. You're able to play individual files, entire folders, shuffle, instant mix, queue, and more.
 
-For more information, see [Chromecast](Chromecast).
+For more information, see [Chromecast](Chromecast.md).

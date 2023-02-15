@@ -8,7 +8,7 @@ Emby supports a broad range of hardware accelerated video transcoding methods on
 
 ## Windows
 
-Emby supports the following [hardware acceleration variants on Windows](Hardware-Acceleration-on-Windows)
+Emby supports the following [hardware acceleration variants on Windows](Hardware-Acceleration-on-Windows.md)
 
 - **Nvidia NVDEC & NVENC**  
 API for video encoding and decoding acceleration using Nvidia GPUs
@@ -27,7 +27,7 @@ API for video encoding and decoding acceleration using Nvidia GPUs
 
 ## Linux
 
-Emby supports the following [hardware acceleration variants on Linux](Hardware-Acceleration-on-Linux)
+Emby supports the following [hardware acceleration variants on Linux](Hardware-Acceleration-on-Linux.md)
 
 - **Nvidia NVDEC & NVENC**  
 API for video encoding and decoding acceleration using Nvidia GPUs
@@ -41,7 +41,7 @@ Video Acceleration API for Linux is supported by several device manufacturers
 
 ## Android
 
-Emby supports the following [hardware acceleration variants on Android](Hardware-Acceleration-on-Android)
+Emby supports the following [hardware acceleration variants on Android](Hardware-Acceleration-on-Android.md)
 
 - **Android MediaCodec**  
 MediaCodec is Android's integrated API for video de- and encoding. 

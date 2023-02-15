@@ -40,7 +40,7 @@ The general recommendations are:
 ## Install the Server
 Once your media is named and organized, it's time to install the Server. The server is available on a number of platforms ranging from Windows to Linux, Mac, FreeBSD, NAS devices as well as media devices such as the Nvidia Shield TV.
 
-For  more information, see [installation](Installation).
+For  more information, see [installation](Installation.md).
 
 ## Install apps on your devices
 
@@ -58,13 +58,13 @@ http://app.emby.media
 
 You may wish to add users and invite your family and friends. Users will have their own account & password and can have their own personalized media libraries, user data, favorites, recommendations and more. You will be able to completely control access to your system at the library or feature level such as granting access to Live TV if this is setup on your system.
 
-For more information, see [users](Users).
+For more information, see [users](Users.md).
 
 ## Install Plugins
 
 Installing plugins can further enhance your Emby experience. Cover Art allows you to personalize the artwork that is displayed within your Emby apps, Trailers provides a library of streaming internet trailers to your media collection presented as a library. Trakt allows you to sync watched status with the Trakt web server. Emby Statics allows you to see detailed statistics about your system. There are numerous plugin you can install to customize your server and user experience via the online catalog.
 
-For more information, see [plugins](Plugins).
+For more information, see [plugins](Plugins.md).
 
 ## Get Emby Premiere
 

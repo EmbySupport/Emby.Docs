@@ -45,7 +45,7 @@ For example:
 
 In the above example, the recommended setup is to create a TV media folder, and then add the **A-M** and **N-Z** library paths. 
 
-For more information on setting up the library, see [Library Setup](Library-Setup).
+For more information on setting up the library, see [Library Setup](Library-Setup.md).
 
 ### DVD and Blu-ray episodes
 
@@ -256,16 +256,16 @@ For example:
 
 ## 3D episodes
 
-3D episodes files are supported. See [3D videos](3D-Videos).
+3D episodes files are supported. See [3D videos](3D-Videos.md).
 
 ## Media stubs
 
-Media stubs are supported as episodes. See [media stubs](Media-stubs).
+Media stubs are supported as episodes. See [media stubs](Media-stubs.md).
 
 ## Strm files
 
-Strm files are supported as episodes. See [strm files](Strm-files).
+Strm files are supported as episodes. See [strm files](Strm-Files.md).
 
 ## Subtitles
 
-Subtitles for episode files are supported. See [subtitles](Subtitles).
+Subtitles for episode files are supported. See [subtitles](Subtitles.md).

@@ -1,4 +1,4 @@
-Guests are users that you've invited using [Emby Connect](Emby-Connect). By default Guests have limited permissions but administrators can easily control this to give them access to various features as desired.
+Guests are users that you've invited using [Emby Connect](Emby-Connect.md). By default Guests have limited permissions but administrators can easily control this to give them access to various features as desired.
 
 ![](images/server/users2.png)
 
@@ -26,7 +26,7 @@ As soon as they accept the invitation, they're ready to start using your server.
 
 ## Configuring Guest Accounts
 
-Once a guest has been accepted, they can be configured in the same way as a local user. For more information, see [Users](Users).
+Once a guest has been accepted, they can be configured in the same way as a local user. For more information, see [Users](Users.md).
 
 ## Pending Invitations
 
