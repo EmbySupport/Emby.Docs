@@ -2,6 +2,10 @@
 uid: Automatic-Subtitle-Downloads
 title: Automatic Subtitle Downloads
 legacyUrl: /support/solutions/articles/44001848854-automatic-subtitle-downloads
+seeAlso:
+  - Subtitles
+  - Open-Subtitles
+  - Manual-Subtitle-Downloads
 ---
 
 Emby can automatically download subtitle files for your media.  There are multiple subtitle plugin that can be used.
@@ -33,9 +37,3 @@ You should also check the following link to see how to manage [Manual Subtitle D
 
 ## Tips
 Emby supports many subtitle providers including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins.md) Catalog.
-
-#### TODO
-Other Related Subtitle Pages:
-Subtitles
-Open Subtitles
-Manual Subtitle Downloads

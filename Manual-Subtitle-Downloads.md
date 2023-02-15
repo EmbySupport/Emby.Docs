@@ -2,7 +2,10 @@
 uid: Manual-Subtitle-Downloads
 title: Manual Subtitle Downloads
 legacyUrl: /support/solutions/articles/44001848856-manual-subtitle-downloads
-# TODO: Complete migration
+seeAlso:
+  - Subtitles
+  - Open-Subtitles
+  - Automatic-Subtitle-Downloads
 ---
 
 Emby allows you to manually download subtitle files for your media as needed.  There are multiple subtitle plugin that can be used.
@@ -39,9 +42,3 @@ If you have problems finding subtitles, please verify that the movie/show was id
 
 ![Manual Subtitle Download 4](images/subtitles/manual-subtitle-download-4.png)
 
-
-TODO:
-Other Related Subtitle Pages:
-Subtitles
-Open Subtitles
-Automatic Subtitle Downloads

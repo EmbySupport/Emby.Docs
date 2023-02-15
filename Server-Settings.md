@@ -1,7 +1,10 @@
 ---
-uid: Server-Settings
+uid: Server-Settings333
 title: Server Settings
 legacyUrl: /support/solutions/articles/44001159322-server-settings
+seeAlso:
+  - Hosting-Settings
+  - Connectivity
 ---
 
 The server has several settings that can be used to customize how it presents itself to users.

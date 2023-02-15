@@ -5,9 +5,7 @@ legacyUrl: /support/solutions/articles/44001160798-amazon-alexa
 ---
 
 .
-## TODO - Complete Migration
-
-### What is Alexa?  
+## What is Alexa?  
 
 Amazon Alexa is a cloud-based voice service that allows you to retrieve information via voice as well as control device and apps in your Environment including Emby.  You can ask Alexa to play music, hear the news, check weather, control your smart home, and more.
  

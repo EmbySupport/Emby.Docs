@@ -2,6 +2,8 @@
 uid: Hosting-Settings
 title: Network (Hosting) Settings
 legacyUrl: /support/solutions/articles/44001159601-network-hosting-settings
+seeAlso:
+  - Remote-Setup
 ---
 
 Hosting settings allow you to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Server** -> **Network**.
@@ -49,6 +51,3 @@ Emby apps use http by default. In order to force them to use https, you can conf
 By default the server will attempt to automatically map public to local ports by configuring your router. You can disable this as necessary here.
 
 ![](images/server/hosting6.png)
-
-TODO TODO TODO:
-Please see this Knowledge Base article for extended help setting up for Remote Access
