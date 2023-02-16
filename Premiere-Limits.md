@@ -1,6 +1,6 @@
 ---
 uid: Premiere-Limits
-title: Premiere-Limits
+title: Premiere Limits
 longTitle: Is there a limit to Emby Premiere?
 legacyUrl: /support/solutions/articles/44001173135-is-there-a-limit-to-emby-premiere
 ---
