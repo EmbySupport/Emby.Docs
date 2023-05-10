@@ -2,6 +2,7 @@
 uid: Sync
 title: Sync Types
 legacyUrl: /support/solutions/articles/44001162174-sync-types
+legacyUrl: /support/solutions/articles/44001162174-sync
 ---
 
 The sync feature allows you to copy content to external devices for backup purposes, archiving in multiple resolutions, and offline viewing.

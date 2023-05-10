@@ -2,6 +2,7 @@
 uid: Folder-based-Access-Control
 title: Folder Based Access Control
 legacyUrl: /support/solutions/articles/44001160108-folder-based-access-control
+legacyUrl: /support/solutions/articles/44001160108-new-folder-based-access-control
 ---
 
 

@@ -2,6 +2,7 @@
 uid: Backup
 title: Configuration Backup
 legacyUrl: /support/solutions/articles/44001159936-configuration-backup
+legacyUrl: /support/solutions/articles/44001159936-backup
 ---
 
 This guide will go over how to migrate your settings from Emby Server from one machine to another. There are two methods to backing up Emby Server settings and we'll go over them here.
