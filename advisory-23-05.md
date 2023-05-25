@@ -47,7 +47,7 @@ Review your server machine for:
 - Change all passwords
 - Depending on the required effort and other usages of your system, it might make sense to make a backup of the emby configuration and re-setup your system
 
-## Getting Emby Server to Start Again
+## Starting Emby Server
 
 After (and only after) you have done the above:
 
