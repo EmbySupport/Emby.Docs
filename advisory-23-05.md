@@ -27,22 +27,17 @@ Analysis of the plug-in has revealed that it is forwarding the login credentials
 
 ## Actions to Take
 
-- The first thing you need to do is to look for the actual plug-in which comes as `helper.dll` and `EmbyHelper.dll`
+- Delete the plugin .dll file, which comes as `helper.dll` and `EmbyHelper.dll`
   - Primary location is the `plugins` folder under Emby's `programdata` folder
   - Also look in `cache` and `data` subfolders
-- Add an entry to your etc/hosts file:
+- Add an entry to your server machine etc/hosts file:
              emmm.spxaebjhxtmddsri.xyz    127.0.0.1
              This is the host name of the control server which the malware is communicating with
-- You need to assume that all users and passwords are compromised
-  (postpone this until you restart your emby server)
-  - Assign new passwords to all accounts
-  - don't allow local login without password for anybody
-   (ideally you disable all features that are specific to "local network"
-  - make sure no user has an empty password
+- Assign new passwords to all of your Emby Server users
+- Don't allow local login without password
+- Ensure no user has an empty password
 
-We don't know what the hacker did while he had access to your system and whether he made any changes, but it is imperative you investigate all of the above.
-
-In review - very very carefully - go over every single bit of your system and look for 
+Review your server machine for:
 
 - Suspicious user accounts
 - Unknown processes
@@ -62,7 +57,7 @@ After (and only after) you have done the above:
   - Find the file named `ReadyState.xml` and delete it.
   - Find the file named 'EmbyScripterX.xml' and delete it (if exists)
 - Start Emby Server
-- Now perform all the user account cleanup mentioned above
+- Now perform all the user account changes mentioned above
 - Reconsider security - go through all Emby settings, especially network settings and tighten security as much as possible
 - Re-Enable public network access
   - Consider changing IP address, port, or DNS name  (whatever applicable)
