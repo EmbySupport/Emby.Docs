@@ -17,33 +17,13 @@ This article applies to cases where you are experiencing one or more of the foll
 
 ## Background
 
-Starting Mid-May 2023, a group of hackers managed to infiltrate user-hosted instances of Emby Server which were accessible via public internet and had an insecure configuration for administrative user accounts. Combined with the "Proxy Header Vulnerability", which was recently fixed in the beta channel, this allowed an attacker to gain administrative access on such systems.
+Starting Mid-May 2023, a hacker managed to infiltrate user-hosted instances of Emby Server which were accessible via public internet and had an insecure configuration for administrative user accounts. Combined with the "Proxy Header Vulnerability", which was recently fixed in the beta channel, this allowed an attacker to gain administrative access on such systems.
 Eventually, this allowed the attackers to install a custom plugin of their own, which establishes a backdoor in the running process of Emby Server.
 
 After careful analysis and evaluation of possible strategies for mitigation, the Emby team was able to push out an update to Emby Server instances which is able to detect the plugin in question and prevents it from being loaded. Due to the severity and the nature of this situation and in an abundance of caution we are preventing affected servers to start up again after the detection, even with the plug-in being locked out, as all data and user accounts need to be considered as compromised.
 As the given situation requires direct action and assessment by the administrator, we determined that shutting down the server and preventing further startup up is the most suitable action as it disables the plug-in, possibly prevents the situation from getting worse and at the same time draws the attention of the administrator onto the subject.
 
-
-## Risk and Impact
-
-A positive detection of the attack in question implies that it is either currently running or that it has been in an active state before. It must be assumed that all data which is accessible to the user account under which Emby Server is configured to operate may have been compromised.  Analysis of the plug-in has revealed that it is forwarding the login credentials including the password for every successful login to an external server under control of the hackers.
-
-- All user names and all passwords are probably known to the hackers
-- File system structure, disks, network shares, file names and file contents may be known by the hackers
-  (at least as far as accessible by the Emby server account)
-
-We don't have any knowledge of the following but server administrators should investigate and assume these are possible:
-
-- Additional backdoors could have been installed. 
-- Scripts may have been added which run on system start or on specific actions
-- There may be processes which have been configured to run
-- Firewall rules may have been changed
-- Network configuration may have been changed
-- Open ports may have been added (configured) - for existing or for new processes
-- System user accounts may have been changed or added
-
-Essentially everything on a system could have been changed, so a careful and thorough investigation is mandatory.
-
+Analysis of the plug-in has revealed that it is forwarding the login credentials including the password for every successful login to an external server under control of the hackers.
 
 ## Actions to Take
 
