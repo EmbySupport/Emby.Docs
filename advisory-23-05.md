@@ -13,7 +13,7 @@ This article applies to cases where you are experiencing one or more of the foll
 - Emby Server does not start anymore since  2023-05-25
 - You encounter the following message in the Emby Server log:
   _We have detected a malicious plugin on your system which has probably been installed without your knowledge. Please see https://emby.media/support/articles/advisory-23-05.html for more information on how to proceed. For your safety we have shutdown your Emby Server as a precautionary measure_ **Note: Your server was never directly accessed by us. We used our standard update mechanism**
-- You encounter an error entry in the Windows event log, `Source=".NET Runtime", EventId=1025` with the same text as above in the event details
+- On Windows installs, you encounter an error entry in the Windows event log, `Source=".NET Runtime", EventId=1025` with the same text as above in the event details
 
 ## Background
 
