@@ -26,7 +26,7 @@ Analysis of the plug-in has revealed that it is forwarding the private Emby Serv
 ## Actions to Take
 
 - Delete the plugin .dll file, which comes as `helper.dll` and `EmbyHelper.dll`
-  - Primary location is the `plugins` folder under Emby's `programdata` folder
+  - Primary location is the `plugins` folder under the [Emby Server Data Folder](Server-Data-Folder.md)
   - Also look in `cache` and `data` subfolders
 - Add an entry to your server machine etc/hosts file:
              emmm.spxaebjhxtmddsri.xyz    127.0.0.1
