@@ -58,6 +58,6 @@ After (and only after) you have done the above:
 
 ## Install Emby Server 4.7.12 Security Update
 
-- Watch out for this update and install as soon as it becomes available
+- Watch out for this update and install as soon as it becomes available unless you are already running Emby beta 4.8.0.31+ which also has the necessary fixes
 
 
