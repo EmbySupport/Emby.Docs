@@ -50,7 +50,7 @@ After (and only after) you have done the above:
   - Find the file named 'EmbyScripterX.xml' and delete it (if exists)
   - Delete the plugin .dll file(s), which comes as `helper.dll` and/or `EmbyHelper.dll`. The primary location of these is the `plugins` folder under the [Emby Server Data Folder](Server-Data-Folder.md)
 - Start Emby Server
-- Assign new passwords to all of your [Emby Server users](users.md)
+- Assign new passwords to all of your [Emby Server users](Users.md)
 - Don't allow local login without password
 - Ensure no user has an empty password
 - Re-Enable public network access
