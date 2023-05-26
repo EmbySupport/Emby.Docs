@@ -44,7 +44,7 @@ After (and only after) you have done the above:
 
 - Disable external network access 
 - Go to the following folder under the [Emby Server Data Folder](Server-Data-Folder.md):
-  `programdata/plugins/configurations`
+  `plugins/configurations`
   - Find the file named `ReadyState.xml` and delete it.
   - Find the file named 'EmbyScripterX.xml' and delete it (if exists)
   - Delete the plugin .dll file(s), which comes as `helper.dll` and/or `EmbyHelper.dll`. The primary location of these is the `plugins` folder under the [Emby Server Data Folder](Server-Data-Folder.md)
