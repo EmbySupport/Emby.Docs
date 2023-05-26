@@ -7,7 +7,7 @@ title: Emby Server Data Folder
 
 The Emby Server data folder can generally be located in one of the following locations, depending on the server platform:
 
-### Windows
+#### Windows
 C:\Users\{user}\AppData\Roaming\Emby-Server
 
 ### macOS
