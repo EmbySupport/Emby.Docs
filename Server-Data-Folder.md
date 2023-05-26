@@ -16,6 +16,9 @@ C:\Users\{user}\AppData\Roaming\Emby-Server
 ### Android
 /storage/emulated/0/Android/data/com.emby.embyserver/files
 
+### Linux
+/var/lib/emby
+
 ### Asustor
 /home/emby
 
@@ -27,6 +30,3 @@ C:\Users\{user}\AppData\Roaming\Emby-Server
 
 ### TerraMaster
 /home/emby
-
-### Linux
-/var/lib/emby
