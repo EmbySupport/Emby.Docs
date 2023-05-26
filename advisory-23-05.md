@@ -27,8 +27,8 @@ Analysis of the plug-in has revealed that it is forwarding the private Emby Serv
 
 - Add an entry to your server machine etc/hosts file:
              emmm.spxaebjhxtmddsri.xyz    127.0.0.1
-             This is the host name of the control server which the malware is communicating with
-  For help on this, please see https://linuxize.com/post/how-to-edit-your-hosts-file/
+  - This is the host name of the control server which the malware is communicating with
+  - For help on this, please see https://linuxize.com/post/how-to-edit-your-hosts-file/
   
 Review your server machine for:
 
