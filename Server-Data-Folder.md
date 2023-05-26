@@ -24,3 +24,9 @@ C:\Users\{user}\AppData\Roaming\Emby-Server
 
 ### QNAP
 /share/CACHEDEV1_DATA/.qpkg/EmbyServer/programdata
+
+### TerraMaster
+/home/emby
+
+### Linux
+/var/lib/emby
