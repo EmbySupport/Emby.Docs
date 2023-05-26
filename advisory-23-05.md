@@ -46,7 +46,7 @@ Review your server machine for:
 After (and only after) you have done the above:
 
 - Disable external network access 
-- Go to the following folder under the emby `programdata` folder:
+- Go to the following folder under the [Emby Server Data Folder](Server-Data-Folder.md):
   `programdata/plugins/configurations`
   - Find the file named `ReadyState.xml` and delete it.
   - Find the file named 'EmbyScripterX.xml' and delete it (if exists)
