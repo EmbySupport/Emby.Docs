@@ -25,9 +25,6 @@ Analysis of the plug-in has revealed that it is forwarding the private Emby Serv
 
 ## Actions to Take
 
-- Delete the plugin .dll file, which comes as `helper.dll` and `EmbyHelper.dll`
-  - Primary location is the `plugins` folder under the [Emby Server Data Folder](Server-Data-Folder.md)
-  - Also look in `cache` and `data` subfolders
 - Add an entry to your server machine etc/hosts file:
              emmm.spxaebjhxtmddsri.xyz    127.0.0.1
              This is the host name of the control server which the malware is communicating with
@@ -50,6 +47,7 @@ After (and only after) you have done the above:
   `programdata/plugins/configurations`
   - Find the file named `ReadyState.xml` and delete it.
   - Find the file named 'EmbyScripterX.xml' and delete it (if exists)
+  - Delete the plugin .dll file(s), which comes as `helper.dll` and/or `EmbyHelper.dll`. The primary location of these is the `plugins` folder under the [Emby Server Data Folder](Server-Data-Folder.md)
 - Start Emby Server
 - Assign new passwords to all of your Emby Server users
 - Don't allow local login without password
