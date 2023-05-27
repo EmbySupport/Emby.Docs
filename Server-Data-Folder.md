@@ -26,8 +26,8 @@ C:\Users\{user}\AppData\Roaming\Emby-Server
   - Accessing this folder directly will require SSH: https://support.asustor.com/index.php?/Default/Knowledgebase/Article/View/190/22/how-to-ssh-into-my-asustor-nas
 
 ### Synology
-/volume1/@appdata/EmbyServer\
- - 
+/volume1/@appdata/EmbyServer
+ - Check out our SSH Tutorial with examples here: https://emby.media/community/index.php?/topic/118986-tutorial-ssh-into-synology-nas-with-useful-examples/
 
 ### QNAP
 /share/CACHEDEV1_DATA/.qpkg/EmbyServer/programdata
