@@ -22,6 +22,7 @@ You will need to grant Emby Permissions to folders containing your media.
 
 [Tutorial: SSH into Synology NAS with Useful Examples](https://emby.media/community/index.php?/topic/118986-tutorial-ssh-into-synology-nas-with-useful-examples/)
 
+
 This tutorial shows you how to SSH into Synonology and demonstrates some common things you may need to do.
 
 [Forgot Password (admin account)](https://kb.synology.com/en-global/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
