@@ -84,3 +84,8 @@ https://www.youtube.com/watch?v=Kp-R-eHiQco
 To test that your public port is accessible over the internet, try testing it from [canyouseeme.org](http://www.canyouseeme.org/)
 
 If this test does not succeed, then it's an indication that your router is blocking the traffic and may need additional configuration.
+
+### Remote Access Configuration
+Check out the following link for in-depth instructions to set up remote access on Emby Server.
+![](https://emby.media/support/articles/Remote-Setup.md)
+https://github.com/EmbySupport/Emby.Docs/blob/master/Remote-Setup.md
