@@ -8,14 +8,16 @@ For Synology versions of DSM 7 and higher you need to assign read or read/write 
 
 To set permission open the Control Panel on Synology DSM.  Then open Shared Folders.
 Highlight the shared folder containing the media you wish to appear in Emby.
-<img>https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/2043309541809/original/QFCRk_jAiJbqeDIfJcgQj2B6ACTMIjeToA.png?1645425094</img>
-
+![synology-permissions1.png](images/synology/synology-permissions1.png)
 Click Edit, then select the Permissions tab:
-<img>https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/2043309541811/original/U7h5JByastTEFrK59kolAqL801I0xdU8yA.png?1645425094</img>
+![synology-permissions2.png](images/synology/synology-permissions2.png)
+
 Change the drop down user type to "System internal user" (in the red box above).
 Scroll down if needed until you see the emby user.
 Check the column to give emby at least Read Only access but we suggest granting Read/Write access like this:
-<img>https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/2043309541810/original/eVGmGDwbYaqQsJNQbnWxoMYe2QkutZJ6SQ.png?1645425094</img>
+
+![synology-permissions3.png](images/synology/synology-permissions3.png)
+
 Click the Save button.
 Repeat this process for any other shares containing media for Emby.
 Emby Server should now be able to access all shares you have updated.
