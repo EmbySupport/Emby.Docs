@@ -22,10 +22,6 @@ This article shows you how to set the new Permissions in DSM 7 that Emby will re
 You will need to grant Emby Permissions to folders containing your media.
 Please follow the link for instructions.
 
-[How to Set Permissions on DSM 7](https://support.emby.media/a/solutions/articles/44002313183)
-
 
 [Forgot Password (admin account)](https://kb.synology.com/en-global/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
 If you used the Forgot Password feature a file will be created on the NAS containing a link to reset your password. This location is not available in the DSM GUI.  Follow these instructions from Synology for SSH access to the file system.
-
-[Forgot Password (admin account)](https://kb.synology.com/en-global/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
