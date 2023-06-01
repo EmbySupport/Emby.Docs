@@ -56,6 +56,10 @@ After (and only after) you have done the above:
 - Re-Enable public network access
   - Consider changing IP address, port, or DNS name  (whatever applicable)
 
+> [!NOTE]
+> If possible, it would be great when you could send us the malware dll file so we can analyze to see whether different versions exist.    
+> Please send the file via private message in the forums to [softworkz](https://emby.media/community/index.php?/profile/20815-softworkz/).
+
 ## Install Emby Server 4.7.12 Security Update
 
 - Watch out for this update and install as soon as it becomes available unless you are already running Emby beta 4.8.0.31+ which also has the necessary fixes
