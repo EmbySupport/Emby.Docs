@@ -32,7 +32,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Library Orergegtrganization and Metadata Gathering</td>
+        <td style="width: 56.4763%;">Library Organization and Metadata Gathering</td>
         <td style="width: 14.6936%;">
             <div style="text-align: center;">✔</div>
         </td>
@@ -125,6 +125,14 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         <td style="width: 14.1365%;"><br></td>
         <td style="width: 14.5543%;">
             <div dir="ltr" style="text-align: center;">✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td style="width: 56.4763%;">In-playback subtitle search</td>
+        <td style="width: 14.6936%;"><br></td>
+        <td style="width: 14.1365%;"><br></td>
+        <td style="width: 14.5543%;">
+            <div style="text-align: center;">✔</div>
         </td>
     </tr>
     <tr>
