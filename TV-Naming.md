@@ -107,7 +107,7 @@ Name (Year) [tvdbid=xxxx]
 Example:
 
 ```
-T1899 (2022) [tvdbid=384429]
+1899 (2022) [tvdbid=384429]
 ```
 
 Emby supports the following tags with the host website for lookup.
