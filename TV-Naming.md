@@ -95,6 +95,33 @@ Common for long-running daily shows, you can also use the date the episode aired
 * anything_1996-11-14.ext
 * anything_14.11.1996.ext
 
+
+## ID Tags in Folder & File Names
+
+Emby can also read a Meta-Data ID from the name.
+
+Format: 
+```
+Name (Year) [tvdbid=xxxx]
+```
+Example:
+
+```
+T1899 (2022) [tvdbid=384429]
+```
+
+Emby supports the following tags with the host website for lookup.
+
+- tvdbid  (https://thetvdb.com/)
+
+- tmdbid  (https://www.themoviedb.org/)
+
+- imdbid  (https://www.imdb.com/)
+
+
+Note:  tvdbid is the preferred tag to use for most uses
+
+
 ## Multi-Version Episodes
 
 Multi-Version Episodes are best using the following format:
