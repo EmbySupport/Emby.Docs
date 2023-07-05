@@ -4,6 +4,7 @@ title: Emby Premiere Feature Matrix
 legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 ---
 
+**Note:** Emby Premiere is tied to a server by installing a key in its configuration.  Therefore, all of the Premiere features below apply when connected to a server with a valid Premiere key.  The server connected at the time governs Premiere status.
 
 <table style="width: 100%; margin-right: calc(0%);">
     <thead>
