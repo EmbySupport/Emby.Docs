@@ -24,6 +24,36 @@ For example:
 
 ```
 
+
+## ID Tags in Folder & File Names
+Emby can also read a Meta-Data ID from the name.
+
+Format: 
+```
+Name (Year) [tmdbid=xxxx]
+```
+Example:
+
+```
+The Vampire Diaries (2009) [tmdbid=18165]
+```
+
+Emby supports the following tags with the host website for lookup.
+
+- tmdbid  (https://www.themoviedb.org/)
+
+- imdbid  (https://www.imdb.com/)
+
+- tvdbid  (https://thetvdb.com/)
+
+
+
+Note:  tmdbid is the preferred tag to use for most uses
+## Multi-version movies
+ 
+Multiple versions of the same content can be stored in a single movie folder.
+
+```
 ## Complex Folder Structure
 
 In more complex situations where your top-level directory is further sub-divided before the show folders, the recommended option is to create a TV media folder and add the sub-folder locations instead of the top level folder. 
