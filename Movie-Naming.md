@@ -39,28 +39,22 @@ If you plan on having thousands of movies in your library you may want to add an
 When viewing your media outside of Emby using conventional tools such as Windows Explorer this allows you to navigate your library much quicker without having to wait for thousands of folders to load.  It saves you from scrolling through thousands of folders to get to your "W" movies for example. Emby will work just fine with or without this additional folder!
 
 ## ID Tags in Folder & File Names
+
 Emby can also read a Meta-Data ID from the name.
 
-Format: 
-```
-Name (Year) [tmdbid=xxxx]
-```
-Example:
+Format:
+Name (Year) [tvdbid=xxxx]
 
-```
-Alone (2020) [tmdbid=509635]
-```
+Example:
+Severance (2022) [tvdbid=371980]
 
 Emby supports the following tags with the host website for lookup.
 
-- tmdbid  (https://www.themoviedb.org/)
+tmdbid (https://www.themoviedb.org/)
 
-- imdbid  (https://www.imdb.com/)
+imdbid (https://www.imdb.com/)
 
-- tvdbid  (https://thetvdb.com/)
-
-
-
+tvdbid (https://thetvdb.com/)
 Note:  tmdbid is the preferred tag to use for most uses
 ## Multi-version movies
  
