@@ -52,36 +52,32 @@ The following instructions will detail how to manually backup or migrate an Emby
 ### Locate Emby's program data folder
 
 The path to the [Emby Server Data Folder](Server-Data-Folder.md) can be found in your Emby Server Dashboard by clicking the 3-dot menu next to the server name.
+![image](https://github.com/EmbySupport/Emby.Docs/assets/10695413/869368a5-6154-41f0-afe3-cfb8afc1b27f)
 
-![](images/server/programdatapath.png)
+Click the view server info menu choice
+
+![image](https://github.com/EmbySupport/Emby.Docs/assets/10695413/a5f23826-d1d0-4901-8fbf-ebbd667234a8)
+
+The top entry shows the parent location for Emby Server.
 
 From now on this guide will refer to this path as /ProgramData.
+Simply backup everything in and below /ProgramData using any tool you wish or copy all files to a backup location.
 
-### Review Paths on the Old Setup
+### Migrate to a new server
 
-Take a look at the configuration on your old server instance. Review any paths you've configured into the server such as cache folders, channel download folders, transcoding folders, as well as any paths configured within plugins. The new server will need to be able to reach these paths, and generally will require write access. If this isn't the case, then various components of the new server may have problems. If you're in doubt, revert these settings to their defaults before proceeding.
+If you are migrating to a different operating system care should be care should be used to make sure you match up directories properly during the restore as the directory names and locations could be different.
 
-
-### Backup Files
-
-Shutdown the old server instance and backup the following files and directories:
-* /ProgramData/config
-* /ProgramData/plugins
-* /ProgramData/data/collections
-* /ProgramData/data/playlists
-* /ProgramData/data/displaypreferences.db
-* /ProgramData/data/userdata_v2.db (if present)
-* /ProgramData/data/users.db
-
-**Note**:  Unless you use a custom Metadata path you will want to backup your /ProgramData/metadata folder to preserve your People images.  The only two folder in metadata you don't need are library and views.
-
-### Install Emby Server on the new machine
-
-Install Emby on the new machine as you normally would. When the startup wizard launches in the browser, do not complete it and instead shut down the server.
-
-Now take all of the files you backed up from the old server and copy them into the equivalent locations on the new server.
-
-Then launch the new server, sign into the dashboard and setup your library paths. Allow the scan to complete as normal.
+ - Get a good backup as explaned above from you existing system (old).
+ - Install the same version number of Emby Server to the computer about to become your (new) system.
+ - After running through the setup wizard, shut down Emby Server
+ - If space allows, make a copy of the installation to another location on disk. This is only needed if you need to check/fix access rights.
+ - Restore the backup from your old machine right over the current installation on the new system.
+ - Compare each folder's access rights on the new machine restore to the fresh installation copy.
+ - Adjust access rights as needed so they match
+ - Start Emby Server.
+ - Make any adjustments to file location you may need to make.
+ - Run a full library scan on all libraries.
+ - Review log files for any errors generated.
 
 ### After the Scan
 
