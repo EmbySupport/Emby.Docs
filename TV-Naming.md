@@ -53,7 +53,7 @@ Note:  tmdbid is the preferred tag to use for most uses
  
 Multiple versions of the same content can be stored in a single movie folder.
 
-```
+
 ## Complex Folder Structure
 
 In more complex situations where your top-level directory is further sub-divided before the show folders, the recommended option is to create a TV media folder and add the sub-folder locations instead of the top level folder. 
