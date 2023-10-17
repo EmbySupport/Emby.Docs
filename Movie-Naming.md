@@ -43,14 +43,14 @@ When viewing your media outside of Emby using conventional tools such as Windows
 Emby can also read a Meta-Data ID from the name.
 
 Supported Formats:
-* Name (Year) [tvdbid=xxxx]
-* Name (Year) [tvdbid-xxxx]
-* Name (Year) [tvdb=xxxx]
-* Name (Year) [tvdb-xxxx]
-* Name (Year) {tvdbid=xxxx}
-* Name (Year) {tvdbid-xxxx}
-* Name (Year) {tvdb=xxxx}
-* Name (Year) {tvdb-xxxx}
+* Name (Year) [tmdbid=xxxx]
+* Name (Year) [tmdbid-xxxx]
+* Name (Year) [tmdb=xxxx]
+* Name (Year) [tmdb-xxxx]
+* Name (Year) {tmdbid=xxxx}
+* Name (Year) {tmdbid-xxxx}
+* Name (Year) {tmdb=xxxx}
+* Name (Year) {tmdb-xxxx}
 
 Supported ID's:
 * tvdb
