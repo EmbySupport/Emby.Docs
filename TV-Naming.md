@@ -28,12 +28,22 @@ For example:
 ## ID Tags in Folder & File Names
 Emby can also read a Meta-Data ID from the name.
 
-Format: 
-```
-Name (Year) [tmdbid=xxxx]
-```
-Example:
+Supported Formats:
+* Name (Year) [tvdbid=xxxx]
+* Name (Year) [tvdbid-xxxx]
+* Name (Year) [tvdb=xxxx]
+* Name (Year) [tvdb-xxxx]
+* Name (Year) {tvdbid=xxxx}
+* Name (Year) {tvdbid-xxxx}
+* Name (Year) {tvdb=xxxx}
+* Name (Year) {tvdb-xxxx}
 
+Supported ID's:
+* tvdb
+* tmdb
+* imdb
+
+Example:
 ```
 The Vampire Diaries (2009) [tmdbid=18165]
 ```
