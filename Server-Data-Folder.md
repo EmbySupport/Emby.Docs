@@ -34,3 +34,6 @@ C:\Users\\{user}\AppData\Roaming\Emby-Server
 
 ### TerraMaster
 /home/emby
+
+### Western Digital
+/mnt/HD/HD_a2/emby
