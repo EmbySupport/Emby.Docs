@@ -54,7 +54,7 @@ Supported Formats:
 
 Supported ID's:
 * tvdb
-* tmdb
+* tmdb (Moviedb)
 * imdb
 
 Example:
