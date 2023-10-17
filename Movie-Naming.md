@@ -42,8 +42,20 @@ When viewing your media outside of Emby using conventional tools such as Windows
 
 Emby can also read a Meta-Data ID from the name.
 
-Format:
+Supported Formats:
 Name (Year) [tvdbid=xxxx]
+Name (Year) [tvdbid-xxxx]
+Name (Year) [tvdb=xxxx]
+Name (Year) [tvdb-xxxx]
+Name (Year) {tvdbid=xxxx}
+Name (Year) {tvdbid-xxxx}
+Name (Year) {tvdb=xxxx}
+Name (Year) {tvdb-xxxx}
+
+Supported ID's:
+* tvdb
+* tmdb
+* imdb
 
 Example:
 Severance (2022) [tvdbid=371980]
