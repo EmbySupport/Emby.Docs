@@ -28,8 +28,10 @@ The following M3U properties are supported:
 * tvg-chno - Channel number
 * tvg-shift - Number of hours to shift the EPG (only used as needed)
 * tvg-group - Group the channel belongs to for group management of the guide.  These groups will be imported as tags by Emby for use in parental filtering as well.
+ 
+If any are missing, Emby will attempt to automatically detect the information using whatever tags are available.
 
-## Example URL
+## Example M3U
 
 #EXTM3U
 
@@ -38,5 +40,3 @@ http://example.com/stream1.ts
 
 #EXTINF:10.000000,TVG-ID="Channel2" tvg-name="Channel 2" tvg-logo="http://example.com/channel2.png" group-title="Entertainment",Channel 2
 http://example.com/stream2.ts
- 
-If any are missing, Emby will attempt to automatically detect the information using whatever tags are available.
