@@ -33,6 +33,7 @@ If any are missing, Emby will attempt to automatically detect the information us
 
 ## Example M3U
 
+```
 #EXTM3U
 
 #EXTINF:10.000000,TVG-ID="Channel1" tvg-name="Channel 1" tvg-logo="http://example.com/channel1.png" group-title="Entertainment",Channel 1
@@ -40,3 +41,4 @@ http://example.com/stream1.ts
 
 #EXTINF:10.000000,TVG-ID="Channel2" tvg-name="Channel 2" tvg-logo="http://example.com/channel2.png" group-title="Entertainment",Channel 2
 http://example.com/stream2.ts
+```
