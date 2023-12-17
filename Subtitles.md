@@ -39,6 +39,17 @@ External subtitles can be marked as forced using either ".forced" or ".foreign".
       Home Alone.srt
       Home Alone.spa.forced.srt
       Home Alone.spa.foreign.srt
+
+## Hearing Impaired Subtitles
+
+Hearing impaired subtitles can be marked using ".sdh".
+
+```
+/Movies
+   /Home Alone (1990)
+      Home Alone.mkv
+      Home Alone.srt
+      Home Alone.spa.sdh.srt
 ```
 
 ## Other Names
