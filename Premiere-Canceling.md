@@ -7,7 +7,7 @@ legacyUrl: /support/solutions/articles/44001173190-how-do-i-cancel-an-emby-premi
 
 The only subscription level you should ever need to cancel is the Monthly one as it is the only one that automatically renews.  If you wish to cancel this recurring payment, you do so in one of the following ways based on how you originally purchased it:
  
-* **PayPal** - Log in to your PayPal account and go to the "Recurring Payments" section.  Find the recurring payment for your Emby Premiere subscription (look for a payment to "Emby Media") and select the option to stop it.
+* **PayPal** - Log in to your PayPal account and go to the "Recurring Payments" section.  Find the recurring payment for your Emby Premiere subscription (look for a payment to "Emby Media") and select the option to stop it.  *The page may tell you to contact us but please scroll all the way to the bottom of the page and you should be able to remove it yourself.*
 * **Pay with card** - Click on the subscription shown in the Emby Premiere page on your server dashboard and follow the instructions (see below).  **An email will be sent to the key owner with a link to click to perform the actual cancellation**. If you do not still have your server installed or have any other problem with the cancellation process, please send an email to billingsupport@emby.media and we'll get it squared away.
 * **Within an app** - Log in to the store account for the app that was used and you should be able to manage the recurring payment from there.  Exact steps depend on the store involved.
  
