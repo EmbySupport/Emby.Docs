@@ -12,12 +12,15 @@ If you would like to change the password for a user, navigate to the server dash
 
 **Note**: Guest passwords are managed by Emby Connect and can only be changed by the user themselves.
 
-## Pin Code
+## Profile PIN
 
-A pin code can be created for apps that support offline access, and for easier in-network sign in with all apps.
+By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be remembered on that device enabling easy switching between profiles.  If you have a shared device where you wish to secure access to one or more users that have been authenticated, you can set a PIN code for that user and then require that PIN be entered any time someone attempts to login or switch to that user.
 
-To enable in-network sign in with a pin code, simply create a pin and check the option for in-network sign in. As long as you're inside your home network, you'll be able to sign into your apps using your pin code.
+To enable this feature, simply fill in the Profile PIN field with a 4 digit number (must be numeric and 4 digits for easy entry on shared devices).  
 
-![](images/server/users12.png)
+![](images/server/ppin1.png)
 
-**Note**: The local network sign in option may not work correctly if you've configured the server with a reverse proxy. In such a scenario all incoming requests will appear to be local.
+Then, the first time this user authenticates on each device, the app will ask if you wish to enforce the PIN code for access each time.  Answer "Yes" to this and then, each time you return to that profile, the PIN will be required to continue.
+
+
+**Note**: This feature completely replaces the old local network only PIN feature that existed prior to server verion 4.8.x.  That local network only PIN is no longer supported as it is inherently insecure.  This new feature should provide better functionality in both local and remote situations in a secure manner.
