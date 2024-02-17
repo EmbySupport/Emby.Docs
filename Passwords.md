@@ -12,9 +12,11 @@ If you would like to change the password for a user, navigate to the server dash
 
 **Note**: Guest passwords are managed by Emby Connect and can only be changed by the user themselves.
 
-## Profile PIN
+By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be remembered on that device enabling easy switching between profiles without needing to re-enter the password.
 
-By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be remembered on that device enabling easy switching between profiles.  If you have a shared device where you wish to secure access to one or more users that have been authenticated, you can set a PIN code for that user and then require that PIN be entered any time someone attempts to login or switch to that user.
+## Profile PIN (optional)
+
+If you have a shared device where you wish to secure access to one or more users that have been authenticated, you can set a PIN code for that user and then require that PIN be entered any time someone attempts to login or switch to that user.
 
 To enable this feature, simply fill in the Profile PIN field with a 4 digit number (must be numeric and 4 digits for easy entry on shared devices).  
 
