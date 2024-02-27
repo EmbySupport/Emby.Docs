@@ -145,7 +145,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Configuration Backup Plug-in</td>
+        <td style="width: 56.4763%;">Backup and Restore Plug-in</td>
         <td style="width: 14.6936%;"><br></td>
         <td style="width: 14.1365%;"><br></td>
         <td style="width: 14.5543%;">
