@@ -7,11 +7,11 @@ legacyUrl: /support/solutions/articles/44001159936-backup
 
 This guide will go over how to migrate your settings from Emby Server from one machine to another. There are two methods to backing up Emby Server settings and we'll go over them here.
 
-## Use the Server Configuration Backup Plugin
+## Use the Backup & Restore Plugin
 
-We recommend using the Server Configuration Backup plugin, which is designed to make this process really painless by doing the work for you. This plugin requires Emby Premiere and can be found in our plugin catalog.
+We recommend using the Backup & Restore plugin, which is designed to make this process really painless by doing the work for you. This plugin requires Emby Premiere and can be found in our plugin catalog.
 
-The Server Configuration Backup plugin can help you backup and restore the following:
+The Backup & Restore plugin can help you backup and restore the following:
 
 * Server configuration
 * Users
@@ -22,8 +22,8 @@ The Server Configuration Backup plugin can help you backup and restore the follo
 
 This will not backup library contents and metadata. To keep a permanent copy of metadata, we suggest enabling saving of local metadata to media folders.  The plug-in also does not backup live TV recording settings or series at this time.
 
-## How to use the Server Configuration Backup Plugin
-* Be sure your Emby Premiere key is properly installed and validated.  Configuration Backup requires Emby Premiere.
+## How to use the Backup & Restore Plugin
+* Be sure your Emby Premiere key is properly installed and validated.  Backup & Restore requires Emby Premiere.
 * Install the plugin into your existing Emby Server
 * Configure the Backup plugin by setting a folder to save the backups within.
 By default, this process will run every 12 hours and will retain at most 3 backups. You can monitor your folder to see that backups are created.
@@ -34,7 +34,7 @@ ote: if previous backups do not show up correctly, check to make sure you have s
 
 ## How to Restore from a Backup
 - Goto Plugins
-- Click on the Server Configuration Backup plugin
+- Click on the Backup & Restore plugin
 - This is the configuration screen that will also show you current backups
 - Scroll down to "Current Backup"
 - Click on the Backup that you wish to restore.
