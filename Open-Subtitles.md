@@ -21,7 +21,7 @@ You will normally want to choose the latest version in the drop down and then cl
 After restarting your server, navigate back to the plugin section of the dashboard.  This time make sure to select the "My Plugins" link at the top of the main plugins page.  Once you find the OpenSubtitles plugin click on it and select the Settings option as shown below.
 ![OpenSubtitles3.png](images/server/OpenSubtitles3.png)
 
-Simply fill in your Open Subtitles username and password that you have previously created at [opensubtitles.org](http://www.opensubtitles.org). If you are a Open Subtitle VIP member also make sure to click the VIP checkbox.  Click the Save button once complete
+Simply fill in your Open Subtitles username and password that you have previously created at [opensubtitles.com](http://www.opensubtitles.com). If you are a Open Subtitle VIP member also make sure to click the VIP checkbox.  Click the Save button once complete
 ![OpenSubtitles4.png](images/server/OpenSubtitles4.png)
 
 Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md) to learn how to setup your libraries for automatic subtitle downloading.
@@ -34,7 +34,7 @@ Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Auto
 
 If you get timeouts or errors in your server log file you can check the following link to see check on your current status and amount of downloads available. Bans are normally lifted once you fall back within you allotted download amounts.
 
-> [Open Subtitles - Banned Status and Download Counts](https://www.opensubtitles.org/addons/show_my_ip.php)
+> [Open Subtitles - Banned Status and Download Counts](https://www.opensubtitles.com/addons/show_my_ip.php)
 
 
 Related Pages:
