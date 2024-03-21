@@ -23,6 +23,18 @@ Alternatively, trailers can also be stored in a trailers sub-folder. Bluray and 
          trailer.mkv
 ```
 
+## Trailer for TV Shows
+
+A trailers subfolder should be placed underneath the series folder, or any season folder.
+
+```
+/TV Shows
+   /Home Alone (1990)
+     /My Show (2020)
+     /trailers
+         trailer.mkv
+```
+
 ## Trailer Plugins of Interest
 
 * Trailers - Streams trailers for your movies.
