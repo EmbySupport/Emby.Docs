@@ -33,7 +33,7 @@ You can't.  The system tracks this automatically.  Note, the devices you see lis
 
 ## Why can't I see which devices are counted in my limit?
 
-The main reason we do not provide a way to do this at this time is security and privacy.  To allow your server to see this exact information would require us to expose a public API that provides this information.  Since we do not require you to have an account with us in order to use Premiere, there is no way for us to secure this API in a way that we are comfortable enough with to expose it.  We are working on ways we may be able to do this in the future.
+Your Emby server has a "devices" tab that shows all devices that have ever connected to that server.  It is important to note that this is NOT Premiere devices as it relates to this limit. The total Premiere devices is likely much less than the ones shown in this tab.  You cannot see exactly which devices are counting towards your limit at this time.  The main reason we do not provide a way to do this at this time is security and privacy.  To allow your server to see this exact information would require us to expose a public API that provides this information.  Since we do not require you to have an account with us in order to use Premiere, there is no way for us to secure this API in a way that we are comfortable enough with to expose it.  We are working on ways we may be able to do this in the future.
 
 ## Does my server (or servers) count as a device?
 
