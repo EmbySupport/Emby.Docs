@@ -13,7 +13,7 @@ The Emby Server data folder can generally be located in one of the following loc
 C:\Users\\{user}\AppData\Roaming\Emby-Server
 
 ### macOS
-/Users/{user}/emby-server or /Users/{user}./config/emby-server
+/Users/{user}/emby-server or /Users/{user}/.config/emby-server
 
 ### Android
 /storage/emulated/0/Android/data/com.emby.embyserver/files
