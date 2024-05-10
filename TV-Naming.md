@@ -106,6 +106,51 @@ To be recognized as a dvd structure, the folder must contain either a VIDEO_TS s
 
 ```
 
+## TV extras
+
+Special features for TV series can be stored as video files in an extras folder under TV Series folders. It is also possible to add these extras folders at the season level.
+
+In addition to extras, several other sub-folder names are supported:
+* extras
+* specials
+* shorts
+* scenes
+* featurettes
+* behind the scenes
+* deleted scenes`
+* interviews
+* trailers
+ 
+```
+ \TV
+    \Fawlty Towers
+       \Season 1
+         Fawlty Towers - s01e01 - A Touch of Class.mp4
+         Fawlty Towers - s01e02 - The Builders.mp4
+       \interviews
+         Interview with John Cleese.mp4
+         Interview with Andrew Sachs.mp4
+         Interview with Prunella Scales.mp4
+    \The Blue Planet 
+       \Season 1
+         The Blue Planet - s01e01.mkv
+         The Blue Planet - s01e02.mkv
+       \Specials
+         The Blue Planet - s00e01 - Making Waves.mkv
+         The Blue Planet - s00e02 - Deep Trouble.mkv
+         The Blue Planet - s00e03 - The Abyss.mkv
+         The Blue Planet - s00e04 - Dive to Shark Volcano.mkv
+         The Blue Planet - s00e05 - Amazon Abyss.mkv
+    \The Bridge (2011)
+       \Season 1
+         The Bridge (2011) - S01E01 - Episode 1.mkv
+         The Bridge (2011) - S01E01 - Episode 2.mkv
+       \behind the scenes
+         Behind The Bridge.mkv
+       \interviews
+         An Audience with Sofia Helin.mkv
+```
+
 ## Mixed Content Libraries
 
 TV series are supported in mixed content libraries using the Unset content type, but season sub-folders are required in this scenario.
