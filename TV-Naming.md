@@ -117,38 +117,73 @@ In addition to extras, several other sub-folder names are supported:
 * scenes
 * featurettes
 * behind the scenes
-* deleted scenes`
+* deleted scenes
 * interviews
 * trailers
  
 ```
- \TV
-    \Fawlty Towers
-       \Season 1
-         Fawlty Towers - s01e01 - A Touch of Class.mp4
-         Fawlty Towers - s01e02 - The Builders.mp4
-       \interviews
-         Interview with John Cleese.mp4
+\TV
+   \Fawlty Towers
+      \Season 1
+         Fawlty Towers s01e01.mp4
+         Fawlty Towers s01e02.mp4
+      \interviews
          Interview with Andrew Sachs.mp4
+         Interview with John Cleese.mp4
          Interview with Prunella Scales.mp4
-    \The Blue Planet 
-       \Season 1
-         The Blue Planet - s01e01.mkv
-         The Blue Planet - s01e02.mkv
-       \Specials
-         The Blue Planet - s00e01 - Making Waves.mkv
-         The Blue Planet - s00e02 - Deep Trouble.mkv
-         The Blue Planet - s00e03 - The Abyss.mkv
-         The Blue Planet - s00e04 - Dive to Shark Volcano.mkv
-         The Blue Planet - s00e05 - Amazon Abyss.mkv
-    \The Bridge (2011)
-       \Season 1
-         The Bridge (2011) - S01E01 - Episode 1.mkv
-         The Bridge (2011) - S01E01 - Episode 2.mkv
-       \behind the scenes
+   \The Blue Planet
+      \Season 1
+         The Blue Planet s01e01.mkv
+         The Blue Planet s01e02.mkv
+         The Blue Planet s01e03.mkv
+         The Blue Planet s01e04.mkv
+      \Specials
+         The Blue Planet s00e01 Making Waves.mkv
+         The Blue Planet s00e02 Deep Trouble.mkv
+         The Blue Planet s00e03 The Abyss.mkv
+         The Blue Planet s00e04 Dive to Shark Volcano.mkv
+         The Blue Planet s00e05 Amazon Abyss.mkv
+   \The Bridge (2011)
+      \Season 1
+         The Bridge S01E01.mkv
+         The Bridge S01E02.mkv
+      \behind the scenes
          Behind The Bridge.mkv
-       \interviews
+      \interviews
          An Audience with Sofia Helin.mkv
+```
+
+It is also possible to add the type of extra as filename suffix extensions, as for the following:
+
+-behindthescenes
+-deleted
+-featurette
+-interview
+-scene
+-short
+-trailer
+
+Examples:
+The examples below are not real extras but just given as examples of the syntax used.
+
+```
+\TV
+   \Anne with an E (2017)
+      \Season 1
+         Anne With An E S01E01 You Will Shall Decide Your Destiny.mp4
+         Anne With An E S01E01 You Will Shall Decide Your Destiny-short.mp4
+         Anne With An E S01E02 I Am No Bird, And No Net Ensnares Me.mp4
+         Anne With An E S01E02 I Am No Bird, And No Net Ensnares Me-scene.mp4
+         Anne With An E S01E03 But What Is So Headstrong As Youth.mp4
+         Anne With An E S01E03 But What Is So Headstrong As Youth-featurette.mp4
+         Anne With An E S01E04 An Inward Treasure Born.mp4
+         Anne With An E S01E04 An Inward Treasure Born-behindthescenes.mp4
+         Anne With An E S01E05 Tightly Knotted To A Similar String.mp4
+         Anne With An E S01E05 Tightly Knotted To A Similar String-deleted.mp4
+         Anne With An E S01E06 Remorse Is The Poison Of Life.mp4
+         Anne With An E S01E06 Remorse Is The Poison Of Life-interview.mp4
+         Anne With An E S01E07 Wherever You Are Is My Home.mp4
+         Anne With An E S01E07 Wherever You Are Is My Home-trailer.mp4
 ```
 
 ## Mixed Content Libraries
