@@ -31,19 +31,20 @@ You'll then be taken to the new user page page. The only required field is a use
 
 ![](images/server/users8.png)
 
+Any user can be granted administrative access which will allow them to utilize the server dashboard.
+You can also control remote connections to the server at the user level.
+
+![](images/server/users18.png)
+
 In addition you can also configure library and channel access, and this can easily be changed later:
 
 ![](images/server/users9.png)
 
-## Feature Access
-
 To manage user feature access, start by visiting the Users page and clicking on a user account. 
 
-Any user can be granted administrative access which will allow them to utilize the server dashboard.
+## Feature Access
 
-![](images/server/users18.png)
-
-Other features can also be granted or denied, such as the ability to delete media, sync media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
+Features can be granted or denied, such as the ability to delete media, sync media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
 
 ![](images/server/users21.png)
 
