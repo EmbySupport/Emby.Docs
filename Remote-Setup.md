@@ -34,14 +34,15 @@ If you turn on automatic port mapping in Emby Server (option shown above) and en
 
 If you're unable to connect after testing the above settings with automatic port mapping, then you may need to setup port forwarding manually with your router to allow external connectivity to your Emby Server.
 
-To do this, turn off the "Enable automatic port forwarding" option just set and open the web interface for your router. You will need to forward TCP Port 8096 on your router to port 8096 on the Emby Server machine. Do the same for port 8920 as well (if using SSL).
+To do this, turn off the "Enable automatic port forwarding" option just set and open the web interface for your router. You will need to forward TCP Port 8096 on your router to port 8096 on the Emby Server machine. Do the same for port 8920 as well (if using SSL). It is important that the local IP Address for the Emby Server machine does not change. Use the router's DHCP Reservation feature to do that.
 
 The process of doing this will be slightly different for each router model. 
 
-- Here is a good step by step guide on how to do this:
+- Here are good step by step guides on how to do this:
+  https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router
   http://www.wikihow.com/Set-Up-Port-Forwarding-on-a-Router
 
-- This Youtube video also explains it pretty well:
+- This Youtube video also explains Port Forwarding pretty well:
   https://www.youtube.com/watch?v=Kp-R-eHiQco
 
 Here is an example router setup showing 2 ports forwarded:

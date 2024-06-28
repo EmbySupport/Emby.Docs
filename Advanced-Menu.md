@@ -2,7 +2,7 @@
 uid: Advanced-Menu
 title: Advanced Menu
 legacyUrl: /support/solutions/articles/44001159258-advanced-menu
-# TODO: This is identical to Connectivity.md
+# TODO: This is identical to Connectivity.md and partially to @Remote-Setup
 ---
 
 This purpose of this document is to discuss how to connect to Emby Server from additional devices, both within your home network and external. To learn how to grant users access to your server, see [Users](Users.md).
@@ -22,6 +22,12 @@ Your Emby Server's local address is then displayed in the **Local address** fiel
 This information can then be entered into Emby apps:
 
 ![](images/server/connectivity3.png)
+
+It is recommended that the local IP Address for the Emby Server machine should be fixed. Use the router's DHCP Reservation feature to do that.
+Here is a general guide for doing this. 
+https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router
+
+If you have a **VPN** running on your router, the requests coming into the server from within the local network may not appear as local and it would be necessary to enable the Network server option "Allow remote connections to this Emby Server". If actual external remote access is not required, then you should ensure that "Enable automatic port mapping" in Server Network settings is unticked and no manual port forwarding is added in the router.  The "Allow remote connections to this Emby Server" would also need to be enabled in the [Users](Users.md) settings.
 
 # Troubleshooting Internal Connections
 
@@ -84,3 +90,8 @@ https://www.youtube.com/watch?v=Kp-R-eHiQco
 To test that your public port is accessible over the internet, try testing it from [canyouseeme.org](http://www.canyouseeme.org/)
 
 If this test does not succeed, then it's an indication that your router is blocking the traffic and may need additional configuration.
+
+### Remote Access Configuration
+Check out the following link for in-depth instructions to set up remote access on Emby Server.
+![](https://emby.media/support/articles/Remote-Setup.md)
+https://github.com/EmbySupport/Emby.Docs/blob/master/Remote-Setup.md
