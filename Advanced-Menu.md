@@ -55,7 +55,7 @@ If you're certain you've opened the port and are still unable to connect, the ne
 
 Emby Server also allows you to connect when away from home. We call these external connections because they're out of our home network. Before we begin, we'll assume everything covered above in the **In-Network Connections** section is functioning correctly with your Emby Server, and that you're able to connect using other devices in your home network. If not, then you'll want to go over that section first.
 
-From here, we suggest using the [Emby Connect](Emby-Connect.md) feature as it takes the guesswork out of external connectivity. You only need to read below if you're not using Emby Connect, or you're having trouble connecting.
+The [Remote Setup](Remote-Setup.md) article covers how remote access is enabled and the option for automatic port forwarding using the router's uPnP feature.
 
 ### Locate Your External Address
 
@@ -75,10 +75,15 @@ If the external address works in a browser, then you're good to go, and can proc
 
 If you're still unable to connect after testing the above, then you may need to setup port forwarding with your router to allow external connectivity to your Emby Server.
 
-To do this, you'll need to open the web interface for your router, and forward TCP Port 8096 on your router to port 8096 on the Emby Server machine.
+To do this, turn off the "Enable automatic port forwarding" option just set and open the web interface for your router. You will need to forward TCP Port 8096 on your router to port 8096 on the Emby Server machine. Do the same for port 8920 as well (if using SSL). It is important that the local IP Address for the Emby Server machine does not change. Use the router's DHCP Reservation feature to do that.
 
-The process of doing this will be slightly different for each router model.  Here is a good step by step guide on how to do this:
+If you want to use different public port numbers, see [Network (Hosting) Settings](Hosting-Settings.md).  If you have more than one Emby Server on your local network and the manual port forward method is required, then it will be necessary to change from using the default public port numbers, since each server must have a different public port number.
 
+If you have more than one router, eg an ISP provided router and also your own router, then that would lead to a Double NAT which would lead to failure to reach the server externally.  In such cases, it is recommended that one router, e.g. the ISP router, is configured to run in Modem/Bridge mode.  If they both need to be running as routers, the configuration would be more complex, needing to cascade the port forward for the public port from the first router to the second and have the actual required port forward on the 2nd router.  Also the 2nd router would need to have its local IP Address as a DHCP reservation on the first router.
+
+The process of doing the port forward will be slightly different for each router model.  Here are good step by step guides on how to do this:
+
+https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router
 http://www.wikihow.com/Set-Up-Port-Forwarding-on-a-Router
 
 This Youtube video also explains it pretty well:
@@ -91,7 +96,11 @@ To test that your public port is accessible over the internet, try testing it fr
 
 If this test does not succeed, then it's an indication that your router is blocking the traffic and may need additional configuration.
 
+If the test succeeds but the device is not able to connect to the server externally, check that you have enabled remote connections for the user. See [Users](Users.md).
+
 ### Remote Access Configuration
-Check out the following link for in-depth instructions to set up remote access on Emby Server.
-![](https://emby.media/support/articles/Remote-Setup.md)
-https://github.com/EmbySupport/Emby.Docs/blob/master/Remote-Setup.md
+Check out the following link for in-depth instructions to set up remote access on Emby Server [Remote Setup](Remote-Setup.md).
+
+### Emby Connect
+
+Regardless of the method used for port forwarding, whether it is automatic using uPnP or a manual configuration of the router, we suggest using the Emby Connect feature as it takes the guesswork out of external connectivity. The Emby apps would find the route to the server using Emby Connect.  See [Emby Connect](Emby-Connect.md).
