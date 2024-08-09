@@ -4,7 +4,93 @@ title: Secure Your Server
 legacyUrl: /support/solutions/articles/44001160086-secure-your-server
 ---
 
-This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa or Google Home. If you are interested in an even more secure setup, here is a community-written guide on [HOW TO: NGINX Reverse Proxy](https://emby.media/community/index.php?/topic/47508-how-to-nginx-reverse-proxy/).
+This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa or Google Home. 
+
+## General tips & best practice
+
+Here are some tips to consider.
+
+### Server Admin Account
+
+*   Avoid having a name for the admin user account for Emby Server as admin or root. 
+
+   If the user name is already set as that, you can edit it through the server settings / users screen and editing the profile.
+
+   ![](images/server/users26.png)
+
+
+*  Separate your admin and normal use of the emby server. Have a separate account for normal use and streaming and keep the account with server admin privilege as a separate account used just for server admin.
+
+   You can control which accounts have the ability to manage the server through this user profile setting
+
+   ![](images/server/users27.png)
+
+
+*  Consider hiding the admin user account (or any account with server admin privilege) from the list of displayed user accounts for login. When hidden, use the Manual Login option and enter the username an password. The following shows the various options available for hiding a user name
+
+   ![](images/server/users28.png)
+
+
+*  Consider disabling remote connections for the server admin account. This can be done once the remote connections configuration is in place and working. If there is a need to make changes to the server configuration, use tools such as Team Viewer, Remote Desktop, AnyDesk etc.
+
+   ![](images/server/users29.png)
+
+
+### Remote Connections
+
+*  If the server is only to be used locally, disable remote access at the server level by unticking this server network setting.
+
+   ![](images/server/hosting7.png)
+
+> [!NOTE]
+> If using a vpn on the local network, you may need to have this allowed, alternatively add the vpn network subnet to the list of LAN Networks in the server network settings
+
+
+*  When using a domain name for access to the emby server, consider not having the word “emby” as part of the domain name.
+
+
+*  Use https secure connections for remote connections. See **Using secure https connections** section below. 
+
+![](images/server/hosting8.png)
+
+
+*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers. To do this, you would need to disable the uPnP automatic port mapping and instead setup on your router manual port forwarding for the http and https public port number to be forwarded to the local http and https port numbers in the router settings. 
+
+   ![](images/server/hosting9.png)
+
+   ![](images/server/hosting10.png)
+
+   ![](images/server/hosting11.png)
+
+   As an example, if using public port 32700 for http and public port 32800 for https, then you would need to ensure first that the server has a static or DHCP reserved local tcp IP address setup in the router and then setup manual portwards to this IP address for tcp public port 32700 to forward to local port 8096 and tcp public port 32800 to forward to local port 8920. There should be no need to change the local ports from the default. See remote access article.
+
+
+### User Account Privileges
+
+*  Check all the accounts privileges in the user profiles (Server Settings / Users) and give the least privileges, ensuring only your server admin account has the privilege to manage the server. Check that media deletion is controlled and restricted only to the accounts that you trust to give that privilege to.
+
+The following shows the control level you have at the user account level. E.g. remote access can also be controlled at the user level.
+
+   ![](images/server/users29.png)
+
+   ![](images/server/users30.png)
+
+> [!NOTE]
+> You can untick “All libraries” and select specific libraries.
+
+   ![](images/server/users31.png)
+
+   ![](images/server/users32.png)
+
+You can also disable users 
+
+   ![](images/server/users33.png)
+
+
+
+## Using secure https connections
+
+If you are interested in an even more secure setup, here is a community-written guide on [HOW TO: NGINX Reverse Proxy](https://emby.media/community/index.php?/topic/47508-how-to-nginx-reverse-proxy/).
 
 You'll need two things:
 * A domain that supports TXT records
