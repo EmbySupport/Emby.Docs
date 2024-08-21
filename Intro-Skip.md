@@ -79,3 +79,7 @@ With the client option set to Automatically skip intros our TV show intros have 
 Right at the start of playback it jumps to the end of the intro right at the point of the fade in.
 
 ![Intro Skip12](images/server/intro_skip12.png)
+
+## Intro Skip on Emby for LG Smart TVs
+
+New to LG 1.0.37 is the ability to skip TV Show Episode Introductions segments. This allows you to jump right to the start of the action, saving a great deal of time allowing you to quickly get to the good stuff! Combine Into Skip with Automatic Play Next Episode for a superior binge-watching experience!

@@ -21,8 +21,3 @@ This is a great new feature that's easy to implement, uses hardly any storage sp
 The above picture shows one view of our new audio Now Playing Screens. Here's another version of the same screen without the lyrics showing your current queue:
 
 ![Music Lyrics2](images/server/music_lyrics2.png)
-
-
-## Save Time with Emby's Intro Skip
-
-New to LG 1.0.37 is the ability to skip TV Show Episode Introductions segments. This allows you to jump right to the start of the action, saving a great deal of time allowing you to quickly get to the good stuff! Combine Into Skip with Automatic Play Next Episode for a superior binge-watching experience!

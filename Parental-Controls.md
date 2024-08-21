@@ -22,6 +22,10 @@ In addition, you can also restrict content containing certain tags:
 
 ![](images/server/users15.png)
 
+You can also allow only content with specific tags:
+
+![](images/server/users34.png)
+
 For more information on tags and how to configure them, see [Metadata manager](Metadata-manager.md).
 
 ## Access Schedule
