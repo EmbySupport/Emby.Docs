@@ -72,6 +72,8 @@ To keep a user profile from accessing certain content
 - Add the unique tag to the **Block content with these tags** field.
 - Save the changes to the user profile and media tags.
 
+You can also do the inverse and only allow access to content with specific tags. Add the tag to the **Allow only items with these tags** field.
+ 
 To make sure the tags don't disappear in a library refresh, lock the **Tags** field in the item's metadata.
 
 ![](images/server/metadatamanager6.png)
