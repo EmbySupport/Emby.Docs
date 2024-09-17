@@ -4,11 +4,11 @@ title: STRM Files
 legacyUrl: /support/solutions/articles/44001159147-strm-files
 ---
 
-Various internet video and audio streams can be played back in Emby as if they were locally stored on your media center by using STRM files. As long as the format and streaming-method (network-protocol) is supported by Emby, the stream can be used. These are basic text files named to look like <name>.strm and contain a URL to the internet stream
+Various internet video and audio streams can be played back in Emby as if they were locally stored on your media center by using STRM files. As long as the format and streaming-method (network-protocol) is supported by Emby, the stream can be used. These are basic text files named to look like <name>.strm and contain a URL to the internet stream. This can also be used for locally stored and shared media where instead of a URL, the strm file contains the path to the media file.
  
 ### Usage
 
-Create a normal text file and rename the .txt extension to .strm. Then open it up with a text-editor (like Notepad in Microsoft Windows) and input the the direct URL-link of the stream.
+Create a normal text file and rename the .txt extension to .strm. Then open it up with a text-editor (like Notepad in Microsoft Windows) and input the the direct URL-link of the stream or path to the file if locally stored / shared.
 
 This should look like:
 
