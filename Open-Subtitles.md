@@ -32,11 +32,6 @@ Once you've installed OpenSubtitles refer to [Automatic Subtitle Downloads](Auto
 - VIP members can download 1000 files per 24 hour period.
 - Non VIP members can download 200 files per 24 hour period.
 
-If you get timeouts or errors in your server log file you can check the following link to see check on your current status and amount of downloads available. Bans are normally lifted once you fall back within you allotted download amounts.
-
-> [Open Subtitles - Banned Status and Download Counts](https://www.opensubtitles.com/addons/show_my_ip.php)
-
-
 Related Pages:
 Subtitles
 Automatic Subtitle Downloads
