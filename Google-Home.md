@@ -39,7 +39,7 @@ Emby connect is used to provide your server information to Google Home.
 Remote Access is required because that is how Google Home connects to the server.
 
 ### Alpha stage steps
-* Get Access - Send a message to [htharry](https://emby.media/community/index.php?/profile/40940-hatharry/) to request access to the **Emby Remote** project within Google Home. Please provide your Google Home email address. 
+* Get Access - Send a message to [hatharry](https://emby.media/community/index.php?/profile/40940-hatharry/) to request access to the **Emby Remote** project within Google Home. Please provide your Google Home email address. 
 
 * Start Alpha Access - Once access has been granted, go to the [Google Home console](https://console.actions.google.com/) and login with your Google Home account. You will see the **emby-remote** project. Select it and go through the Google Terms and conditions screens. 
 
