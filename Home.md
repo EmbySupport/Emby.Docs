@@ -21,7 +21,7 @@ See the menu on the right-hand side of this page for a complete listing. Some ke
 * [Subtitles](Subtitles.md)
 * [Server installation](Installation.md)
 * [Users](Users.md)
-* [Sync](Sync.md)
+* [Downloads & Sync](Sync-Introduction.md)
 
 ## Community
 

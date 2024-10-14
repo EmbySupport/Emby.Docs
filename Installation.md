@@ -73,7 +73,7 @@ Once you've completed the above screens, you'll then be taken to the Emby Server
 Be sure to check out:
 
 * [Users](Users.md)
-* [Sync](Sync.md)
+* [Downloads & Sync](Sync-Introduction.md)
 * [Live TV](Live-TV.md)
 * [Plugins](Plugins.md)
 
@@ -82,8 +82,7 @@ Be sure to check out:
 Emby Premiere brings a number of additional benefits and bonus features. With Emby Premiere you can enjoy:
 
 * Cover Art
-* Mobile Sync
-* Cloud Sync
+* Downloads & Sync
 * Much more
 
 [Learn more about Emby Premiere.](http://emby.media/donate).

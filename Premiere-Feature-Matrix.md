@@ -153,7 +153,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Cloud and Folder Sync</td>
+        <td style="width: 56.4763%;">Downloads & Sync</td>
         <td style="width: 14.6936%;"><br></td>
         <td style="width: 14.1365%;"><br></td>
         <td style="width: 14.5543%;">

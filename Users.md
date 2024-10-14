@@ -44,9 +44,9 @@ To manage user feature access, start by visiting the Users page and clicking on 
 
 ## Feature Access
 
-Features can be granted or denied, such as the ability to delete media, sync media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
+Features can be granted or denied, such as the ability to delete media, download media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
 
-![](images/server/users21.png)
+![](images/server/users35.png)
 
 You can also decide how they can remote control shared devices. Remote controlling another user allows them to send content to devices for playback while another user is signed in. 
 

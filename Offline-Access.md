@@ -4,29 +4,42 @@ title: Offline Access
 legacyUrl: /support/solutions/articles/44001161858-offline-access
 ---
 
-The offline downloading feature allows you to copy your content to mobile devices for offline viewing. Download jobs are created using either the server's web interface or an Emby app on a mobile device. The server will then convert the media for the device as necessary. The apps will then download the content by running a periodic background sync process.
+The offline downloading feature allows you to copy your content to mobile devices or a PC for offline viewing. Download jobs are created using either the server's web interface or an Emby app on a mobile device or desktop. The server will then convert the media for the device as necessary. The apps will then download the content by running a periodic background sync process.
 
 The Emby apps that currently support offline downloading are:
 
 * [Emby for Android Mobile](Android-Mobile.md)
 * [Emby for iOS](iOS.md)
 
-The feature is also available in the following third party apps:
-
-* Ember for Emby (third party app)
-
 # How it Works
 
-Apps that support offline downloading will display "Make Available Offline" options on media detail screens.
+Emby client Apps that support offline downloading will have a Download icon and the **Download** and/or **Download to...** context menu buttons.
 
-![](images/apps/offlinedownload1.png)
+![](images/apps/downloads1.png)
 
-To get started with a download, click "Make Available Offline". You'll then be displayed with a dialog allowing you to select your desired download quality. Emby Server will convert media so that it can be downloaded in a compatible format for the device. You can choose between several quality options, as well as forcing original quality.
+![](images/apps/downloads2.png)
 
-**Note**: Forcing original quality may result in a download that is not playable on the device.
+Details of the options and settings for downloads can be found in [Download Options](Sync.md).
 
-![](images/apps/offlinedownload2.png)
+# Offline Playback
 
-Custom quality allows you to set your own desired bitrate:
+When offline, the Emby Apps will show a button for viewing the available downloads. The following are examples of what the Emby for iOS and Emby for Android apps would show:
 
-![](images/apps/offlinedownload3.png)
+## Emby for iOS
+
+![](images/apps/offlinedownloads3.png)
+
+
+## Emby for Android
+
+![](images/apps/offlinedownloads1.png)
+
+![](images/apps/offlinedownloads2.png)
+
+When selecting the **Downloads**, you will then be able to drill down:
+
+![](images/apps/offlinedownloads4.png)
+
+![](images/apps/offlinedownloads5.png)
+
+![](images/apps/offlinedownloads6.png)
