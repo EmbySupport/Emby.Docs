@@ -10,28 +10,29 @@ When content is archived in multiple resolutions, Emby apps will automatically c
 
 ## Installation
 
-To install Folder Sync, click the **Plugins** menu option on the left from your web Dashboard. Then click the **Catalog** option up top on the right side. Scroll down until you find the **Sync** section. Click on the **Folder Sync** plugin and select **Install**.
+To install Folder Sync, open the **Emby Server Dashboard** and navigate to **Advanced** and click on **Plugins**. Open the **Catalog** and scroll down until you find the **Sync** section. Click on the **Folder Sync** plugin and select **Install**. See [Plugins Overview](Plugins.md).
 
 ![](images/plugins/foldersync1.png)
 
+Restart Emby Server to complete the plugin installation.
 
 ## Add Folders
 
-Once installed, it's time to start adding Folders. These folders are destinations that you'd like to sync to, such as an external hard drive or network share. Choose naming that will make it clear to users, as the name is visible in the play version dropdowns. You will be able to sync by using the **Download to...** option on the emby client apps.
+Decide what type of sync folders you will want to have. Examples would be sync folders containing media converted to specific resolution eg 4Mb for streaming to mobile devices or a folder to hold archived copies of the media at original resolution. These destination sync folders can be local disc drives or network shares. The **Download to...** button, available within the media and libraries context menus, becomes the mechanism to create the synced media files in these folder paths. 
+
+Each Folder Sync plugin sync folder path will need to have a name assigned. This name will appear to users that have been given access. Choose naming that will make it clear to users what it is. The name will be visible when selecting media for playback and also on the **Download to...** menus. 
+
+Click on **Folders** **+ Add** button
 
 ![](images/plugins/foldersync2.png)
 
-Add a folder by entering the path and giving it a display name.
+Enter the path and the display name.
 
 ![](images/plugins/foldersync3.png)
 
-You can also choose whether or not to limit sync folder access to specific users.
+You can also choose whether or not to limit the sync folder access to specific users.
 
 ![](images/plugins/foldersync4.png) 
-
-All Sync folders and paths will show on the Folder Sync plugin setting.
-
-![](images/plugins/foldersync5.png) 
 
 ## Ready to Sync
 
@@ -43,6 +44,6 @@ Once a sync folder has been added, it will then show as as an available destinat
 
 Once synced, Emby apps will automatically use the additional media sources when possible. For example, suppose you have a high bitrate movie that requires transcoding to Roku. By syncing to a folder and selecting a conversion profile that is compatible with Roku, the Roku app can then direct stream the synced version rather than transcoding the original.
 
-In this example, folder sync was used to create a mobile 4Mbps versions of some media. They are available as alternative versions in playback and in this example this version was pre-selected automatically.
+In this example, folder sync was used to create mobile 4Mbps versions of some media. They are available as alternative versions in playback and in this example this version was pre-selected automatically.
 
 ![](images/plugins/foldersync7.png) 
