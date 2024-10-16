@@ -5,9 +5,20 @@ legacyUrl: /support/solutions/articles/44001162174-sync-types
 legacyUrl: /support/solutions/articles/44001162174-sync
 ---
 
-Emby client apps have a download icon and two buttons within the context menus, a **Download** button and a **Download to...** button. The latter gives the user the option to specify the target device, or if **Folder Sync** is configured and access to the user account is given, the target folder to copy media to.
+Emby client apps have a download icon and two buttons within the context menus, a **Download** button and a **Download to...** button. The latter gives the user the option to specify the target device, or if [Folder Sync](Folder-Sync.md) is configured and access to the user account is given, the target server folder to copy media to.
 
-User access rights and previously authenticated devices for the user, would determine what the available targets for the download are. In all cases, there are options to select the quality of the download plus other options depending on the media type. 
+User access rights and previously authenticated devices for the user, would determine what the available targets for the download are. 
+
+* The **Download** button will be shown on all Emby client apps which support downloads. 
+
+* The **Download to** button will be shown when the user has at least one client app which supports downloads, or if the user has been granted access to a [Folder Sync](Folder-Sync.md) server folder. 
+
+In all cases, there are options to select the quality of the download plus other options depending on the media type. 
+
+> [NOTE]
+> The **Download** button on the [Emby Web app](Web-Client.md) is different and does not form part of the **Downloads & Sync** feature. The button, which is for single item downloads, uses the web browser functionality to download the item, without any conversion, to the default browser downloads folder. 
+
+
 
 ## Download
 
@@ -43,9 +54,16 @@ And for a specific TV Show season
 
 ![](images/apps/downloadto2.png)
 
+The following is an example of a **Download to...** menu on the [Emby Web](Web-Client.md) app showing a download target to the [Emby Theater for Windows](Emby-Theater-for-Windows.md) app.
+
+![](images/apps/downloadto6.png)
+
 And in the following example, the user has access to the **Folder Sync** folders that are configured.
 
 ![](images/apps/downloadto3.png)
+
+> [NOTE]
+> When creating a download to another device or app, the [download job](Sync-Jobs.md) will initially do any requested conversion and then it will be ready to be transferred to the device. If the target Emby client app is not running, the download job will remain in this state until the app starts running and the device is accessible to the server.
 
 ## Download Settings
 
@@ -53,9 +71,13 @@ There are download settings for the Emby Apps and Emby Server for all downloads,
 
 ### Download Settings - Emby Apps
 
-The following shows the options for the **Emby for Android** app. Similar options are available in the **Emby for iOS** app.
+The following shows the options for the [Emby for Android](Android-Mobile.md) app. Similar options are available in the **Emby for iOS** app.
 
 ![](images/apps/downloads10.png)
+
+The folowing shows the options for the [Emby Theater for Windows](Emby-Theater-for-Windows.md) app.
+
+![](images/apps/downloads13.png)
 
 ### Download Settings - Emby Server
 
@@ -70,7 +92,8 @@ To get started with a download, click on the available **Download** icon/button.
 
 ![](images/apps/downloads3.png)
 
-**Note**: Forcing original quality may result in a download that is not playable on the device.
+> [!NOTE]
+> Forcing original quality may result in a download that is not playable on the device.
 
 Custom quality allows you to set your own desired bitrate:
 
@@ -104,7 +127,7 @@ Downloaded items can be removed directly on the device within the Downloads area
 
 ## Folder Sync
 
-Folder sync, which requires the **Folder Sync** plugin, allows you to copy content to folders and external hard drives, for backup as well as archiving in multiple resolutions. The actual folder syncing is achieved by creating a download job through the **Download to...** option.
+[Folder sync](Folder-Sync.md), which requires the Folder Sync plugin, allows you to copy content to folders and external hard drives, for backup as well as archiving in multiple resolutions. The actual folder syncing is achieved by creating a download job through the **Download to...** option.
 
 When content is archived in multiple resolutions, Emby apps will automatically choose the version that is most efficient for them. This will help relieve stress on your server's CPU.
 
@@ -116,7 +139,7 @@ For more information see [Folder Sync](Folder-Sync.md).
 
 ## Creating Download Jobs
 
-The above showed how a download can be initiated. For more detail on download jobs, see [Download jobs](Sync-Jobs.md)
+The above showed how a download can be initiated. See [Download jobs](Sync-Jobs.md) for how to view and manage the download jobs.
 
 ## User Access
 
@@ -126,4 +149,4 @@ Access to the downloads feature can be managed individually for each user.
 
 For more information, see [Users](Users.md).
 
-For the additional user access rights requirements for creating **Folder Sync** copies of media, See [Folder Sync](Folder-Sync.md).
+There are additional user access rights requirements for [Folder Sync](Folder-Sync.md).
