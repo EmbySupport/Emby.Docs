@@ -20,7 +20,7 @@ Emby client Apps that support offline downloading will have a Download icon and 
 
 ![](images/apps/downloads2.png)
 
-> [Note]
+> [!Note]
 > Whilst the Emby Web client app is not listed as an app supporting this feature, it does provide the **Download to** context menu button to initiate downloads to other devices and apps.
 
 Details of the options and settings for downloads can be found in [Download Options](Sync.md).
