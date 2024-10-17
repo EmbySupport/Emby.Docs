@@ -15,7 +15,7 @@ User access rights and previously authenticated devices for the user, would dete
 
 In all cases, there are options to select the quality of the download plus other options depending on the media type. 
 
-> [NOTE]
+> [!NOTE]
 > The **Download** button on the [Emby Web app](Web-Client.md) is different and does not form part of the **Downloads & Sync** feature. The button, which is for single item downloads, uses the web browser functionality to download the item, without any conversion, to the default browser downloads folder. 
 
 
@@ -62,7 +62,7 @@ And in the following example, the user has access to the **Folder Sync** folders
 
 ![](images/apps/downloadto3.png)
 
-> [NOTE]
+> [!NOTE]
 > When creating a download to another device or app, the [download job](Sync-Jobs.md) will initially do any requested conversion and then it will be ready to be transferred to the device. If the target Emby client app is not running, the download job will remain in this state until the app starts running and the device is accessible to the server.
 
 ## Download Settings
