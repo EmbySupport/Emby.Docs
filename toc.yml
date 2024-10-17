@@ -259,7 +259,7 @@
       href: Sync-Jobs.md
     - name: Folder Sync
       href: Folder-Sync.md
-  - name: Live TV
+- name: Live TV
   items:
   - name: Live TV Setup
     href: Live-TV.md
