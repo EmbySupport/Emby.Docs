@@ -249,19 +249,17 @@
     href: Camera-Upload.md
   - name: Download & Sync
     items:
+    - name: Downloads & Sync
+      href: Sync-Introduction.md
+    - name: Download Options
+      href: Sync.md
     - name: Offline Access
       href: Offline-Access.md
-    - name: Sync Introduction
-      href: Sync-Introduction.md
-    - name: Sync Types
-      href: Sync.md
-    - name: Sync Jobs
+    - name: Download Jobs
       href: Sync-Jobs.md
     - name: Folder Sync
       href: Folder-Sync.md
-    - name: Google Drive
-      href: Google-Drive.md
-- name: Live TV
+  - name: Live TV
   items:
   - name: Live TV Setup
     href: Live-TV.md

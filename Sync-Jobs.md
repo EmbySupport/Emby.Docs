@@ -1,81 +1,89 @@
 ---
 uid: Sync-Jobs
-title: Sync Jobs
+title: Download Jobs
 legacyUrl: /support/solutions/articles/44001162175-sync-jobs
 ---
 
-Sync jobs can be created from a number of areas, including, syncing by categories:
+Download jobs can be for an individual media file download or a whole TV season or show and also possible to download a complete library. Download jobs also include those created for the [Folder Sync](Folder-Sync.md) feature.
 
-![](images/server/sync1.png)
+Download jobs are created through the **Download** buton within the Emby Apps that support downloads and also within context menu **Download to...** button which is available for media libraries contents. The **Download to...** button is also available in the [Emby Web client](Web-Client.md) app. For the various options available, see the [Download Options](Sync.md) article.
 
-Syncing from context menus:
 
-![](images/server/sync2.png)
+## Downloads Job Settings
 
-Syncing from detail pages:
-
-![](images/server/sync3.png)
-
-Just about everything can be synced, including Genres, Collections, and Playlists:
-
-![](images/server/sync10.png)
-
-## Sync Job Settings
-
-When creating sync jobs, you'll be able to configure various settings for the job. The settings that are available will differ depending on the content being synced. 
-
-![](images/server/sync4.png)
+When creating sync jobs, you'll be able to configure various settings for the job. The settings that are available will differ depending on the content being synced. See [Download Options](Sync.md) for details. The following lists the various options available.
 
 Some of the settings available are:
 
 **Quality**
 
-The desired quality level of the synced content. Higher produces better video quality but will require more storage space on the mobile device. The "Original" option can be used to force the process to utilize the original file, but this may result in the file not being playable on the device. 
+The desired quality level of the synced content. Higher produces better video quality but will require more storage space on the mobile device. The "Original" option can be used to force the process to utilize the original file, but this may result in the file not being playable on the device.
+
+**Profile**
+
+On some Emby client apps, an option is provided to select a pre-set download profile, as well as the option of having a custom profile.
 
 **Unwatched Videos Only**
 
-Only unwatched videos will be synced, and videos will be removed from the device as they are watched.
+Only unwatched videos will be downloaded or copied, and videos will be removed from the device as they are watched.
 
-**Automatically Sync New Content**
+**Automatically Download New Content**
 
 New content added to the folder or category will be automatically synced to the device.
 
 **Item Limit**
 
-The maximum number of items that will be synced to the device at any given time.
+The maximum number of items that will be downloaded to the device at any given time.
 
 ## Subtitles
 
-All available text-based subtitles are included with sync jobs, allowing you to enjoy subtitle selection even when offline.
+All available text-based subtitles are included with download jobs, allowing you to enjoy subtitle selection even when offline.
 
-## Managing Sync Jobs
+## Managing Download Jobs
 
-Individual users can manage their own sync jobs using the main menu of the web interface:
+Individual users can manage their own download jobs by opening up the Downloads screen by selecting Downloads within the App Settings or within the Devices section on Emby Web Settings. 
 
-![](images/server/sync5.png)
+![](images/server/downloadjobs1.png)
 
-Their list of sync jobs will be displayed visually:
+and for Emby Web
 
-![](images/server/sync6.png)
+![](images/server/downloadjobs2.png)
 
-Clicking on a sync job will display the job details and allow you to modify it's settings:
+On selecting that screen and the **Manage Downloads** button, the list of download jobs will show
 
-![](images/server/sync8.png)
+![](images/server/downloadjobs3.png)
 
-In addition, each item within the job can be managed as desired:
+Selecting the download job will show the download options and list of items and status
 
-![](images/server/sync7.png)
+![](images/server/downloadjobs4.png)
 
-## Cancelling Sync Jobs
+and similarly the view of download jobs on Emby Web when opening the Downloads tab
 
-To cancel a sync job, simply click the dot menu next to a job and then select the Cancel Sync Job option. This will delete the sync job as well as all files that have been synced as part of this job.
+![](images/server/downloadjobs5.png)
 
-Alternatively it's also possible to cancel individual items within a job by opening the sync job edit screen and clicking the dot menu next to a sync job item.
+and clicking on the **...** button, the download job can be modified
+
+![](images/server/downloadjobs6.png)
+
+It is also possible to remove a download 
+
+![](images/server/downloadjobs7.png)
+
+
+## Cancelling Download Jobs
+
+To cancel a download job, simply click the dot menu next to a job and then select the **Remove Download** option. This will delete the download job as well as all files that have been copied as part of this job.
+
+Alternatively it's also possible to cancel individual items within a job by opening the download job edit screen and clicking the dot menu next to a download job item.
 
 ## Administrative Management
 
-Administrators can manage all sync jobs for all users and devices by opening the server dashboard and navigating to **Sync**.
+Administrators can manage all download jobs for all users and devices by opening the server dashboard and navigating to **Downloads** within the **Devices** section of settings.
 
 From here they'll be able to manage all jobs, job settings and job items:
 
-![](images/server/sync9.png)
+![](images/server/downloadjobs8.png)
+
+The conversions and downloads tasks show up in the Emby Server **Scheduled Tasks** settings screen as **Convert Media** and **Transfer Media**.
+
+![](images/server/scheduledtasks4.png)

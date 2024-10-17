@@ -73,7 +73,7 @@ Emby Premiere brings a number of additional benefits and bonus features. With Em
 * Emby DVR with Live TV
 * Cover Art with dynamic manipulation of artwork for a truly customized look
 * Offline Media syncing to several device types such as iOS and Android Mobile
-* Cloud Sync to services such as Google Drive or DropBox
+* Syncing media to local or network shared folders.
 * Free Apps, get use of all Emby client apps fully unlocked for your server's use
 * Cinema Mode allows you to personalize the playback experience with custom intros and trailers just like cinema
 * Automatic Conversion of Media
