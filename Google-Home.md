@@ -50,9 +50,11 @@ You will then need to enable **Emby Remote** testing and the steps to follow are
 ![](images/server/googlehome03.png)
 
 You will see a number of versions in the drop-down.
+
 ![](images/server/googlehome04.png)
 
 Pick the latest alpha release.
+
 ![](images/server/googlehome05.png)
 
 * Feedback - Issues encountered at this stage, should be posted on the forum on [this topic](https://emby.media/community/index.php?/topic/114533-alpha-testers-wanted-for-google-home/).
@@ -65,46 +67,60 @@ When using on a smart phone or tablet, you can install the [Google Assistant](ht
 On the smart device, open the Google Home app. 
 
 Select **Devices** tab and then **Add Device**.
+
 ![](images/server/googlehome06.png)
 
 Pick type **Works with Google Home**
+
 ![](images/server/googlehome07.png)
 
-On the next screen, you will see the list of available skills. 
+On the next screen, you will see the list of available skills.
+
 ![](images/server/googlehome08.png)
 
 Use search to look for **Emby Remote**. Just enter **emby** in the search field. This should be find the **emby remote** skill. If not, double check that you have requested to be added to the alpha testing and you have enabled testing within the project web page as outlined above.
+
 ![](images/server/googlehome09.png)
 
 #### Google Home account linking
 The first time you invoke Emby Home, you will be asked to link your Emby account. Enter your Emby connect credentials and select your server. This will enable the skill and work across all your Google Home devices linked to your Google Account.
 
-You will see the following screens that take you into the Emby Connect login. 
+You will see the following screens that take you into the Emby Connect login.
+
 ![](images/server/googlehome10.png)
 
 ![](images/server/googlehome11.png)
 
 After you sign in with the Emby Connect account, you will see the emby server.
+
 ![](images/server/googlehome12.png)
 
-If you have more than one server with user accounts linked to this emby connect account, you eill see a drop-down to pick from. 
+If you have more than one server with user accounts linked to this emby connect account, you eill see a drop-down to pick from.
+
 ![](images/server/googlehome13.png)
 
 Select the server to be used for **Emby Remote** which will now be linked.
+
 ![](images/server/googlehome14.png)
 
 You will then be presented with the devices to select and add and pick a room to assign to.
+
 ![](images/server/googlehome15.png)
 
 ![](images/server/googlehome16.png)
 
 ![](images/server/googlehome17.png)
 
-You can link or unlink your Emby account afterwards, by selecting Settings in the Googe Home app and within the Services section, selecting **Works with Google** 
+You can link or unlink your Emby account afterwards, by selecting Settings in the Googe Home app and within the Services section, selecting **Works with Google**
+
 ![](images/server/googlehome19.png)
+
 You will see the **emby-remote** skill
+
 ![](images/server/googlehome20.png)
+
 Selecting it, will give you the option to unlink or re-link the skill.
+
 ![](images/server/googlehome21.png)
 
 #### My server is not available to be selected, what do I do?
@@ -152,6 +168,7 @@ At any time, you can update the linked devices by sending this command,
 * set `<device name>` volume to `<xx>`%
 
 Selecting the linked device within the Google Home app would show the following controls
+
 ![](images/server/googlehome18.png)
 
 ### Sync Devices

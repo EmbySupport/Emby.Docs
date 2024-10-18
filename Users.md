@@ -16,7 +16,8 @@ The Emby Server setup wizard will create a user with administrative access. This
 
 ![](images/server/users1.png)
 
-A local user will be displayed with a cloud if it is linked to [Emby Connect](Emby-Connect.md). 
+A local user will be displayed with a cloud if it is linked to [Emby Connect](Emby-Connect.md).
+
 ![](images/server/users6.png)
 
 Linking a user to Emby Connect will enable an easier sign in process that doesn't require the user to know your server's ip address. For more information, see [Emby Connect](Emby-Connect.md).
