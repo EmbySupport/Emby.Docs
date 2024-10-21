@@ -90,6 +90,9 @@ If using the dash method anything following the dash will be what you see in the
 > [!NOTE]
 > The above example includes a 3D version, which is discussed in the [3D Video](3D-Videos.md) naming guide.  Also, this feature is primarily designed for multiple qualities of the same item.  It can be used for different "cuts" but there may be some limitations in doing that.
 
+> [!NOTE]
+> There is a limit on the number of different versions for a media item. Up to 8 different versions will appear in a list of a movie versions.
+
 ## Movie extras
 
 Special features for movies can be stored as video files in an extras folder under movie folders. Nested folders are not supported. 

@@ -68,3 +68,6 @@ Here's an example of a movie containing multiple versions in a single movie fold
     /300 (2006) - 3d.mvc.mp4
 
 ```
+
+> [!NOTE]
+> There is a limit on the number of different versions for a media item. Up to 8 different versions will appear in any list of media item versions.
