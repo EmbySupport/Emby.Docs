@@ -1,6 +1,6 @@
 ---
 uid: Sync-Introduction
-title: Downloads & Sync
+title: Introduction
 legacyUrl: /support/solutions/articles/44001161893-sync-introduction
 ---
 

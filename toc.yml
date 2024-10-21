@@ -247,9 +247,9 @@
     href: Devices.md
   - name: Camera Upload
     href: Camera-Upload.md
-  - name: Download & Sync
+  - name: Downloads & Sync
     items:
-    - name: Downloads & Sync
+    - name: Introduction
       href: Sync-Introduction.md
     - name: Download Options
       href: Sync.md
