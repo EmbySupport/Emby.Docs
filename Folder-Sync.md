@@ -47,3 +47,6 @@ Once synced, Emby apps will automatically use the additional media sources when 
 In this example, folder sync was used to create mobile 4Mbps versions of some media. They are available as alternative versions in playback and in this example this version was pre-selected automatically.
 
 ![](images/plugins/foldersync7.png) 
+
+> [!NOTE]
+> There is a limit on the number of different versions for a media item. Up to 8 different versions will appear in any list of media item versions.

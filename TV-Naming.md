@@ -228,6 +228,8 @@ Star Trek, The Next Generation - S01E01 - Digital Remix.mkv
 
 anything following the "-" (dash) up to the file extension will be used in the drop down version selector in your Emby client. In this case the two versions show in the interface will be "Original Broadcast" & "Digital Remix".
 
+> [!NOTE]
+> There is a limit on the number of different versions for a media item. Up to 8 different versions will appear in a list of an episode versions.
 
 ## Multi-Episode files
 
