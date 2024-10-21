@@ -5,7 +5,7 @@ legacyUrl: /support/solutions/articles/44002394746-intro-skip
 ---
 
 
-Requires Emby Server 4.7 or later.
+Requires Emby Server 4.7 or later and an [Emby Premiere](Emby-Premiere.md) subscription.
 
 ## Configure a TV Library in Emby Server
 
