@@ -7,4 +7,4 @@ legacyUrl: /support/solutions/articles/44001924951-how-do-i-update-my-credit-car
 
 # How do I update my credit card
 
-If your credit card details change and you used our "Pay with Card" option to purchase your subscription, simply cancel your current subscription and then, just before your key expires, start a new one with the new card information.
+If your credit card details change and you used our "Pay with Card" option to purchase your subscription, simply [click here](https://billing.stripe.com/p/login/aEU8zF0oxb0JcxibII) to manage your subscription including your payment method.
