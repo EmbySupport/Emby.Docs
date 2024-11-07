@@ -20,7 +20,7 @@ Restart Emby Server to complete the plugin installation.
 
 Decide what type of sync folders you will want to have. Examples would be sync folders containing media converted to specific resolution eg 4Mb for streaming to mobile devices or a folder to hold archived copies of the media at original resolution. These destination sync folders can be local disc drives or network shares. The **Download to...** button, available within the media and libraries context menus, becomes the mechanism to create the synced media files in these folder paths. 
 
-Each Folder Sync plugin sync folder path will need to have a name assigned. This name will appear to users that have been given access. Choose naming that will make it clear to users what it is. The name will be visible when selecting media for playback and also on the **Download to...** menus. 
+Each sync folder path will need to have a name assigned. Choose naming that will make it clear to users what it is. The name will be visible when selecting media for playback and also on the **Download to...** menus for users that have been granted access to create Folder Sync jobs.
 
 Click on **Folders** **+ Add** button
 
@@ -30,7 +30,7 @@ Enter the path and the display name.
 
 ![](images/plugins/foldersync3.png)
 
-You can also choose whether or not to limit the sync folder access to specific users.
+Untick the **Grant access to all users** to specify which user account(s) will be allowed to create Folder Sync jobs that will write to this folder.
 
 ![](images/plugins/foldersync4.png) 
 

@@ -12,6 +12,6 @@ Depending on user access rights and the media type, different options for downlo
 
 A popular use of Downlads, is picking a few movies or TV Shows and download this content to a mobile device. This allows them to then playback this media "off line". See [Offline Access](Offline-Access.md).
 
-When using [Folder Sync](Folder-Sync.md), the media that is copied to the target folder would appear as alternative versions to the original media file for users that were granted access.
+When using [Folder Sync](Folder-Sync.md), the media that is copied to the target folder would appear as alternative versions to the original media file.
 
 Emby Server admin users have overall control of all download and synced media for all devices and all users.
