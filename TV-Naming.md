@@ -323,6 +323,9 @@ For backdrops, X represents a number, and you can have any amount of numbered ba
 
 ```
 
+> [!NOTE]
+> The syntax supported for season images when there are no season folders, as shown below, is also accepted when season folders are in use. When using the "seasonXX-" or "season-specials-" prefix syntax, place these files in the root folder for the series.
+
 ## Season images without season folder
 
 If season folders are not used, season images can still be supplied directly in the series folder, using a naming convention to indicate the season.
