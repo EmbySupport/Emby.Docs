@@ -59,9 +59,6 @@ Emby supports the following tags with the host website for lookup.
 
 
 Note:  tmdbid is the preferred tag to use for most uses
-## Multi-version movies
- 
-Multiple versions of the same content can be stored in a single movie folder.
 
 
 ## Complex Folder Structure
