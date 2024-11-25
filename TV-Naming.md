@@ -288,25 +288,33 @@ Images are supported in both series and season folders. Below is a table of the 
 
 Several image types support multiple file names. They are listed in the order that they're checked for.
 
-| Image Type | Supported file names                |
-|------------|-------------------------------------|
-| Primary    | folder.ext                          |
-|            | poster.ext                          |
-|            | cover.ext                           |
-|            | default.ext                         |
-|            | show.ext (series folder only)       |
-| Art        | clearart.ext                        |
-| Backdrop   | backdrop.ext, backdropX.ext         |
-|            | fanart.ext, fanart-X.ext            |
-|            | background.ext, background-X.ext    |
-|            | art.ext, art-X.ext                  |
-|            | extrafanart (subfolder)/fanartX.ext |
-| Banner     | banner.ext                          |
-| Disc       | disc.ext                            |
-|            | cdart.ext                           |
-| Logo       | logo.ext                            |
-| Thumb      | thumb.ext                           |
-|            | landscape.ext                       |
+| Image Type | Supported file names                                 |
+|------------|------------------------------------------------------|
+| Primary    | folder.ext                                           |
+|            | poster.ext                                           |
+|            | cover.ext                                            |
+|            | default.ext                                          |
+|            | show.ext (in series folder only)                     |
+|            | seasonXX-poster.ext (in series folder only)          |
+|            | season-specials-poster.ext (in series folder only)   |
+| Art        | clearart.ext                                         |
+| Backdrop   | backdrop.ext, backdropX.ext                          |
+|            | fanart.ext, fanart-X.ext                             |
+|            | background.ext, background-X.ext                     |
+|            | art.ext, art-X.ext                                   |
+|            | extrafanart (subfolder)/fanartX.ext                  |
+|            | seasonXX-fanart.ext  (in series folder only)         |
+|            | season-specials-fanart.ext (in series folder only)   |
+| Banner     | banner.ext                                           |
+|            | seasonXX-banner.ext (in series folder only)          |
+|            | season-specials-banner.ext (in series folder only)   |
+| Disc       | disc.ext                                             |
+|            | cdart.ext                                            |
+| Logo       | logo.ext                                             |
+| Thumb      | thumb.ext                                            |
+|            | landscape.ext                                        |
+|            | seasonXX-landscape.ext (in series folder only)       |
+|            | season-specials-landscape.ext (in series folder only)|
 
 For backdrops, X represents a number, and you can have any amount of numbered backdrops. For example:
 
@@ -320,23 +328,21 @@ For backdrops, X represents a number, and you can have any amount of numbered ba
 
 ```
 
-> [!NOTE]
-> The syntax supported for season images when there are no season folders, as shown below, is also accepted when season folders are in use. When using the "seasonXX-" or "season-specials-" prefix syntax, place these files in the root folder for the series.
 
 ## Season images without season folder
 
 If season folders are not used, season images can still be supplied directly in the series folder, using a naming convention to indicate the season.
 
-| Image Type | Supported file names          |
-|------------|-------------------------------|
-| Primary    | seasonXX-poster.ext           |
-|            | season-specials-poster.ext    |
-| Backdrop   | seasonXX-fanart.ext           |
-|            | season-specials-fanart.ext    |
-| Banner     | seasonXX-banner.ext           |
-|            | season-specials-banner.ext    |
-| Thumb      | seasonXX-landscape.ext        |
-|            | season-specials-landscape.ext |
+| Image Type | Supported file names                                 |
+|------------|------------------------------------------------------|
+| Primary    | seasonXX-poster.ext                                  |
+|            | season-specials-poster.ext                           |
+| Backdrop   | seasonXX-fanart.ext                                  |
+|            | season-specials-fanart.ext                           |
+| Banner     | seasonXX-banner.ext                                  |
+|            | season-specials-banner.ext                           |
+| Thumb      | seasonXX-landscape.ext                               |
+|            | season-specials-landscape.ext                        |
 
 For example:
 
