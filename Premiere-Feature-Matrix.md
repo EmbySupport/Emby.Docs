@@ -460,29 +460,19 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         <th style="background-color: rgb(97, 189, 109); text-align: center;">Android TV or Fire
             TV<br></th>
         <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">App Unlock</th>
+        <th style="background-color: rgb(97, 189, 109); text-align: center;"></th>
         <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
                 style="color: rgb(255, 255, 255);">Premiere</span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Limited Playback (two week trial)</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
         <td style="width: 56.337%;">Full Playback</td>
         <td style="width: 14.8329%;">
-            <div style="text-align: center;"><br></div>
+            <div style="text-align: center;">*<br></div>
         </td>
         <td style="width: 13.7186%;">
-            <div style="text-align: center;">✔</div>
+            <div style="text-align: center;"></div>
         </td>
         <td style="width: 14.6936%;">
             <div style="text-align: center;">✔</div>
@@ -497,7 +487,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p><br></p>
+</table><p><br></p><p dir="ltr">* &nbsp;Playback for up to 5 TV devices</p><p><br></p>
 <table style="width: 100%;">
     <thead>
     <tr>
