@@ -5,7 +5,7 @@ longTitle: Is there a limit to Emby Premiere?
 legacyUrl: /support/solutions/articles/44001173135-is-there-a-limit-to-emby-premiere
 ---
 
-All of the standard Emby Premiere membership options are designed for single-household use and carry with them a limit of 25 devices supported for Emby Premiere features.  
+All of the standard Emby Premiere membership options are designed for single-household use and carry with them a limit of 30 devices supported for Emby Premiere features.  
 
 In our experience over a number of years, this standard license is sufficient for 95%+ of our users.  If, however, you have a need to support more devices than this we do have several [extended device options](https://emby.media/premiere-ext.html) for you to choose from.
 
