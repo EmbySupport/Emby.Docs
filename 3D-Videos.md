@@ -1,6 +1,6 @@
 ---
 uid: 3D-Videos
-title: 3D Videos
+title: 3D Video Naming
 legacyUrl: /support/solutions/articles/44001159116-3d-videos
 ---
 

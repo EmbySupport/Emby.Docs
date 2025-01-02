@@ -1,6 +1,6 @@
 ---
 uid: Subtitles
-title: Subtitles
+title: Subtitles Naming
 legacyUrl: /support/solutions/articles/44001159160-subtitles
 ---
 

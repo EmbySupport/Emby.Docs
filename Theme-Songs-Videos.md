@@ -1,6 +1,7 @@
 ---
 uid: Theme-Songs-Videos
-title: Theme Songs & Videos
+title: Theme Media Naming
+longTitle: Theme Songs & Videos
 legacyUrl: /support/solutions/articles/44001159179-theme-songs-videos
 ---
 

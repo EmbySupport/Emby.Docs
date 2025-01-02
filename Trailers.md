@@ -1,6 +1,6 @@
 ---
 uid: Trailers
-title: Trailers
+title: Trailer Naming
 legacyUrl: /support/solutions/articles/44001159193-trailers
 ---
 
