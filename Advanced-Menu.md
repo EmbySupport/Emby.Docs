@@ -1,6 +1,6 @@
 ---
 uid: Advanced-Menu
-title: Advanced Menu
+title: Connecting from Client Apps
 legacyUrl: /support/solutions/articles/44001159258-advanced-menu
 # TODO: This is identical to Connectivity.md and partially to @Remote-Setup
 ---
