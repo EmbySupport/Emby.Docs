@@ -117,7 +117,7 @@ It is also possible to use a custom profile
 
 ![](images/apps/downloads9.png)
 
-Clicking the **Download** button would then create a download job. See [Download Jobs](Sync-Jobs).
+Clicking the **Download** button would then create a download job. See [Download Jobs](Sync-Jobs.md).
 
 ### Deleting Downloads
 
