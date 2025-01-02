@@ -6,558 +6,628 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 **Note:** Emby Premiere is tied to a server by installing a key in its configuration.  Therefore, all of the Premiere features below apply when connected to a server with a valid Premiere key.  The server connected at the time governs Premiere status.
 
-<table style="width: 100%; margin-right: calc(0%);">
+<style type="text/css">
+
+    table.pemiere-matrix-table {
+        width: 100%; 
+        margin-right: calc(0%);
+    }
+     
+    table.pemiere-matrix-table th {
+        background-color: rgb(97, 189, 109);
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+     
+    table.pemiere-matrix-table td {
+        text-align: center;
+    }
+
+    table.pemiere-matrix-table tr td:nth-child(1) {
+        text-align: left;
+    }
+     
+    table.pemiere-matrix-table tr th:nth-child(1) {
+        width: 58%;
+        text-align: left;
+    }
+     
+    table.pemiere-matrix-table tr th:nth-child(2) {
+        width: 14%;
+    }
+     
+    table.pemiere-matrix-table tr th:nth-child(3) {
+        width: 14%;
+    }
+     
+    table.pemiere-matrix-table tr th:nth-child(4) {
+        width: 14%;
+    }
+     
+</style>
+
+## Server / All Apps
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); width: 56.4763%; text-align: center;"><span
-                style="color: rgb(0, 0, 0);">Server/All Apps</span></th>
-        <th style="background-color: rgb(97, 189, 109); width: 14.6936%; text-align: center;">Free
+        <th>
+            <span>Feature</span>
         </th>
-        <th style="background-color: rgb(97, 189, 109); width: 14.6936%;"><br></th>
-        <th style="background-color: rgb(97, 189, 109); width: 14.5543%; text-align: center;"><span
-                style="background-color: rgb(97, 189, 109); color: rgb(255, 255, 255);">Premiere</span>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
         </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.4763%;">Browse Media</td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Browse Media</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 14.1365%;">
-            <div style="text-align: center;"><br></div>
+        <td>
+            <div></div>
         </td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.4763%;">Library Organization and Metadata Gathering</td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Users and user management</td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Library Organization and Metadata Gathering</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.4763%;">Parental Controls</td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Emby Connect (simplified remote login)<br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Users and user management</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td dir="ltr" style="width: 56.4763%;">Intro Skipping</td>
-        <td style="width: 14.6936%; text-align: center;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Cinema Intros</td>
-        <td style="width: 14.6936%; text-align: center;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Parental Controls</td>
+        <td>
+            <div>✔</div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Live TV</td>
-        <td style="width: 14.6936%; text-align: center;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Emby Connect (simplified remote login)</td>
+        <td>
+            <div>✔</div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.4763%;">Free Guide Data (US Canada and UK)<br></td>
-        <td style="width: 14.6936%; text-align: center;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td dir="ltr">Intro Skipping</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">DVR</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Cinema Intros</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Hardware Accelerated Transcoding</td>
-        <td style="width: 14.6936%; text-align: center;">*</td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.4763%;">HDR Tone Mapping When Transcoding</td>
-        <td style="width: 14.6936%; text-align: center;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td dir="ltr">Free Guide Data (US Canada and UK)</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">In-playback subtitle search</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>DVR</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">CoverArt Plug-in (advanced image treatment)</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Hardware Accelerated Transcoding</td>
+        <td>*</td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Backup and Restore Plug-in</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td dir="ltr">HDR Tone Mapping When Transcoding</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Downloads & Sync</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>In-playback subtitle search</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">LDAP Integration</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>CoverArt Plug-in (advanced image treatment)</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Content Conversion</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Backup and Restore Plug-in</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Smart Home (Alexa/Google Home)</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Downloads & Sync</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Podcasts</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td>LDAP Integration</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.4763%;">Webhooks</td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td>Content Conversion</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Theme Songs and Videos (user provided and in supported apps)
-        </td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.4763%;">Lyrics display (user provided in supported apps)
-        </td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+        <td>Smart Home (Alexa/Google Home)</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.4763%;">Themes for Clients - More than a dozen themes to choose from
+        <td>Podcasts</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 14.6936%;"><br></td>
-        <td style="width: 14.1365%;"><br></td>
-        <td style="width: 14.5543%;">
-            <div style="text-align: center;">✔</div>
+    </tr>
+    <tr>
+        <td dir="ltr">Webhooks</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Theme Songs and Videos (user provided and in supported apps)</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Lyrics display (user provided in supported apps)</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Themes for Clients - More than a dozen themes to choose from</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p dir="ltr">* &nbsp;Nvidia Shield and WD NAS devices do not require Premiere for
-    HW Acceleration</p><p><br></p>
-<table style="width: 100%;">
+</table>
+
+<p dir="ltr">
+    * Nvidia Shield and WD NAS devices do not require Premiere for HW Acceleration
+</p>
+
+## PC or Mobile Browser
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">PC or Mobile
-            Browser<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109);"><br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td dir="ltr" style="width: 56.337%;">Offline Media*</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td dir="ltr">Offline Media*</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">TV Mode</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>TV Mode</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p dir="ltr">* &nbsp;On platforms that support it</p><p dir="ltr"><br></p>
-<table style="width: 100%;">
+</table>
+
+<p dir="ltr">
+    * On platforms that support it
+</p>
+
+## Emby Windows
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Windows Store or
-            Desktop (Emby Theater)<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109);"><br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Limited Playback (one-minute only)</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Limited Playback (one-minute only)</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;"><br></div>
-        </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.337%;">Offline Media*</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div></div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td dir="ltr">Offline Media*</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p dir="ltr">* &nbsp;On platforms that support it</p><p dir="ltr"><br></p>
-<table style="width: 100%;">
+</table>
+
+## Linux or MacOS (Emby Theater)
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Linux or MacOS (Emby
-            Theater)<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109);"><br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Limited Playback (one-minute only)</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Limited Playback (one-minute only)</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;"><br></div>
-        </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Offline Media</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div></div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Offline Media</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p><br></p>
-<table style="width: 100%;">
+</table>
+
+## Mobile Apps (iOS and Android)
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Mobile Apps (iOS and
-            Android)<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">App Unlock</th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th>App Unlock</th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Limited Playback (one-minute only)</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Limited Playback (one-minute only)</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;"><br></div>
-        </td>
-        <td style="width: 13.7186%;">
-            <div style="text-align: center;">✔</div>
-        </td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.337%;">Apple Carplay/Android Auto</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div></div>
+        </td>
+        <td>
+            <div>✔</div>
+        </td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.337%;">Apple Watch Support</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td dir="ltr">Apple Carplay/Android Auto</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td dir="ltr" style="width: 56.337%;">Camera Upload</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td dir="ltr">Apple Watch Support</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Offline Media</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td dir="ltr">Camera Upload</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Offline Media</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p><br></p>
-<table style="width: 100%;">
+</table>
+
+## Android TV or Fire TV
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Android TV or Fire
-            TV<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">*<br></div>
+        <td>Full Playback</td>
+        <td>
+            <div>*</div>
         </td>
-        <td style="width: 13.7186%;">
-            <div style="text-align: center;"></div>
+        <td>
+            <div></div>
         </td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p dir="ltr">* &nbsp;Playback for up to 5 TV devices</p><p><br></p>
-<table style="width: 100%;">
+</table>
+
+<p dir="ltr">
+    * Playback for up to 5 TV devices
+</p>
+
+## Roku, Apple TV, Smart TV (LG and Samsung)
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Roku, Apple TV, Smart
-            TV (LG and Samsung)<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109);"><br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
-</table><p><br></p><p><br></p>
-<table style="width: 100%;">
+</table>
+
+## Game Consoles (Xbox, PS4)
+
+<table class="pemiere-matrix-table">
     <thead>
     <tr>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Game Consoles (Xbox One
-            or PS4)<br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;">Free</th>
-        <th style="background-color: rgb(97, 189, 109);"><br></th>
-        <th style="background-color: rgb(97, 189, 109); text-align: center;"><span
-                style="color: rgb(255, 255, 255);">Premiere</span></th>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td style="width: 56.337%;">Limited Playback (one-minute only)</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;">✔</div>
+        <td>Limited Playback (one-minute only)</td>
+        <td>
+            <div>✔</div>
         </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div dir="ltr" style="text-align: center;">✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td style="width: 56.337%;">Full Playback</td>
-        <td style="width: 14.8329%;">
-            <div style="text-align: center;"><br></div>
-        </td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     <tr>
-        <td style="width: 56.337%;">Live TV</td>
-        <td style="width: 14.8329%;"><br></td>
-        <td style="width: 13.7186%;"><br></td>
-        <td style="width: 14.6936%;">
-            <div style="text-align: center;">✔</div>
+        <td>Full Playback</td>
+        <td>
+            <div></div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
         </td>
     </tr>
     </tbody>
