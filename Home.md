@@ -1,31 +1,38 @@
 ---
 uid: Home
-title: Emby Support Home
-longTitle: Your starting point for browsing the documentation
+title: Emby Documentation Home
+longTitle: Your starting point for all Emby documentation
 legacyUrl: /support/solutions/articles/44001089172-home
 ---
 
-Emby is a free personal media server. It is built with a number of popular open source technologies. To download Emby, visit:
 
-http://emby.media/
+Emby has two distinct parts:
 
-## Contents
+* Server - Store your media library in a central place
+* Client - Clients or Apps that play back media from the Emby Server
+
+A fully-functioning Emby system requires both a Server and at least one client player. The Server includes the Emby web app which is used to manage the Server and your media library. It also features a media player, thus the minimal installation of just the server is enough to get started, but most people will want to install Emby apps on other devices for expanded client functionality.
+
+
+## Has someone invited you to their server?
+
+If you have received an invitation to share an existing Emby server, then you can skip the server installation process and jump straight to app installation. The server is only required by people wanting to host their own media collection. Choose one of the many apps we have available:
+
+http://emby.media/download/
+
+Or try the online web app, using the login credentials supplied by your Emby server administrator, at
+
+http://app.emby.media
+
+
+## Emby Server Documentation
 
 See the menu on the right-hand side of this page for a complete listing. Some key areas are:
 
 * [Quick start](Quick-Start.md)
 * [System requirements](System-Requirements.md)
-* [Movie naming](Movie-Naming.md)
-* [TV naming](TV-Naming.md)
-* [Music naming](Music-Naming.md)
-* [Subtitles](Subtitles.md)
 * [Server installation](Installation.md)
-* [Users](Users.md)
-* [Downloads & Sync](Sync-Introduction.md)
 
-## Community
-
-In addition to what's displayed here, the [Community Forums](https://emby.media/community/) is another great place for useful information.
 
 ## Emby Apps
 
@@ -39,8 +46,10 @@ In addition to what's displayed here, the [Community Forums](https://emby.media/
 - [Kodi](https://emby.media/emby-for-kodi.html "Kodi")
 - [Roku](https://www.roku.com/channels#!details/44191/emby "Roku")
 - [Web App](http://app.emby.media "Web App")
-- [Windows Desktop](https://emby.media/download/ "Windows Desktop")
-- [Windows Media Center](https://emby.media/download/ "Windows Media Center")
-- [Windows Phone](https://www.windowsphone.com/s?appid=f4971ed9-f651-4bf6-84bb-94fd98613b86 "Windows Phone")
-- [Windows 8](https://apps.microsoft.com/windows/en-us/app/media-browser/ad55a2f0-9897-47bd-8944-bed3aefd5d06 "Windows 8.1")
-- [XBOX One](https://emby.media/emby-theater-xboxone.html "XBOX One")
+- [Windows](https://emby.media/emby-for-windows.html "Windows")
+- [Xbox](https://emby.media/emby-for-xbox.html "Xbox")
+
+
+## Community
+
+In addition to what's displayed here, the [Community Forums](https://emby.media/community/) is another great place for useful information.
