@@ -2,6 +2,8 @@
 uid: Emby-Connect
 title: Emby Connect
 legacyUrl: /support/solutions/articles/44001160340-emby-connect
+seeAlso:
+  - Emby-Connect-for-Users
 ---
 
 ## What does Emby Connect do?
@@ -36,42 +38,8 @@ From the Server Admin Console click on USERS menu.
 
 ## Guide for Users
 
-Start by signing up for Emby Connect. Once you have your Emby Connect account it can be given to any Emby admin who will add it to your account on their system.
+Please see [Emby Connect For Users](Emby-Connect-for-Users.md)
 
-
-![Emby Connect2](images/server/emby_connect2.png)
-
-
-Click on the SIGN UP button to continue.
-
-
-![Emby Connect3](images/server/emby_connect3.png)
-
-![Emby Connect4](images/server/emby_connect4.png)
-
-
-Fill out this page with user's proper information and click the CREATE MY ACCOUNT button. Follow any directions you might receive in email.
-
-
-
-
-## Changing your Emby Connect password
-
-Changing your Emby Connect password is done here: https://emby.media/community/
-
-Click on your username, top right of the screen, then click on My Profile.
-
-![Emby Connect5](images/server/emby_connect5.png)
-
-Next, click on Edit Profile.
-
-![Emby Connect6](images/server/emby_connect6.png)
-
-You will then be presented with a form to complete, with your current password and your new password (twice).
-
-![Emby Connect7](images/server/emby_connect7.png)
-
-If you are unable to login to the Emby Community, you can try resetting your password here.
 
 ### Does This Mean My Streaming is Passing Through the Cloud?
 
