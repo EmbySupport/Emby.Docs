@@ -1,12 +1,12 @@
 ---
 uid: Hosting-Settings
-title: Network (Hosting) Settings
+title: Network Setup
 legacyUrl: /support/solutions/articles/44001159601-network-hosting-settings
 seeAlso:
   - Remote-Setup
 ---
 
-Hosting settings allow you to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Server** -> **Network**.
+Adjust network settings to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Server** -> **Network**.
 
 For the purposes of this document we are defining local as within your home network, and external as outside your network away from home.
 
