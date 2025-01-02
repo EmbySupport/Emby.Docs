@@ -1,6 +1,6 @@
 ---
 uid: Playlist-Manual-Migration
-title: Playlist – Manual Migration
+title: Manage Playlists (Legacy)
 legacyUrl: /support/solutions/articles/44001849016-playlist-manual-migration
 ---
 

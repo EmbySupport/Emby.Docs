@@ -1,6 +1,6 @@
 ---
 uid: Collections-Manual-Migration
-title: Collections – Manual Migration
+title: Manage Collections (Legacy)
 legacyUrl: /support/solutions/articles/44001173192-collections-manual-migration
 ---
 
