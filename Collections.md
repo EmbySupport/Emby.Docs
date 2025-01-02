@@ -2,6 +2,8 @@
 uid: Collections
 title: Collections
 legacyUrl: /support/solutions/articles/44001159487-collections
+legacyUrl: /support/solutions/articles/44002311268-collections-emby-server-versions-prior-to-4-6
+redirFromUrl: Collections-Pre46.md
 ---
 
 Collections are the grouping of like media such as:
