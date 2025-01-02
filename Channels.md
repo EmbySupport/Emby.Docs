@@ -1,10 +1,10 @@
 ---
 uid: Channels
-title: Channels
+title: Channel Plugins
 legacyUrl: /support/solutions/articles/44001159414-channels
 ---
 
-Channels are plugins that provide access to streaming internet audio and video.
+Channels Plugins provide access to streaming internet audio and video.
 
 For more information on plugins, as well as how to install and configure them, see [Plugins](Plugins.md).
 
