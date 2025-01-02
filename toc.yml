@@ -1,116 +1,84 @@
 - name: Emby Support
   href: ../index.md
   items:
-- name: General
+- name: Emby Server
   items:
-  - name: Getting Started
+  - name: General
     items:
-    - name: Home
-      href: home.md
-    - name: Quick start
-      href: Quick-Start.md
-    - name: System Requirements
-      href: System-Requirements.md
-  - name: Media Preparation
-    items:
-    - name: Movie Naming
-      href: Movie-Naming.md
-    - name: TV Naming
-      href: TV-Naming.md
-    - name: Music Naming
-      href: Music-Naming.md
-    - name: Audio Book Naming
-      href: Audio-Book-Naming.md
-    - name: Metadata Manager
-      href: Metadata-Manager.md
-    - name: Book Naming
-      href: Book-Naming.md
-    - name: 3D Videos
-      href: 3D-videos.md
-    - name: Excluding Files & Folders
-      href: Excluding-Files-Folders.md
-    - name: Media Stubs
-      href: Media-Stubs.md
-    - name: Strm Files
-      href: Strm-Files.md
-    - name: Subtitles
-      href: Subtitles.md
-    - name: Theme Songs & Videos
-      href: Theme-Songs-Videos.md
-    - name: Trailers
-      href: Trailers.md
-    - name: Identify
-      href: Identify.md
-    - name: New Media Date Handling
-      href: New-Media-Date-Handling.md
-    - name: Ordering TV Special/Extras
-      href: Ordering-TV-Specials.md
-    - name: Direct Play, Stream & Transcoding
-      href: DirectPlay-Stream-Transcoding.md
-    - name: Image Editing & Image Types
-      href: Image-Editing.md
-    - name: Music Lyrics
-      href: Music-Lyrics.md
-    - name: Intro Skip
-      href: Intro-Skip.md
-  - name: Emby 4.0 Migration
-    items:
-    - name: Folder-based Access Control
-      href: Folder-based-Access-Control.md
-  - name: Advanced
-    items:
-    - name: Advanced Menu
-      href: Advanced-Menu.md
-  - name: Server
-    items:
-    - name: Installation
-      href: Installation.md
-    - name: Hosting Settings
-      href: Hosting-Settings.md
-    - name: Running as Windows Service
-      href: Run-as-Windows-Service.md
-    - name: Secure Your Server
-      href: Secure-Your-Server.md
-    - name: Connectivity
-      href: Connectivity.md
-    - name: Server Installation on Shield TV
-      href: Server-Installation-Shield.md
-    - name: Remote Setup (Connectivity)
-      href: Remote-Setup.md
-  - name: Emby Premiere
-    items:
-    - name: Emby Premiere
-      href: Emby-Premiere.md
-    - name: Purchasing Premiere
-      href: Premiere-Purchase.md
-    - name: Membership Options
-      href: Premiere-Membership-Options.md
-    - name: Feature Matrix
-      href: Premiere-Feature-Matrix.md
-    - name: Premiere Key Delivery
-      href: Premiere-Key-Delivery.md
-    - name: Keys Valid with Emby 4.0
-      href: Premiere-Key-Validity.md
-    - name: Lost Premiere Keys
-      href: Premiere-Lost-Keys.md
-    - name: Key Invalid or Missing
-      href: Premiere-Key-Invalid.md
-    - name: Upgrade Membership
-      href: Premiere-Upgrade.md
-    - name: Premiere Limits
-      href: Premiere-Limits.md
-    - name: App Store Price Differences
-      href: Premiere-PriceDifferences.md
-    - name: Cancel Subscription
-      href: Premiere-Canceling.md
-    - name: Using Multiple Servers
-      href: Premiere-Multiple-Servers.md
-    - name: Update Credit Card
-      href: Premiere-Update-Card.md
-    - name: Change Payment Method
-      href: Premiere-Change-Subscription.md
-- name: Server
-  items:
+    - name: Getting Started
+      items:
+      - name: Home
+        href: home.md
+      - name: Quick start
+        href: Quick-Start.md
+      - name: System Requirements
+        href: System-Requirements.md
+    - name: Media Preparation
+      items:
+      - name: Movie Naming
+        href: Movie-Naming.md
+      - name: TV Naming
+        href: TV-Naming.md
+      - name: Music Naming
+        href: Music-Naming.md
+      - name: Audio Book Naming
+        href: Audio-Book-Naming.md
+      - name: Metadata Manager
+        href: Metadata-Manager.md
+      - name: Book Naming
+        href: Book-Naming.md
+      - name: 3D Videos
+        href: 3D-videos.md
+      - name: Excluding Files & Folders
+        href: Excluding-Files-Folders.md
+      - name: Media Stubs
+        href: Media-Stubs.md
+      - name: Strm Files
+        href: Strm-Files.md
+      - name: Subtitles
+        href: Subtitles.md
+      - name: Theme Songs & Videos
+        href: Theme-Songs-Videos.md
+      - name: Trailers
+        href: Trailers.md
+      - name: Identify
+        href: Identify.md
+      - name: New Media Date Handling
+        href: New-Media-Date-Handling.md
+      - name: Ordering TV Special/Extras
+        href: Ordering-TV-Specials.md
+      - name: Direct Play, Stream & Transcoding
+        href: DirectPlay-Stream-Transcoding.md
+      - name: Image Editing & Image Types
+        href: Image-Editing.md
+      - name: Music Lyrics
+        href: Music-Lyrics.md
+      - name: Intro Skip
+        href: Intro-Skip.md
+    - name: Emby 4.0 Migration
+      items:
+      - name: Folder-based Access Control
+        href: Folder-based-Access-Control.md
+    - name: Advanced
+      items:
+      - name: Advanced Menu
+        href: Advanced-Menu.md
+    - name: Server
+      items:
+      - name: Installation
+        href: Installation.md
+      - name: Hosting Settings
+        href: Hosting-Settings.md
+      - name: Running as Windows Service
+        href: Run-as-Windows-Service.md
+      - name: Secure Your Server
+        href: Secure-Your-Server.md
+      - name: Connectivity
+        href: Connectivity.md
+      - name: Server Installation on Shield TV
+        href: Server-Installation-Shield.md
+      - name: Remote Setup (Connectivity)
+        href: Remote-Setup.md
   - name: Users
     items:
     - name: Users
@@ -163,6 +131,82 @@
         href: Hardware-Acceleration-on-Android.md
       - name: HWA fails with RDP
         href: Hwa-Fails-with-RDP.md
+  - name: Expert
+    items:
+    - name: Log Files
+      href: Log-Files.md
+    - name: Plugins
+      items:
+      - name: Plugins
+        href: Plugins.md
+      - name: AutoBoxSets
+        href: AutoBoxSets.md
+      - name: Channels
+        href: Channels.md
+      - name: Plugins
+        href: Plugins-Duplicate.md
+      - name: Backing up Emby Server
+        href: Backup.md
+      - name: Automatic Subtitle Downloads
+        href: Automatic-Subtitle-Downloads.md
+      - name: Manual Subtitle Downloads
+        href: Manual-Subtitle-Downloads.md
+    - name: Webhooks
+      href: Webhooks.md
+    - name: Notifications
+      href: Notifications.md
+    - name: Scheduled Tasks
+      href: Scheduled-Tasks.md
+  - name: Devices
+    items:
+    - name: Devices
+      href: Devices.md
+    - name: Camera Upload
+      href: Camera-Upload.md
+    - name: Downloads & Sync
+      items:
+      - name: Introduction
+        href: Sync-Introduction.md
+      - name: Download Options
+        href: Sync.md
+      - name: Offline Access
+        href: Offline-Access.md
+      - name: Download Jobs
+        href: Sync-Jobs.md
+      - name: Folder Sync
+        href: Folder-Sync.md
+  - name: Live TV
+    items:
+    - name: Live TV Setup
+      href: Live-TV.md
+    - name: Live TV Plugins
+      href: Live-TV-Plugins.md
+    - name: HDHomeRun Setup
+      href: HDHomeRun-Setup.md
+    - name: M3U Tuners
+      href: M3U-Tuners.md
+    - name: Older HDHomeRun Support
+      href: Older-HDHomeRun-Support.md
+    - name: Emby Guide Data
+      href: Emby-Guide-Data.md
+    - name: Schedules Direct
+      href: Schedules-Direct.md
+    - name: XML TV
+      href: Xml-Tv.md
+    - name: Live TV Channel Mapping
+      href: Live-TV-Channel-Mapping.md
+    - name: Manage Channels
+      href: Live-TV-Manage-Channels.md
+    - name: HDHomeRun Channels
+      href: Live-TV-HDHR-Channels.md
+    - name: NextPVR Tuner
+      href: Live-TV-NextPVR.md
+    - name: VBox TV Gateway Tuner
+      href: Live-TV-Vbox.md
+    - name: Other EPG Sources
+      href: Live-TV-EPG-Other.md
+    - name: DVR Settings
+      href: DVR-Settings.md
   - name: Cinema Intros
     href: Cinema-Intros.md
   - name: Server Settings
@@ -173,14 +217,16 @@
     href: Linux.md
   - name: Synology NAS
     href: Synology-NAS.md
+  - name: Corrupt Database
+    href: Corrupt-Database.md
+  - name: Synology Permissions
+    href: Synology-Set-Permissions.md
 - name: Emby Apps
   items:
   - name: General
     items:
     - name: Keyboard and Remote Support
       href: Keyboard-and-Remote-Support.md
-    - name: Emby for Kodi
-      href: Emby-for-Kodi.md
   - name: Android Mobile
     href: Android-Mobile.md
   - name: Apple TV
@@ -215,84 +261,38 @@
     href: iOS.md
   - name: Roku
     href: Roku.md
-- name: Expert
+  - name: Emby for Kodi
+    href: Emby-for-Kodi.md
+- name: Emby Premiere
   items:
-  - name: Log Files
-    href: Log-Files.md
-  - name: Plugins
-    items:
-    - name: Plugins
-      href: Plugins.md
-    - name: AutoBoxSets
-      href: AutoBoxSets.md
-    - name: Channels
-      href: Channels.md
-    - name: Plugins
-      href: Plugins-Duplicate.md
-    - name: Backing up Emby Server
-      href: Backup.md
-    - name: Automatic Subtitle Downloads
-      href: Automatic-Subtitle-Downloads.md
-    - name: Manual Subtitle Downloads
-      href: Manual-Subtitle-Downloads.md
-  - name: Webhooks
-    href: Webhooks.md
-  - name: Notifications
-    href: Notifications.md
-  - name: Scheduled Tasks
-    href: Scheduled-Tasks.md
-- name: Devices
-  items:
-  - name: Devices
-    href: Devices.md
-  - name: Camera Upload
-    href: Camera-Upload.md
-  - name: Downloads & Sync
-    items:
-    - name: Introduction
-      href: Sync-Introduction.md
-    - name: Download Options
-      href: Sync.md
-    - name: Offline Access
-      href: Offline-Access.md
-    - name: Download Jobs
-      href: Sync-Jobs.md
-    - name: Folder Sync
-      href: Folder-Sync.md
-- name: Live TV
-  items:
-  - name: Live TV Setup
-    href: Live-TV.md
-  - name: Live TV Plugins
-    href: Live-TV-Plugins.md
-  - name: HDHomeRun Setup
-    href: HDHomeRun-Setup.md
-  - name: M3U Tuners
-    href: M3U-Tuners.md
-  - name: Older HDHomeRun Support
-    href: Older-HDHomeRun-Support.md
-  - name: Emby Guide Data
-    href: Emby-Guide-Data.md
-  - name: Schedules Direct
-    href: Schedules-Direct.md
-  - name: XML TV
-    href: Xml-Tv.md
-  - name: Live TV Channel Mapping
-    href: Live-TV-Channel-Mapping.md
-  - name: Manage Channels
-    href: Live-TV-Manage-Channels.md
-  - name: HDHomeRun Channels
-    href: Live-TV-HDHR-Channels.md
-  - name: NextPVR Tuner
-    href: Live-TV-NextPVR.md
-  - name: VBox TV Gateway Tuner
-    href: Live-TV-Vbox.md
-  - name: Other EPG Sources
-    href: Live-TV-EPG-Other.md
-  - name: DVR Settings
-    href: DVR-Settings.md
-- name: Corrupt Database
-  href: Corrupt-Database.md
-- name: Synology Permissions
-  href: Synology-Set-Permissions.md
+  - name: Emby Premiere
+    href: Emby-Premiere.md
+  - name: Purchasing Premiere
+    href: Premiere-Purchase.md
+  - name: Membership Options
+    href: Premiere-Membership-Options.md
+  - name: Feature Matrix
+    href: Premiere-Feature-Matrix.md
+  - name: Premiere Key Delivery
+    href: Premiere-Key-Delivery.md
+  - name: Keys Valid with Emby 4.0
+    href: Premiere-Key-Validity.md
+  - name: Lost Premiere Keys
+    href: Premiere-Lost-Keys.md
+  - name: Key Invalid or Missing
+    href: Premiere-Key-Invalid.md
+  - name: Upgrade Membership
+    href: Premiere-Upgrade.md
+  - name: Premiere Limits
+    href: Premiere-Limits.md
+  - name: App Store Price Differences
+    href: Premiere-PriceDifferences.md
+  - name: Cancel Subscription
+    href: Premiere-Canceling.md
+  - name: Using Multiple Servers
+    href: Premiere-Multiple-Servers.md
+  - name: Update Credit Card
+    href: Premiere-Update-Card.md
+  - name: Change Payment Method
+    href: Premiere-Change-Subscription.md
 
