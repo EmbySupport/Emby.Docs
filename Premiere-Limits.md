@@ -21,7 +21,7 @@ Important points to remember:
 
 ## So how do I determine if the limit will be okay for me?
 
-Look at the [Feature Matrix](Premiere-Feature-Matrix.md) and note the features you use that are NOT in the "Free" column.  Count the number of devices your users will use for just those features.  Even if this count is near the 25 limit, we suggest you just try the normal license for a month of typical usage by your users and see if it works for you (it does for almost everyone).  Your server will show if you are close to or over the limit.
+Look at the [Feature Matrix](Premiere-Feature-Matrix.md) and note the features you use that are NOT in the "Free" column.  Count the number of devices your users will use for just those features.  Even if this count is near the limit, we suggest you just try the normal license for a month of typical usage by your users and see if it works for you (it does for almost everyone).  Your server will show if you are close to or over the limit.
 
 ## How long does a device count towards my limit?
 
