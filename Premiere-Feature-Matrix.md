@@ -512,7 +512,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     </tbody>
 </table>
 
-## Android TV or Fire TV
+## Android on TV or Fire TV
 
 <table class="pemiere-matrix-table">
     <thead>
