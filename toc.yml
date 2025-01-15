@@ -8,6 +8,8 @@
     href: Quick-Start.md
   - name: System Requirements
     href: System-Requirements.md
+  - name: Emby Premiere
+    href: Emby-Premiere.md
   - name: Installation & Setup
     href: Installation.md
     items:
@@ -274,6 +276,7 @@
   - name: Emby for Kodi
     href: Emby-for-Kodi.md
 - name: Emby Premiere
+  href: Emby-Premiere.md
   items:
   - name: Emby Premiere
     href: Emby-Premiere.md
