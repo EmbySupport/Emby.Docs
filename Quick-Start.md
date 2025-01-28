@@ -6,8 +6,8 @@ legacyUrl: /support/solutions/articles/44001159034-quick-start
 
 Emby has two distinct parts:
 
-* Server — Store your media library in a central place
-* Client — Clients or Apps that play back media from the Emby Server
+* Server - Store your media library in a central place
+* Client - Clients or Apps that play back media from the Emby Server
 
 A fully-functioning Emby system requires both a Server and at least one client player. The Server includes the Emby web app which is used to manage the Server and your media library. It also features a media player, thus the minimal installation of just the server is enough to get started, but most people will want to install Emby apps on other devices for expanded client functionality.
 
