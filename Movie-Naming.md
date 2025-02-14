@@ -192,7 +192,7 @@ Or:
 
 ### ISO format
 
-Emby Server has basic support for videos stored in ISO format. This includes the ability to catalog the ISO's within Emby Server, and play them in HTPC-based apps such as Emby for Kodi and Emby for Windows Media Center. Other apps will generally only be able to play them with the use of an external player.
+Emby Server has basic support for videos stored in ISO format. This includes the ability to catalog the ISO's within Emby Server, and play them in HTPC-based apps such as Emby for Kodi, Emby Windows, or Emby for Xbox. Other apps will generally only be able to play them with the use of an external player.
 
 ISOs should be named just like any other video file, with one minor difference. Including ".dvd" or ".bluray" within the file name will allow Emby Server to automatically determine what type of ISO it is. If this is not included, it will be assumed to be DVD.
 

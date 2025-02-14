@@ -39,6 +39,7 @@ External subtitles can be marked as forced using either ".forced" or ".foreign".
       Home Alone.srt
       Home Alone.spa.forced.srt
       Home Alone.spa.foreign.srt
+```
 
 ## Hearing Impaired Subtitles
 
@@ -53,7 +54,7 @@ Hearing impaired subtitles can be marked using ".sdh".
 ```
 
 ## Other Names
-It is sometimes useful to have other "names" in the subtitle to help identify it from the client.  This can be useful for directory or comment
+It is sometimes useful to have other "names" in the subtitle to help identify it from the client.  This can be useful for "Director's Commentary".
 
 ```
 /Movies

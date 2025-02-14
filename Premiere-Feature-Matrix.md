@@ -130,6 +130,15 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
+    <tr>
+        <td>Limit the number of concurrent video playback sessions</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
         <td>Live TV</td>
         <td></td>
         <td></td>
@@ -297,14 +306,6 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td dir="ltr">Offline Media*</td>
-        <td></td>
-        <td></td>
-        <td>
-            <div>✔</div>
-        </td>
-    </tr>
-    <tr>
         <td>Live TV</td>
         <td></td>
         <td></td>
@@ -322,10 +323,6 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     </tr>
     </tbody>
 </table>
-
-<p dir="ltr">
-    * On platforms that support it
-</p>
 
 ## Emby Windows
 
@@ -362,7 +359,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td dir="ltr">Offline Media*</td>
+        <td dir="ltr">Offline Media</td>
         <td></td>
         <td></td>
         <td>

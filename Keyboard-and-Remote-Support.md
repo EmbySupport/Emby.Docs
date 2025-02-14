@@ -6,8 +6,8 @@ legacyUrl: /support/solutions/articles/44001161841-keyboard-and-remote-support
 
 This document applies to the following apps:
 
-* Emby Theater Web app
-* Emby Theater for Windows
+* Emby Web app
+* Emby Windows
 * Emby Theater for Raspberry Pi
 * Emby Theater for Linux
 * Emby for Samsung Tizen

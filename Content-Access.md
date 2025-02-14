@@ -10,7 +10,7 @@ To manage content access for a user, navigate to the server dashboard -> **Users
 
 ## Library Access
 
-Library access allows you to configure the media libraries a user can access.
+Library access allows you to configure the media libraries a user can access. Where a library has multiple folder paths defined, you can also control access at the folder level.
 
 ![](images/server/users23.png)
 

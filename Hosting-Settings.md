@@ -3,51 +3,129 @@ uid: Hosting-Settings
 title: Network Setup
 legacyUrl: /support/solutions/articles/44001159601-network-hosting-settings
 seeAlso:
-  - Remote-Setup
+  - Connectivity
 ---
 
 Adjust network settings to configure Emby's built-in web server. These settings are accessed by opening the server dashboard and navigating to **Server** -> **Network**.
 
 For the purposes of this document we are defining local as within your home network, and external as outside your network away from home.
 
-## Http Ports
 
-The http port settings allow you to specify both the local, system port that the server should bind to, as well as the external port that the server should use when reporting it's external url to clients.
+## LAN Networks
 
-![](images/server/hosting1.png)
+If you have more than one local network subnet, you may need to use this setting to define the IP subnets that are deemed to be local. Also if using a vpn on the router, you should use this setting to add the local subnet address range used by the vpn. When there is more than one subnet, enter here all the IP subnets that are to be treated as local network subnets, including the subnet the emby server is connected to.
 
-Generally these two values will be the same, but they can be customized as needed.
+This setting is used when enforcing bandwith controls and remote access controls.
 
-## External WAN Address
+When the LAN Networks field is filled, any subnet not defined here will be deemed external and the remote access controls and external bandwidth restrictions would apply. If left blank, only the server's subnet and common private IP subnets (192.168.0.0 to 192.168.255.255, 172.16.0.0 to 172.31.255.255) are considered to be on the local network. If you are not sure, include all your subnets here. See example below.
 
-The server will attempt to automatically detect your external address. The result is displayed on the front page of the server dashboard.
+> [!NOTE]
+> With the exception of the subnet the Emby Server is connected, 10.xx.xx.xx subnets are not detected as local automatically and should be included in this field together with the subnet the server is directly connected to.
 
-If for some reason you need to customize this value, or it is not detected properly, you can manually enter your external address here:
+Here us Example of two 256-addresses subnets defined as being local for the server: 192.168.1.0/24,10.253.0.0/24.
 
-![](images/server/hosting2.png)
+![](images/server/connectivity5.png)
 
-Most users can leave this blank and rely on the server's automatic detection. If you are using a DDNS, or the Https feature with a self-signed certificate, then you may prefer to customize it.
+## Local IP Address
 
-## Https Ports
+The local IP address will automtically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface. 
 
-The local and public https ports can be configured in much the same way as regular http:
+![](images/server/hosting12.png)
 
-![](images/server/hosting3.png)
+> [!Important]
+> Ensure the specified IP Address is a static or DHCP reserved IP Address.
 
-In addition you can also supply your own custom SSL certificate. This is highly recommended for https usage. If omitted, the server will create a self-signed certificate.
+## Local Ports
 
-![](images/server/hosting4.png)
+This allows you to specify both the http and https local ports that the server should bind to and use. The https port would be used if secure connections (SSL) are enabled. Whilst the local ports can be customized, it is recommended that you leave them as per the default.
 
-## Requiring Https
+![](images/server/hosting11.png)
 
-Emby apps use http by default. In order to force them to use https, you can configure the server to report it's default external url as the http url. 
+## Allow Remote Access
 
-![](images/server/hosting5.png)
+Remote connections to the Emby Server can be disallowed or allowed using this setting.
 
-**Note**: Https is a new feature. Some Emby apps may require updates before this option can be used.
+![](images/server/hosting7.png)
+
+> [!Note]
+> A similar setting is available for each user account. See [users](Users.md).
+
+When remote connections are enabled, further settings will show that you can customize.
+
+## Remote Connections IP Address Filters
+
+You have the option to restrict remote connections to be allowed only from specific public IP addresses or IP Address subnets. The reverse is also possible, blocking specific remote IP addresses and subnets. When left blank, all remote addresses would be allowed.
+
+![](images/server/hosting13.png)
+
+## Public Ports
+
+This allows you to specify both the http and https external public WAN ports that the server should use when reporting its external url to Emby clients. The https port would be used if secure connections (SSL) are enabled. By default, these ports are the same as the local port numbers. You can choose alternative port numbers and in some cases - eg if having more than one server with remote connections enabled, you would need to use different public/WAN port numbers. For added security, you may also decide to having a non standard public port number. More details about added security in this article [Secure Your Server](Secure-Your-Server.md).
+
+![](images/server/hosting10.png)
 
 ## Automatic Port Mapping
 
-By default the server will attempt to automatically map public to local ports by configuring your router. You can disable this as necessary here.
+By default this setting is enabled and the Emby Server will attempt to automatically map public to local ports by configuring your router. It can be disabled at initial setup time or later in the server Network settings.
 
 ![](images/server/hosting6.png)
+
+> [!Important]
+> Automatic port mapping uses uPnP which would need to be enabled on the router.
+
+> [!Important]
+> If automatic port mapping is disabled but remote connections are to be used, you must setup port forward rules manually in the router configuration. Refer to [Setup Port Forwarding](connectivity.md#setup-port-forwarding) section for information on this.
+
+## External Domain
+
+When using a Dynamic DNS service (DDNS) or a domain name, enter it here without the port number. Emby apps will use this when connecting remotely. The field should be used whem a custom SSL certificate is used for Secure Connections. Example: mydomain.com
+
+![](images/server/hosting14.png)
+
+## Checking Proxy headers to determine real client IP addresses
+
+The setting is on by default and gives added security where the server checks request headers such as X-Real-Ip or X-Forwarded-For to determine the real IP address of the sender.
+
+![](images/server/hosting15.png)
+
+Optionally you can disable it or limit it to just check when the headers indicate the request is from an exteral source.
+
+![](images/server/hosting16.png)
+
+## Secure Connnections (https / SSL)
+
+To enable secure connections, you will need to aquire a certificate and provide the filesystem path to the certificate and the certificate password. By default, use of https for requests made to the server is disabled. The path is to be to a PKCS #12 file containing a certificate and private key to enable TLS support on a custom domain. The Certificate password should be entered if it requires a password.
+
+Three secure connections modes are available to choose from,
+
+- Preferred, but not required
+- Required for all remote connections
+- Handled by reverse proxy
+
+![](images/server/hosting17.png)
+
+> [!IMPORTANT]
+> Some legacy devices may not be able to connect to the server using https. In such environments, do not use the "Required for all remote connections" mode.
+
+> [!NOTE]
+> Please ensure that you are using the latest versions available for Emby Apps.
+
+For detailed information on setting up secure connections, refer to this section [Using secure https connections](Secure-Your-Server#Using-secure-https-connections) in the [Secure Your Server](Secure-Your-Server.md) article.
+
+## Streaming Controls
+
+With [Emby Premiere](Emby-Premiere.md), you can limit the number of concurrent video streams on the server. By default there is no limit.
+
+![](images/server/hosting18.png)
+
+> [!Note]
+> A similar setting is available for each user account which would override this global setting. See [users](Users.md).
+
+## Intenret streaming bitrate limit
+
+You have an option to specify the streaming bitrate limit in Mbps for streaming to remote devices. This limit is per stream. Bandwidth limits are not enforced by default.
+
+![](images/server/hosting19.png)
+
+> [!Note]
+> A similar setting is available for each user account which would override this global setting. See [users](Users.md).
