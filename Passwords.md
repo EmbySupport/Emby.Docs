@@ -24,5 +24,5 @@ To enable this feature, simply fill in the Profile PIN field with a 4 digit numb
 
 Then, the first time this user authenticates on each device, the app will ask if you wish to enforce the PIN code for access each time.  Answer "Yes" to this and then, each time you return to that profile, the PIN will be required to continue.
 
-
-**Note**: This feature completely replaces the old local network only PIN feature that existed prior to server verion 4.8.x.  That local network only PIN is no longer supported as it is inherently insecure.  This new feature should provide better functionality in both local and remote situations in a secure manner.
+> [!NOTE]
+> This feature completely replaces the old local network only PIN feature that existed prior to server version 4.8.x.  That local network only PIN is no longer supported as it is inherently insecure.  This new feature should provide better functionality in both local and remote situations in a secure manner.

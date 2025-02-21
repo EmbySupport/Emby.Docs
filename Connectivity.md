@@ -68,6 +68,16 @@ When using a vpn on your router, the requests coming into the server from within
 
 As an example, if your local network is on subnet 192.168.1.xxx and the vpn is using subnet 10.253.0.xx, then you would enter: 10.253.0.0/24,192.168.1.0/24 in the LAN Networks server Network settings covering IP address ranges 10.253.0.1 to 10.253.0.255 and 192.168.1.1 to 192.168.1.255. See [LAN Networks](Hosting-Settings.md#LAN-Networks).
 
+### CORS Mixed Content Block
+When using the hosted Emby Web app at **app.emby.media**, access to the Emby Server may be blocked when https secure connections is not enabled on the server and the access in the internet browser is through https://app.emby.media. It gets blocked by the browsers because mixed mode of https and http is not permitted. Entering the http url in the browser http://app.emby.media would get round this problem.
+
+![](images/server/connectivity12.png)
+
+You can establish if this is due to the CORS mixed mode error, by opening the browser Dev Console (through the F12 key) and checking the console for errors. You would see an error like this
+
+![](images/server/connectivity13.png)
+
+
 # External Connections
 
 Emby Server also allows you to connect when away from home. We call these external connections because they're out of our home network. Before we begin, we'll assume everything covered above in the **In-Network Connections** section is functioning correctly with your Emby Server, and that you're able to connect using other devices in your home network. If not, then you'll want to go over that section first.
@@ -79,7 +89,7 @@ The first step is to ensure remote access is enabled. You do this from the Serve
 ![](images/server/connectivity9.png)
 
 > [!NOTE]
-> Once you have remote access working, if you wish to allow users to connect remotely, you will need to also enable the option for the user accounts - see [Users](users.md).
+> Once you have remote access working, if you wish to allow users to connect remotely, you will need to also enable the option for the user accounts - see [Users](Users.md).
 
 On the same page down below this section, you will see this option:
 
@@ -150,7 +160,7 @@ The server IP Address, to which the port forwards are routed to, may show on the
 
 ### Multiple Emby Servers on the network
 
-If you have more than one emby server on the local network, then you will need to make sure they use different public port numbers as they would be routing through the same public IP addresss. 
+If you have more than one emby server on the local network, then you will need to make sure they use different public port numbers as they would be routing through the same public IP address. 
 
 The default public / WAN ports are as follows:
 
@@ -168,7 +178,7 @@ If both need to be running as routers, the configuration would be more complex, 
 
 ### Locate Your External Address & Public Port
 
-You will need to find out what your external IP address is, when troubleshooting remote connectuvity issues or to add a manual connection to the server from a remote emby client. When remote connections are enabled, your external address is displayed on the front page of the server dashboard, labeled as **Remote (WAN) access**. The public port is also shown. This is the address you should use when away from home together with the public port number.
+You will need to find out what your external IP address is, when troubleshooting remote connectivity issues or to add a manual connection to the server from a remote emby client. When remote connections are enabled, your external address is displayed on the front page of the server dashboard, labeled as **Remote (WAN) access**. The public port is also shown. This is the address you should use when away from home together with the public port number.
 
 ![](images/server/connectivity8.png)
 
@@ -191,7 +201,7 @@ You can also test your external address and public port by opening a web browser
 
 If these succeed, your Emby Server should be working remotely and can proceed with connecting from Emby apps. But, if you find that even with this being successful, a device is still failing to connect remotely, check that you have allowed remote connections for the user account that is making the attempt. Refer to [Users](Users.md) Settings and check that in the user settings, **"Allow remote connections to this Emby Server"** is ticked for that user account.
 
-If you continue to fail to connectly remotely, you should re-check the setup mentioned above and you will need to do some further troubleshooting. See below for a checklist of the troubleshooting areas.  Please visit our forums for assistance, if you continue to have an issue with this.
+If you continue to fail to connect remotely, you should re-check the setup mentioned above and you will need to do some further troubleshooting. See below for a checklist of the troubleshooting areas.  Please visit our forums for assistance, if you continue to have an issue with this.
 
 
 # Troubleshooting External Connections
@@ -200,7 +210,7 @@ If you continue to fail to connectly remotely, you should re-check the setup men
 If you have a VPN running on the host computer, TURN THIS OFF as that may interfere with your Emby Server routing.
 
 ### Anti-Malware and Firewalls
-If this is not the case, try temporarilly disabling (turn off) any local malware & firewall software running on the same host, to see if they may be blocking Emby. If this was the cause, then you will need to look into the Firewall / Security software to configure it so that the Emby Server application is allowed to accept exrernal connections into the local http and https tcp port for the server
+If this is not the case, try temporarily disabling (turn off) any local malware & firewall software running on the same host, to see if they may be blocking Emby. If this was the cause, then you will need to look into the Firewall / Security software to configure it so that the Emby Server application is allowed to accept external connections into the local http and https tcp port for the server
 
 ### Local IP Address change
 If you are using a manual port forward setup and the local IP Address changes, then the existing port forwards will no longer route to the server. Look into fixing the local IP Address using static IP address or preferably a DHCP Reservation in the router, or both. Make sure any port forwards are updated to the new local IP address. 
@@ -221,16 +231,16 @@ If your external WAN/Public IP address changes, you may find that emby clients f
 
 You can mitigate the impact of changes to the external IP address by exploring the use of a **DDNS** (Dynamic DNS service) configuration. Alternatively you can request a static Public IP Address from your ISP. There would normally be a charge for that. You can also look into using **Emby Connect** to link the local emby user account to your Emby Connect email address and use Emby Connect login within the app to connect to the server. See section on **Emby Connect** below.
 
-### Mutltiple Routers Double NAT
+### Multiple Routers Double NAT
 
 If you have 2 routers, eg an ISP provided router and your own router, there will be a double NAT and port mappings will not work. A Double NAT can be confirmed by checking the Public IP address displayed by https://whatismyipaddress.com/ or https://canyouseeme.org and comparing it to the WAN IP address displayed within the router configuration dashboard, the router to which the emby server machine is connected. If the addresses do not match, then most likely you have a Double NAT.
 
 To get round this, the options that you have are:
 1. Have one of the routers operate in Modem/Bridge mode, e.g. the ISP router. The other router would become the active router and handle the port forwards and port mapping. Consult the router manual for how to switch to Modem/Bridge mode.
 2. Have one of the routers operate as an Access Point, eg the ISP router becomes the router and your own router configured as an Access Point.
-3. Use both as routers but cascade the port forwards through the first router - actinge as a Pass-Through. In this scenario, port mapping must be manual with manual port forward setup on both routers. As an example, if your server public http port is 32700 and https is enabled and is using public port 32800, you would do the following:
-- Have the local IP address of the 2nd router as a DHCP reservation in the first router - so it remains fixed. You would need to find the Mac Hardware addresss of the WAN Port of the 2nd router and use that to specify a DHCP reservation for it in the first router
-- On the first router, setup a tcp port forward for http port 32700 to forward to port 32700 to the local IP address of the second router. And do the same for the https port - forwardidng tcp 32800 to port 32800 to the local IP address of the second router.
+3. Use both as routers but cascade the port forwards through the first router - acting as a Pass-Through. In this scenario, port mapping must be manual with manual port forward setup on both routers. As an example, if your server public http port is 32700 and https is enabled and is using public port 32800, you would do the following:
+- Have the local IP address of the 2nd router as a DHCP reservation in the first router - so it remains fixed. You would need to find the Mac Hardware address of the WAN Port of the 2nd router and use that to specify a DHCP reservation for it in the first router
+- On the first router, setup a tcp port forward for http port 32700 to forward to port 32700 to the local IP address of the second router. And do the same for the https port - forwarding tcp 32800 to port 32800 to the local IP address of the second router.
 - On the second router, setup DHCP reservation for the Emby Server local IP address
 - On the second router, setup port forwards for the http public tcp port 32700 to forward to port 8096 to the local IP address of the emby server machine. And similarly, if secure connections are used, setup the port forward for the https tcp public port 32800 to forward to port 8920 to the local IP address of the emby server machine.
 

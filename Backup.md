@@ -67,7 +67,7 @@ Simply backup everything in and below /ProgramData using any tool you wish or co
 
 If you are migrating to a different operating system care should be care should be used to make sure you match up directories properly during the restore as the directory names and locations could be different.
 
- - Get a good backup as explaned above from you existing system (old).
+ - Get a good backup as explained above from you existing system (old).
  - Install the same version number of Emby Server to the computer about to become your (new) system.
  - After running through the setup wizard, shut down Emby Server
  - If space allows, make a copy of the installation to another location on disk. This is only needed if you need to check/fix access rights.

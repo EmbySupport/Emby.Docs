@@ -14,7 +14,7 @@ If you had Emby installed on DSM 6 and just installed DSM 7 or are about to upgr
 If your Emby Server's media is stored on a Synology NAS but Emby's Realtime Monitoring is not finding new content added to your library you need to change your Inotify and Watches settings.
 
 
-[How to Set Permissions on DSM 7](https://github.com/EmbySupport/Emby.Docs/blob/master/Synology-Set-Permissions.md)
+[How to Set Permissions on DSM 7](Synology-Set-Permissions.md)
 
 This article shows you how to set the new Permissions in DSM 7 that Emby will require.
 
@@ -23,7 +23,7 @@ You will need to grant Emby Permissions to folders containing your media.
 [Tutorial: SSH into Synology NAS with Useful Examples](https://emby.media/community/index.php?/topic/118986-tutorial-ssh-into-synology-nas-with-useful-examples/)
 
 
-This tutorial shows you how to SSH into Synonology and demonstrates some common things you may need to do.
+This tutorial shows you how to SSH into Synology and demonstrates some common things you may need to do.
 
 [Forgot Password (admin account)](https://kb.synology.com/en-global/DSM/tutorial/How_to_login_to_DSM_with_root_permission_via_SSH_Telnet)
 

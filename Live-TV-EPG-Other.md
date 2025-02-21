@@ -2,6 +2,7 @@
 uid: Live-TV-EPG-Other
 title: Other Sources of EPG Guide Data
 legacyUrl: /support/solutions/articles/44002149110-other-sources-of-epg-guide-data
+# TODO: Look for alternative guide sources to add for Europe to replace removed info on www.epgdata.com
 ---
 
 If you are not able to use Emby's built in Guide Data you can source this data independently. Here are some of the popular services that can be used:
@@ -15,26 +16,6 @@ https://www.xmltv.net/
 Australia $ 3.99 per Month
 https://www.icetv.com.au/xmltv-setup/
 
-
-
-### EPGDATA.COM (many European countries)
-
-EUR 17.95 Annual Subscription 
-
-- DE / Germany  
-  http://www.epgdata.com/?- action=newSubscription&iLang=de&iCountry=de&iOEM=VDR
-- FR / France  
-http://www.epgdata.com/?- action=newSubscription&iLang=fr&iCountry=fr&iOEM=VDR
-- IT / Italia  
-http://www.epgdata.com/?- action=newSubscription&iLang=it&iCountry=it&iOEM=VDR
-- NL / The Netherlands  
-http://www.epgdata.com/?- action=newSubscription&iLang=nl&iCountry=nl&iOEM=VDR
-- AT / Austria  
-http://www.epgdata.com/?- action=newSubscription&iLang=at&iCountry=at&iOEM=VDR
-- CH / Switzerland  
-http://www.epgdata.com/?- action=newSubscription&iLang=ch&iCountry=ch&iOEM=VDR
-- BE / Belgium  
-http://epgdata.com/index.php?action=newSubscription&iLang=en&iOEM=vdr&iCountry=be&popup=0
 
 ### EPG.BEST (many Countries)
 https://epg.best/ Monthly and Annual Subscriptions starting at $0.99 a month

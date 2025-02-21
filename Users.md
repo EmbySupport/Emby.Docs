@@ -32,7 +32,7 @@ You'll then be taken to the new user page page. Any user can be granted administ
 
 ![](images/server/users8.png)
 
-Before saving, you can configure library and channel access, and this can easily be changed later. Untick All to select specific libraries and channels:
+Before saving, you can configure library and channel access, and this can easily be changed later. Deselect **All** to select specific libraries and channels:
 
 ![](images/server/users9.png)
 

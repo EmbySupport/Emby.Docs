@@ -52,7 +52,7 @@ You will then be presented with a form to complete, with your current password a
 
 If you are unable to login to the Emby Community, you can try resetting your password here.
 
-## Pasword Reset
+## Password Reset
 
 If you have forgotten your Emby Community password, you can reset it.
 

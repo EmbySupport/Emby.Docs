@@ -33,6 +33,8 @@ Click the Shield Android TV option and you will get a screen similar to:
 
 Note the file numbers in the above link which is "4.3.0.26" which we will need in a following step.
 
+> [!Note]
+> This "4.3.0.26" number is just an example and not the actual version number to use.
 
 
 ## Step 3 Install Downloader
@@ -53,8 +55,8 @@ Type in:
 
 https://github.com/MediaBrowser/Emby.Releases/releases/download/4.3.0.26/com.emby.embyserver_4.3.0.26.apk
 
-> [!NOTE]
-> If the file number from step one is different than this link please adjust the numbers in this link to match the current file on the website from step 1.
+> [!IMPORTANT]
+> Adjust the release numbers in the link to match the version of the current release file showing on the website from step 1.
 
 
 If the app asks for permission to access the system, please grant it permission.

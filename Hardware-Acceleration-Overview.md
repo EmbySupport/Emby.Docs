@@ -58,4 +58,4 @@ In many cases these subtitle formats will need to be burned into the video on th
 - Use external text-based subtitles instead, such as .srt files. Emby Server's subtitle download features can help automate the process of acquiring these.
 - Use an Emby app that can direct play these subtitle formats without transcoding, such as Emby Windows, Emby Theater for Linux & Mac, Android, or iOS.
 
-- If you are using Windows with Remote Desktop and have trouble getting hardware acceleration please read [this article](https://support.emby.media/support/solutions/articles/44001894172-hardware-acceleration-fails-with-remote-desktop-rdp-on-windows).
+- If you are using Windows with Remote Desktop and have trouble getting hardware acceleration please read [this article](Hwa-Fails-with-RDP.md).

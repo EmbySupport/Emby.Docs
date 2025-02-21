@@ -23,7 +23,7 @@ C:\Users\\{user}\AppData\Roaming\Emby-Server
 
 ### Asustor
 /home/emby
-  - Accessing this folder directly will require SSH: https://support.asustor.com/index.php?/Default/Knowledgebase/Article/View/190/22/how-to-ssh-into-my-asustor-nas
+  - Accessing this folder directly will require SSH. See the SSH section within an ASUSTOR course here: https://www.asustor.com/en/online/College_topic?topic=109#lux5
 
 ### Synology
 /volume1/@appdata/EmbyServer

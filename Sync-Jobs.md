@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001162175-sync-jobs
 
 Download jobs can be for an individual media file download or a whole TV season or show and also possible to download a complete library. Download jobs also include those created for the [Folder Sync](Folder-Sync.md) feature.
 
-Download jobs are created through the **Download** buton within the Emby Apps that support downloads and also within context menu **Download to...** button which is available for media libraries contents. The **Download to...** button is also available in the [Emby Web client](Web-Client.md) app. For the various options available, see the [Download Options](Sync.md) article.
+Download jobs are created through the **Download** button within the Emby Apps that support downloads and also within context menu **Download to...** button which is available for media libraries contents. The **Download to...** button is also available in the [Emby Web client](Web-Client.md) app. For the various options available, see the [Download Options](Sync.md) article.
 
 
 ## Downloads Job Settings

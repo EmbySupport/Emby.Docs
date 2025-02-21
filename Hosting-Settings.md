@@ -13,9 +13,9 @@ For the purposes of this document we are defining local as within your home netw
 
 ## LAN Networks
 
-If you have more than one local network subnet, you may need to use this setting to define the IP subnets that are deemed to be local. Also if using a vpn on the router, you should use this setting to add the local subnet address range used by the vpn. When there is more than one subnet, enter here all the IP subnets that are to be treated as local network subnets, including the subnet the emby server is connected to.
+If you have more than one local network subnet, you may need to use this setting to define the IP subnets that are deemed to be local. Also if using a vpn on the router, you should use this setting to add the local subnet address range used by the vpn. When there is more than one subnet, enter here all the IP subnets that are to be treated as local network subnets, including the subnet the Emby server is connected to.
 
-This setting is used when enforcing bandwith controls and remote access controls.
+This setting is used when enforcing bandwidth controls and remote access controls.
 
 When the LAN Networks field is filled, any subnet not defined here will be deemed external and the remote access controls and external bandwidth restrictions would apply. If left blank, only the server's subnet and common private IP subnets (192.168.0.0 to 192.168.255.255, 172.16.0.0 to 172.31.255.255) are considered to be on the local network. If you are not sure, include all your subnets here. See example below.
 
@@ -28,7 +28,7 @@ Here us Example of two 256-addresses subnets defined as being local for the serv
 
 ## Local IP Address
 
-The local IP address will automtically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface. 
+The local IP address will automatically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface. 
 
 ![](images/server/hosting12.png)
 
@@ -74,11 +74,11 @@ By default this setting is enabled and the Emby Server will attempt to automatic
 > Automatic port mapping uses uPnP which would need to be enabled on the router.
 
 > [!Important]
-> If automatic port mapping is disabled but remote connections are to be used, you must setup port forward rules manually in the router configuration. Refer to [Setup Port Forwarding](connectivity.md#setup-port-forwarding) section for information on this.
+> If automatic port mapping is disabled but remote connections are to be used, you must setup port forward rules manually in the router configuration. Refer to [Setup Port Forwarding](Connectivity.md#setup-port-forwarding) section for information on this.
 
 ## External Domain
 
-When using a Dynamic DNS service (DDNS) or a domain name, enter it here without the port number. Emby apps will use this when connecting remotely. The field should be used whem a custom SSL certificate is used for Secure Connections. Example: mydomain.com
+When using a Dynamic DNS service (DDNS) or a domain name, enter it here without the port number. Emby apps will use this when connecting remotely. The field should be used when a custom SSL certificate is used for Secure Connections. Example: mydomain.com
 
 ![](images/server/hosting14.png)
 
@@ -88,13 +88,13 @@ The setting is on by default and gives added security where the server checks re
 
 ![](images/server/hosting15.png)
 
-Optionally you can disable it or limit it to just check when the headers indicate the request is from an exteral source.
+Optionally you can disable it or limit it to just check when the headers indicate the request is from an external source.
 
 ![](images/server/hosting16.png)
 
-## Secure Connnections (https / SSL)
+## Secure Connections (https / SSL)
 
-To enable secure connections, you will need to aquire a certificate and provide the filesystem path to the certificate and the certificate password. By default, use of https for requests made to the server is disabled. The path is to be to a PKCS #12 file containing a certificate and private key to enable TLS support on a custom domain. The Certificate password should be entered if it requires a password.
+To enable secure connections, you will need to acquire a certificate and provide the filesystem path to the certificate and the certificate password. By default, use of https for requests made to the server is disabled. The path is to be to a PKCS #12 file containing a certificate and private key to enable TLS support on a custom domain. The Certificate password should be entered if it requires a password.
 
 Three secure connections modes are available to choose from,
 
@@ -110,7 +110,7 @@ Three secure connections modes are available to choose from,
 > [!NOTE]
 > Please ensure that you are using the latest versions available for Emby Apps.
 
-For detailed information on setting up secure connections, refer to this section [Using secure https connections](Secure-Your-Server#Using-secure-https-connections) in the [Secure Your Server](Secure-Your-Server.md) article.
+For detailed information on setting up secure connections, refer to this section [Using secure https connections](Secure-Your-Server.md#using-secure-https-connections) in the [Secure Your Server](Secure-Your-Server.md) article.
 
 ## Streaming Controls
 
@@ -121,7 +121,7 @@ With [Emby Premiere](Emby-Premiere.md), you can limit the number of concurrent v
 > [!Note]
 > A similar setting is available for each user account which would override this global setting. See [users](Users.md).
 
-## Intenret streaming bitrate limit
+## Internet streaming bitrate limit
 
 You have an option to specify the streaming bitrate limit in Mbps for streaming to remote devices. This limit is per stream. Bandwidth limits are not enforced by default.
 

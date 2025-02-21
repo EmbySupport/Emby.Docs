@@ -25,8 +25,7 @@ Out of the box, Emby Server currently supports the following TV Tuners:
 
 - [HDHomerun Network Tuner](HDHomeRun-Setup.md) (Models available for both OTA and Cable. Must support DLNA 2015+ model)
 - Hauppauge TV Tuners (on Emby Server for Windows - Requires Win TV 8.5 or greater to be installed)
-- @M3U-Tuners  
-M3U files (or urls). See examples of m3u files at [M3U Examples](M3U-Tuners.md#Example-M3U)
+- [M3U Tuners](M3U-Tuners.md)  - M3U files (or urls). See examples of m3u files at [M3U Examples](M3U-Tuners.md#example-m3u)
 
 Support for additional tuners can be added by installing a [Live TV Plugin](Live-TV-Plugins.md).
 

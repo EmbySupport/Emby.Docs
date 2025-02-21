@@ -75,7 +75,7 @@ The following shows the options for the [Emby for Android](Android-Mobile.md) ap
 
 ![](images/apps/downloads10.png)
 
-The folowing shows the options for the [Emby Windows](Emby-Theater-for-Windows.md) app.
+The following shows the options for the [Emby Windows](Emby-Theater-for-Windows.md) app.
 
 ![](images/apps/downloads13.png)
 

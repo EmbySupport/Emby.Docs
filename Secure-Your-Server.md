@@ -4,7 +4,7 @@ title: Secure Your Server
 legacyUrl: /support/solutions/articles/44001160086-secure-your-server
 ---
 
-This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa, which requires https connections, or Google Home.
+This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa, which requires https connections.
 
 ## General tips & best practice
 
@@ -49,7 +49,7 @@ Check that media deletion is controlled and restricted only to the accounts that
    ![](images/server/users30.png)
 
 > [!NOTE]
-> You can untick “All libraries” and select specific libraries and channels.
+> You can deselect “All libraries” and select specific libraries and channels.
 
 Similarly for subtitle deletions. 
 
@@ -66,7 +66,7 @@ You can also disable user accounts
 
 ### Remote Connections
 
-*  If the server is only to be used locally, disable remote access at the server level by unticking this server network setting.
+*  If the server is only to be used locally, disable remote access at the server level by deselecting this server network setting.
 
    ![](images/server/hosting7.png)
 
@@ -82,13 +82,13 @@ You can also disable user accounts
 ![](images/server/hosting8.png)
 
 
-*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers from 8096 and 8920 to other port numbrs.
+*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers from 8096 and 8920 to other port numbers.
 
    ![](images/server/hosting10.png)
 
    ![](images/server/hosting11.png)
 
-The public ports would need to be mapped to the local ports. This can be done either by using the automatic port mapping functionality of the Emby Server or by setting up port forwards manually in the router. See [Automatic Port Mapping](Connectivity.md#Automatic-Port-Mapping) and [Setup Port Forwarding](Connectivity.md#Setup-Port-Forwarding).
+The public ports would need to be mapped to the local ports. This can be done either by using the automatic port mapping functionality of the Emby Server or by setting up port forwards manually in the router. See [Automatic Port Mapping](Connectivity.md#automatic-port-mapping) and [Setup Port Forwarding](Connectivity.md#setup-port-forwarding).
 
 
 *  You also have the option to restrict remote connections to only be allowed from specific public/WAN IP addresses or subnets. The reverse is also possible, blocking specific remote IP addresses and/or subnets. The default is that all remote addresses would be allowed.
@@ -110,7 +110,7 @@ We will now create Let's encrypt ssl certificates and add it to your domain. Her
 1. Enter your domain on the site. i.e. yourdomain.com and create a free SSL certificate
 2. Select Manual Verification (DNS) > Manually verify domain. We now have 2 TXT records (step 2 on the SSL for free website). We will copy back the TXT records to the domain provider. Leave the SSL for free page open. We will come back to it.
 ![](https://i.imgur.com/kh19ZgR.jpg)
-4. On the domain provider website, select your domain > Manage DNS. Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
+3. On the domain provider website, select your domain > Manage DNS. Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
 
    **Name**: _acme-challenge.{yourdomain.com}
 
@@ -153,7 +153,7 @@ We are almost done. Your Emby server requires a PKCS #12 certificate (certificat
 
    **Secure connection mode**: Set it to Preferred but not required or Required for all remote connections.
 
-Your dashboard should now reflect your remote access as https://yourdomain.com:port. If you followed all the steps, clicking the new remote url should reach your Emby server. If it doesn't work, verify your https ports and try connecting from outside of your network. If the dashboard is still showing the domain url with http, check that the you have enetered the correct certificate password. You may need to look at the server logs to see if there was an error in processing the certificate.
+Your dashboard should now reflect your remote access as https://yourdomain.com:port. If you followed all the steps, clicking the new remote url should reach your Emby server. If it doesn't work, verify your https ports and try connecting from outside of your network. If the dashboard is still showing the domain url with http, check that you have entered the correct certificate password. You may need to look at the server logs to see if there was an error in processing the certificate.
 
 **Save all your certificate files and keys in safe location.** You'll need the private key when you are ready to renew your SSL certificate (I have my own CSR option on SSL for free).
 Since this is all for free, it requires a bit more involvement. You will need to ensure you renew your SSL certificates (every 3 months with SSL for free) and your free domain (every year at least). If you used SSL for free, I suggest creating an account to make the renewal process easier.
