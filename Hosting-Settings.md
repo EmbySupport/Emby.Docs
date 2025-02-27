@@ -17,14 +17,20 @@ If you have more than one local network subnet, you may need to use this setting
 
 This setting is used when enforcing bandwidth controls and remote access controls.
 
-When the LAN Networks field is filled, any subnet not defined here will be deemed external and the remote access controls and external bandwidth restrictions would apply. If left blank, only the server's subnet and common private IP subnets (192.168.0.0 to 192.168.255.255, 172.16.0.0 to 172.31.255.255) are considered to be on the local network. If you are not sure, include all your subnets here. See example below.
+When the LAN Networks field is filled, any subnet not defined here will be deemed external and the remote access controls and external bandwidth restrictions would apply. If left blank, only the server's subnet and common private IP subnets are considered to be on the local network. See example below.
 
-> [!NOTE]
-> With the exception of the subnet the Emby Server is connected, 10.xx.xx.xx subnets are not detected as local automatically and should be included in this field together with the subnet the server is directly connected to.
+Here is an example of two 256-addresses subnets defined as being local for the server: 192.168.1.0/24,10.253.0.0/24.
 
-Here us Example of two 256-addresses subnets defined as being local for the server: 192.168.1.0/24,10.253.0.0/24.
+> [!IMPORTANT]
+> When specifying IP subnets, make sure you use the correct netmask/cidr value. A `/24` denotes 256 addresses
 
 ![](images/server/connectivity5.png)
+
+> [!NOTE]
+> The system API is used to determine if an IP Address is local. For the 192.168.x.x and 172.x.x.x subnets shown above, there is an override where they would always be classed as local. If you find that your 10.x.x.x subnet is not classed as local, enter the subnet together with the subnet for the server in the **LAN Networks** field.
+
+> [!IMPORTANT]
+> You should only use this setting, if you know you need it. Once you configure, you will need to keep it up to date - in event of network subnet changes.
 
 ## Local IP Address
 

@@ -36,7 +36,7 @@ Before saving, you can configure library and channel access, and this can easily
 
 ![](images/server/users9.png)
 
-![](images/server/users36.png)
+![](images/server/users24.png)
 
 After saving, you will then be able to do more customization for this user account.
 

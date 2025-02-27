@@ -17,13 +17,14 @@ C:\Users\\{user}\AppData\Roaming\Emby-Server
 
 ### Android
 /storage/emulated/0/Android/data/com.emby.embyserver/files
+ - See this NVIDIA Shield article for how to access this area from a PC https://nvidia.custhelp.com/app/answers/detail/a_id/4172/~/how-do-i-share-shield-tv-folders-with-a-pc
 
 ### Linux
 /var/lib/emby
 
 ### Asustor
 /home/emby
-  - Accessing this folder directly will require SSH. See the SSH section within an ASUSTOR course here: https://www.asustor.com/en/online/College_topic?topic=109#lux5
+ - Accessing this folder directly will require SSH. See the SSH section within an ASUSTOR course here: https://www.asustor.com/en/online/College_topic?topic=109#lux5
 
 ### Synology
 /volume1/@appdata/EmbyServer

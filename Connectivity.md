@@ -33,7 +33,7 @@ https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your
 
 # Troubleshooting Internal Connections
 
-If the above still does not work, please ensure the machine running Emby Server is turned on, and that the Emby Server application is running. Check through **Task Manager** on Windows, **Activity Monitor** on MacOS, or **ps** command on Linux.
+If the above still does not work, please ensure the machine running Emby Server is turned on, and that the Emby Server application is running. Check through **Task Manager** on Windows, **Activity Monitor** on MacOS, or **ps -e** command on Linux.
 
 A useful test is to try to use a web browser on another device, such as another computer, smartphone or tablet. You'll need to ensure the other device is connected to the same WIFI network. Try opening a web browser on that device and entering the local address manually:
 
@@ -41,9 +41,21 @@ A useful test is to try to use a web browser on another device, such as another 
 
 If this still does not work, then most likely the firewall on the server machine is not allowing access. Below are a list of troubleshooting steps that can be taken to resolve this.
 
-### Open TCP Ports 8096 / 8920 on your server's firewall
+### Open TCP Ports 8096 / 8920 & UDP Port 7359 on your server's firewall
 
-If running Windows, most likely you'll need to configure Windows Firewall. See [How to open a port in Windows Firewall](http://wiki.mcneel.com/zoo/window7firewall) for example of how allow a specific port through the firewall. Enter port 8096 instead of the port shown in this example. If you have secure connections enabled, do the same for tcp port 8920.
+If running Windows, the built-in Windows Firewall is usually auto-configured by Emby Server. You may validate this by inspecting the Windows Firewall rules and checking to see Inbound Rules for the EmbyServer.exe for both tcp and udp and Inbound Rules for local TCP ports 8096 and 8920 and for server discovery on the local network, UDP port 7359.
+
+![](images/server/connectivity14a.png)
+
+The port rule names are being changed and you may see them as:
+
+![](images/server/connectivity14b.png)
+
+and for the program rules:
+
+![](images/server/connectivity15.png)
+
+To configure the windows firewall, see [How to open a port in Windows Firewall](http://wiki.mcneel.com/zoo/window7firewall) which goes through an example of how allow a specific port through the firewall. Enter port 8096 instead of the port shown in this example. If you have secure connections enabled, do the same for tcp port 8920. And add a rule for UDP port 7359 - this is used for server discovery by client apps.
 
 > [!Important]
 > Please do not attempt to skip this step by disabling Windows Firewall, as this usually does more harm than good.

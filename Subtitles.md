@@ -54,7 +54,7 @@ Hearing impaired subtitles can be marked using ".sdh".
 ```
 
 ## Other Names
-It is sometimes useful to have other "names" in the subtitle to help identify it from the client.  This can be useful for "Director's Commentary".
+It is sometimes useful to have other "names" in the subtitle to help identify it from the client.  This can be useful for cases like "Director's Commentary" or similar.
 
 ```
 /Movies
