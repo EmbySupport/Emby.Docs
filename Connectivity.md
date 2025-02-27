@@ -16,7 +16,7 @@ This document is primarily designed for troubleshooting, when the automatic feat
 
 Most Emby apps can automatically discover your Emby Server on your home network, so in those cases, there's nothing more you need to do. But in the event this does not work, you can still connect to your Emby Server by manually entering the server's address.
 
-To locate your server's internal address, simply open the Emby Server Dashboard on the Emby Server machine, typically through http://localhost:8096 and clicking on the **Manage Emby Server** cogwheel icon in the top right corner.
+To locate your server's internal address, simply open the Emby Server Dashboard on the Emby Server machine, typically through http://localhost:8096 and clicking on the **Manage Emby Server** gear icon in the top right corner.
 
 Your Emby Server's local address is then displayed in the **In-Home (LAN) access** field in the Dashboard view.
 

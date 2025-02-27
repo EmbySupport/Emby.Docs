@@ -52,9 +52,9 @@ Automatic port mapping for remote access can be enabled or disabled at this init
 
 Further Remote Access options are available in the Emby server dashboard which you can access after the initial setup. See [Network Setup](Hosting-Settings.md).
 
-## Emby Terms of Service
+## Emby Terms of Use
 
-Accept the Emby Terms of Service
+Accept the Emby Terms of Use
 
 ![](images/server/wizard6.png)
 
@@ -62,7 +62,7 @@ Accept the Emby Terms of Service
 
 ![](images/server/wizard7.png)
 
-Once you've completed the above screens, you'll then be taken to the Emby Server Dashboard. You're now ready to explore the features of the server while waiting for your media scan to complete.
+Once you've completed the above screens, you'll then be taken to the Sign in screen for the Emby Server. You're now ready to explore the features of the server while waiting for your media scan to complete.
 
 Be sure to check out:
 

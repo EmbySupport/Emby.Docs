@@ -4,7 +4,7 @@ title: Log Files
 legacyUrl: /support/solutions/articles/44001159337-log-files
 ---
 
-You can access Emby Server Log files from the dashboard UI by clicking on the **Manage Emby Server** cogwheel in the top right corner, and then navigating to **Logs** under the Server menu in the left sidebar.  You will see a list of log files on the right where you can do one of the following:
+You can access Emby Server Log files from the dashboard UI by clicking on the **Manage Emby Server** gear icon in the top right corner, and then navigating to **Logs** under the Server menu in the left sidebar.  You will see a list of log files on the right where you can do one of the following:
 
 - Click on the **...** to the right of the log file name and then choose Multi-Select or Download. If multi-selecting log files, clicking on the **...** after selecting log files would offer the option to download, or
 - Click on one to open it in the web browser
