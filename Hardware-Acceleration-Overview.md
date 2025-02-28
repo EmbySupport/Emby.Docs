@@ -56,6 +56,6 @@ OpenMax is an API specification covering various aspects of media acceleration. 
 In many cases these subtitle formats will need to be burned into the video on the fly with transcoding. Most GPUs do not support this and as a result there will be some significant CPU involvement. This is a very taxing process for even a powerful server, and it's generally something you want to avoid. Here are the best ways to avoid burning in subtitles:
 - Turn off the subtitles prior to playback using the pre-playback subtitle selection menu
 - Use external text-based subtitles instead, such as .srt files. Emby Server's subtitle download features can help automate the process of acquiring these.
-- Use an Emby app that can direct play these subtitle formats without transcoding, such as Emby Theater, Android, or iOS.
+- Use an Emby app that can direct play these subtitle formats without transcoding, such as Emby Windows, Emby Theater for Linux & Mac, Android, or iOS.
 
-- If you are using Windows with Remote Desktop and have trouble getting hardware acceleration please read [this article](https://support.emby.media/support/solutions/articles/44001894172-hardware-acceleration-fails-with-remote-desktop-rdp-on-windows).
+- If you are using Windows with Remote Desktop and have trouble getting hardware acceleration please read [this article](Hwa-Fails-with-RDP.md).

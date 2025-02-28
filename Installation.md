@@ -10,9 +10,13 @@ Emby Server is available on the following platforms:
 * Mac
 * Linux
 * BSD
-* NAS Devices - Asustor, FreeNAS, Open Media Vault, QNAP, Synology
+* NAS Devices - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
 * Docker
 * Android
+* Cloudron
+* SNAP 
+* Flatpack
+* NVIDIA Shield
 
 To install Emby Server, begin by visiting the download page and following the instructions for your operating system:
 
@@ -20,9 +24,7 @@ http://emby.media/download/
 
 ## Running the Startup Wizard
 
-After Emby Server has been installed, it will attempt to launch the startup wizard in your default browser. If this does not occur automatically, please open your web browser and navigate to:
-
-[http://localhost:8096/web/wizardstart.html](http://localhost:8096/web/wizardstart.html)
+After Emby Server has been installed, it will attempt to launch the startup wizard in your default browser. If this does not occur automatically, please open your web browser and navigate to: [http://localhost:8096](http://localhost:8096) which should launch the Startup Wizard.
 
 ### Language Selection
 
@@ -32,9 +34,7 @@ The first page will ask you to choose a display language. We have been working h
 
 ### Create a User
 
-Next you'll be asked to create an initial user account. You'll have the ability to create more accounts later after the setup process has completed. 
-
-As an option, you also have the ability to link the account to [Emby Connect](Emby-Connect.md). Emby Connect makes it easy to connect to your Emby Server while you're away from home. This is purely an optional step and can be skipped if desired. You can always do this later after completing the startup wizard by visiting the [Users](Users.md) section of the server's web interface.
+Next you'll be asked to create an initial user account. Enter the Username and password. You'll have the ability to create more accounts later after the setup process has completed. See [Users](Users.md).
 
 ![](images/server/wizard2.png)
 
@@ -44,45 +44,29 @@ Now, you'll add your media libraries. See [Library Setup](Library-Setup.md) for 
 
 ![](images/server/wizard4.png)
 
-## Configure Metadata Language Settings
+## Configure Remote Access
 
-Once you have added all the libraries that you want, you'll configure your default metadata settings, such as where they'll get saved and in what language.
+Automatic port mapping for remote access can be enabled or disabled at this initial stage:
 
-![](images/server/wizard3.png)
+![](images/server/wizard5.png)
 
-## Remote Access
+Further Remote Access options are available in the Emby server dashboard which you can access after the initial setup. See [Network Setup](Hosting-Settings.md).
 
-If you wish to access your Emby server remotely (outside of your LAN), then you can set up initial options here.
+## Emby Terms of Use
 
-![](images/server/wizard_new_10.png)
+Accept the Emby Terms of Use
 
-Further Remote Access options are available in the Emby server dashboard (Advanced/Hosting).
-
-## Emby Terms of Service
-
-Accept the Emby Terms of Service
-
-![](images/server/wizard_new_11.png)
+![](images/server/wizard6.png)
 
 ## Completing the Startup Wizard
 
-![](images/server/wizard_new_12.png)
+![](images/server/wizard7.png)
 
-Once you've completed the above screens, you'll then be taken to the Emby Server Dashboard. You're now ready to explore the features of the server while waiting for your media scan to complete.
+Once you've completed the above screens, you'll then be taken to the Sign in screen for the Emby Server. You're now ready to explore the features of the server while waiting for your media scan to complete.
 
 Be sure to check out:
 
+* [Network Setup](Hosting-Settings.md)
+* [Server Settings](Server-Settings.md)
 * [Users](Users.md)
-* [Downloads & Sync](Sync-Introduction.md)
-* [Live TV](Live-TV.md)
-* [Plugins](Plugins.md)
-
-## Get Emby Premiere
-
-Emby Premiere brings a number of additional benefits and bonus features. With Emby Premiere you can enjoy:
-
-* Cover Art
-* Downloads & Sync
-* Much more
-
-[Learn more about Emby Premiere.](http://emby.media/donate).
+* [Library Setup](Library-Setup.md)

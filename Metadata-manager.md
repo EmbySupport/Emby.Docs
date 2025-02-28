@@ -20,20 +20,12 @@ Another way to access the metadata manager is via **Options**->**Edit** of the i
 
 Each media item has the option to **Refresh** itself. Selecting refresh will pull fresh metadata from each of the databases that the server is configured to pull from. In addition, it will download any images that may be missing (logos, disc images, posters, etc.).
 
-If you select the **Advanced refresh** button, you will get a popup with several options for what should be refreshed.
-
-The **Metadata refresh mode** options will only affect the text metadata.
+The **Refresh mode** options will only affect the text metadata.
  
 - Refreshing all data (the default option) will overwrite all of the fields with metadata from outside databases.
 - Refreshing only missing data will preserve all of the existing metadata and only populate the fields that are missing metadata.
-- A local refresh will make the server reread the NFO or XML file that contains the metadata.
-- Selecting **None** will not refresh any of the metadata.
 
-The **Image refresh mode** options will only affect the images that the server uses.
-
-- Download only missing images (the default option) will only download images that are missing from the existing image collection.
-- Download and replace images will force the server to re-download all of the images for the media item.
-- Selecting **None** will prevent the server from changing any of the existing images and keep it from downloading more.
+Selecting **Replace existing images** will force the server to remove existing images and re-download all of the images for the media item.
 
 #### Identifying items
 

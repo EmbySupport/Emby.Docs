@@ -4,7 +4,7 @@ title: Secure Your Server
 legacyUrl: /support/solutions/articles/44001160086-secure-your-server
 ---
 
-This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa or Google Home. 
+This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa, which requires https connections.
 
 ## General tips & best practice
 
@@ -33,17 +33,45 @@ Here are some tips to consider.
 
 *  Consider disabling remote connections for the server admin account. This can be done once the remote connections configuration is in place and working. If there is a need to make changes to the server configuration, use tools such as Team Viewer, Remote Desktop, AnyDesk etc.
 
-   ![](images/server/users29.png)
+   ![](images/server/users18.png)
+
+
+### User Account Privileges
+
+*  Check all the accounts privileges in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server. 
+
+The following shows the control level you have at the user account level. E.g. remote access can be controlled at the user level.
+
+   ![](images/server/users18.png)
+
+Check that media deletion is controlled and restricted only to the accounts that you trust to give that privilege to. If you had previously granted media deletion for all libraries, reconsider and where absolutely needed, enable it for specific libraries and channels.
+
+   ![](images/server/users30.png)
+
+> [!NOTE]
+> You can deselect “All libraries” and select specific libraries and channels.
+
+Similarly for subtitle deletions. 
+
+   ![](images/server/users31.png)
+
+And for remote control, restrict the permission to control for other users to just the admin accounts.
+
+   ![](images/server/users32.png)
+
+You can also disable user accounts 
+
+   ![](images/server/users33.png)
 
 
 ### Remote Connections
 
-*  If the server is only to be used locally, disable remote access at the server level by unticking this server network setting.
+*  If the server is only to be used locally, disable remote access at the server level by deselecting this server network setting.
 
    ![](images/server/hosting7.png)
 
 > [!NOTE]
-> If using a vpn on the local network, you may need to have this allowed, alternatively add the vpn network subnet to the list of LAN Networks in the server network settings
+> If using a vpn on the local network, you may need to have this allowed, alternatively add the vpn network subnet to the list of LAN Networks in the server [network settings](Hosting-Settings.md).
 
 
 *  When using a domain name for access to the emby server, consider not having the word “emby” as part of the domain name.
@@ -54,43 +82,21 @@ Here are some tips to consider.
 ![](images/server/hosting8.png)
 
 
-*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers. To do this, you would need to disable the uPnP automatic port mapping and instead setup on your router manual port forwarding for the http and https public port number to be forwarded to the local http and https port numbers in the router settings. 
-
-   ![](images/server/hosting9.png)
+*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers from 8096 and 8920 to other port numbers.
 
    ![](images/server/hosting10.png)
 
    ![](images/server/hosting11.png)
 
-   As an example, if using public port 32700 for http and public port 32800 for https, then you would need to ensure first that the server has a static or DHCP reserved local tcp IP address setup in the router and then setup manual portwards to this IP address for tcp public port 32700 to forward to local port 8096 and tcp public port 32800 to forward to local port 8920. There should be no need to change the local ports from the default. See remote access article.
+The public ports would need to be mapped to the local ports. This can be done either by using the automatic port mapping functionality of the Emby Server or by setting up port forwards manually in the router. See [Automatic Port Mapping](Connectivity.md#automatic-port-mapping) and [Setup Port Forwarding](Connectivity.md#setup-port-forwarding).
 
 
-### User Account Privileges
+*  You also have the option to restrict remote connections to only be allowed from specific public/WAN IP addresses or subnets. The reverse is also possible, blocking specific remote IP addresses and/or subnets. The default is that all remote addresses would be allowed.
 
-*  Check all the accounts privileges in the user profiles (Server Settings / Users) and give the least privileges, ensuring only your server admin account has the privilege to manage the server. Check that media deletion is controlled and restricted only to the accounts that you trust to give that privilege to.
-
-The following shows the control level you have at the user account level. E.g. remote access can also be controlled at the user level.
-
-   ![](images/server/users29.png)
-
-   ![](images/server/users30.png)
-
-> [!NOTE]
-> You can untick “All libraries” and select specific libraries.
-
-   ![](images/server/users31.png)
-
-   ![](images/server/users32.png)
-
-You can also disable users 
-
-   ![](images/server/users33.png)
-
+![](images/server/hosting13.png)
 
 
 ## Using secure https connections
-
-If you are interested in an even more secure setup, here is a community-written guide on [HOW TO: NGINX Reverse Proxy](https://emby.media/community/index.php?/topic/47508-how-to-nginx-reverse-proxy/).
 
 You'll need two things:
 * A domain that supports TXT records
@@ -104,7 +110,7 @@ We will now create Let's encrypt ssl certificates and add it to your domain. Her
 1. Enter your domain on the site. i.e. yourdomain.com and create a free SSL certificate
 2. Select Manual Verification (DNS) > Manually verify domain. We now have 2 TXT records (step 2 on the SSL for free website). We will copy back the TXT records to the domain provider. Leave the SSL for free page open. We will come back to it.
 ![](https://i.imgur.com/kh19ZgR.jpg)
-4. On the domain provider website, select your domain > Manage DNS. Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
+3. On the domain provider website, select your domain > Manage DNS. Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
 
    **Name**: _acme-challenge.{yourdomain.com}
 
@@ -117,6 +123,7 @@ We will now create Let's encrypt ssl certificates and add it to your domain. Her
 4. You'll notice Type A records in the same section. You can remove the WWW entry. Ensure your external IP is correct. If you have a dynamic IP, you'll need to keep this updated when it changes.
 5. Wait about 15 minutes. Let the domain name and changes propagate.
 6. Back to the SSL for free website. Look at step 3, you'll see a link or two to click. Click them. If it is successful, go ahead and click Download SSL certificate. If it is not successful, wait a little longer and retry.
+
 
 ### Setup Emby with your domain and SSL certificate
 Now you should have a domain and a folder of ssl certificate (ca_bundle.crt, certificate.crt, private.key).
@@ -132,17 +139,23 @@ We are almost done. Your Emby server requires a PKCS #12 certificate (certificat
    **Chain certificate**: The ca_bundle.crt or you can also find it here, Let's Encrypt [Intermediate certificate](https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem.txt). Save the text into a .txt file.
 
    **PFX password**: Since the private key is combined with the certificate, set a password to secure the new ssl certificate. Remember this password, you'll need it in Emby.
-3. Go to your Emby server dashboard > Advanced. Save your changes and restart your server.
+3. Go to your Emby server dashboard > Network. Save your changes and restart your server.
+
+   ![](images/server/hosting14.png)
+
+   ![](images/server/hosting17b.png)
 
    **External domain**: yourdomain.com
 
-   **Custom SSL certificate path**: point to your new certificate.pem
+   **Custom SSL certificate path**: point to your new certificate.pfx file
 
    **Certificate password**: The password you set up in the previous step.
 
    **Secure connection mode**: Set it to Preferred but not required or Required for all remote connections.
 
-Your dashboard should now reflect your remote access as https://yourdomain.com:port. If you followed all the steps, clicking the new remote url should reach your Emby server. If it doesn't work, verify your https ports and try connecting from outside of your network.
+Your dashboard should now reflect your remote access as https://yourdomain.com:port. If you followed all the steps, clicking the new remote url should reach your Emby server. If it doesn't work, verify your https ports and try connecting from outside of your network. If the dashboard is still showing the domain url with http, check that you have entered the correct certificate password. You may need to look at the server logs to see if there was an error in processing the certificate.
 
 **Save all your certificate files and keys in safe location.** You'll need the private key when you are ready to renew your SSL certificate (I have my own CSR option on SSL for free).
 Since this is all for free, it requires a bit more involvement. You will need to ensure you renew your SSL certificates (every 3 months with SSL for free) and your free domain (every year at least). If you used SSL for free, I suggest creating an account to make the renewal process easier.
+
+If you are interested in an even more secure setup, here is a community-written guide on [HOW TO: NGINX Reverse Proxy](https://emby.media/community/index.php?/topic/47508-how-to-nginx-reverse-proxy/).

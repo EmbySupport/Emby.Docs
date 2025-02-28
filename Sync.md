@@ -54,7 +54,7 @@ And for a specific TV Show season
 
 ![](images/apps/downloadto2.png)
 
-The following is an example of a **Download to...** menu on the [Emby Web](Web-Client.md) app showing a download target to the [Emby Theater for Windows](Emby-Theater-for-Windows.md) app.
+The following is an example of a **Download to...** menu on the [Emby Web](Web-Client.md) app showing a download target to the [Emby Windows](Emby-Theater-for-Windows.md) app.
 
 ![](images/apps/downloadto6.png)
 
@@ -75,7 +75,7 @@ The following shows the options for the [Emby for Android](Android-Mobile.md) ap
 
 ![](images/apps/downloads10.png)
 
-The folowing shows the options for the [Emby Theater for Windows](Emby-Theater-for-Windows.md) app.
+The following shows the options for the [Emby Windows](Emby-Theater-for-Windows.md) app.
 
 ![](images/apps/downloads13.png)
 

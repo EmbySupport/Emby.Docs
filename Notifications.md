@@ -12,7 +12,7 @@ Notification services represent the ways in which notifications are sent out. No
 
 ![](images/server/notifications3.png)
 
-Installing a notification service is just like any other Plugin. Read the instructions for the Plugin. In some cases, it is just a matter of setting up within the Notifications Emby Server add notificatons interface. For more information on installing and configuring Plugins, see [Plugins](Plugins.md).
+Installing a notification service is just like any other Plugin. Read the instructions for the Plugin. In some cases, it is just a matter of setting up within the Notifications Emby Server **Add notification** interface. For more information on installing and configuring Plugins, see [Plugins](Plugins.md).
 
 ## Configuring Notifications
 

@@ -8,46 +8,46 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 <style type="text/css">
 
-    table.pemiere-matrix-table {
+    table.premiere-matrix-table {
         width: 100%; 
         margin-right: calc(0%);
     }
      
-    table.pemiere-matrix-table th {
+    table.premiere-matrix-table th {
         background-color: rgb(97, 189, 109);
         color: rgb(255, 255, 255);
         text-align: center;
     }
      
-    table.pemiere-matrix-table td {
+    table.premiere-matrix-table td {
         text-align: center;
     }
 
-    table.pemiere-matrix-table tr td:nth-child(1) {
+    table.premiere-matrix-table tr td:nth-child(1) {
         text-align: left;
     }
      
-    table.pemiere-matrix-table tr th:nth-child(1) {
+    table.premiere-matrix-table tr th:nth-child(1) {
         width: 58%;
         text-align: left;
     }
      
-    table.pemiere-matrix-table tr th:nth-child(2) {
+    table.premiere-matrix-table tr th:nth-child(2) {
         width: 14%;
     }
      
-    table.pemiere-matrix-table tr th:nth-child(3) {
+    table.premiere-matrix-table tr th:nth-child(3) {
         width: 14%;
     }
      
-    table.pemiere-matrix-table tr th:nth-child(4) {
+    table.premiere-matrix-table tr th:nth-child(4) {
         width: 14%;
     }
      
 </style>
 
 ## Server / All Apps
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>
@@ -123,6 +123,15 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     </tr>
     <tr>
         <td>Cinema Intros</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+    <tr>
+        <td>Limit the number of concurrent video playback sessions</td>
         <td></td>
         <td></td>
         <td>
@@ -274,7 +283,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## PC or Mobile Browser
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -291,14 +300,6 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         <td>
             <div>✔</div>
         </td>
-        <td></td>
-        <td>
-            <div>✔</div>
-        </td>
-    </tr>
-    <tr>
-        <td dir="ltr">Offline Media*</td>
-        <td></td>
         <td></td>
         <td>
             <div>✔</div>
@@ -323,13 +324,9 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     </tbody>
 </table>
 
-<p dir="ltr">
-    * On platforms that support it
-</p>
-
 ## Emby Windows
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -362,7 +359,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
         </td>
     </tr>
     <tr>
-        <td dir="ltr">Offline Media*</td>
+        <td dir="ltr">Offline Media</td>
         <td></td>
         <td></td>
         <td>
@@ -382,7 +379,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## Linux or MacOS (Emby Theater)
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -435,7 +432,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## Mobile Apps (iOS and Android)
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -514,7 +511,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## Android on TV or Fire TV
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -555,7 +552,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## Roku, Apple TV, Smart TV (LG and Samsung)
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>
@@ -590,7 +587,7 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 ## Game Consoles (Xbox, PS4)
 
-<table class="pemiere-matrix-table">
+<table class="premiere-matrix-table">
     <thead>
     <tr>
         <th>Feature</th>

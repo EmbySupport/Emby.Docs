@@ -6,108 +6,124 @@ legacyUrl: /support/solutions/articles/44001849875-server-installation-on-shield
 
 There are several manual steps that need to be completed to install Emby Server on the Shield TV.
 
-## Step 1 Determine the Shield TV IP Address
+## Step 1 Install Downloader
+- On the Shield TV, open the **Google Play Store** App,
 
-- From the Shield TV home screen navigate top right to the settings icon next to the clock. 
+- Search for "Downloader by AFTVnews".
 
-- Enter settings
+![Server Install Shield01](images/server/server_install_shield01.png)
 
-- Scroll down to "Network & Internet" and enter this option
+- Install the Downloader app.
 
-- It should show you Shield TV connected and it will give you the IP address.
+## Step 2 Allow external installs
 
-- Write down this IP address as you will need it later.
+- On the Shield TV, open **Settings**, Select **Apps** and scroll down and select **Security & restrictions**. Now click on **Unknown sources** and Allow **Downloader** to **Install unknown apps**.
 
+![Server Install Shield02](images/server/server_install_shield02.png)
 
+## Step 3 Open the Downloader app
 
-## Step 2 Determine the current APK link.
+- On the Shield TV, open the **Downloader** app and select the **Browser** option in the sidebar. Clear the default url and enter the following url https://emby.media/download
 
-On a PC go to https://emby.media/download.html and you will see:
+![Server Install Shield04](images/server/server_install_shield04.png)
 
-![Server Install Shield1](images/server/server_install_shield1.png)
+- Click on the **Go** button to open the emby download page
 
-Click the Shield Android TV option and you will get a screen similar to:
+- Scroll down the **Emby Server** section and double click on the **NVIDIA Shield** option
 
-![Server Install Shield2](images/server/server_install_shield2.png)
+![Server Install Shield05](images/server/server_install_shield05.png)
 
+- You will now see the **Emby Server for Android** downloads page
 
-Note the file numbers in the above link which is "4.3.0.26" which we will need in a following step.
+![Server Install Shield06](images/server/server_install_shield06.png)
 
+## Step 4 Optional - Save the page as Favorite
 
+- Click on the Menu button on the top right corner and select the **Add current page to favorites** option
 
-## Step 3 Install Downloader
-- On the Shield TV run the Google Play Store Apps,
+![Server Install Shield07](images/server/server_install_shield07.png)
 
-- Search for "Downloader by TROYPOINT".
+- Save as a favorite
 
-- Install this app and then run it.
+![Server Install Shield08](images/server/server_install_shield08.png)
 
-- If the app asks for permission to access the system, please grant it permission.
+- The apks download page is now in Favorites
 
+![Server Install Shield09](images/server/server_install_shield09.png)
 
+## Step 5 Installing Emby Server
 
-## Step 4: Downloading the APK
-On the Home screen in "Downloader by TROYPOINT" you will see an input box for  download location.
+- Select and double Click on the apk to install
 
-Type in:
+![Server Install Shield06](images/server/server_install_shield06.png)
 
-https://github.com/MediaBrowser/Emby.Releases/releases/download/4.3.0.26/com.emby.embyserver_4.3.0.26.apk
+- The download will start
 
-> [!NOTE]
-> If the file number from step one is different than this link please adjust the numbers in this link to match the current file on the website from step 1.
+![Server Install Shield10](images/server/server_install_shield10.png)
 
+- After the download completes, you will have the option to install the app.  Please do so.
 
-If the app asks for permission to access the system, please grant it permission.
+![Server Install Shield11](images/server/server_install_shield11.png)
 
-
-## Step 5: Installing Emby Server
-
-- After the download completes you will have the option to install the app.  Please do so.
-
-- If you don't get this option or later want to reinstall the app you can use the FILE menu on the left to quickly find and launch/install it.
+- If you don't get this option or later want to reinstall the app, you can use the **Files** menu on the left to quickly find and launch/install it.
 
 - After launching the APK file you will be prompted with a screen asking:
 
-    "Do you want to install this application? It does not require any special access."
+  "Do you want to install this application?" 
+
+![Server Install Shield12](images/server/server_install_shield12.png)
 
 - Please select INSTALL to continue.
+  
+- The install will now start. You may get a prompt from **Google Play Protect** that the install has been blocked. Select **More details** and **Install anyway**. 
+
+![Server Install Shield14](images/server/server_install_shield14.png)
+
+- The install should now complete.
+
+![Server Install Shield15](images/server/server_install_shield15.png)
+
+## Step 6 Launching Emby Server
+
+- Select the **OPEN** button on the **App installed** dialogue box.
+
+- If the app asks for permission to access the system, please select **Allow** to grant the permission.
+
+![Server Install Shield16](images/server/server_install_shield16.png)
+
+- Emby Server will now start and will show the url to use to access the server from devices and PCs on the local network. Note down this url as it will be needed for connecting to the server to configure the server.
+
+![Server Install Shield17](images/server/server_install_shield17.png)
+
+> [!NOTE]
+> If the link does not work, you can check that the IP Address is correct for the NVIDIA Shield by opening **Settings** and selecting **Network & Internet** to view the IP address. See [Connecting from Client Apps](Connectivity.md) for troubleshooting tips.
+
+- At any time, you can view this screen by clicking on the Emby Server icon within your NVIDIA Shield installed apps.
+
+![Server Install Shield18](images/server/server_install_shield18.png)
 
 
-After installation is complete you will have an option of DONE or OPEN.  Please select OPEN:
-
-
-The Shield TV will now prompt you to provide it permission to access the system.  Please ALLOW it.
-
-
-The application will now provide you a URL to use to access the server.  We will NOT USE this address so ignore it.
-
-
-## Step 6: Accessing the Shield TV from a PC
+## Step 7: Accessing the Shield TV from a PC
 
 - From a PC you will now connect to the Emby Server running on the Shield TV.
 
-- Enter `http://`
+- Enter the url shown on the screen, example: 
 
-- Type in the IP address from Step 1
+           `http://192.168.1.219:8096`
 
-- Add a colon followed by 8096
-
-
-The URL entered on your PC will then look similar to:
-
-`http://192.168.0.14:8096`
+- It is advisable that you make this NVIDIA Shield IP Address a static / DHCP Reserved IP address. For more information see [Connecting from Client Apps](Connectivity.md).
 
 
-## Step 7: Configuration and Setup
+## Step 8: Configuration and Setup
 
 You should now have a screen that looks like this:
 
-![Server Install Shield3](images/server/server_install_shield3.png)
+![Server Install Shield19](images/server/server_install_shield19.png)
 
 Congratulations, you have successfully installed Emby Server and are now ready to configure it like any other Emby Server from a PC.  Please continue following the normal installation procedure from here.
 
 
-## Step 8: Optional - Using USB Attached Storage
+## Step 9: Optional - Using USB Attached Storage
 
 If using USB attached storage on the Shield TV you may wish to read this Nvidia article on write access.
 

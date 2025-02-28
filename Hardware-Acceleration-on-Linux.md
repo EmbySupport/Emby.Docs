@@ -13,8 +13,7 @@ API for video encoding and decoding acceleration using Nvidia GPUs
 Video Acceleration API for Linux is supported by several device manufacturers
 
 - **[Intel QuickSync Video](#intel-quicksync-video)**  
- Intel's brand for its dedicated video encoding and decoding hardware 
- core
+ Intel's brand for its dedicated video encoding and decoding hardware core
 
 ## Nvidia NVDEC & NVENC
 Nvidia provides two hardware acceleration interfaces: 

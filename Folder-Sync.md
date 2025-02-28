@@ -30,7 +30,7 @@ Enter the path and the display name.
 
 ![](images/plugins/foldersync3.png)
 
-Untick the **Grant access to all users** to specify which user account(s) will be allowed to create Folder Sync jobs that will write to this folder.
+Deselect the **Grant access to all users** to specify which user account(s) will be allowed to create Folder Sync jobs that will write to this folder.
 
 ![](images/plugins/foldersync4.png) 
 

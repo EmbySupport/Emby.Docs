@@ -44,7 +44,7 @@ See the menu on the right-hand side of this page for a complete listing. Some ke
 - [iPad](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8 "iPad")
 - [iPhone](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8 "iPhone")
 - [Kodi](https://emby.media/emby-for-kodi.html "Kodi")
-- [Roku](https://www.roku.com/channels#!details/44191/emby "Roku")
+- [Roku](https://channelstore.roku.com/details/904d20cb3bd4aa340a35aa9c83c9a128/emby "Roku")
 - [Web App](http://app.emby.media "Web App")
 - [Windows](https://emby.media/emby-for-windows.html "Windows")
 - [Xbox](https://emby.media/emby-for-xbox.html "Xbox")

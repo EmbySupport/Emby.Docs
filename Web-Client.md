@@ -9,7 +9,7 @@ The Emby Web App is the main interface between you and your Emby Server, allowin
 # Setup Guide
 The Emby Web App is included with your installation of Emby Server. 
 
-To access it just open a web browser and visit: http://{your server ip}:8086.  
+To access it just open a web browser and visit: http://{your server ip}:8096, or when directly on the server machine, http://localhost:8096.
 
 # Server Management
 The Emby Web App is a convenient place to manage all aspects of your Emby Server, including the Library Setup, Users, Plugins, and more.

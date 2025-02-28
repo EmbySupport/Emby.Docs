@@ -19,24 +19,20 @@
       href: Run-as-Windows-Service.md
     - name: Server Installation on Shield TV
       href: Server-Installation-Shield.md
-    - name: Network & Connectivity
+    - name: Network Setup
       href: Hosting-Settings.md
-      items:
-      - name: Network Setup
-        href: Hosting-Settings.md
-      - name: Connectivity
-        href: Connectivity.md
-      - name: Remote Setup
-        href: Remote-Setup.md
-      - name: Secure Your Server
-        href: Secure-Your-Server.md
-      - name: Connecting from Client Apps
-        href: Advanced-Menu.md
   - name: Server Management
     href: Server-Settings.md
     items:
     - name: Server Settings
       href: Server-Settings.md
+    - name: Network & Connectivity
+      href: Connectivity.md
+      items:
+      - name: Connecting from Client Apps
+        href: Connectivity.md
+      - name: Secure Your Server
+        href: Secure-Your-Server.md
     - name: Manage Users
       href: Users.md
       items:

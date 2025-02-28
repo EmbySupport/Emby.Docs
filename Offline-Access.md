@@ -10,11 +10,11 @@ The Emby apps that currently support offline downloading are:
 
 * [Emby for Android Mobile](Android-Mobile.md)
 * [Emby for iOS](iOS.md)
-* [Emby Theater for Windows](Emby-Theater-for-Windows.md)
+* [Emby Windows](Emby-Theater-for-Windows.md)
 
 # How it Works
 
-Emby client Apps that support offline downloading will have a Download icon and the **Download** conext menu button. They will also be listed as possible targets of the **Download to** context action.
+Emby client Apps that support offline downloading will have a Download icon and the **Download** context menu button. They will also be listed as possible targets of the **Download to** context action.
 
 ![](images/apps/downloads1.png)
 
@@ -48,6 +48,6 @@ When selecting the **Downloads**, you will then be able to drill down:
 
 ![](images/apps/offlinedownloads6.png)
 
-## Emby Theater for Windows
+## Emby Windows
 
 This is similar to the other apps, with the **Downloads** folder showing on the **Select Server** screen when offline.

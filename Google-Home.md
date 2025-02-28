@@ -21,16 +21,16 @@ legacyUrl: /support/solutions/articles/44001161655-google-home
     * [Playback commands](#playback-commands)
     * [Sync Devices](#sync-devices)
 
-### What is Google Home?  
+## What is Google Home?
 Google Home is a powerful speaker and voice Assistant. Play your music. Call your friends. Ask it questions. Control your home. It's your own Google, always ready to help.
  
 The Emby Skill enables users to control playback of their media library or Live TV on any Emby compatible device. Once you have successfully linked your Emby account to Google Home and have remote access configured on the emby server, you can start controlling playback of your movies, TV shows, music or Live TV on your devices with your voice. 
 
-## Get started  
+## Get started
 It is assumed that you already have a Google Home setup. The emby integration with Google Home is currently in alpha test state due to changes made by Google to sunset some functionality. As a result of these changes, the Google Home skill has been renamed from **Emby home** to **Emby Remote**.
 
 ### Prerequisites
-It is necessary for [Emby Connect](Emby-Connect.md) to be used for the emby server user account and for the emby server to have [remote access](Remote-Setup.md) configured and working. [Secure Connections](https://emby.media/support/articles/Secure-Your-Server.html#using-secure-https-connections) for the Emby Server is not necessary unless you need to use the [Amazon Alexa service](https://emby.media/community/index.php?/topic/92173-alexa-now-requiring-secure-connection-on-port-443/) with emby.  
+It is necessary for [Emby Connect](Emby-Connect.md) to be used for the emby server user account and for the emby server to have [remote access](Hosting-Settings.md#allow-remote-access) configured and working. [Secure Connections](Secure-Your-Server.md#using-secure-https-connections) for the Emby Server is not necessary unless you need to use the [Amazon Alexa service](https://emby.media/community/index.php?/topic/92173-alexa-now-requiring-secure-connection-on-port-443/) with emby.
 
 #### Why is Emby connect required?
 Emby connect is used to provide your server information to Google Home.
@@ -95,7 +95,7 @@ After you sign in with the Emby Connect account, you will see the emby server.
 
 ![](images/server/googlehome12.png)
 
-If you have more than one server with user accounts linked to this emby connect account, you eill see a drop-down to pick from.
+If you have more than one server with user accounts linked to this emby connect account, you will see a drop-down to pick from.
 
 ![](images/server/googlehome13.png)
 
@@ -111,7 +111,7 @@ You will then be presented with the devices to select and add and pick a room to
 
 ![](images/server/googlehome17.png)
 
-You can link or unlink your Emby account afterwards, by selecting Settings in the Googe Home app and within the Services section, selecting **Works with Google**
+You can link or unlink your Emby account afterwards, by selecting Settings in the Google Home app and within the Services section, selecting **Works with Google**
 
 ![](images/server/googlehome19.png)
 
@@ -134,7 +134,7 @@ Check that the emby connect data for the emby server are correct.
 1. It is best to do this check on a remote device or PC and not when on the local network. 
 2. In a browser, open the https://app.emby.media web page, sign in and and select **Sign in with Emby Connect**.
 3. Click on the **...** button for the server and select **Connect**. 
-4. If you get an error, establish if the server is accessible from outside the network. If it is not, see [Remote Setup](https://emby.media/support/articles/Remote-Setup.html) 
+4. If you get an error, establish if the server is accessible from outside the network. If it is not, see [Connecting from Emby Apps](Connectivity.md#external-connections).
  
 
 <div align="right">
