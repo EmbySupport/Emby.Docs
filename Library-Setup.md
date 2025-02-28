@@ -43,8 +43,8 @@ Each media folder can have one or more physical library paths. When you supply m
 
 To add a library path, click the + button. A popup will be displayed allowing you to browse to the location in a visual manner.
 
-> [!Important]
-> If you are going to use one of the HTPC apps (Emby Windows, Emby for Xbox, Emby for Kodi) it is very important to use the Optional Network Path feature to translate the server's local paths to network ones or define your media locations with network UNC paths that those machines can see.
+> [!Note]
+> If you are going to use one of the HTPC apps (Emby Windows, Emby for Xbox, Emby for Kodi), in some cases you may find it advantageous to use the Optional Network Path feature to translate the server's local paths to network ones or define your media locations with network UNC paths that those machines can see. Giving the HTPC apps direct links may help reducing the load on the server when streaming.
 
 > [!WARNING]
 > If you have paths with more than 256 chars on Windows you may have a problem. Please refer to https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation for help with this.
