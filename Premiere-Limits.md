@@ -45,4 +45,4 @@ No. The licenses are only for the number of devices they indicate.  The 45 devic
 
 
 ## Can I buy more than one Premiere key?
-Yes, but you must use a different email address for each key.  Since we don't require you to have an account, the email address is all we have to identify you and your key by so you cannot have two on the same email.
+Yes, but you must use a different email address (which means different PayPal account if using that payment method) for each key.  Since we don't require you to have an account, the email address is all we have to identify you and your key by so you cannot have two on the same email.
