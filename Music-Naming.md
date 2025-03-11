@@ -102,9 +102,11 @@ Tagging your albums and tracks should be straightforward with the possible excep
 
 For these types of compilation albums if you want all tracks to show up as a single entity you want to make sure both the "album" and "album artist" fields are the same for all tracks. Otherwise the album will be split up for the various artists listed.
 
+> [!NOTE]
+> Where there is not a single artist you can assign to a compilation album in the 'album artist' tag, you can set it to 'Various' or other unique value.
 
 
-Multiple artists can be listed for tracks and should be separated with a "; " (semicolon space) as shown below.
+For the 'artist' tag, multiple artists can be listed for tracks and should be separated with a "; " (semicolon space) as shown below.
 
 ![Music Naming Multiple Artists](images/music-naming-multiple-artists.png)
 
