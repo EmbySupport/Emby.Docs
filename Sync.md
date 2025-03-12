@@ -99,7 +99,7 @@ Custom quality allows you to set your own desired bitrate:
 
 ![](images/apps/downloads4.png)
 
-For TV shows, there would be additional options for restricting downloads to only unplayed episodes and for auto download of new episodes. There is also an option for setting a limit on the number to download.
+For TV shows, for downloads other than for [Folder Sync](Folder-Sync.md), there would be an option for restricting downloads to only unplayed episodes. There are also further options for auto download of new episodes and for setting a limit on the number to download.
 
 ![](images/apps/downloads5.png)
 
