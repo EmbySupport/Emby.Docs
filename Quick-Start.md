@@ -3,6 +3,13 @@ uid: Quick-Start
 title: Quick Start
 legacyUrl: /support/solutions/articles/44001159034-quick-start
 ---
+## What is Emby?
+
+Emby is a personal media server.  Emby allows you to organize, present and stream your personal media library from a machine on your home network to any number of devices on that network or even over the internet (with proper network configuration) when you are away from home.  We support almost all common streaming devices plus web browsers and the server can run on many different platforms from Windows/Mac PCs to most popular NAS systems and even some powerful "micro" platforms such as Pi or Android boxes (Nvidia Shield).
+
+> ## What Emby is NOT
+>
+>Emby is NOT a media streaming service.  We do not provide access to movies or TV shows.  We organize and present your own media library on your own home network.
 
 Emby has two distinct parts:
 
@@ -10,6 +17,10 @@ Emby has two distinct parts:
 * Client - Clients or Apps that play back media from the Emby Server
 
 A fully-functioning Emby system requires both a Server and at least one client player. The Server includes the Emby web app which is used to manage the Server and your media library. It also features a media player, thus the minimal installation of just the server is enough to get started, but most people will want to install Emby apps on other devices for expanded client functionality.
+
+
+![](images/server/Emby_Diagram.png)
+
 
 ## Has someone invited you to their server?
 
@@ -85,4 +96,4 @@ Emby Premiere brings a number of additional benefits and bonus features. With Em
 * Smart Home features with use of Google Home as well as Amazon Alexa & Echo.
 * And So Much More!
 
-[Learn more about Emby Premiere.](http://emby.media/donate)
+[Learn more about Emby Premiere.](https://emby.media/premiere)
