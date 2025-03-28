@@ -4,6 +4,7 @@ title: Quick Start
 legacyUrl: /support/solutions/articles/44001159034-quick-start
 ---
 
+  
 ## What is Emby?
 
 Emby is a personal media server.  Emby allows you to organize, present and stream your personal media library from a machine on your home network to any number of devices on that network or even over the internet (with proper network configuration) when you are away from home.  We support almost all common streaming devices plus web browsers and the server can run on many different platforms from Windows/Mac PCs to most popular NAS systems and even some powerful "micro" platforms such as Pi or Android boxes (Nvidia Shield).
