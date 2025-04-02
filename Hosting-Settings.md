@@ -135,3 +135,12 @@ You have an option to specify the streaming bitrate limit in Mbps for streaming 
 
 > [!Note]
 > A similar setting is available for each user account which would override this global setting. See [users](Users.md).
+
+## Network Request Protocol
+
+This allows you to optionally disable iPv6 for outgoing requests made by Emby Server. Selecting iPv4 instead of Auto would disable use of iPv6 for outgoing requests. 
+
+![](images/server/hosting20.png)
+
+> [!Note]
+> This setting was introduced in Emby Server 4.9.x.x.
