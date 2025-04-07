@@ -27,7 +27,7 @@ Google Home is a powerful speaker and voice Assistant. Play your music. Call you
 The Emby Skill enables users to control playback of their media library or Live TV on any Emby compatible device. Once you have successfully linked your Emby account to Google Home and have remote access configured on the emby server, you can start controlling playback of your movies, TV shows, music or Live TV on your devices with your voice. 
 
 ## Get started
-It is assumed that you already have a Google Home setup. The emby integration with Google Home is in alpha test state pending certification. The emby Google Home skill is named **Emby Remote**.
+It is assumed that you already have a Google Home setup. The emby integration with Google Home is in alpha test state. The emby Google Home skill is named **Emby Remote**.
 
 * Feedback - Issues encountered at this stage, should be posted on the forum on [this topic](https://emby.media/community/index.php?/topic/114533-testing-emby-for-google-home/).
 
