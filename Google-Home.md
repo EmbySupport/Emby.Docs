@@ -11,6 +11,7 @@ legacyUrl: /support/solutions/articles/44001161655-google-home
     * [Prerequisites](#prerequisites)
     * [Why is Emby connect required?](#why-is-emby-connect-required)
     * [Why is Emby Server Remote Access required?](#why-is-emby-server-remote-access-required)
+    * [Alpha stage steps](#alpha-stage-steps)
     * [Emby Remote setup](#emby-remote-setup)
     * [Google Home account linking](#google-home-account-linking)
     * [My server is not available to be selected](#my-server-is-not-available-to-be-selected-what-do-i-do)
@@ -25,11 +26,8 @@ Google Home is a powerful speaker and voice Assistant. Play your music. Call you
  
 The Emby Skill enables users to control playback of their media library or Live TV on any Emby compatible device. Once you have successfully linked your Emby account to Google Home and have remote access configured on the emby server, you can start controlling playback of your movies, TV shows, music or Live TV on your devices with your voice. 
 
-> [!IMPORTANT]
-> Google have removed support for software based remote control and voice actions. It is no longer possible to enable this for Emby for new users.
-
 ## Get started
-It is assumed that you already have a Google Home setup and that you had access to the Google Home skill **Emby Remote**. It is not possible to add new access.
+It is assumed that you already have a Google Home setup. The emby integration with Google Home is in alpha test state. The emby Google Home skill is named **Emby Remote**.
 
 * Feedback - Issues encountered at this stage, should be posted on the forum on [this topic](https://emby.media/community/index.php?/topic/114533-testing-emby-for-google-home/).
 
@@ -45,8 +43,35 @@ Emby connect is used to provide your server information to Google Home.
 #### Why is Emby Server Remote Access required?
 Remote Access is required because that is how Google Home connects to the server.
 
-> [!NOTE]
-> The instructions here assume you already have access to the **Emby Remote** project.
+### Alpha stage steps
+
+* Get Access - Send a message to [hatharry](https://emby.media/community/index.php?/profile/40940-hatharry/) to request access to the **Emby Remote** project within Google Home. Please provide your Google Home email address.
+
+* Once access has been granted, go to the [Google Home console projects page](https://console.home.google.com/projects/) and login with your Google Home account. You will see the **emby remote** project. 
+
+![](images/server/googlehome01.png)
+
+* Click on **Open** and expand the **Cloud-to-cloud** drop-down on the left sidebar
+
+![](images/server/googlehome02.png)
+
+* Click on **Test** in the left sidebar. You will be a presented with the following screen. 
+
+![](images/server/googlehome03.png)
+
+* Click on the **Test** button on the right hand side within the **Ready to Test** section. This will then take you to the following **Unlinked Action** screen.
+
+![](images/server/googlehome04.png)
+
+* After this, the **emby remote** should show up on the Google Home app, as detailed in the next section below: [Emby Remote setup](#emby-remote-setup).
+
+![](images/server/googlehome08.png)
+
+* Feedback - Issues encountered at this stage, should be posted on the forum on [this topic](https://emby.media/community/index.php?/topic/114533-alpha-testers-wanted-for-google-home/).
+
+* Note that if you open the emby remote project again on the [Google Home console projects page](https://console.home.google.com/projects/) and select **Test** as described earlier, you will now see a different screen. This screen should be ignored. Please do not add or configure any tests through this web page.
+
+![](images/server/googlehome05.png)
 
 ### Emby Remote setup
 When using on a smart phone or tablet, you can install the [Google Assistant](https://assistant.google.com/) app to work with the [Google Home](https://home.google.com/intl/en_uk/get-app/) app for the control commands to **Emby Remote**. 
@@ -65,7 +90,7 @@ On the next screen, you will see the list of available skills.
 
 ![](images/server/googlehome08.png)
 
-Use search to look for **Emby Remote**. Just enter **emby** in the search field. This should find the **emby remote** skill. If not, it means that you do not have access to the emby remote skill for this Google Home account. As stated above, it will not be possible to add access.
+If **emby remote** does not show at the top, use search to look for **Emby Remote**. Just enter **emby** in the search field. This should find the **emby remote** skill. If not, it means that you do not have access to the emby remote skill for this Google Home account and you need to check out the steps in the earlier section [Alpha stage steps](#alpha-stage-steps).
 
 ![](images/server/googlehome09.png)
 
