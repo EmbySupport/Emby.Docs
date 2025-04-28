@@ -15,3 +15,6 @@ A popular use of Downloads, is picking a few movies or TV Shows and download thi
 When using [Folder Sync](Folder-Sync.md), the media that is copied to the target folder would appear as alternative versions to the original media file.
 
 Emby Server admin users have overall control of all download and synced media for all devices and all users.
+
+> [!NOTE]
+> The source files and libraries of the downloads are the master. If they are removed, then the downloads would be removed too.
