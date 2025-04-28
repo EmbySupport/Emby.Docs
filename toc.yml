@@ -109,8 +109,6 @@
       items:
       - name: Collections
         href: Collections.md
-      - name: AutoBoxSets
-        href: AutoBoxSets.md
     - name: Subtitles
       items:
       - name: Open Subtitles
