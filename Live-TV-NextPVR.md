@@ -76,3 +76,7 @@ http://127.0.0.1:8866/live?channel=29.2&client=29.2
     
 > [!NOTE]
 > If using NextPVR 5.1.1 or later you will need to change settings->Access to enable "Unauthenticated Access" in  NextPVR or your live URLs will fail.
+> 
+> 
+> [!IMPORTANT]
+> There is a 5 channel limit imposed by NextPVR unless you become a donator. Refer to the [NextPVR](https://www.nextpvr.com) web site.
