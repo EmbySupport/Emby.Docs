@@ -41,7 +41,7 @@ No.  Only apps that use a Premiere-only feature count.
 
 
 ## Can I "stack" licenses to get more devices?
-No. The licenses are only for the number of devices they indicate.  The 45 device upgrade is for 45 devices exactly, not 45 additional devices. 
+No. The licenses are only for the number of devices they indicate.  The 50 device upgrade is for 50 devices exactly, not 50 additional devices. 
 
 
 ## Can I buy more than one Premiere key?
