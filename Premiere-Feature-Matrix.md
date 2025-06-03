@@ -543,6 +543,14 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
             <div>✔</div>
         </td>
     </tr>
+    <tr>
+        <td dir="ltr">Offline Media</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
     </tbody>
 </table>
 
