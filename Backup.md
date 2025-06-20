@@ -28,7 +28,7 @@ The Backup & Restore plugin can help you backup and restore the following:
 * Playlists
 * Live TV Schedule 
 
-This will not backup library contents and metadata. To keep a permanent copy of metadata, we suggest enabling saving of local metadata to media folders.
+This will not backup library contents. For metadata, there is an option to include metadata in the backups. Alternatively, configure your libraries to save nfo and image files alongside the media within the media folders and they would then be included in your own library content backups.
 
 > [!Note]
 > If you have configured camera uploads and/or Live TV recordings, the default directories for these (data\camerauploads and data\livetv\recordings) are not part of the backup. You would need to back these up yourself and re-instate on the target new location.
@@ -45,17 +45,26 @@ This will not backup library contents and metadata. To keep a permanent copy of 
 * Install the plugin into your existing Emby Server.
 * Make sure there are no pending updates to the plugin, requiring a server restart to be applied. Restart the Emby Server to apply the updates if the server dashboard indicates that.
 * Launch **Backup & Restore** from within the Emby Server Advanced settings sidebar.
-* Configure the Backup plugin by setting a folder to save the backups within. If you wish to keep additional  backups of the database files, you can specify that. By default, only one backup set of the databases is produced. Make sure you click **Save** to save the path and number of additional database backups configured.
+* Configure the Backup plugin by setting a folder to save the backups within.
+  
+![](images/plugins/backup-02-A.png)
 
-**Initial Settings**
+* Decide if you want to backup metadata. If you do include the metadata sub-folders, make sure there is sufficient disk space for the backups. Backups will take much longer to run.
 
-![](images/plugins/backup-01.png)
- 
-Enter the backups path and optionally the number of additional database backup copies retained.
+![](images/plugins/backup-02-B.png)
+
+* If you wish to keep additional backups of the database files, you can specify that. By default, only one backup set of the databases is produced.
+
+![](images/plugins/backup-02-C.png)
+
+* Now click **"Save"**.
 
 ![](images/plugins/backup-02.png)
 
-* Now click **Save**.
+The next screenshot shows the initial setting before configuration:
+
+![](images/plugins/backup-01.png)
+ 
 
 > [!Important]
 > You must set a path for backups by changing the default "undefined" path setting to an actual path and saving that for the backups to start. Please ensure that the system user account that Emby Server runs in, has full permissions to this backups path. Paths must be absolute and not relative.
