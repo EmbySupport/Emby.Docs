@@ -67,7 +67,7 @@ tmdbid (https://www.themoviedb.org/)
 imdbid (https://www.imdb.com/)
 
 tvdbid (https://thetvdb.com/)
-Note:  tmdbid is the preferred tag to use for most uses
+
 
 ## Multi-version movies
  

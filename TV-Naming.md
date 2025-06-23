@@ -58,9 +58,6 @@ Emby supports the following tags with the host website for lookup.
 
 
 
-Note:  tmdbid is the preferred tag to use for most uses
-
-
 ## Complex Folder Structure
 
 In more complex situations where your top-level directory is further sub-divided before the show folders, the recommended option is to create a TV media folder and add the sub-folder locations instead of the top level folder. 
@@ -252,9 +249,7 @@ The following conventions are supported:
 * show name S01E02E03 episode name.ext
 * show name S01xE02xE03 episode name.ext
 * show name S01E02-E03 episode name.ext
-* show name S01E02-E05 episode name.ext
 * show name S01E02-X03 episode name.ext
-* show name S01E02-X05 episode name.ext
 * show name 01x02 01x03 episode name.ext
 * show name 01x02 - 01x03 episode name.ext
 * show name 01x02 - x03 episode name.ext
@@ -280,7 +275,7 @@ For example:
 ```
 
 > [!TIP]
-> Please see Ordering TV Show Special/Extras to learn how to place these specials in the proper timeline.
+> Please see [Ordering TV Show Special/Extras](Ordering-TV-Specials.md) to learn how to place these specials in the proper timeline.
 
 ## Series & Season Images
 
