@@ -20,7 +20,7 @@ Alternatively, trailers can also be stored in a trailers sub-folder. Bluray and 
    /Home Alone (1990)
      /VIDEO_TS
      /trailers
-         trailer.mkv
+       trailer.mkv
 ```
 
 ## Trailer for TV Shows
@@ -29,10 +29,9 @@ A trailers subfolder should be placed underneath the series folder, or any seaso
 
 ```
 /TV Shows
-   /Home Alone (1990)
-     /My Show (2020)
-     /trailers
-         trailer.mkv
+  /My Show (2020)
+    /trailers
+      trailer.mkv
 ```
 
 ## Trailer Plugins of Interest
