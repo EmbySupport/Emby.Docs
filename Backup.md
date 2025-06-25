@@ -116,12 +116,12 @@ The next screenshot shows the initial setting before configuration:
 
 * Make sure you close all previous browser sessions accessing this new server, as they would be using the old pre-restore credentials.
 
-[!Note]
+> [!Note]
 > It is advisable that you do defer installing the additional plugins until you confirm that the restored server is functioning with no new issues after the restore.
 
 *  With the Emby Server operational and all media accessible, you can now install any Plugins that you had added to the server that is being restored. The configuration files for the plugins are automatically restored, so once the plugins are added and the server restarted to complete the plugins installation, the plugin configuration files should get picked up.
 
-[!Note]
+> [!Note]
 > Be aware that some plugins may have additional data eg a database that would need to be copied over manually or an application that may need to be installed. Please carefully check the requirements for each plugin.
 
 * If you have Live TV configured, go to server settings / Live TV and perform a "Refresh Guide Data"
@@ -149,7 +149,7 @@ You can use Backup and Restore to copy the playback state and favorites informat
 
 ![](images/plugins/backup-10.png)
  
-* On the next screen, Un-tick all original user accounts that are in the backup except for the one(s) that you wish to copy their data from.
+* On the next screen, tick the original user accounts that are in the backup that you wish to copy the data from.
 * For each of the selected original user accounts that are in the backup, select from the dropdown the local user account to copy the playbacks state and favorites to.
 
 In the example below, we are copying playbacks state and favorites from user **My-Admin-User** to user **MyNewAdmin**.
