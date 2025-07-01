@@ -115,8 +115,7 @@ In addition to extras, several other sub-folder names are supported:
 * interviews
 * trailers
 
-The following examples show extras at the 
-TV series level.
+The following examples show extras at the TV series level.
 
 ```
 \TV
