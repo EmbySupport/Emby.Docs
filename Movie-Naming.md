@@ -154,7 +154,9 @@ Several image types support multiple file names. They are listed in the order th
 |            | {name}-cdart.ext                    |
 |            | disc.ext                            |
 |            | cdart.ext                           |
-| Logo       | {name}-logo.ext                     |
+| Logo       | {name}-clearlogo.ext                |
+|            | clearlogo.ext                       |
+|            | {name}-logo.ext                     |
 |            | logo.ext                            |
 | Thumb      | {name}-thumb.ext                    |
 |            | {name}-landscape.ext                |

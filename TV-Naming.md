@@ -102,7 +102,7 @@ To be recognized as a dvd structure, the folder must contain either a VIDEO_TS s
 
 ## TV extras
 
-Special features for TV series can be stored as video files in an extras folder under TV Series folders. It is also possible to add these extras folders at the season level.
+Special features for TV series can be stored as video files in an extras folder under TV Series folders. It is also possible to add these extras folders at the season or episode level.
 
 In addition to extras, several other sub-folder names are supported:
 * extras
@@ -114,7 +114,9 @@ In addition to extras, several other sub-folder names are supported:
 * deleted scenes
 * interviews
 * trailers
- 
+
+The following examples show extras at the TV series level.
+
 ```
 \TV
    \Fawlty Towers
@@ -147,15 +149,42 @@ In addition to extras, several other sub-folder names are supported:
          An Audience with Sofia Helin.mkv
 ```
 
+The following examples demonstrate season and episode level extras:
+
+```
+\TV
+   \Seinfeld
+      \Specials
+         Seinfeld S00E02 How It Began (Documentary).mkv
+      \Season 2
+         \Specials
+            Master of His Domain (Season 2 unused standup scenes).mkv
+         Seinfeld S02E01 The Ex-Girlfriend.mkv
+         Seinfeld S02E02 The Pony Remark.mkv
+         Seinfeld S02E02 The Pony Remark-behindthescenes.mkv
+         Seinfeld S02E02 The Pony Remark-deleted.mkv
+         Seinfeld S02E03 The Busboy.mkv
+         Seinfeld S02E04 The Baby Shower.mkv
+         \S02E05
+            Seinfeld S02E05 The Jacket.mkv
+            \behind the scenes
+               Inside Look - The Jacket.mkv
+            \deleted scenes
+               The Jacket - deleted scene.mkv
+```
+
+> [!NOTE]
+> It is not recommended to have folders for individual episodes unless you also have subfolders for extras related to those episodes.
+
 It is also possible to add the type of extra as filename suffix extensions, as for the following:
 
--behindthescenes
--deleted
--featurette
--interview
--scene
--short
--trailer
+* -behindthescenes
+* -deleted
+* -featurette
+* -interview
+* -scene
+* -short
+* -trailer
 
 Examples:
 The examples below are not real extras but just given as examples of the syntax used.
@@ -179,6 +208,11 @@ The examples below are not real extras but just given as examples of the syntax 
          Anne With An E S01E07 Wherever You Are Is My Home.mp4
          Anne With An E S01E07 Wherever You Are Is My Home-trailer.mp4
 ```
+
+> [!NOTE]
+> Emby will not look for external metadata provider (e.g. TVDB) matches for episode-level extras; to potentially match, the extras need to be at the series or season level.
+
+
 
 ## Mixed Content Libraries
 
@@ -305,7 +339,8 @@ Several image types support multiple file names. They are listed in the order th
 |            | season-specials-banner.ext (in series folder only)   |
 | Disc       | disc.ext                                             |
 |            | cdart.ext                                            |
-| Logo       | logo.ext                                             |
+| Logo       | clearlogo.ext                                        |
+|            | logo.ext                                             |
 | Thumb      | thumb.ext                                            |
 |            | landscape.ext                                        |
 |            | seasonXX-landscape.ext (in series folder only)       |
