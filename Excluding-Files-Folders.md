@@ -8,9 +8,9 @@ Media files can be excluded during a library scan. This article shows how this c
 
 ## Emby Server 4.9 and later
 
-Media files can be excluded by adding a file named `embyignore` containing the filename(s) path and/or pattern(s) to exclude. This can be added in the root folder of a library or within sub-folders.
+Media files can be excluded by adding a file named `.embyignore` containing the filename(s) path and/or pattern(s) to exclude. This can be added in the root folder of a library or within sub-folders.
 
-On Windows. the .embyignore file can be created using Notepad with the "Save as type" set to "All files (\*.\*)"
+On Windows. the `.embyignore` file can be created using Notepad with the "Save as type" set to "All files (\*.\*)"
 
 ![](images/server/excludes2.png) 
 
