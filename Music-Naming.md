@@ -44,7 +44,7 @@ Either of the perfectly organized structures will allow for existing disc-based 
 > [!Note]
 > Emby Server supports any folder structure for music libraries, but if you wish to save metadata files directly into your media folders such as nfo, images, etc, then then a structured folder layout is necessary to help Emby Server understand which folders correspond to your albums and artists.   Emby Server will happily read these metadata files from the directories in your media or from the global metadata area it manages.
 
-![Music Folder Structure Ooptions](images/server/music-folder-structure-options.png)
+![Music Folder Structure Options](images/server/music-folder-structure-options.png)
 
 If it's important to you to have these files written and stored next to your media, make sure to use one of the perfectly organized options above in the dropdown, preferably the artist\album option in the middle. What you choose in the dropdown needs to match the layout on disk. Having a hierarchy of both artists and albums provides the most flexible and organized solution.  
 
