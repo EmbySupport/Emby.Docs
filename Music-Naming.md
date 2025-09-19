@@ -44,10 +44,12 @@ Either of the perfectly organized structures will allow for existing disc-based 
 > [!Note]
 > Emby Server supports any folder structure for music libraries, but if you wish to save metadata files directly into your media folders such as nfo, images, etc, then then a structured folder layout is necessary to help Emby Server understand which folders correspond to your albums and artists.   Emby Server will happily read these metadata files from the directories in your media or from the global metadata area it manages.
 
-
+![Music Folder Structure Options](images/server/music-folder-structure-options.png)
 
 If it's important to you to have these files written and stored next to your media, make sure to use one of the perfectly organized options above in the dropdown, preferably the artist\album option in the middle. What you choose in the dropdown needs to match the layout on disk. Having a hierarchy of both artists and albums provides the most flexible and organized solution.  
 
+> [!Note]
+> If you wish to have custom artwork and there are multiple instances in the library or other music libraries of the Album folder, as an example, you need to make sure that the the custom art files are the same in all the instances of the folder.
 
 
 ## Music Images
@@ -108,7 +110,7 @@ For these types of compilation albums if you want all tracks to show up as a sin
 
 For the 'artist' tag, multiple artists can be listed for tracks and should be separated with a "; " (semicolon space) as shown below.
 
-![Music Naming Multiple Artists](images/music-naming-multiple-artists.png)
+![Music Naming Multiple Artists](images/server/music-naming-multiple-artists.png)
 
 > [!NOTE]
 > if you have an artist with two albums of the same name you will need to use mbzalbumids or slightly change one title to differentiate the albums or they will get combined. An example is artist Kim Wilde who has two albums name "The Very Best Of Kim Wilde", one from 1984, one from 2001.
