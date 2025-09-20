@@ -6,7 +6,9 @@ legacyUrl: /support/solutions/articles/44001159110-tv-naming
 
 For a simple TV folder structure, the recommended folder layout is Series (year)\Season #\Episode. The Episode name itself should contain the show name,  the season and the episode episode number which is covered below.
 
-When setting up the library make sure to select **TV** as the content type.  Having the year in the series name is not strictly mandatory as Emby can usually match a series without it but it helps tremendously with rebooted series and those that have broadcast in different years such as Battlestar Galactica (1978) and Battlestar Galactica (2003).  The year is also very helpful for some series such as Africa (2013) which could potentially match to a few different shows without the year.
+When setting up the library, make sure to select **TV** as the content type.  It is mandatory for each TV show to have its own folder under the library folder path(s).
+
+Having the year in the series name is not strictly mandatory as Emby can usually match a series without it but it helps tremendously with rebooted series and those that have broadcast in different years such as Battlestar Galactica (1978) and Battlestar Galactica (2003).  The year is also very helpful for some series such as Africa (2013) which could potentially match to a few different shows without the year.
 
 For example:
 
