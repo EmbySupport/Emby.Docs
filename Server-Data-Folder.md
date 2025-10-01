@@ -35,7 +35,12 @@ Accessing this folder directly will require SSH. See the SSH section within an A
 https://www.asustor.com/en/online/College_topic?topic=109#lux5
 
 ### Synology
+
+For DSM 7
 /volume1/@appdata/EmbyServer
+
+For DSM 6
+/volume1/Emby
 
 Accessing this folder directly will require SSH. Check out our SSH Tutorial with examples here:
 https://emby.media/community/index.php?/topic/118986-tutorial-ssh-into-synology-nas-with-useful-examples/
