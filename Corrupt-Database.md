@@ -158,6 +158,9 @@ The following shows the available sqlite tools binaries for download:
 
 3. If you downloaded the sqlite3 tools rather than using a pre-installed sqlite3 binary, copy the downloaded sqlite3 file (sqlite3.exe or sqlite3) to this directory to make it easier to use. Alternatively, create a temporary folder where you place the database file you are working on and the sqlite3 tool.
 
+> [!Important]
+> Check that you are in the right directory, the directory where the database file is, as sqlite3 does not warn you if it it does not find the database and would instead create a new database in the current path.
+
 Open the `library.db` database and run an integrity check on it:
 
 ```
@@ -224,8 +227,8 @@ Navigate to the databases folder as before and open the database file with sqlit
 
 ```
 sqlite3 library.db
-.output recovered-librarydb.sql;
-.recover;
+.output recovered-librarydb.sql
+.recover
 ```
 This may take a while to run. At the end, type `.quit` to close the database file.
 
@@ -236,7 +239,7 @@ We can now create a new database file using this recovery file.
 Create a new database file and lets call it `library-recovered.db`. The following creates this new db file:
 ```
 sqlite3 library-recovered.db
-.read recovered-librarydb.sql;
+.read recovered-librarydb.sql
 ```
 (this may take a while to run, so please wait for it to finish)
 
