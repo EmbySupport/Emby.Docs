@@ -8,7 +8,7 @@ seeAlso:
   - Automatic-Subtitle-Downloads
 ---
 
-Emby allows you to manually download subtitle files for your media as needed.  There are multiple subtitle plugin that can be used.
+Emby allows you to manually download subtitle files for your media as needed.  There are multiple subtitle plugins that can be used.
 
 ## Install a Subtitle Plugin
 
@@ -37,6 +37,11 @@ All you have to do now is click the download arrow in the cloud to the right sid
 
 > [!Note]
 > if you do not see any subtitle appear for download (as above) then that would mean that Emby could not find any subtitles that match your criteria.  You can try and change any options you set or possibly try to search for "English" subtitles (if not already).  Some movies will not have subtitles available.
+
+> [!Note]
+> if you do not see the option to search, have the server user settings checked for having permission to download subtitles.
+>
+![Manual Subtitle Download 5](images/subtitles/manual-subtitle-download-5.png)
 
 If you have problems finding subtitles, please verify that the movie/show was identified correctly.  You can manually check IMDB Id using the Metadata Manager.  When using this scroll down the the External Id section and very the IMDB Id is correct.  This section will look similar to this.
 

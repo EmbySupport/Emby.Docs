@@ -16,11 +16,11 @@ Installing a notification service is just like any other Plugin. Read the instru
 
 ## Configuring Notifications
 
-After choosing the notification services you'd like to use, it's time to configure the individual notifications you'd like to receive. Begin by opening the server dashboard and navigating to **Notifications** and selecting **+ Add Notification**.
+After choosing the notification services you'd like to use, it's time to configure the individual notifications you'd like to receive. Begin by opening the server dashboard and navigating to the User Account Preferences and clicking on **Notifications**. This will give you the option to **+ Add Notification** or edit an existing notification.
 
 ![](images/server/notifications8.png)
 
-The page will display the available installed Plugins notifications services, as example when Email, Slack and Webhooks Plugins are installed:
+When selecting **+ Add Notification**, the page will display the available installed Plugins notifications services, as example when Email, Slack and Webhooks Plugins are installed:
 
 ![](images/server/notifications9.png)
 
