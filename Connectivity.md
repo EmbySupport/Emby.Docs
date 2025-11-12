@@ -75,6 +75,9 @@ If the **LAN Networks** setting is filled in with a value, make sure that the lo
 
 ![](images/server/connectivity5.png)
 
+### Router AP Isolation
+If you find that wired devices can access the Emby Server but not devices on wi-fi, check the router wi-fi settings to see if "**AP Isolation**" is enabled. Disabling this would allow wi-fi connected devices to see other devices on the local network. This would be a valid setting to have enabled for a "Guest Network", so check first if your wi-fi is configured as a Guest Netowrk.
+
 ### Use of VPN
 When using a vpn on your router, the requests coming into the server from within the local network may not appear as local. You would need to add the local network subnet used by the vpn to the **LAN Networks** server Network setting. Ensure you also include the local network subnet that the server is connected to as well.
 

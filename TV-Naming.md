@@ -184,6 +184,7 @@ It is also possible to add the type of extra as filename suffix extensions, as f
 * -deleted
 * -featurette
 * -interview
+* -other
 * -scene
 * -short
 * -trailer
