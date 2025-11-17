@@ -58,7 +58,7 @@ Supported ID's:
 * imdb
 
 Example:
-Severance (2022) [tmdbid=95396]
+Casino Royale (2006) [tmdbid=36557]
 
 Emby supports the following tags with the host website for lookup.
 
