@@ -58,7 +58,7 @@ Supported ID's:
 * imdb
 
 Example:
-Severance (2022) [tvdbid=371980]
+Severance (2022) [tmdbid=95396]
 
 Emby supports the following tags with the host website for lookup.
 
@@ -121,7 +121,12 @@ In addition to extras, several other sub-folder names are supported:
          video1.mkv 
 ```
 
-**Note**: Be sure the movie file is present before adding these additional "extras" to avoid mis-identification.
+> [!NOTE]
+> Be sure the movie file is present before adding these additional "extras" to avoid mis-identification.
+
+> [!NOTE]
+> All the different types of extras shown above will appear together in the "Extras" row in the item detail view.
+
 
 ## Video images
 

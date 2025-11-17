@@ -47,7 +47,7 @@ Supported ID's:
 
 Example:
 ```
-The Vampire Diaries (2009) [tmdbid=18165]
+The Vampire Diaries (2009) [tvdbid=95491]
 ```
 
 Emby supports the following tags with the host website for lookup.
@@ -215,6 +215,8 @@ The examples below are not real extras but just given as examples of the syntax 
 > [!NOTE]
 > Emby will not look for external metadata provider (e.g. TVDB) matches for episode-level extras; to potentially match, the extras need to be at the series or season level.
 
+> [!NOTE]
+> All the different types of extras shown above will appear together in the "Extras" row in the item detail view.
 
 
 ## Mixed Content Libraries
