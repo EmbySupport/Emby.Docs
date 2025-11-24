@@ -39,7 +39,20 @@ A useful test is to try to use a web browser on another device, such as another 
 
 ![](images/server/connectivity4.png)
 
-If this still does not work, then most likely the firewall on the server machine is not allowing access. Below are a list of troubleshooting steps that can be taken to resolve this.
+### Windows Network Profile
+
+If running the Emby Server on Windows, check that your network connection is set as **Private** and not **Public**. The profile may get switched to Public after re-configuration or updates. Check all the Windows network connections, Ethernet and WiFi. Example for an Ethernet connection:
+
+![](images/server/connectivity18.png)
+
+See section headed **Make a network public or private** in this Windows support article [Essential Network Settings and Tasks in Windows](https://support.microsoft.com/en-gb/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9).
+
+The follows shows the differences between the two network profiles:
+
+![](images/server/connectivity19.png)
+
+
+If this is set correctly as **Private** and you are still unable to connect to the emby server locally, then most likely the firewall on the server machine is not allowing access. Below are a list of troubleshooting steps that can be taken to resolve this.
 
 ### Open TCP Ports 8096 / 8920 & UDP Port 7359 on your server's firewall
 
@@ -77,17 +90,6 @@ If the **LAN Networks** setting is filled in with a value, make sure that the lo
 
 ### Router AP Isolation
 If you find that wired devices can access the Emby Server but not devices on wi-fi, check the router wi-fi settings to see if "**AP Isolation**" is enabled. Disabling this would allow wi-fi connected devices to see other devices on the local network. This would be a valid setting to have enabled for a "Guest Network", so check first if your wi-fi is configured as a Guest Netowrk.
-
-### Windows Network Profile
-If running the Emby Server on Windows, check that your network connection is set as **Private** and not **Public**. The profile may get switched to Public after re-configuration or updates. Check all the Windows network connections, Ethernet and WiFi. Example for an Ethernet connection:
-
-![](images/server/connectivity18.png)
-
-See section headed **Make a network public or private** in this Windows support article [Essential Network Settings and Tasks in Windows](https://support.microsoft.com/en-gb/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9).
-
-The follows shows the differences between the two network profiles:
-
-![](images/server/connectivity19.png)
 
 ### Use of VPN
 When using a vpn on your router, the requests coming into the server from within the local network may not appear as local. You would need to add the local network subnet used by the vpn to the **LAN Networks** server Network setting. Ensure you also include the local network subnet that the server is connected to as well.
