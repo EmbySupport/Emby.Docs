@@ -36,6 +36,11 @@ Here are some tips to consider.
    ![](images/server/users18.png)
 
 
+### User Account Passwords
+
+*  Ensure all user accounts have passwords set on the server, including user accounts linked to an [Emby Connect](Emby-Connect.md) username.
+
+
 ### User Account Privileges
 
 *  Check all the accounts privileges in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server. 
