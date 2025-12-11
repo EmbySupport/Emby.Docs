@@ -36,6 +36,10 @@ From the Server Admin Console click on USERS menu.
 
 
 
+> [!IMPORTANT]
+> A local password for the account should be set even when the user account is linked to an Emby Connect username.
+
+
 ## Guide for Users
 
 Please see [Emby Connect For Users](Emby-Connect-for-Users.md)
