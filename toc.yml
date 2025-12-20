@@ -269,6 +269,10 @@
     href: Roku.md
   - name: Emby for Kodi
     href: Emby-for-Kodi.md
+- name: Supplemental Articles
+  items:
+  - name: Beta Programs
+    href: misc/Beta-Programs.md
 - name: Emby Premiere
   href: Emby-Premiere.md
   items:
