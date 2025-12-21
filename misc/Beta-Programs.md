@@ -25,6 +25,8 @@ Below are the description of the individual parameters being used.
 - **Paused**  
   A beta program exists and has been active before, but no development is being done other than bug fixes.  
   New versions may still be posted occasionally, but these will only be about high-priority bug fixes or meant to discover regressions early.
+- **Ended**  
+  The program has ended.
 
 
 ### Program Mode

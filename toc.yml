@@ -233,12 +233,68 @@
       href: Emby-Connect-for-Users.md
     - name: Keyboard and Remote Support
       href: Keyboard-and-Remote-Support.md
+  - name: Android TV
+    items:
+      - name: Android TV
+        href: Android-TV.md
+      - name: Android TV Storage Attachment
+        href: Android-File-Storage.md
+      - name: Shield TV Direct File Access
+        href: ShieldTV-Direct-File-Access.md
+  - name: Fire TV
+    items:
+      - name: Amazon Fire TV
+        href: Fire-TV.md
+      - name: Manual Install on Fire Tablets
+        href: Fire-TV-Manual-Install.md
+  - name: Windows
+    href: apps/windows/Emby-Windows.md
+    items:
+      - name: Emby Windows
+        href: apps/windows/Emby-Windows.md
+      - name: FAQ
+        href: apps/windows/Emby-Windows-FAQ.md
+      - name: Beta Program
+        href: apps/windows/Emby-Windows-Beta-Program.md
+      - name: Features
+        items:
+          - name: Display Control
+            href: apps/windows/features/Win-Feature-DisplayControl.md
+          - name: Windows Theme
+            href: apps/windows/features/Win-Feature-WinTheme.md
+          - name: Brightness Attentuation
+            href: apps/windows/features/Win-Feature-BrightnessAttentuation.md
+          - name: Gamepad Support
+            href: apps/windows/features/Win-Feature-Gamepad.md
+          - name: Remote Control Support
+            href: apps/windows/features/Win-Feature-Remote-Control.md
+          - name: Startup Animation
+            href: apps/windows/features/Win-Feature-StartAnim.md
+          - name: Accessibility
+            href: apps/windows/features/Win-Feature-Accessibility.md
+  - name: Xbox
+    href: apps/xbox/Emby-Xbox.md
+    items:
+      - name: Emby Xbox
+        href: apps/xbox/Emby-Xbox.md
+      - name: FAQ
+        href: apps/xbox/Emby-Xbox-FAQ.md
+      - name: Beta Program
+        href: apps/xbox/Emby-Xbox-Beta-Program.md
+      - name: Features
+        items:
+          - name: Display Control
+            href: apps/xbox/features/Xbox-Feature-DisplayControl.md
+          - name: Gamepad Support
+            href: apps/xbox/features/Xbox-Feature-Gamepad.md
+          - name: Remote Control Support
+            href: apps/xbox/features/Xbox-Feature-Remote-Control.md
+          - name: Startup Animation
+            href: apps/xbox/features/Xbox-Feature-StartAnim.md
   - name: Android Mobile
     href: Android-Mobile.md
   - name: Apple TV
     href: Apple-TV.md
-  - name: Emby Windows
-    href: Emby-Theater-for-Windows.md
   - name: Google Home
     href: Google-Home.md
   - name: Atmos on LG TV
@@ -247,20 +303,6 @@
     href: Web-Client.md
   - name: Amazon Alexa
     href: Alexa.md
-  - name: Android TV
-    items:
-    - name: Android TV
-      href: Android-TV.md
-    - name: Android TV Storage Attachment
-      href: Android-File-Storage.md
-    - name: Shield TV Direct File Access
-      href: ShieldTV-Direct-File-Access.md
-  - name: Fire TV
-    items:
-    - name: Amazon Fire TV
-      href: Fire-TV.md
-    - name: Manual Install on Fire Tablets
-      href: Fire-TV-Manual-Install.md
   - name: Chromecast
     href: Chromecast.md
   - name: iOS
