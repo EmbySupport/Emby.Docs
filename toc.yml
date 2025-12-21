@@ -315,6 +315,8 @@
   items:
   - name: Beta Programs
     href: misc/Beta-Programs.md
+  - name: Emby Platform Codes
+    href: misc/Emby-Platform-Codes.md
 - name: Emby Premiere
   href: Emby-Premiere.md
   items:
