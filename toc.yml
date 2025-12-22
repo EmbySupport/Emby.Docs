@@ -317,6 +317,23 @@
     href: misc/Beta-Programs.md
   - name: Emby Platform Codes
     href: misc/Emby-Platform-Codes.md
+  - name: Emby Package Repositories
+    href: misc/downloads/Emby-Package-Repository.md
+    items:
+      - name: Emby Linux Package Repository
+        href: misc/downloads/Emby-Package-Repository.md
+      - name: Linux Universal Installer
+        href: misc/downloads/Emby-Pkg-Installer.md
+      - name: Manual Setup Guides
+        items:
+          - name: "Repo Setup: APT"
+            href: misc/downloads/Emby-Pkg-APT.md
+          - name: "Repo Setup: RPM (DNF)"
+            href: misc/downloads/Emby-Pkg-DNF.md
+          - name: "Repo Setup: RPM (Zypper)"
+            href: misc/downloads/Emby-Pkg-Zypper.md
+          - name: "Repo Setup: Pacman"
+            href: misc/downloads/Emby-Pkg-Pacman.md
 - name: Emby Premiere
   href: Emby-Premiere.md
   items:
