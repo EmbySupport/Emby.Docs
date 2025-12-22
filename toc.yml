@@ -291,6 +291,19 @@
             href: apps/xbox/features/Xbox-Feature-Remote-Control.md
           - name: Startup Animation
             href: apps/xbox/features/Xbox-Feature-StartAnim.md
+  - name: Linux
+    href: apps/linux/Emby-Linux.md
+    items:
+      - name: Emby Linux
+        href: apps/linux/Emby-Linux.md
+      - name: FAQ
+        href: apps/linux/Emby-Linux-FAQ.md
+      - name: Beta Program
+        href: apps/linux/Emby-Linux-Beta-Program.md
+      - name: Platform Support
+        href: apps/linux/Emby-Linux-Platform-Support.md
+      - name: Commandline Flags
+        href: apps/linux/Emby-Linux-Flags.md
   - name: Android Mobile
     href: Android-Mobile.md
   - name: Apple TV
