@@ -14,7 +14,7 @@ The Windows and Xbox apps are closely coupled and share the same beta program.
 |--------------------|--------------------|
 | [Program Status](../../misc/Beta-Programs.md#program-status)   | **Paused**  |
 | [Program Mode](../../misc/Beta-Programs.md#program-mode)  | **Periodic**  |
-| [Communication](../../misc/Beta-Programs.md#communication)  | **Private**  |
+| [Communication](../../misc/Beta-Programs.md#communication)  | **Public**  |
 | [Enrollment Method](../../misc/Beta-Programs.md#enrollment-method)  | **Registration**  |
 | [Enrollment Status](../../misc/Beta-Programs.md#enrollment-status)  | **Closed**  |
 
