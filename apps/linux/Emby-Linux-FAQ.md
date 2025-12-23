@@ -17,7 +17,7 @@ There are two ways:
    - On the About page, switch to the "Log Files" tab
    - Click on one of the log files
 2. **From the file system**
-   - You can find the log files in the followin directory  
+   - You can find the log files in the following directory  
     `~/.config/Emby Client Beta/cache/logs`
    - NOTE: This location may change during the beta or later
 
