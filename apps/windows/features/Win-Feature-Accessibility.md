@@ -26,6 +26,6 @@ No app theme override (dark/light) may be configured
 
 ## How to...
 
-- **...enable a high contrrast theme for the Emby app?**  
+- **...enable a high contrast theme for the Emby app?**  
   Prerequisites need to be fulfilled, then the app will automatically follow the OS level theme settings (including high contrast themes)
 

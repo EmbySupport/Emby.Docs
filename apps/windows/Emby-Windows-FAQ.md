@@ -137,9 +137,9 @@ No, the Windows Store is the only way to install
 
 ### Why can't you provide an MSIX for download and manual installation?
 
-Because we rely on the store's updating abilities.Our delivery model requires frequent updates to the core application code. Instead of loadign the code from an online resource (which has numerous secuity implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to devliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
+Because we rely on the store's updating abilities.Our delivery model requires frequent updates to the core application code. Instead of loadign the code from an online resource (which has numerous secuity implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to deliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
 
-So, the installation is not just about getting our app once installed on users' machines. The automatic updating via Windows Store is a crucial element of the concept which wouldn't work out when providing MSIX packages for manual installation, as that would cause instllations to be almost always out-of -date.
+So, the installation is not just about getting our app once installed on users' machines. The automatic updating via Windows Store is a crucial element of the concept which wouldn't work out when providing MSIX packages for manual installation, as that would cause installations to be almost always out-of -date.
 
 
 
@@ -167,4 +167,4 @@ In balanced mode, sw filtering is being used as well as shader-based scaling, bu
 
 While the animation is running, you can click on the "Hide" button in the bottom right corner of the window. You will see, though, that this doesn't accelerate startup. In fact, it is not that the app is waiting for the animation to finish, instead, the animation is only there to sweeten up the startup experience instead of just showing a spinning circle for the same duration.
 
-Technical background:https://emby.media/community/index.php?/topic/131876-windows-xbox-app-beta/page/6/#findComment-1398478
+Technical background: https://emby.media/community/index.php?/topic/131876-windows-xbox-app-beta/page/6/#findComment-1398478

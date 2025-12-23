@@ -1,5 +1,5 @@
 ---
-uid: Win-Feature-Remote-Control.
+uid: Win-Feature-Remote-Control
 title: "Feature: Enhanced Remote Control Support"
 ---
 

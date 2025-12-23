@@ -26,19 +26,19 @@ The Windows and Xbox apps are closely coupled and share the same beta program.
 
 Three ways to get it:
 
-1. Use the following store link: [ms-windows-store://pdp/?productid=9PP75325481B](ms-windows-store://pdp/?productid=9PP75325481B) 
-2. The store web-link: https://www.microsoft.com/store/r/9PP75325481B
-3. Go there and click the link: https://wmc.emby.media/x.html
+1. Use the following store link:Â [ms-windows-store://pdp/?productid=9PP75325481B](ms-windows-store://pdp/?productid=9PP75325481B)Â 
+2. The store web-link:Â https://www.microsoft.com/store/r/9PP75325481B
+3. Go there and click the link:Â https://wmc.emby.media/x.html
 
 > [!NOTE]
 > Only registered Beta uses will be able to accesss the beta app.
-> You need to be logged into the MS Store app (or Websize) in order to see it
+> You need to be logged into the MS Store app (or Website) in order to see it
 
 
 ### On Xbox
 
 - On the Xbox, go to Apps and open "Edge"
-- In Edge, enter the following in the address bar: wmc.emby.media/x.html
+- In Edge, enter the following in the address bar:Â wmc.emby.media/x.html
 - Click on the link on that page
 - MS Store opens and shows the app entry
 
