@@ -24,7 +24,6 @@ Emby publishes two APT channels:
 - `stable` (recommended)
 - `beta`
 
-You should configure **exactly one** of them.
 
 ---
 
