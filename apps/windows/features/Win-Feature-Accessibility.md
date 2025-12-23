@@ -14,7 +14,7 @@ The new Windows app is the first Emby client app, providing accessibility featur
     (sometimes the use of TAB or SHIFT+TAB is required, which is normal though for Windows applications)
 
 
-<video src="../../../videos/Emby_High_Contrast_Themel_Support.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
+<video src="../../../videos/Emby_High_Contrast_Theme_Support.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
 </video>
 
 

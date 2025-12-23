@@ -3,7 +3,7 @@ uid: Emby-Linux-FAQ
 title: Emby Linux FAQ
 ---
 
-[!INCLUDE [feature-start-animation](../../includes/beta-warning.md)]
+[!INCLUDE [beta-warning](../../includes/beta-warning.md)]
 
 
 ### Where can I find the log files?

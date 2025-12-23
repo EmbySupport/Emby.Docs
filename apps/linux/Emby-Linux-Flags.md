@@ -5,7 +5,7 @@ title: Emby Linux: Commandline Flags
 
 # Emby Linux: Commandline Flags
 
-[!INCLUDE [feature-start-animation](../../includes/beta-warning.md)]
+[!INCLUDE [beta-warning](../../includes/beta-warning.md)]
 
 The commandline flags documented below might be useful to fix certain issues you may encounter when testing.
 
@@ -64,7 +64,7 @@ Use case is diagnosing errors during playback (ruling out the screen-saver inhib
 Changes the type of the video window. Should only be used when instructed to.
 
 ```bash
-./Emby -nossinhibitor
+./Emby -usenormalwindow
 ```
 
 #### stack1, stack2, stack3, stack4, 

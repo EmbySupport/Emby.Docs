@@ -24,13 +24,7 @@ TBD
 
 ## Commandline Flags
 
-
-- `-usenormalwindow`
-- nojokermode
-- nossinhibitor
-- nompv
-- persistplayer
-
+Please see [Emby Linux: Commandline Flags](Emby-Linux-Flags)  
 
 ## Beta Communication
 
