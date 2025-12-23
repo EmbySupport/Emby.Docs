@@ -3,7 +3,7 @@ uid: Win-Feature-Accessibility
 title: "Feature: Accessibility"
 ---
 
-# Accessibility Features: Hight Contrast Theme and Keyboard Navigation
+# Accessibility Features: High Contrast Theme and Keyboard Navigation
 
 The new Windows app is the first Emby client app, providing accessibility features for user interaction, specifically:
 

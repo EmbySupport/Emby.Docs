@@ -80,7 +80,7 @@ Done!
 
 ### I'm experiencing stuttering video playback, what can I do?
 
-First of all, make sure you haven't chosen "High Quality" under Video Quality options. Also, don't use "Customize" but try both the "Balanced" and the "Efficiency" presets.  
+First of all, make sure you haven't chosen **Video Player** settings >> **Video Quality**. Also, don't use "Customize" but try both the "Balanced" and the "Efficiency" presets.  
 Then, look at the Windows Task Manager and check both CPU and GPU usage, and look for high values.  
 Look at the Media Info on the item detail screen at the bottom and check whether the video has a high bitrate (> 20,000 Mbps).  
 Open Stats for Nerds and see whether it's DirectPlay or Transcoding.  
@@ -137,7 +137,7 @@ No, the Windows Store is the only way to install
 
 ### Why can't you provide an MSIX for download and manual installation?
 
-Because we rely on the store's updating abilities.Our delivery model requires frequent updates to the core application code. Instead of loadign the code from an online resource (which has numerous secuity implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to deliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
+Because we rely on the store's updating abilities.Our delivery model requires frequent updates to the core application code. Instead of loadign the code from an online resource (which has numerous security implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to deliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
 
 So, the installation is not just about getting our app once installed on users' machines. The automatic updating via Windows Store is a crucial element of the concept which wouldn't work out when providing MSIX packages for manual installation, as that would cause installations to be almost always out-of -date.
 
@@ -147,7 +147,7 @@ So, the installation is not just about getting our app once installed on users' 
 
 You do NOT need a Microsoft account. It is not required to be logged into the MS Store for downloading the Emby app.
 
-See here for more details:https://emby.media/community/index.php?/topic/134058-why-does-emby-make-it-so-difficult-to-discover-media/page/5/#findComment-1408507
+See here for more details: https://emby.media/community/index.php?/topic/134058-why-does-emby-make-it-so-difficult-to-discover-media/page/5/#findComment-1408507
 
 
 ### I have selected the High Quality preset in the video quality options, why doesn't it use hardware acceleration?

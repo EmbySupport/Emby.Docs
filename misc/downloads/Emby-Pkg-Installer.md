@@ -190,48 +190,13 @@ This forces `get.sh` to use `tree_update/apt/setup.sh`, `tree_update/pac/setup.s
     width: fit-content;
 }
 
-pre.rp-pre {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-right: 60px;
-    padding-left: 15px;
+*, :after, :before {
+    box-sizing: border-box;
 }
 
 
-
-.copy-btn {
-    position: absolute;
-    top: 0;
-    bottom: 1px;
-    right: 0;
-    z-index: 10;
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 10px;
-    font-size: 12px;
-    line-height: 1;
-    color: var(--font-color);
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    box-shadow: var(--card-box-shadow);
-    transition: transform 120ms ease, box-shadow var(--transition), color var(--transition), border-color var(--transition);
-    margin: 3px;
-    opacity: 0.6;
-}
-
-
-pre.rp-pre {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-right: 60px;
-    padding-left: 15px;
-}
 pre {
     border: 0;
-}
-pre {
     padding: 9.5px;
     margin: 20px 0;
     font-size: 15px;
@@ -241,12 +206,6 @@ pre {
     border-radius: 4px;
     border: none;
     box-shadow: var(--card-box-shadow);
-}
-*, :after, :before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-pre {
     display: block;
     font-family: monospace;
     unicode-bidi: isolate;
@@ -254,15 +213,6 @@ pre {
     margin-block: 1em 1em;
     margin-inline: 0px;
 }
-pre {
-    display: block;
-    font-family: monospace;
-    unicode-bidi: isolate;
-    white-space: pre;
-    margin-block: 1em 1em;
-    margin-inline: 0px;
-}
-
 
 pre.rp-pre {
     margin-top: 0;
@@ -299,6 +249,7 @@ ul.rp-list {
     padding-inline-start: 0; margin-right: 30px;
     user-select: none;
 }
+
 
 .copy-btn {
     position: absolute;

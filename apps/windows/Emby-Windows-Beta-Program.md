@@ -31,7 +31,7 @@ Three ways to get it:
 3. Go there and click the link: https://wmc.emby.media/x.html
 
 > [!NOTE]
-> Only registered Beta uses will be able to accesss the beta app.
+> Only registered Beta uses will be able to access the beta app.
 > You need to be logged into the MS Store app (or Website) in order to see it
 
 
@@ -43,7 +43,7 @@ Three ways to get it:
 - MS Store opens and shows the app entry
 
 > [!NOTE]
-> Only registered Beta uses will be able to accesss the beta app.
+> Only registered Beta uses will be able to access the beta app.
 > You need to be logged into the Xbox with the Xbox Live account that corresponds to the MS account you have specified when registering for the beta program.
 
 

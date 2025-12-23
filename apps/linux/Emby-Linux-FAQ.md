@@ -24,7 +24,7 @@ There are two ways:
 
 ### I'm experiencing stuttering video playback, what can I do?
 
-First of all, make sure you haven't chosen "High Quality" under Video Quality options. Also, don't use "Customize" but try both the "Balanced" and the "Efficiency" presets.  
+First of all, make sure you haven't chosen "High Quality" under **Video Player** settings >> **Video Quality**. Also, don't use "Customize" but try both the "Balanced" and the "Efficiency" presets.  
 Then, use appropriate Linux tools for checking CPU and GPU usage.
 Look at the Media Info on the item detail screen at the bottom and check whether the video has a high bitrate (> 20,000 Mbps).  
 Open Stats for Nerds and see whether it's DirectPlay or Transcoding.  
@@ -44,7 +44,7 @@ There can be multiple reasons for this:
   The appearance of those cannot be changed.
   Typical subtitle formats using bitmaps are: DVDSub DVBSub, PGS/HDMV Subtitles
 - The subtitles are SSA/ASS subtitles
-  Those subtitles have built-in stylingwhich cannot be overridden
+  Those subtitles have built-in styling which cannot be overridden
 
 ### I have selected the High Quality preset in the video quality options, why doesn't it use hardware acceleration?
 

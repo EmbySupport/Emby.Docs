@@ -40,7 +40,7 @@ The new Windows app includes a new and exclusive theme: "Windows"
 - Color intensity effect for card hovering
 - Intuitive control of sidebar appearance (show, hide, mini)
 - Improved keyboard navigation with focus indicators following Windows guidelines
-- Brightness attentuation setting in theme settings
+- Brightness attenuation setting in theme settings
 - Rounded-corner appearance for main layout and video playback in windowed mode  
   (like latest MS Edge browser)
  
