@@ -5,6 +5,6 @@ title: "Feature: Enhanced Remote Control Support"
 
 # Feature: Enhanced Remote Control Support
 
-[!INCLUDE [feature-start-animation](../../../includes/feature-remote-control.md)]
+[!INCLUDE [feature-remote-control](../../../includes/feature-remote-control.md)]
 
 
