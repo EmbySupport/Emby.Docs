@@ -1,5 +1,5 @@
 ---
-uid: Xbox-Feature-Remote-Control.
+uid: Xbox-Feature-Remote-Control
 title: "Feature: Enhanced Remote Control Support"
 ---
 
