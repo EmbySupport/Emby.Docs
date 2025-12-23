@@ -119,7 +119,7 @@ There can be multiple reasons for this:
   The appearance of those cannot be changed.
   Typical subtitle formats using bitmaps are: DVDSub DVBSub, PGS/HDMV Subtitles
 - The subtitles are SSA/ASS subtitles
-  Those subtitles have built-in stylingwhich cannot be overridden
+  Those subtitles have built-in styling which cannot be overridden
 
 
 ### Will the Windows theme be made available in other Emby apps?

@@ -13,14 +13,14 @@ The new Windows app includes a new and exclusive theme: "Windows"
 
 ## Features
 
-- Fully adheres to the latest Windows design guidelines: https://learn.microsoft.com/en-us/windows/apps/design/
+- Fully adheres to the latest Windows design guidelines:Â https://learn.microsoft.com/en-us/windows/apps/design/
 - Uses outlined icons
 - Uses the "Segoe UI Variable" font
 - Precisely resembles Windows UI elements down to the pixel level
-- Precisely resembles Windws UI coloring and dynamically adapts to changes at the OS level
+- Precisely resembles Windws UI coloring and dynamically adapts to changes at the OS level
 - Follows Windows theme settings for applications (light/dark)
 - Follows Windows accent color setting
-- Allows overriding the Windows theme (light/dark) for the app specifically
+- Allows overriding the Windows themeÂ (light/dark) for the app specifically
 - Uses original Windows application background materials
     - On Windows 11 and later: Mica Material
     - On Windows 10: Background Acrylic
@@ -32,8 +32,8 @@ The new Windows app includes a new and exclusive theme: "Windows"
     - Rotating icon while wait cursor (spinner) is shown
 - Dual Color Mode
 - When light theme is active and the app changes to dark background for showing backdrops, the sidebar remains to have a light background
-- Dropdown popups are positioned according to Windows guidelines
-- View options and filters are shown as panel (right aligned) rathern than as dialogs
+- Dropdown popupsÂ are positioned according to Windows guidelines
+- View options and filters are shown as panel (right aligned) rather than as dialogs
 - In-app dialogs have the same appearance like Windows dialogs
 - Cards are shown as integral elements
 - (all captions are inside the card borders)
@@ -43,7 +43,7 @@ The new Windows app includes a new and exclusive theme: "Windows"
 - Brightness attentuation setting in theme settings
 - Rounded-corner appearance for main layout and video playback in windowed mode  
   (like latest MS Edge browser)
- 
+Â 
 
 ## How to...
 

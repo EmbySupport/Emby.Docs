@@ -262,8 +262,8 @@
             href: apps/windows/features/Win-Feature-DisplayControl.md
           - name: Windows Theme
             href: apps/windows/features/Win-Feature-WinTheme.md
-          - name: Brightness Attentuation
-            href: apps/windows/features/Win-Feature-BrightnessAttentuation.md
+          - name: Brightness Attenuation
+            href: apps/windows/features/Win-Feature-BrightnessAttenuation.md
           - name: Gamepad Support
             href: apps/windows/features/Win-Feature-Gamepad.md
           - name: Remote Control Support

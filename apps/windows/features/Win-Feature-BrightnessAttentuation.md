@@ -19,5 +19,5 @@ This feature is the first of its kind in Emby, meant to test what can be done in
 
 - **...enable the brightness attentuation feature?**  
   Go to Settings (Gear icon), in the left sidebar choose "Display", find setting "Theme" and make sure that "Windows" is select. Then hit the "Theme Settings" buttons below and use the dropdown selection to control the brightness attentuation strength  
-  Notes: Changes are applied instantly; "Minimal" attentuation is very subtle
+  Notes: Changes are applied instantly; "Minimal" attentuation is very subtle
 
