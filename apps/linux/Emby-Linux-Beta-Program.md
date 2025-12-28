@@ -16,15 +16,49 @@ title: Emby Linux: Beta Program
 | [Enrollment Method](../../misc/Beta-Programs.md#enrollment-method)  | **None**  |
 
 
+## Platform Support
+
+To see which platforms are currently support, please see 
+[Emby Linux Platform Support](Emby-Linux-Platform-Support.md).
+
+
 ## Delivery of Beta Builds
 
+### Native Platform Packages
 
-TBD
+The app is currently available in the form of native platform packages:
+
+- **DEB**  
+  Ubuntu, Debian, Linux Mint
+- **RPM**  
+  OpenSUSE, Manjaro, Fedora
+- **PAC**  
+  Arch Linux, Steam OS
+
+#### Easy Installation
+
+The most easy way to install is by using the new [Emby Universal Installer](../../misc/downloads/Emby-Pkg-Installer.md)
+
+#### New Linux Package Repositories
+
+The installer is automatically setting up the new Emby Package repository. For more information and manual setup, please see [Emby Package Repository](../../misc/downloads/Emby-Package-Repository.md).
+
+
+### Other Package Formats
+
+We are planning to make the Linux app available in additional package formats during the course of the beta:
+
+- **AppImage**  
+  coming soon
+- **Snap**  
+  depending on user demand 
+- **Flatpack**  
+  depending on user demand 
 
 
 ## Commandline Flags
 
-Please see [Emby Linux: Commandline Flags](Emby-Linux-Flags)  
+Please see [Emby Linux: Commandline Flags](Emby-Linux-Flags.md)  
 
 ## Beta Communication
 

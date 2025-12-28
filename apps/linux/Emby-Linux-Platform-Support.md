@@ -9,20 +9,20 @@ title: Emby Linux: Platform Support
 # Emby Linux: Platform Support
 ## Introduction
 
-The Linux ecosystem is highly heterogeneous — not only because of the wide variety of distributions, but even more because of Desktop Environments, different distro + DE combinations, and the choice of display server (X11 vs. Wayland).
+The Linux ecosystem is highly heterogeneous - not only because of the wide variety of distributions, but even more because of Desktop Environments, different distro + DE combinations, and the choice of display server (X11 vs. Wayland).
 For the Emby Client application, it is not feasible for us to support all of these variations in a reasonable and sustainable way. We have to make clear cuts between what is manageable and what is not.
 This article explains our goals and current scope: which hardware and software environments we are targeting to run the Emby Client app for Linux reliably.
 
 ### DISCLAIMER
 
 This document is an informational description of our current testing focus and intended support boundaries. It is not a contract, a warranty, or a legally binding promise of support.
-“Supported” in this context means that we actively test and prioritize the listed environments. It does not guarantee that the application will be free of defects, compatible with every configuration, or suitable for every use case.
+"Supported" in this context means that we actively test and prioritize the listed environments. It does not guarantee that the application will be free of defects, compatible with every configuration, or suitable for every use case.
 
 Linux systems can differ significantly even within the same distribution and version (kernel versions, Mesa/NVIDIA driver versions, compositor behavior, audio stack, sandboxing, packaging differences, and third-party modifications). Because of that, issues may occur even on supported targets, and behavior may change with updates to the OS, drivers, or desktop environment.
 
 Our support focus may change over time. We may add, move, or remove targets between tiers, change minimum versions, or revise limitations based on development priorities, available test coverage, and real-world feedback. For pre-release software, these changes can happen without notice.
 
-For environments listed as Unsupported, we may decline investigations, troubleshooting, or implementation work — even if the application happens to run. For environments listed as Extended Tier, we will generally try to help, but fixes are best-effort and may be deprioritized or declined if the effort is disproportionate or the root cause lies outside our control (e.g., upstream bugs, driver limitations, or platform behavior).
+For environments listed as Unsupported, we may decline investigations, troubleshooting, or implementation work - even if the application happens to run. For environments listed as Extended Tier, we will generally try to help, but fixes are best-effort and may be deprioritized or declined if the effort is disproportionate or the root cause lies outside our control (e.g., upstream bugs, driver limitations, or platform behavior).
 
 
 ## Support Levels
