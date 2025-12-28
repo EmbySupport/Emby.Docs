@@ -137,7 +137,7 @@ No, the Windows Store is the only way to install
 
 ### Why can't you provide an MSIX for download and manual installation?
 
-Because we rely on the store's updating abilities.Our delivery model requires frequent updates to the core application code. Instead of loadign the code from an online resource (which has numerous security implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to deliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
+Because we rely on the store's updating abilities. Our delivery model requires frequent updates to the core application code. Instead of loading the code from an online resource (which has numerous security implications), it has all its code on board now. The Windows store is the ideal choice for this, as it allows to deliver updates to the app in the background, without interrupting users' workflow by having them watch and confirm an installation procedure every few days or weeks.
 
 So, the installation is not just about getting our app once installed on users' machines. The automatic updating via Windows Store is a crucial element of the concept which wouldn't work out when providing MSIX packages for manual installation, as that would cause installations to be almost always out-of -date.
 
