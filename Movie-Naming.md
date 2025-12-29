@@ -16,7 +16,8 @@ A much better way of building a large Emby library of content is to prepare you 
 
 ## Naming your media
 
-Once you've prepared your media files, it's time to name your media in a way that allows Emby the best chance of determining what it is.  The best way to do this is to use the format: "MovieName (year).extension" such as "Top Gun (1986).mp4" or "Avatar (2009).mkv".  Because Emby allows many other advanced functions that can be used with your media we want to create a folder structure that aids in this use.  The simplest method of doing this is to put all media related to a Movie in the same folder using a name "MovieName (year). Emby will then use the folder name to determine the movie.  
+Once you've prepared your media files, it's time to name your media in a way that allows Emby the best chance of determining what it is.  The best way to do this is to use the format: "MovieName (year).extension" such as "Top Gun (1986).mp4" or "Avatar (2009).mkv".  Because Emby allows many other advanced functions that can be used with your media we want to create a folder structure that aids in this use.  The simplest method of doing this is to put all media related to a Movie in the same folder using a name "MovieName (year). Emby will then use the folder name to determine the movie. The use of folders for each movie helps with identification and ensuring related files are linked to the movie.
+
 It will look like this:
 
 ```
@@ -26,6 +27,11 @@ It will look like this:
 \Movies\The Usual Suspects (1995)\The Usual Suspects (1995).mkv
 \Movies\Top Gun (1986)\Top Gun (1986).mp4
 ```
+
+> [!Note]
+> Movie folders are used internally to improve detection and would only be reflected in the library "**Folders**" view.
+
+
 ## Complex Folder Structure
 If you plan on having thousands of movies in your library you may want to add an additional folder to your hierarchy to aid in navigation.  For example you could create folders for all movies starting with the first letter or number such as:
 
