@@ -32,17 +32,28 @@ It will look like this:
 > Movie folders are used internally to improve detection and would only be reflected in the library "**Folders**" view.
 
 
-## Complex Folder Structure
-If you plan on having thousands of movies in your library you may want to add an additional folder to your hierarchy to aid in navigation.  For example you could create folders for all movies starting with the first letter or number such as:
+## Other Folder Structures
+The default library views are not by folder structure. Instead they offer metadata-based views of your library that are created automatically. If, instead, you wish to use a custom set of category folders, you could do that by adding a set of folders below the library root folder and the movies split between these category folders. Emby will work just fine with or without this additional level of folders! These category folders will be visible in the library **Folders** view.
+
+In the following examples, movies are stored in year bands, each being a 30-year span category, as an example:
 
 ```
-\Movies\A\Avatar (2009)\Avatar (2009).mkv
-\Movies\P\Pulp Fiction (1994)\Pulp Fiction (1994).mp4
-\Movies\R\Reservoir Dogs (1992)\Reservoir Dogs (1992).mp4
-\Movies\T\The Usual Suspects (1995)\The Usual Suspects (1995).mkv
-\Movies\T\Top Gun (1986)\Top Gun (1986).mp4
+\Movies\Movies 1925-1954\The 39 Steps (1935)\The 39 Steps (1935).mkv
+\Movies\Movies 1925-1954\Sunset Boulevard (1950)\Sunset Boulevard (1950).mkv
+
+\Movies\Movies 1955-1984\Vertigo (1958)\Vertigo (1958).mkv
+\Movies\Movies 1955-1984\Moonraker (1979)\Moonraker (1979).mp4
+
+\Movies\Movies 1985-2014\The Italian Job (2003)\The Italian Job (2003).mkv
+\Movies\Movies 1985-2014\Alex Cross (2012)\Alex Cross (2012).mp4
+
+\Movies\Movies 2015-2044\The Girl on the Train (2016)\The Girl on the Train (2016).mkv
+\Movies\Movies 2015-2044\The Ice Road (2021)\The Ice Road (2021).mp4
 ```
-When viewing your media outside of Emby using conventional tools such as Windows Explorer this allows you to navigate your library much quicker without having to wait for thousands of folders to load.  It saves you from scrolling through thousands of folders to get to your "W" movies for example. Emby will work just fine with or without this additional folder!
+
+> [!Note]
+> Higher level folders below the library root folder and above the movie folders would only appear in the library "**Folders**" view.
+
 
 ## ID Tags in Folder & File Names
 
