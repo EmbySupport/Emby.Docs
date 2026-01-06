@@ -74,9 +74,8 @@ We will not perform any kind of work nor discuss or answer any questions about i
 	- 3.7.x and later
 	- Game Mode is unsupported!
 
-#### Notes
-
-- Any distro not in this list is unsupported.
+##### Notes
+Any distro not in this list is unsupported.
 
 
 ### Desktop Environments
@@ -90,9 +89,8 @@ We will not perform any kind of work nor discuss or answer any questions about i
   - Mate
   - LXQt
 
-#### Notes
-
-- Any DE not in this list is unsupported.
+##### Notes
+Any DE not in this list is unsupported.
 
 
 ### Display Servers
@@ -101,9 +99,8 @@ We will not perform any kind of work nor discuss or answer any questions about i
   - X11
   - Wayland via Xwayland
 
-#### Notes
-
-- Native Wayland is unsupported.
+##### Notes
+Native Wayland is unsupported.
 
 
 ### CPU Architectures
@@ -113,9 +110,8 @@ We will not perform any kind of work nor discuss or answer any questions about i
 - Extended Tier
   - arm64 (limited)
 
-#### Notes
-
-- Hardware acceleration for ARM64 devices is not available yet (see below), which limits the value of running the app on ARM64 devices at this time. 
+##### Notes
+Hardware acceleration for ARM64 devices is not available yet (see below), which limits the value of running the app on ARM64 devices at this time. 
 
 ### GPU Hardware and Hardware Acceleration
 
@@ -125,10 +121,9 @@ We will not perform any kind of work nor discuss or answer any questions about i
 - Extended Tier
   - Nvidia
 
-#### Notes
-
-- Nvidia is planned to become Primary Tier after more testing
-- Video Hardware acceleration for ARM64 devices is planned for a future update
+##### Notes
+Nvidia is planned to become Primary Tier after more testing
+Video Hardware acceleration for ARM64 devices is planned for a future update
 
 
 
