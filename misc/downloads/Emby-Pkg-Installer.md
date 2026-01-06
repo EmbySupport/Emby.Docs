@@ -63,6 +63,7 @@ title: Emby Universal Installer
   - `U` = uninstall
   - `V` = choose a specific version (only offered when multiple versions exist)
   - `S` = show app info
+  - `K` = block/unblock package from auto-updating (not available on Pacman)
 
 - `GET_LOCAL` = `1`  
   Local test mode. Instead of downloading platform helper scripts from `pkg.emby.media`, the script will use local files from `./tree_update/` (useful when developing this repository).
@@ -129,6 +130,52 @@ App/package actions:
 - Install/uninstall
 - Show package information
 - Select and install a specific version (when supported and multiple versions exist)
+- Block/unblock package from auto-updating (APT, DNF, Zypper only)
+
+---
+
+## Cross-channel update protection
+
+When you have both the stable and beta repositories registered, there's a risk of accidentally upgrading your Emby Server from one channel to another during routine system updates. To prevent this, `get.sh` includes automatic cross-channel update protection.
+
+### Automatic blocking
+
+When registering a repository, `get.sh` automatically blocks cross-channel server updates:
+
+- **Registering the beta repo with a stable Emby Server installed**: The script automatically blocks `emby-server` from the beta repo, preventing accidental upgrades to beta versions.
+
+- **Registering the stable repo with a beta Emby Server installed**: The script automatically blocks `emby-server` from the stable repo, preventing accidental downgrades to stable versions.
+
+When automatic blocking occurs, you'll see a message like:
+
+```
+An Emby Server (stable) installation was detected on this system.
+The Emby Server package from the beta repo has been blocked automatically
+in order to prevent automatic updates being offered, which could
+lead to unwanted installation of a beta server version over your
+stable installation.
+```
+
+### Manual blocking/unblocking
+
+You can also manually control package update blocking from the package operations menu:
+
+1. Navigate to the package in the packages list
+2. Select the package to view operations
+3. Use the **K** option to toggle blocking:
+   - If currently blocked: "Unblock package from auto-updating"
+   - If not blocked: "Block package from auto-updating"
+
+Blocked packages are shown in the package list with "(updates blocked)" next to their status.
+
+### Platform implementation
+
+The blocking feature uses platform-native mechanisms:
+
+- **APT**: Creates pinning rules in `/etc/apt/preferences.d/` with negative priority
+- **DNF**: Adds `excludepkgs=` to the repo file in `/etc/yum.repos.d/`
+- **Zypper**: Creates repo-scoped package locks via `zypper addlock -r`
+- **Pacman**: Not supported (no beta server packages available)
 
 ---
 
