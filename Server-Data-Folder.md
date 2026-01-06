@@ -71,3 +71,7 @@ Accessing this folder directly will require SSH.
 /mnt/HD/HD_a2/emby
 
 Accessing this folder directly will require SSH.
+
+### Thecus
+/raid/data/module/EmbyServer/programdata
+
