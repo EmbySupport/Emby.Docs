@@ -1,6 +1,6 @@
 ---
 uid: Emby-Pkg-DNF
-title: Manual Repo Setup: DNF
+title: "Manual Repo Setup: DNF"
 ---
 
 # Manual setup: DNF 

@@ -1,12 +1,12 @@
 ---
 uid: Emby-Linux-Platform-Support
-title: Emby Linux: Platform Support
+title: "Emby Linux: Platform Support"
 ---
 
-> [!WARNING]
-> The information in this document is about a pre-release application. All the provided details are subject to being changed without notice. 
-
 # Emby Linux: Platform Support
+
+[!INCLUDE [beta-warning](../../includes/beta-warning.md)]
+
 ## Introduction
 
 The Linux ecosystem is highly heterogeneous - not only because of the wide variety of distributions, but even more because of Desktop Environments, different distro + DE combinations, and the choice of display server (X11 vs. Wayland).

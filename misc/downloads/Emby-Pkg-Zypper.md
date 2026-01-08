@@ -1,6 +1,6 @@
 ---
 uid: Emby-Pkg-Zypper
-title: Manual Repo Setup: Zypper
+title: "Manual Repo Setup: Zypper"
 ---
 
 # Manual setup: Zypper

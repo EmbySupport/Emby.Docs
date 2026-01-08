@@ -1,6 +1,6 @@
 ---
 uid: Emby-Pkg-Installer
-title: Emby Universal Installer
+title: "Emby Universal Installer"
 ---
 
 # Emby Universal installer

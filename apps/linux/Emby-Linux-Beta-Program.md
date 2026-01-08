@@ -1,6 +1,6 @@
 ---
 uid: Emby-Linux-Beta-Program
-title: Emby Linux: Beta Program
+title: "Emby Linux: Beta Program"
 ---
 
 
@@ -10,7 +10,7 @@ title: Emby Linux: Beta Program
 
 | Specification  |    |
 |--------------------|--------------------|
-| [Program Status](../../misc/Beta-Programs.md#program-status)   | **Starting soon**  |
+| [Program Status](../../misc/Beta-Programs.md#program-status)   | **Active**  |
 | [Program Mode](../../misc/Beta-Programs.md#program-mode)  | **Periodic**  |
 | [Communication](../../misc/Beta-Programs.md#communication)  | **Public**  |
 | [Enrollment Method](../../misc/Beta-Programs.md#enrollment-method)  | **None**  |

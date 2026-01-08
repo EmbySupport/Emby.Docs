@@ -1,6 +1,6 @@
 ---
 uid: Emby-Windows-Beta-Program
-title: Emby Windows: Beta Program
+title: "Emby Windows: Beta Program"
 ---
 
 
