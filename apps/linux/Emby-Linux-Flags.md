@@ -1,6 +1,6 @@
 ---
 uid: Emby-Linux-Flags
-title: Emby Linux: Commandline Flags
+title: "Emby Linux: Commandline Flags"
 ---
 
 # Emby Linux: Commandline Flags

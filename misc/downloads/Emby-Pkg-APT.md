@@ -1,6 +1,6 @@
 ---
 uid: Emby-Pkg-APT
-title: Manual Repo Setup: APT
+title: "Manual Repo Setup: APT"
 ---
 
 # Manual setup: APT 

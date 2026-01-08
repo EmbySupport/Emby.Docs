@@ -1,6 +1,6 @@
 ---
 uid: Emby-Pkg-Pacman
-title: Manual Repo Setup: Pacman
+title: "Manual Repo Setup: Pacman"
 ---
 
 # Manual setup: Pacman

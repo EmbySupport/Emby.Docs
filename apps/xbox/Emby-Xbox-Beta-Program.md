@@ -1,6 +1,6 @@
 ---
 uid: Emby-Xbox-Beta-Program
-title: Emby Xbox: Beta Program
+title: "Emby Xbox: Beta Program"
 ---
 
 
