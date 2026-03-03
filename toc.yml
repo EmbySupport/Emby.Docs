@@ -38,6 +38,14 @@
       items:
       - name: Users
         href: Users.md
+      - name: Users Customization
+        href: User-Customization.md
+      - name: User Preferences
+        href: User-Prefs.md
+      - name: User Home Screen Customization
+        href: User-HomeScreen.md
+      - name: User Home Screen Customization (Legacy)
+        href: User-HomeScreen-Legacy.md
       - name: Parental Controls
         href: Parental-Controls.md
       - name: Passwords
