@@ -6,7 +6,13 @@ legacyUrl: /support/solutions/articles/44001159258-advanced-menu
 legacyUrl: /support/solutions/articles/44002137137-remote-setup
 ---
 
-The purpose of this document is to discuss how to connect to the Emby Server from additional devices, both within your home network and externally. To learn how to grant users access to your server, see [Users](Users.md).
+The purpose of this document is to discuss how to connect to the Emby Server from additional devices, both within your home network and externally. 
+
+Browse this document to aquaint yourself with the types of issues that may arise and what they would impact and how to address them.
+
+For any new connectivity issues, use the checklist below to troubleshoot : [Troubleshooting Connectivity Issues Checklist](#troubleshooting-connectivity-issues-checklist).
+
+To learn how to grant users access to your server, see [Users](Users.md).
 
 In most cases you won't need to do any extra configuration to connect to your server from other devices, as Emby apps are built to automatically know how to connect to it. But on some systems or if you have more than one emby server with remote access enabled, some manual configuration may be necessary.
 
@@ -196,13 +202,11 @@ The default public / WAN ports are as follows:
 
 Set a different http and https port (where applicable) for each of the servers. If your first server used 8096 and 8920, then you only need to change the public ports for the other server(s) to use different port numbers.
 
-### Multiple Routers
+### Multiple Routers / Mesh Network Added
 
-If you have more than one router, eg an ISP provided router and also your own router, then that would lead to a **Double NAT** which would lead to failure to reach the server externally.
+If you have more than one router, eg an ISP provided router and also your own router, or you've added a Mesh Network, then that could lead to a **Double NAT** which would give rise to failure to reach the server externally.
 
-In such cases, to get round the problem, it is recommended that one router, e.g. the ISP router, is configured to run in Modem/Bridge mode leaving the other router to do the routing and any port forwarding.
-
-If both need to be running as routers, the configuration would be more complex, needing to cascade the port forward for the public port from the first router to the second, with the first router acting as a pass-through, and to have the actual required port forward to be setup on the 2nd router. Also the 2nd router would need to have its local IP Address as a DHCP reservation on the first router.
+To establish if you have a Double NAT and what steps you need to take to get round the issue, see [Multiple Routers Double NAT](#multiple-routers-double-nat) below. Basically you will have two ways to choose from, either by making sure there is only one operating as a router or to manually setting up port forwards to cascade all the way through.
 
 ### Locate Your External Address & Public Port
 
@@ -261,20 +265,42 @@ You can mitigate the impact of changes to the external IP address by exploring t
 
 ### Multiple Routers Double NAT
 
-If you have 2 routers, eg an ISP provided router and your own router, there will be a double NAT and port mappings will not work. A Double NAT can be confirmed by checking the Public IP address displayed by https://whatismyipaddress.com/ or https://canyouseeme.org and comparing it to the WAN IP address displayed within the router configuration dashboard, the router to which the emby server machine is connected. If the addresses do not match, then most likely you have a Double NAT.
+If you have 2 routers, eg an ISP provided router and your own router, there will be Double NAT and port forwarding will not work. Similarly, if you have added a Mesh Network then there could be a Double NAT. 
 
-To get round this, the options that you have are:
-1. Have one of the routers operate in Modem/Bridge mode, e.g. the ISP router. The other router would become the active router and handle the port forwards and port mapping. Consult the router manual for how to switch to Modem/Bridge mode.
-2. Have one of the routers operate as an Access Point, eg the ISP router becomes the router and your own router configured as an Access Point.
-3. Use both as routers but cascade the port forwards through the first router - acting as a Pass-Through. In this scenario, port mapping must be manual with manual port forward setup on both routers. As an example, if your server public http port is 32700 and https is enabled and is using public port 32800, you would do the following:
+A Double NAT can be confirmed by checking the Public IP address displayed by https://whatismyipaddress.com/ or https://canyouseeme.org and comparing it to the WAN IP address displayed within the router/mesh network control device settings, the one that the emby server machine is connected to. If the addresses do not match, then most likely you have a Double NAT.
+
+> [!Note]
+> A cgNAT public IP address may also show up as Double NAT. To establish if it is due to cgNAT, see [cgNAT Double NAT](#cgnat-double-nat) above. 
+> 
+
+If there is a Double NAT due to having multiple devices operating as network routers, you will need to make sure only one is acting as a router or a more complex option, to cascade the port forward all the way through to the Emby Server, going through both.
+
+If you have added a **Mesh Network**, you can set the device to operate as an **Access Point** and not a router. This would then leave your existing router to have the port forward.
+
+The following is an example for a **TP-Link Deco M9 Plus** Mesh Network. The **Deco** mobile app has in **Advanced Settings** an option for changing the operation mode.
+
+![](images/server/connectivity20.png)
+
+and in the following, you can see it is set to operate in a passive mode as an **Access Point**.
+
+![](images/server/connectivity21.png)
+
+In the case of an ISP Modem/Router and also having your own router, the best option here is to see if the ISP provided device can be set to operate in Modem / Bridge only mode and that would leave your router to manage the port forwarding and local network. You may need to contact your ISP if the modem/router settings are locked down.
+
+For this, you can also operate with the ISP Modem/Router acting as a router and your own router switched to be in Access Point mode.
+
+For both cases mentioned above, you can keep them operating as routers but you would then need to have a complex port forward setup where the port forward on the first router (ISP router) is manually setup and cascaded through to the second router/mesh network device and that would have the port forward to the Emby Server. In the example below reference to second router also means the Mesh Network main controlling unit.
+
+In this example, if your server public http port is 32700
 - Have the local IP address of the 2nd router as a DHCP reservation in the first router - so it remains fixed. You would need to find the Mac Hardware address of the WAN Port of the 2nd router and use that to specify a DHCP reservation for it in the first router
-- On the first router, setup a tcp port forward for http port 32700 to forward to port 32700 to the local IP address of the second router. And do the same for the https port - forwarding tcp 32800 to port 32800 to the local IP address of the second router.
+- On the first router, setup a tcp port forward for http port 32700 to forward to port 32700 to the local IP address of the second router.
 - On the second router, setup DHCP reservation for the Emby Server local IP address
-- On the second router, setup port forwards for the http public tcp port 32700 to forward to port 8096 to the local IP address of the emby server machine. And similarly, if secure connections are used, setup the port forward for the https tcp public port 32800 to forward to port 8920 to the local IP address of the emby server machine.
+- On the second router, setup port forward for the http public tcp port 32700 to forward to port 8096 to the local IP address of the emby server machine. 
+- If you have also enabled https and for example you have public port 32800 for that, then you would need to repeat the steps above to forward 32800 from first router to the second router and then forward 32800 to the emby server local IP Address to tcp port 8920.
 
 ### Multiple Servers - Public Port clash
 
-If you have more tha one system running emby server on the local network and remote connections enabled, then with the default settings there would be a public port clash and the remote connections would be attempting to go to the first system that was configured. In such cases, you will need to change the public ports and ensure that each emby server has a different public port.
+If you have more than one system running emby server on the local network and remote connections enabled, then with the default settings there would be a public port clash and the remote connections would be attempting to go to the first system that was configured. In such cases, you will need to change the public ports and ensure that each emby server has a different public port.
 
 ### ISP Blocking
 You may also be blocked by your ISP. Open command prompt session and do a trace route to 8.8.8.8.
@@ -286,3 +312,67 @@ Ignore the first line which will be your own router.  What you want to see is if
 # Emby Connect
 
 Regardless of the method used for port forwarding, whether it is automatic using uPnP or a manual configuration of the router, we suggest trying out the Emby Connect feature as it takes the guesswork out of external connectivity. The Emby apps would find the route to the server using Emby Connect.  See [Emby Connect](Emby-Connect.md).
+
+# Troubleshooting Connectivity Issues Checklist
+
+Use this checklist to help with finding out the cause of any new connectivity issues. 
+
+## 1. Local IP Address
+
+Check if the Local IP Address for the Emby Server changed. When this happens, any port forward in the router for external remote access would still be for the old IP Address. Client Apps may also be attempting to use the IP address already known to them from previous connections.
+
+You should use static IP address and/or DHCP Reservation for the device/computer running Emby Server. See section about that above in [In Network Connections](#in-network-connections).
+
+If the IP Address has changed, any port forward in the router needs to be corrected - but only look into that after ensuring the IP Address will no longer change with use of static IP Address and/or DHCP Reservation. 
+
+For manually created port forward, you will need to login to the router and correct the destination IP address for the port forward. See [Setup Port Forwarding](#setup-port-forwarding) above.
+
+For automatically created port forward with uPnP and the emby server setting: **Enable automatic port mapping**, you will need to shutdown Emby Server, then reboot the router to clear the existing cached uPnP port forward and then launch Emby Server.
+
+If you are using Emby Connect, you may need to unlink and re-link the user account to the Emby Connect e-mail address to refresh the Emby Connect data.
+
+Exit Emby Apps and relaunch them.
+
+## 2. Windows Network Profile
+
+If running on Microsoft Windows, check if the **Network Profile** got switched from **Private** to **Public**. This has been seen to arise after some system updates. See section [Windows Network Profile](#windows-network-profile) above.
+
+## 3. Public IP Address
+
+Check if the public IP Address for your network got changed. This does happen sometimes on router reboots or periodically by the ISP and would arise more frequently when the ISP provides you with a cgNAT IP Address. This would affect external remote access. Emby client apps may still be attempting to use the old Public IP Address known to them.
+
+If this happens regularly, look into using a domain name and DDNS service to periodically refresh the IP address. See section [External Public IP Address change](#external-public-ip-address-change) above. If you have a cgNAT IP address, you should be able to request a static public IP address from your ISP for a small fee. See section [cgNAT Double NAT](#cgnat-double-nat) above.
+
+You can test out access to the server with the new public ip address by adding the server manually on the Select Server screen and giving the public IP address and public port. Note that access through the public IP address may be blocked by routers if you try to test it out locally. Best to do this test externally and could be done on a mobile device connected through cellular connection and not wifi.
+
+If you are using Emby Connect, you may need to unlink and re-link the user account to the Emby Connect e-mail address to refresh the Emby Connect data.
+
+## 4. Router Settings
+
+Sometimes router settings get lost and any existing port forwards may disappear. This has been seen to happen after some remote ISP updates to routers overnight. If you had any manual port forwards, and they no longer show, you will need to reinstate them. See [Setup Port Forwarding](#setup-port-forwarding) above.
+
+
+
+**The next checklist is to help with issues arising after a change.** 
+ 
+## 1. vpn added
+
+See section [Use of vpn](#use-of-vpn) above.
+
+## 2. Switched ISP provider
+
+You may find that after switching ISP, you are now given a cgNAT IP address or that your public IP Address is now changing more frequently than before. See sections [cgNAT](#cgnat-double-nat) and [External Public IP Address change](#external-public-ip-address-change) above.
+
+## 3. Added a modem/router or mesh network
+
+This may give rise to a double NAT setup. See [Multiple Routers Double NAT](#multiple-routers-double-nat) and [Multiple Routers / Mesh Network Added](#multiple-routers--mesh-network-added) sections above.
+
+## 4. Added another Emby Server
+
+You may have added or launched another emby server and this new server is resulting in a port number clash. See [Multiple Servers Public Port Clash](#multiple-servers---public-port-clash)
+
+## 5. Restored server from backup
+
+If you have restored a server and restored the server id as well and not shutdown the old server, you will have two servers with the same ID. Make sure the old server is no longer running and would not auto launch.
+
+Finally, please do browse this whole document for additional information.

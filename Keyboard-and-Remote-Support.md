@@ -8,8 +8,7 @@ This document applies to the following apps:
 
 * Emby Web app
 * Emby Windows
-* Emby Theater for Raspberry Pi
-* Emby Theater for Linux
+* Emby Linux
 * Emby for Samsung Tizen
 * Emby for Xbox One
 * Emby for Sony PS4

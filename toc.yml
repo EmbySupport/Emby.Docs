@@ -104,14 +104,31 @@
       href: Log-Files.md
     - name: Devices
       href: Devices.md
-    - name: Backing up Emby Server
+    - name: Backing up & Restoring Emby Server
       href: Backup.md
+      items:
+      - name: Backing Up Emby Server
+        href: Backup-Using-Plugin.md
+      - name: Restoring Last Backup
+        href: Backup-Restore-Last-Backup.md
+      - name: Restoring an Earlier Backup of the Database
+        href: Backup-Restore-Earlier-Backup.md
+      - name: Using Restore to migrate to a New System
+        href: Backup-Restore-To-New-System.md
+      - name: Using Restore to add an Additional Server
+        href: Backup-Restore-Add-New-Server.md
+      - name: Using Restore to Copy Playback state and Favorites
+        href: Backup-Restore-Playbacks-And-Favorites.md
+      - name: How to Backup Manually
+        href: Backup-Manual-Backups.md
     - name: Plugin Management
       href: Plugins.md
   - name: Features & Plugins
     items:
     - name: Playback Methods
       href: DirectPlay-Stream-Transcoding.md
+    - name: Search
+      href: Search.md
     - name: Collections
       href: Collections.md
       items:
@@ -163,6 +180,8 @@
       href: Live-TV.md
     - name: Live TV Plugins
       href: Live-TV-Plugins.md
+    - name: Hauppauge Setup
+      href: Hauppauge-Setup.md
     - name: HDHomeRun Setup
       href: HDHomeRun-Setup.md
     - name: M3U Tuners
@@ -229,6 +248,8 @@
       href: Synology-Set-Permissions.md
     - name: HWA fails with RDP
       href: Hwa-Fails-with-RDP.md
+    - name: QNAP SSL Certificate Renewal
+      href: QNAP-SSL-Certificate-Renewal.md
     - name: Manage Collections (Legacy)
       href: Collections-Manual-Migration.md
     - name: Manage Playlists (Legacy)
@@ -241,6 +262,10 @@
       href: Emby-Connect-for-Users.md
     - name: Keyboard and Remote Support
       href: Keyboard-and-Remote-Support.md
+  - name: Amazon Alexa
+    href: Alexa.md
+  - name: Android Mobile
+    href: Android-Mobile.md
   - name: Android TV
     items:
       - name: Android TV
@@ -249,12 +274,41 @@
         href: Android-File-Storage.md
       - name: Shield TV Direct File Access
         href: ShieldTV-Direct-File-Access.md
+  - name: Apple TV
+    href: Apple-TV.md
+  - name: Chromecast
+    href: Chromecast.md
+  - name: Emby for Kodi
+    href: Emby-for-Kodi.md
   - name: Fire TV
     items:
       - name: Amazon Fire TV
         href: Fire-TV.md
       - name: Manual Install on Fire Tablets
         href: Fire-TV-Manual-Install.md
+  - name: Google Home
+    href: Google-Home.md
+  - name: iOS
+    href: iOS.md
+  - name: Atmos on LG TV
+    href: LG-Why-not-Atmos.md
+  - name: Linux
+    href: apps/linux/Emby-Linux.md
+    items:
+      - name: Emby Linux
+        href: apps/linux/Emby-Linux.md
+      - name: FAQ
+        href: apps/linux/Emby-Linux-FAQ.md
+      - name: Beta Program
+        href: apps/linux/Emby-Linux-Beta-Program.md
+      - name: Platform Support
+        href: apps/linux/Emby-Linux-Platform-Support.md
+      - name: Commandline Flags
+        href: apps/linux/Emby-Linux-Flags.md
+  - name: Roku
+    href: Roku.md
+  - name: Web App
+    href: Web-Client.md
   - name: Windows
     href: apps/windows/Emby-Windows.md
     items:
@@ -299,39 +353,6 @@
             href: apps/xbox/features/Xbox-Feature-Remote-Control.md
           - name: Startup Animation
             href: apps/xbox/features/Xbox-Feature-StartAnim.md
-  - name: Linux
-    href: apps/linux/Emby-Linux.md
-    items:
-      - name: Emby Linux
-        href: apps/linux/Emby-Linux.md
-      - name: FAQ
-        href: apps/linux/Emby-Linux-FAQ.md
-      - name: Beta Program
-        href: apps/linux/Emby-Linux-Beta-Program.md
-      - name: Platform Support
-        href: apps/linux/Emby-Linux-Platform-Support.md
-      - name: Commandline Flags
-        href: apps/linux/Emby-Linux-Flags.md
-  - name: Android Mobile
-    href: Android-Mobile.md
-  - name: Apple TV
-    href: Apple-TV.md
-  - name: Google Home
-    href: Google-Home.md
-  - name: Atmos on LG TV
-    href: LG-Why-not-Atmos.md
-  - name: Web App
-    href: Web-Client.md
-  - name: Amazon Alexa
-    href: Alexa.md
-  - name: Chromecast
-    href: Chromecast.md
-  - name: iOS
-    href: iOS.md
-  - name: Roku
-    href: Roku.md
-  - name: Emby for Kodi
-    href: Emby-for-Kodi.md
 - name: Supplemental Articles
   items:
   - name: Beta Programs

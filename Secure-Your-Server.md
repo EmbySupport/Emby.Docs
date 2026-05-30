@@ -146,6 +146,8 @@ Two sources for ssl certificates will be covered here, [SSL for free](https://ww
 
 "Let's Encrypt" certificates, however, may have compatibility issues with LG and Samsung Smart TVs, issues which are known not to arise currently with ZeroSSL certificates.
 
+For QNAP users where they have automatic SSL certificate renewals, there is now a script available to pick the QNAP SSL certificate and convert it into a pfx certificate file and password for Emby Server to use. See [QNAP SSL Certificate Renewal](QNAP-SSL-Certificate-Renewal.md).
+
 ### SSL for Free / ZeroSSL certificate
 
 Go to the web site through either [SSL for free](https://www.sslforfree.com/) or [ZeroSSL](https://zerossl.com) and register and login to your account.
@@ -194,7 +196,7 @@ We are almost done. Your Emby server requires a PKCS #12 certificate (certificat
 
    **PFX password**: Since the private key is combined with the certificate, set a password to secure the new ssl certificate. Remember this password, you'll need it in Emby.
 
-10. Copy the pfx file to where you want to keep the Emby Server certificate and you will also need the pfx password. Next go to the following section below: **Setup Emby Server with your domain and SSL certificate**
+10. Copy the pfx file to where you want to keep the Emby Server certificate and you will also need the pfx password. Next go to the following section [Setup Emby Server with your domain and SSL certificate](#setup-emby-server-with-your-domain-and-ssl-certificate).
 
 
 ### Let's Encrypt certificate

@@ -71,17 +71,59 @@ There are download settings for the Emby Apps and Emby Server for all downloads,
 
 ### Download Settings - Emby Apps
 
-The following shows the options for the [Emby for Android](Android-Mobile.md) app. Similar options are available in the **Emby for iOS** app.
+**Emby for Android**
+
+The following shows the download settings for the [Emby for Android](Android-Mobile.md) app.
 
 ![](images/apps/downloads10.png)
 
-The following shows the options for the [Emby Windows](Emby-Theater-for-Windows.md) app.
+Downloads Storage location options when there is no SD Card:
+
+![](images/apps/downloads10a.png)
+
+Downloads Storage location options when there is an SD Card fitted:
+
+![](images/apps/downloads10b.png)
+
+
+**Emby for iOS**
+
+The following shows the download settings for the [Emby for iOS](iOS.md) app.
+
+![](images/apps/downloads14.png)
+
+Downloads Storage location options:
+
+![](images/apps/downloads14a.png)
+
+The default setting for download location is the device "Internal storage".
+
+You have the option to change that by selecting the **Custom** location option. This allows you to have the downloads go to a folder that you create on the device.
+
+Use the Apple **Files** app to create the folder, e.g. **"My Emby Downloads"**. 
+
+Using the **Files** app, select **"On My iPad"** or **"On My iPhone"** in the **Locations** side-bar and use **Add Folder** to create the folder on the device.
+
+Then, on the Downloads settings page in Emby for iOS, open the drop-down for **Download location** and select "**Custom**". Select "On My iPad" or "On My iPhone" from the Locations side-bar.
+
+You will then see the folders available. Select the folder that you created for the downloads and click on Open.
+
+![](images/apps/downloads14b.png)
+
+After clicking Open, you are returned to the settings page for the app which will now show the custom Download location to use.
+
+![](images/apps/downloads14c.png)
+
+
+**Emby Windows**
+
+The following shows the download settings for the [Emby Windows](Emby-Theater-for-Windows.md) app.
 
 ![](images/apps/downloads13.png)
 
 ### Download Settings - Emby Server
 
-The following shows the options for the Emby Server that can be set in Emby Web Settings Devices / Downloads section.
+The following shows the download settings for the Emby Server that can be set in Emby Server Devices / Downloads section of the dashboard.
 
 ![](images/server/downloads_server1.png)
 

@@ -87,9 +87,13 @@ There are several manual steps that need to be completed to install Emby Server 
 
 - Select the **OPEN** button on the **App installed** dialogue box.
 
-- If the app asks for permission to access the system, please select **Allow** to grant the permission.
+- If the app asks for storage permission, please select OK.
 
-![Server Install Shield16](images/server/server_install_shield16.png)
+![Server Install Shield16](images/server/server_install_shield16a.png)
+
+- You will then be prompted for allowing access to manage all files, please select YES.
+
+![Server Install Shield16](images/server/server_install_shield16b.png)
 
 - Emby Server will now start and will show the url to use to access the server from devices and PCs on the local network. Note down this url as it will be needed for connecting to the server to configure the server.
 

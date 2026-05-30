@@ -13,13 +13,22 @@ The following guide assumes you have already setup your HDHomeRun on your networ
 Note: If you have an older HDHomeRun model that does not support DLNA or have a built in web server please perform these steps before continuing.
 * [Older HDHomeRun Support](Older-HDHomeRun-Support.md)
 
+The Live TV & DVR feature requires a valid [Emby Premiere](Emby-Premiere.md) subscription. This would be indicated on the setup screen when there is no subscription.
+
 Open the server dashboard and click the Live TV menu option on the left.  If you haven't setup any part of Live TV yet you should have a page that looks like this:
 
-![hdhomerun1.png](images/server/hdhomerun1.png)
+![hdhomerun1.png](images/server/livetv6.png)
 
-Click the plus sign next to TV Source in order to add our first tuner. We will then be presented with a screen that allows us to choose the type of tuner to add.  Select HD HomeRun from the drop down list of choices and then click the save button.
+> [!NOTE]
+> Whilst you will be permitted to add the Live TV device, there would be no channels or guide data without an [Emby Premiere](Emby-Premiere.md) subscription.
+
+Click on **"+ Add TV Source"** in order to add our first tuner. We will then be presented with a screen that allows us to choose the type of tuner to add.  Select HD HomeRun.
 
 ![hdhomerun2.png](images/server/hdhomerun2.png)
+
+If the HD HomeRun device does not show, click on "**Detect Devices**"
+
+![hdhomerun2.png](images/server/hdhomerun3a.png)
 
 Emby will search your network and present all HDHomeRun devices it finds on your network.  Here is a example showing two Primes and one Quatro automatically found.
 
@@ -37,6 +46,9 @@ The ability to use hardware transcoding on your tuner.  Note: this is only suppo
 For this example using a Quatro we will enable the restriction of favorite channels and disable the hardware transcoding option. Once we’ve set our options the click save button and we will have added our first tuner. 
 
 ![hdhomerun5.png](images/server/hdhomerun5.png)
+
+You are ready now to add guide data and where needed, map tuner channels to guide data and optionally configure the advanced Live TV settings. See the relavant paragraphs on the [Live-TV](Live-TV.md) document.
+
 
 ## HDHomeRun Favorite Setup
 

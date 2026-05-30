@@ -15,6 +15,8 @@ title: Emby Windows FAQ
 
 [On the video quality settings page there are multiple presets. How can I know which settings are applied by each preset?](#on-the-video-quality-settings-page-there-are-multiple-presets-how-can-i-know-which-settings-are-applied-by-each-preset)
 
+[How do I get 5.1 Audio](#how-do-i-get-51-audio)
+
 [I have installed the app, but it doesn't look like it does in some of the screenshots.](#i-have-installed-the-app-but-it-doesnt-look-like-it-does-in-some-of-the-screenshots)
 
 [To which folder do the downloaded files go when using the Download/Sync feature?](#to-which-folder-do-the-downloaded-files-go-when-using-the-downloadsync-feature)
@@ -70,7 +72,7 @@ This is simple to do with plain old Windows functionality, just a bit less acces
 - Open **Windows Explorer**
 - Enter this into the address bar:`%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
 - Leave that Window open
-- Open **Start Menu** >> **All Apps**
+- Open **Start Menu** >> **All Apps** / **All** with **View: List**
 - Scroll down until you see the Emby app icon
 - Drag-drop it into the Startup folder in the Explorer Window
 
@@ -92,6 +94,35 @@ Check your monitor configuration to see whether it runs at a high refresh rate (
 
 You can see the detail options applied by a preset by selecting one of the presets first and switching to Customize directly after.  
 Switching to Customize keeps the values of the previously selected preset. This allows you to see how options are set by each preset.
+
+
+
+### How do I get 5.1 Audio
+
+There are two ways to get **5.1 Audio**
+
+**1. Change the shared mode speaker layout**
+
+* Go to Windows **Settings** > **System** > **Sound**
+* Scroll down
+* Click on **More Sound Settings**
+* In the list of Playback devices, right-click your HDMI output device
+* Choose **Configure Speakers**
+* Configure for a 5.1 layout
+
+**2. Use exclusive audio mode**
+
+* Go to Windows **Settings** > **System** > **Sound**
+* Scroll down
+* Click on **More Sound Settings**
+* In the list of Playback devices, right-click your HDMI output device
+* Choose **Properties**
+* Go to the **Advanced** tab
+* Under **Exclusive Mode**, make sure both checkboxes are checked: 
+* **Allow applications to take exclusive control of this device** and **Give exclusive mode applications priority**
+* In the Emby App, under **Settings** > **Video Player** > **Audio Options** tab
+* For **Audio Device**, make sure, your specific audio output device is selected (instead of **Default system Audio Device**)
+* Toggle to **on** the **Enable exclusive audio mode** setting
 
 
 

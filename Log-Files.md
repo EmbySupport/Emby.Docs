@@ -11,13 +11,16 @@ You can access Emby Server Log files from the dashboard UI by clicking on the **
 - Click the icon in the red box below to open the log file in a new tab.
 - Click the icon in the yellow box to download the log file.  
 
-Downloading the logs through either method anonymises the log files and is the recommended way when needing to upload the log files for support.
-
 ![](images/server/logs1.png)
 
 ![](images/server/logs2.png)
 
 ![](images/server/logs3.png)
+
+Downloading the logs through either method anonymizes the log files and is the recommended way when needing to upload the log files for support.
+
+> [!WARNING]
+> For Emby Servers that are directly connected to the internet with the network port having a WAN connection, the Local IP Address would be the WAN Public IP Address and this will not get anonymized in the downloaded logs. This is because local IP addresses are not removed from logs. For such cases, report the issue as normal in the forums and indicate that logs can be sent privately if required.
 
 The physical location of log files is displayed on the **View Server Info** button which is available through the **...** button next to the server name on the server dashboard main page. 
 

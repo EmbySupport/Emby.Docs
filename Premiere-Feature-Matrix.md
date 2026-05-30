@@ -377,7 +377,52 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     </tbody>
 </table>
 
-## Linux or MacOS (Emby Theater)
+## Emby Linux
+
+<table class="premiere-matrix-table">
+    <thead>
+    <tr>
+        <th>Feature</th>
+        <th>Free</th>
+        <th></th>
+        <th>
+            <span>Premiere</span>
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Limited Playback (one-minute only)</td>
+        <td>
+            <div>✔</div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Full Playback</td>
+        <td>
+            <div></div>
+        </td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    <tr>
+        <td>Live TV</td>
+        <td></td>
+        <td></td>
+        <td>
+            <div>✔</div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+## Emby for MacOS
 
 <table class="premiere-matrix-table">
     <thead>

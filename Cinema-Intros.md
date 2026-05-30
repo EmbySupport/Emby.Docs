@@ -16,7 +16,7 @@ The configuration page allows you to choose the types of videos that will trigge
 
 ## Internet Trailers
 
-A vast library of internet trailers are available for use with cinema intros. The categories available are movies coming soon to theaters, movies coming soon to Dvd, and movies coming soon to Netflix.
+A vast library of internet trailers are available for use with cinema intros. The categories available are for new movies and movies coming soon to theaters, with option to include trailers for older movies.
 
 ![](images/server/cinemamode3.png)
 
@@ -35,7 +35,7 @@ If your movie folders contain local trailers, enabling this option will allow th
 
 In addition you can specify your own custom videos to be used with cinema intros. Simply create a folder containing the videos, and enter the path in the custom intro field:
 
-![](images/server/cinemamode5.png)
+![](images/server/cinemamode5a.png)
 
 **Important**: Make sure to run a library scan after adding new intro files.
 
@@ -63,7 +63,7 @@ Here are some examples: (extension doesn't matter)
 
 Simply create a folder containing the videos, and enter the path in the codec intro field:
 
-![](images/server/cinemamode5.png)
+![](images/server/cinemamode5b.png)
 
 > [!Important]
 > Make sure to run a library scan after adding new intro files.
@@ -73,18 +73,31 @@ Simply create a folder containing the videos, and enter the path in the codec in
 Make sure that Intros added to the custom directories above have proper tags in the files before adding them to Emby.  You can use Windows or other tag editor to assist with this. This allows Emby to display your custom Intro for any movie tagged with the same name.
 
 
+## Number of Trailers played
+
+The initial default is set to 2. This can be modified in this setting:
+
+![](images/server/cinemamode4a.png)
+
+
+## Trailers and Watched status
+
+The unwatched setting will prevent trailers that you've already seen from being used again, as well as trailers from movies that you've already seen. Note that enabling this setting may eventually result in no unwatched trailers being available.
+
+![](images/server/cinemamode4c.png)
+
+
 ## Parental Control
 
 Smart parental control will compare the ratings of trailers against the rating of the movie being played, and filter the trailers based on ratings of an equal or lower value. For example, you might be an adult watching The Goonies with your children. The Goonies is rated PG, so this setting will exclude any trailers with a higher rating than PG. Unrated trailers will also be excluded.
 
-The unwatched setting will prevent trailers that you've already seen from being used again, as well as trailers from movies that you've already seen. Note that enabling this setting may eventually result in no unwatched trailers being available.
+![](images/server/cinemamode4b.png)
 
-## User Control
 
-Once you've enabled cinema intros in the server dashboard, they'll be turned on for all users by default. Each user can opt-out of cinema intros individually by disabling it in their user profile settings.
+## Emby Apps Control
 
-This is accessed by clicking the user icon in the top right hand corner of the web interface, then selecting **Preferences**-> **Playback**.
+Emby Apps have settings to enable or disable Cinema Intros. TV apps enable Cinema Intros by default.
+
+Click the user icon in the top right hand corner of the app screen and then select **App Settings**-> **Playback** and scroll down to see the **Cinema Intros** option.
 
 ![](images/server/cinemamode6.png)
-
-As an administrator, if you would like to personally change this for a user, you can access this page from the **Server Dashboard** -> **Users** -> **Click User** -> **Edit this user's playback settings**.

@@ -19,12 +19,14 @@ Setup of Live TV can be broken down into a few steps:
 * Add TV Guide Data Source(s)
 * Match your Channel Lineup to Guide Data (Channel Mapping)
 
+The LiveTV and DVR feature requires a valid [Emby Premiere](Emby-Premiere.md) subscription.
+
 ## Configure Your TV Tuner
 
 Out of the box, Emby Server currently supports the following TV Tuners:
 
 - [HDHomerun Network Tuner](HDHomeRun-Setup.md) (Models available for both OTA and Cable. Must support DLNA 2015+ model)
-- Hauppauge TV Tuners (on Emby Server for Windows - Requires Win TV 8.5 or greater to be installed)
+- [Hauppauge TV Tuners](Hauppauge-Setup.md) (on Emby Server for Windows - Requires WinTV 8.5 or greater to be installed)
 - [M3U Tuners](M3U-Tuners.md)  - M3U files (or urls). See examples of m3u files at [M3U Examples](M3U-Tuners.md#example-m3u)
 
 Support for additional tuners can be added by installing a [Live TV Plugin](Live-TV-Plugins.md).
@@ -46,16 +48,19 @@ Support for additional sources can be added by installing a [Live TV Plugin](Liv
 ## Match your Channel Lineup to Guide Data
 The final step of setting up Live TV is matching the tuner's stations to the Guide Data you have setup.
 
-* [Live TV Channel Mapping](Live-TV-Channel-Mapping.md)
+[Live TV Channel Mapping](Live-TV-Channel-Mapping.md)
 
-## DVR Settings (optional)
+## Live TV Advanced Settings (optional)
 
 You can optionally change a few options used for DVR purposes.  These options include:
+* Live stream buffer
 * Amount of days of Guide Data loaded
+* Option to wake the server for scheduled recordings
 * Default recording paths
 * Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
+* Post-processing script to run after recording
 
-* [DVR Settings](DVR-Settings.md)
+[Live TV Advanced Settings](DVR-Settings.md)
 
 ## Emby Live TV & DVR is Ready to Use.
 Congratulations, your Emby Server should now be configured properly and ready to use for Live TV and DVR.

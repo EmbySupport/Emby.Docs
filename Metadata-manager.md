@@ -4,13 +4,13 @@ title: Metadata Manager
 legacyUrl: /support/solutions/articles/44001848783-metadata-manager
 ---
 
-One of the areas in which MediaBrowser shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the metadata for every item in your library in one place.
+One of the areas in which Emby Server shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the metadata for every item in your library in one place.
 
-The metadata manager can be accessed via the slide-out in the web client in the top left hand corner of the screen.
+The metadata manager can be accessed via the side-bar in the web client and other emby client apps.
 
 ![](images/server/metadatamanager1.png)
 
-Another way to access the metadata manager is via **Options**->**Edit** of the item you would like to edit. This method will take you directly to the item in the editor.
+The functionality is also available via the **"..."** options button and selecting one of the edit options for any media item:
 
 ![](images/server/metadatamanager2.png)
 
@@ -18,14 +18,28 @@ Another way to access the metadata manager is via **Options**->**Edit** of the i
 
 #### Refreshing metadata
 
-Each media item has the option to **Refresh** itself. Selecting refresh will pull fresh metadata from each of the databases that the server is configured to pull from. In addition, it will download any images that may be missing (logos, disc images, posters, etc.).
+Each media item has the option to **Refresh Metadata**. The option is available at every level, eg episode, season, series, movie, library etc.
 
-The **Refresh mode** options will only affect the text metadata.
- 
-- Refreshing all data (the default option) will overwrite all of the fields with metadata from outside databases.
+![](images/server/metadatamanager12.png)
+
+This will open the **Refresh Metadata** options screen
+
+![](images/server/metadatamanager14.png)
+
+Selecting **Refresh** will pull fresh metadata from each of the databases that the server is configured to pull from for the library. In addition, it will download any images that may be missing (logos, disc images, posters, etc.).
+
+There are 2 **Refresh modes**:
+
+- Refreshing all metadata (the default option) will overwrite all of the fields with metadata from outside databases.
 - Refreshing only missing data will preserve all of the existing metadata and only populate the fields that are missing metadata.
 
+![](images/server/metadatamanager13.png)
+
 Selecting **Replace existing images** will force the server to remove existing images and re-download all of the images for the media item.
+
+> [!WARNING]
+> This option would also remove your custom images. Make sure you save these if you need to bring them back later.
+
 
 #### Identifying items
 
@@ -39,9 +53,11 @@ One catch to this approach is that media items with the same IDs (for example, a
 
 #### Saving metadata
 
-Be sure to hit **Save** after changing ANY metadata; otherwise, all of your changes will be lost when you navigate away from the page. If you wish for the changes that you made to be persistent through a refresh of the item, you will need to either lock the metadata field you changed, or lock the entire item.
+Be sure to hit **Save** after changing ANY metadata; otherwise, all of your changes will be lost when you navigate away from the page. If you wish for the changes that you made to be persistent through a refresh of the item, you will need to either lock the metadata field you changed, or lock the entire item. Examples of the lock option can be seen here:
 
 ![](images/server/metadatamanager3.png)
+
+This shows how to lock the item:
 
 ![](images/server/metadatamanager4.png)
 
@@ -75,22 +91,57 @@ To make sure the tags don't disappear in a library refresh, lock the **Tags** fi
 
 ## Subtitles
 
-For your movies and TV shows, the metadata manager is the place to manage subtitles . You can see which subtitles you have, whether they are graphical or text, and what languages the subtitles are in.
+For your movies and TV shows, the metadata manager can ve used to manage subtitles. You can also access this for specific media items through the **Options** button and selecting "**Edit Subtitles**".
 
-![](images/server/metadatamanager8.png)
+![](images/server/metadatamanager8a.png)
 
-To enable access to the OpenSubtitles database, you will need to enter your account information in **Metadata**->**Subtitles** in the dashboard. This area is also the place to manage what will be automatically downloaded when the **Download missing subtitles** task in **Advanced**->**Scheduled tasks** is run.
+This will allow you to see which subtitles you have, whether they are graphical or text, and what languages the subtitles are in.
+
+![](images/server/metadatamanager8b.png)
+
+To search for new subtitles, you need to enable access to the Open Subtitles database, you will need to enter your account information on the Open Subtitles setup screen by selecting "Open Subtitles" within the "Advanced" menu in Server Settings:
+
+![](images/server/metadatamanager10a.png)
+
+Clicking on "Open Subtitles" will load the page for entering your Open Subtitles account details
+
+![](images/server/metadatamanager10.png)
+
+Refer to [Configure Open Subtitle plugin](Open-Subtitles.md#configure-open-subtitle-plugin).
+
+With Open Subtitles configured, you can search for new subtitles. This is an example of search results:
+
+![](images/server/metadatamanager8c.png)
+
+In Server Settings **Scheduled Task**s, the **Download subtitles** task will automatically attempt to downloaded missing subtitles.
 
 ## Images
 
-MediaBrowser can automatically download images to improve the presentation of media in each client. To enable automatic image downloading, you will need to have the **Download artwork and metadata from the internet** option checked in **Metadata**->**Basics** in the dashboard.
+Emby Server can automatically download images to improve the presentation of media in each client. Library settings have options for download of images. The following shows the options available for Movies and TV Shows libraries:
 
-![](images/server/metadatamanager5.png)
+![](images/server/metadatamanager5b.png)
 
-Images are downloaded from Fanart.tv, TheMovieDB, The Open Movie Database, and TheTVDB. The images tab in the metadata manager can be used to modify what images the server presents for your MediaBrowser clients.
+![](images/server/metadatamanager5d.png)
 
-To change the image used, simply click on the cloud underneath each image and the server will search all of the databases for new images.
+Images are downloaded from Fanart.tv, TheMovieDB, The Open Movie Database, and TheTVDB. 
 
-![](images/server/metadatamanager9.png)
+For each item, you have an option to Edit Images that the emby server presents for your Emby Server clients.
 
-Images can be edited using our image editing feature.
+![](images/server/metadatamanager15.png)
+
+To change the image used, you can select the "..." options button 
+
+![](images/server/metadatamanager16a.png)
+
+This will bring up a number of options, allowing you to edit the reference to the image through add or delete or specify a url, in addition to the search option:
+
+![](images/server/metadatamanager17.png)
+
+Alternatively, you can go directly to searching the databases for new images by clicking on the search button:
+
+![](images/server/metadatamanager16b.png)
+
+You will then be presented with the search results:
+
+![](images/server/metadatamanager18.png)
+
