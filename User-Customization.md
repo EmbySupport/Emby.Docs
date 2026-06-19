@@ -5,52 +5,49 @@ title: User Customization
 
 Users are managed within the server dashboard by navigating to **Users**.
 
-Once a local user account has been created, the first step should be to set and save a password for that account. See [Passwords](Passwords.md).
+Once a local user account has been created, the first step should be to set and save a password for that account. See [Passwords](Passwords.md). Then you can come back and the customization outlined in this article.
+
+## Emby Connect
 
 You can link the local user account to an Emby Connect e-mail address. See [Emby Connect](Emby-Connect.md).
 
 ![](images/server/users37.png)
 
+
+## Control Remote Access to the Emby Server
+
 You can control remote connections to the server at the user level.
 
 ![](images/server/users18.png)
 
+
 You can disable or hide a user, as well as lock them from changing their user profile settings.
+
+
+## Disabling User
 
 Disabling a user will do just that. All existing sessions from that user will be abruptly terminated.
 
 ![](images/server/users33.png)
 
+
+## Hiding User account name on Login Screens
+
 Hiding a user will simply remove them from visual login screens. They will need to enter their username and password manually.
 
 ![](images/server/users28.png)
 
-Disabling user option to change their password and profile image would just do that. It would also not show the user the optional setting or changing of a profile pin. This is useful for administrators who prefer to dictate these terms to their users.
+
+## Controlling user's ability to change password / add a profile image
+
+The server administrator can disable the user's ability to change their password and profile image. Disabling this would remove the ability to edit the Profile in the list of User Preferences visible to the user. This is useful for administrators who prefer to dictate these terms to their users.
 
 ![](images/server/users20.png)
 
+
 ## Copying user preferences and settings from one user to other users
 
-As from Emby Server version 4.10.x and following the release of advanced Home Page customization options, a feature was added to allow you to replicate the customization from one user account to one or more other user accounts.
-
-In this example below, we are to copy the settings from **Test-User1** to **Test-User2** and **Test-User3**.
-
-Select **Users** from the server dashboard and then locate the user to copy the data from and click on the **...**
-
-![](images/server/users63.png)
-
-You will see an option to copy data in the pop-up box
-
-![](images/server/users64.png)
-
-Clicking on **Copy Data to Users** will show the **Copy Options** available and a drop-down for the Users to select as target to copy to. **Take extra care when selecting users to copy the settings to.**
-
-![](images/server/users65.png)
-
-In this example, I have ticked **Test-User2** and **Test-User3** as the target users to copy **Test-User1** settings and preferences to.
-
-![](images/server/users66.png)
-
+See [Copy User Settings](User-Copy-Settings.md)
 
 
 ## Feature Access
@@ -95,21 +92,26 @@ Other features can also be configured: Downloads, Subtitles, Camera Upload, Medi
 
 ![](images/server/users47.png)
 
+
 ## User Profile and Preferences
 
 See [User Preferences](User-Prefs.md).
+
 
 ## Content Access
 
 See [Content Access](Content-Access.md).
 
+
 ## Device Access
 
 See [Device Access](Device-Access.md).
 
+
 ## Parental Controls
 
 See [Parental Controls](Parental-Controls.md).
+
 
 ## User Password
 
