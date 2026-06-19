@@ -32,7 +32,7 @@ You'll then be taken to the new user page page. The only required field is a use
 
 ![](images/server/users8.png)
 
-As you can see, settings and user preferences can be imported from another local user account. Functionality has also been added as from Emby Server 4.10.x to copy a user preferences to other user accounts. See [User Customization](User-Customization.md).
+As you can see, settings and user preferences can be imported from another local user account. Functionality has also been added as from Emby Server 4.10.x to copy a user's preferences to other user accounts. See [Copy User Settings](User-Copy-Settings.md).
 
 Before saving, you can configure library and channel access, and this can easily be changed later. Deselect **All** to select specific libraries and channels:
 
@@ -43,7 +43,14 @@ Before saving, you can configure library and channel access, and this can easily
 
 After saving, you will then be able to do more customization for this user account with the first recommended action being the setting of a user password.
 
-See [User Customization](User-Customization.md)
+> [!Important]
+> Make sure you set user Password for the new account before you start to do any customization. See [Passwords](Passwords.md). 
+> 
+
+
+## User Customization
+
+Please refer to [User Customization](User-Customization.md) for all the specific user preferences and feature access controls.
 
 
 ## Deleting a User
