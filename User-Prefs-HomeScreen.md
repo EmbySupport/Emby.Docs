@@ -152,7 +152,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
 <style type="text/css">
 
     table.homesection-matrix-table {
-        width: 70%; 
+        width: 100%; 
         margin-right: calc(0%);
     }
      
@@ -171,7 +171,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
     }
      
     table.homesection-matrix-table tr th:nth-child(1) {
-        width: 20%;
+        width: 40%;
         text-align: left;
     }
      
@@ -194,6 +194,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
     table.homesection-matrix-table tr th:nth-child(6) {
         width: 10%;
     }
+
     table.homesection-matrix-table tr th:nth-child(7) {
         width: 10%;
     }
