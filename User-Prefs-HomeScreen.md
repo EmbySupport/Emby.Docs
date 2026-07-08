@@ -47,7 +47,7 @@ There is no limit on the number of sections to be added to the Home Screen. A se
 
 Some of the options that were available for Home Screen customization in previous versions of Emby Server, have now been moved and covered by the configuration options available when adding or editing a section.
 
-For example, the old "**Next Up (Legacy)**" is no longer available as a section type but the options for "**Continue Watching**" will include one for "**Include next up episodes**".
+For example, the old "**Next Up (Legacy)**" is no longer available as a section type but the options for "**Continue Watching**" will include one for "**Include next up episodes**" allowing you to create a **Next Up** section for your selected TV Libraries.
 
 Also libraries home screen preferences for inclusion in secondary home screen sections such as **Latest Media** and **Continue Watching** have been removed and equivalent functionality is now provided by having a library list to tick for each section.
 
@@ -533,7 +533,7 @@ You can create a **"Next-Up"** view by ticking that option in the **"Continue Wa
 
 ### How do I create the "Next Up (Legacy)" Home section?
 
-Add a **"Continue Watching"** Home Section, give it a custom time and ensure that the **"Include next up episodes in Continue Watching"** option is selected. 
+Add a **"Continue Watching"** Home Section and give it a custom title. Open up the **Libraries** drop-down and untick all the non TV libraries. Finally, ensure that the **"Include next up episodes in Continue Watching"** option is selected. 
 
 ![](images/server/users119.png)
 
