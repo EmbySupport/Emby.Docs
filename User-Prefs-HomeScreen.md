@@ -537,8 +537,6 @@ Add a **"Continue Watching"** Home Section and give it a custom title. Open up t
 
 ![](images/server/users119.png)
 
-If you have another **Continue Watching** Home section, you could untick that option for it or remove the section.
-
 
 ### Can I change the title of a Home Section?
 
