@@ -144,6 +144,10 @@ and options being:
 
 This will be a choice between **Auto** (the default) and **Primary** or **Thumb** image.
 
+![](images/server/users79a.png)
+
+with the drop-down giving the 3 options:
+
 ![](images/server/users79.png)
 
 
