@@ -32,11 +32,13 @@ The dashboard screen gives you the server access url(s), version number, whether
 
 ![](images/server/serversettings6.png)
 
-### Emby Server Access URL(s)
+### Emby Server Folder Paths Information
 
-The LAN and WAN access urls and server version are displayed on the Dashboard.
+The Emby Server Folder Paths Information can be displayed through the "View Server Info" button.
 
-![](images/server/serversettings13.png)
+![](images/server/serversettings15.png)
+
+![](images/server/serversettings16.png)
 
 ### Emby Server Shutdown and Restart
 
@@ -46,13 +48,11 @@ You can shutdown Emby Server using the Dashboard shutdown/restart button.
 
 The "**Restart**" button may not be available, e.g. when running Emby Server as a Service on Windows where restart needs to be through the Windows Services management interface.
 
-### Emby Server Folder Paths Information
+### Emby Server Access URL(s)
 
-The Emby Server Folder Paths Information can be displayed through the "View Server Info" button.
+The LAN and WAN access urls and server version are displayed on the Dashboard.
 
-![](images/server/serversettings15.png)
-
-![](images/server/serversettings16.png)
+![](images/server/serversettings13.png)
 
 ### Alerts
 
