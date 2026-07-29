@@ -6,11 +6,12 @@ legacyUrl: /support/solutions/articles/44001160269-passwords
 
 By default, users have the ability to change their own passwords.
 
-If you would like to change the password for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Password**.
+If you would like to set or change the password for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Password**.
 
 ![](images/server/users11.png)
 
-**Note**: Guest passwords are managed by Emby Connect and can only be changed by the user themselves.
+> [!NOTE]
+> Make sure a local user password is set even when the user account is linked to an [Emby Connect](Emby-Connect.md) email address. The passwords for the Emby Connect](Emby-Connect.md) accounts can only be changed by the users themselves.
 
 By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be remembered on that device enabling easy switching between profiles without needing to re-enter the password.
 
