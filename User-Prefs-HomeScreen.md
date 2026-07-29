@@ -17,10 +17,16 @@ There are very advanced and functionality rich options for customizing the users
 - View recently released episodes / movies
 - Create a home screen section based on a playlist, collection, genre, studio or tag.
 - Having dynamic views based on extensive selection criteria with added option for a Spotlight view
+- Add a Home screen banner that appears on the users Emby home screen
 
 > [!TIP]
 > Server admin can replicate the Home Screen customization from one user account to other user accounts. Have a look at [Copy User Settings](User-Copy-Settings.md) once you have a configuration for one user account that you want to replicate.
 
+## Home screen banner
+
+This can be added in the Emby Server General Settings
+
+![](images/server/serversettings9.png)
 
 The following shows the initial default **Home Screen** contents and preferences. See [Adding and customizing Home Screen sections](#adding-and-customizing-home-screen-sections) below for making changes.
 
@@ -509,9 +515,11 @@ with the drop-down giving the 3 options:
 
 [Can I change the title of a Home Section?](#can-i-change-the-title-of-a-home-section)
 
-[What is a Spotlight view ?](#what-is-a-spotlight-view-)
+[I added a section title but it is not showing!](#i-added-a-section-title-but-it-is-not-showing)
 
-[Where do Channels, Live TV, Web Streams, IPTV etc fit in ?](#where-do-channels-live-tv-web-streams-iptv-etc-fit-in-)
+[What is a Spotlight view?](#what-is-a-spotlight-view)
+
+[Where do Channels, Live TV, Web Streams, IPTV etc fit in?](#where-do-channels-live-tv-web-streams-iptv-etc-fit-in)
 
 [What filtering is available?](#what-filtering-is-available)
 
@@ -550,11 +558,19 @@ With the exception of the "Latest Media" Home Section type, for all others you c
 > As an example you could split the view of your libraries using multiple "My Media" sections with different title. Furthermore, the "My Media" section type has view options of cards or buttons - so you can have some content showing with poster cards and some libraries in a different Home Section just having the  smaller buttons.
 >
 
-### What is a Spotlight view ?
+### I added a section title but it is not showing!
+
+This would only happen for a Spotlight view home section and only if that section is the first Home screen section. It is by design to give a better look of the Home screen.
+
+> [!TIP]
+> If you wish to have the the title of the first section showing when it is set for a spotlight view, you can add a Home screen banner as shown earlier in this document and that will result in the banner and the section title showing on the Home screen. See example shown below in [Home Screen Examples](#home-screen-examples).
+> 
+
+### What is a Spotlight view?
 
 The Spotlight view which is available on a number of Home Section Types (see the [Home Section Types Matrix](#home-section-types-matrix)) gives an impressive large poster for each media item. See examples shown below in [Home Screen Examples](#home-screen-examples).
 
-### Where do Channels, Live TV, Web Streams, IPTV etc fit in ?
+### Where do Channels, Live TV, Web Streams, IPTV etc fit in?
 
 These are treated as libraries and would be available in the libraries selections list.
 
@@ -604,6 +620,10 @@ View type: Cards
 And here is an example for a Spotlight view of a dynamic media section filtered by a tag and is set as the first section on the Home Screen. When this is done, the section title does not show to give a nicer view for your Emby Server.
 
 ![](images/server/users124.png)
+
+If a Home screen banner is used, the first home section would show the title, even when it is a spotlight view.
+
+![](images/server/users124b.png)
 
 
 ### Related:
