@@ -17,10 +17,16 @@ There are very advanced and functionality rich options for customizing the users
 - View recently released episodes / movies
 - Create a home screen section based on a playlist, collection, genre, studio or tag.
 - Having dynamic views based on extensive selection criteria with added option for a Spotlight view
+- Add a Home screen banner that appears on the users Emby home screen
 
 > [!TIP]
 > Server admin can replicate the Home Screen customization from one user account to other user accounts. Have a look at [Copy User Settings](User-Copy-Settings.md) once you have a configuration for one user account that you want to replicate.
 
+## Home screen banner
+
+This can be added in the Emby Server General Settings
+
+![](images/server/serversettings9.png)
 
 The following shows the initial default **Home Screen** contents and preferences. See [Adding and customizing Home Screen sections](#adding-and-customizing-home-screen-sections) below for making changes.
 
@@ -47,7 +53,7 @@ There is no limit on the number of sections to be added to the Home Screen. A se
 
 Some of the options that were available for Home Screen customization in previous versions of Emby Server, have now been moved and covered by the configuration options available when adding or editing a section.
 
-For example, the old "**Next Up (Legacy)**" is no longer available as a section type but the options for "**Continue Watching**" will include one for "**Include next up episodes**".
+For example, the old "**Next Up (Legacy)**" is no longer available as a section type but the options for "**Continue Watching**" will include one for "**Include next up episodes**" allowing you to create a **Next Up** section for your selected TV Libraries.
 
 Also libraries home screen preferences for inclusion in secondary home screen sections such as **Latest Media** and **Continue Watching** have been removed and equivalent functionality is now provided by having a library list to tick for each section.
 
@@ -144,6 +150,10 @@ and options being:
 
 This will be a choice between **Auto** (the default) and **Primary** or **Thumb** image.
 
+![](images/server/users79a.png)
+
+with the drop-down giving the 3 options:
+
 ![](images/server/users79.png)
 
 
@@ -152,7 +162,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
 <style type="text/css">
 
     table.homesection-matrix-table {
-        width: 70%; 
+        width: 100%; 
         margin-right: calc(0%);
     }
      
@@ -171,7 +181,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
     }
      
     table.homesection-matrix-table tr th:nth-child(1) {
-        width: 20%;
+        width: 40%;
         text-align: left;
     }
      
@@ -194,6 +204,7 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
     table.homesection-matrix-table tr th:nth-child(6) {
         width: 10%;
     }
+
     table.homesection-matrix-table tr th:nth-child(7) {
         width: 10%;
     }
@@ -504,9 +515,11 @@ This will be a choice between **Auto** (the default) and **Primary** or **Thumb*
 
 [Can I change the title of a Home Section?](#can-i-change-the-title-of-a-home-section)
 
-[What is a Spotlight view ?](#what-is-a-spotlight-view-)
+[I added a section title but it is not showing!](#i-added-a-section-title-but-it-is-not-showing)
 
-[Where do Channels, Live TV, Web Streams, IPTV etc fit in ?](#where-do-channels-live-tv-web-streams-iptv-etc-fit-in-)
+[What is a Spotlight view?](#what-is-a-spotlight-view)
+
+[Where do Channels, Live TV, Web Streams, IPTV etc fit in?](#where-do-channels-live-tv-web-streams-iptv-etc-fit-in)
 
 [What filtering is available?](#what-filtering-is-available)
 
@@ -532,11 +545,9 @@ You can create a **"Next-Up"** view by ticking that option in the **"Continue Wa
 
 ### How do I create the "Next Up (Legacy)" Home section?
 
-Add a **"Continue Watching"** Home Section, give it a custom time and ensure that the **"Include next up episodes in Continue Watching"** option is selected. 
+Add a **"Continue Watching"** Home Section and give it a custom title. Open up the **Libraries** drop-down and untick all the non TV libraries. Finally, ensure that the **"Include next up episodes in Continue Watching"** option is selected. 
 
 ![](images/server/users119.png)
-
-If you have another **Continue Watching** Home section, you could untick that option for it or remove the section.
 
 
 ### Can I change the title of a Home Section?
@@ -547,11 +558,16 @@ With the exception of the "Latest Media" Home Section type, for all others you c
 > As an example you could split the view of your libraries using multiple "My Media" sections with different title. Furthermore, the "My Media" section type has view options of cards or buttons - so you can have some content showing with poster cards and some libraries in a different Home Section just having the  smaller buttons.
 >
 
-### What is a Spotlight view ?
+### I added a section title but it is not showing!
+
+This may happen for a Spotlight view home section and only if that section is the first Home screen section. It is by design on some Emby Client apps.
+
+
+### What is a Spotlight view?
 
 The Spotlight view which is available on a number of Home Section Types (see the [Home Section Types Matrix](#home-section-types-matrix)) gives an impressive large poster for each media item. See examples shown below in [Home Screen Examples](#home-screen-examples).
 
-### Where do Channels, Live TV, Web Streams, IPTV etc fit in ?
+### Where do Channels, Live TV, Web Streams, IPTV etc fit in?
 
 These are treated as libraries and would be available in the libraries selections list.
 
@@ -598,7 +614,7 @@ View type: Cards
 
 ![](images/server/users123.png)
 
-And here is an example for a Spotlight view of a dynamic media section filtered by a tag and is set as the first section on the Home Screen. When this is done, the section title does not show to give a nicer view for your Emby Server.
+And here is an example for a Spotlight view of a dynamic media section filtered by a tag and is set as the first section on the Home Screen.
 
 ![](images/server/users124.png)
 
