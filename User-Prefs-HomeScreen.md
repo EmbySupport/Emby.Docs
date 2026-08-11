@@ -560,11 +560,8 @@ With the exception of the "Latest Media" Home Section type, for all others you c
 
 ### I added a section title but it is not showing!
 
-This would only happen for a Spotlight view home section and only if that section is the first Home screen section. It is by design to give a better look of the Home screen.
+This may happen for a Spotlight view home section and only if that section is the first Home screen section. It is by design on some Emby Client apps.
 
-> [!TIP]
-> If you wish to have the the title of the first section showing when it is set for a spotlight view, you can add a Home screen banner as shown earlier in this document and that will result in the banner and the section title showing on the Home screen. See example shown below in [Home Screen Examples](#home-screen-examples).
-> 
 
 ### What is a Spotlight view?
 
@@ -617,13 +614,9 @@ View type: Cards
 
 ![](images/server/users123.png)
 
-And here is an example for a Spotlight view of a dynamic media section filtered by a tag and is set as the first section on the Home Screen. When this is done, the section title does not show to give a nicer view for your Emby Server.
+And here is an example for a Spotlight view of a dynamic media section filtered by a tag and is set as the first section on the Home Screen.
 
 ![](images/server/users124.png)
-
-If a Home screen banner is used, the first home section would show the title, even when it is a spotlight view.
-
-![](images/server/users124b.png)
 
 
 ### Related:
