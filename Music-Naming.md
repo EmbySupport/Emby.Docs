@@ -58,26 +58,36 @@ Images are supported in both artist and album folders, as well as images embedde
 
 Supported image extensions are **jpg**, **jpeg**, **png** and **tbn**.
 
-Several image types support multiple file names. They are listed in the order that they're checked for.
+Several image types support multiple file names.
 
-| Image Type | Supported file names                |
-|------------|-------------------------------------|
-| Primary    | folder.ext                          |
-|            | poster.ext                          |
-|            | cover.ext                           |
-|            | default.ext                         |
-| Art        | clearart.ext                        |
-| Backdrop   | backdrop.ext, backdropX.ext         |
-|            | fanart.ext, fanart-X.ext            |
-|            | background.ext, background-X.ext    |
-|            | art.ext, art-X.ext                  |
-|            | extrafanart (subfolder)/fanartX.ext |
-| Banner     | banner.ext                          |
-| Disc       | disc.ext                            |
-|            | cdart.ext                           |
-| Logo       | logo.ext                            |
-| Thumb      | thumb.ext                           |
-|            | landscape.ext                       |
+| Image Type | Supported file names                                  |
+|------------|-------------------------------------------------------|
+| Primary    | folder.ext                                            |
+|            | poster.ext                                            |
+|            | cover.ext                                             |
+|            | default.ext                                           |
+|            | artist.ext                                            |
+|            | artist-cover.ext                                      |
+|            | artist-default.ext                                    |
+|            | default.ext                                           |
+|            | artist-folder.ext                                     |
+|            | artist-poster.ext                                     |
+| Backdrop   | backdrop.ext, backdropX.ext                           |
+|            | fanart.ext, fanartX.ext, fanart-X.ext                 |
+|            | background.ext, background-X.ext                      |
+|            | art.ext, art-X.ext                                    |
+|            | artist-art.ext, artist-artX.ext                       |
+|            | artist-backdrop.ext, artist-backdropX.ext             |
+|            | artist-background.ext, artist-backgroundX.ext         |
+|            | artist-fanart.ext, artist-fanartX.ext                 |
+|            | In subfolder extrafanart:  fanartX.ext, fanart-X.ext  |
+| Disc       | disc.ext                                              |
+|            | cdart.ext                                             |
+| Logo       | logo.ext                                              |
+|            | clearlogo.ext                                         |
+| Thumb      | thumb.ext                                             |
+|            | landscape.ext                                         |
+|            | `<folder name>.ext`                                     |
 
 For backdrops, X represents a number, and you can have any amount of numbered backdrops. For example:
 
@@ -90,6 +100,15 @@ For backdrops, X represents a number, and you can have any amount of numbered ba
        backdrop3.ext
 
 ```
+Examples of `<folder name>.ext`
+
+ In artist folder where folder is named "Ed Sheeran", a jpg thumb file would be "ed sheeran.jpg"
+ In album folder for "Pink Floyd" album "The Dark Side of the Moon", where the album folder name is "Pink Floyd - The Dark Side of the Moon", a jpg thumb image file would be "Pink Floyd - The Dark Side of the Moon.jpg".
+
+
+> [!NOTE]
+> Support for the "artist.ext" and "artist-xxxx.ext" filenames requires Emby Server 4.10.
+
 
 ## Tagging Your Tracks
 All music tracks should be tagged with whatever information you want displayed in Emby.  Emby should support all common tags written by Musicbrainz Picard. Other common software used to alter/write tags is Mp3tag and Tagscanner.
