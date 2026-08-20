@@ -9,11 +9,12 @@ Emby Server is available on the following platforms:
 * Windows
 * Mac
 * Linux
-* BSD
+* FreeBSD
 * NAS Devices - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
 * Docker
 * Android
 * Cloudron
+* Cloudzy
 * SNAP 
 * Flatpack
 * NVIDIA Shield
