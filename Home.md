@@ -58,6 +58,16 @@ See the menu on the right-hand side of this page for a complete listing. Some ke
 - [Web App](Web-Client.md "Web App")
 - [Windows](apps/windows/Emby-Windows.md "Emby Windows")
 - [Xbox](apps/xbox/Emby-Xbox.md "Emby Xbox")
+- Common Settings
+  - [User Preferences - Display](User-Prefs-Display.md)
+  - [User Preferences - Home Screen](User-Prefs-HomeScreen.md)
+  - [User Preferences - Home Screen (Legacy)](User-Prefs-HomeScreen-Legacy.md)
+  - [User Preferences - Playback](User-Prefs-Playback.md)
+  - [User Preferences - Subtitles](User-Prefs-Subtitles.md)
+  - [User Preferences - Profile](User-Prefs-Profile.md)
+  - [User Preferences - Notifications](User-Prefs-Notifications.md)
+  - [Emby Connect](Emby-Connect-for-Users.md)
+  - [Keyboard and Remote Support](Keyboard-and-Remote-Support.md)
 
 
 ## Community

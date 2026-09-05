@@ -38,8 +38,29 @@
       items:
       - name: Users
         href: Users.md
+      - name: User Customization
+        href: User-Customization.md
+      - name: User Preferences
+        href: User-Prefs.md
+        items:
+        - name: User Preferences - Display
+          href: User-Prefs-Display.md
+        - name: User Preferences - Home Screen
+          href: User-Prefs-HomeScreen.md
+        - name: User Preferences - Home Screen (Legacy)
+          href: User-Prefs-HomeScreen-Legacy.md
+        - name: User Preferences - Playback
+          href: User-Prefs-Playback.md
+        - name: User Preferences - Subtitles
+          href: User-Prefs-Subtitles.md
+        - name: User Preferences - Profile
+          href: User-Prefs-Profile.md
+        - name: User Preferences - Notifications
+          href: User-Prefs-Notifications.md
       - name: Parental Controls
         href: Parental-Controls.md
+      - name: Copy User Settings
+        href: User-Copy-Settings.md
       - name: Passwords
         href: Passwords.md
       - name: Content Access
@@ -250,6 +271,20 @@
   items:
   - name: Common
     items:
+    - name: User Preferences - Display
+      href: User-Prefs-Display.md
+    - name: User Preferences - Home Screen
+      href: User-Prefs-HomeScreen.md
+    - name: User Preferences - Home Screen (Legacy)
+      href: User-Prefs-HomeScreen-Legacy.md
+    - name: User Preferences - Playback
+      href: User-Prefs-Playback.md
+    - name: User Preferences - Subtitles
+      href: User-Prefs-Subtitles.md
+    - name: User Preferences - Profile
+      href: User-Prefs-Profile.md
+    - name: User Preferences - Notifications
+      href: User-Prefs-Notifications.md
     - name: Emby Connect
       href: Emby-Connect-for-Users.md
     - name: Keyboard and Remote Support

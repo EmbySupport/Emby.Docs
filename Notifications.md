@@ -16,20 +16,7 @@ Installing a notification service is just like any other Plugin. Read the instru
 
 ## Configuring Notifications
 
-After choosing the notification services you'd like to use, it's time to configure the individual notifications you'd like to receive. Begin by opening the server dashboard and navigating to the User Account Preferences and clicking on **Notifications**. This will give you the option to **+ Add Notification** or edit an existing notification.
+After choosing the notification services you'd like to use, it's time to configure the individual notifications you'd like to receive. The Emby server administrator can configure that for specific user accounts, by selecting **Users** from the server settings dashboard and selecting the user account and on the **Profile** tab, clicking on the **Edit this user's profile, image and personal preferences** link and clicking on **Notifications**.
 
-![](images/server/notifications8.png)
+See [User User Preferences - Notifications](User-Prefs-Notifications.md).
 
-When selecting **+ Add Notification**, the page will display the available installed Plugins notifications services, as example when Email, Slack and Webhooks Plugins are installed:
-
-![](images/server/notifications9.png)
-
-To configure a notification, simply click on it. You'll then be taken to the notification configuration page. There are a number of ways notifications can be customized once the notification service specific configuration has been setup and tested.
-
-The following gives the various notifications events that can be selected.
-
-![](images/server/notifications10.png)
-
-And you can limit the events using the drop-downs available for users, libraries and devices.
-
-![](images/server/notifications11.png)
