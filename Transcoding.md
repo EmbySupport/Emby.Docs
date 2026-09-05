@@ -18,7 +18,7 @@ Every Emby app will have a setting known as "Max streaming bitrate". This is the
 - [ISOs](Movie-Naming.md#iso-format)
 - [3D videos](Movie-Naming.md#3d-videos)
 
-# Server Settings
+## Server Settings
 
 In addition, the server has some transcoding settings that can be configured. These are found by opening the server dashboard and navigating to **Transcoding**.
 
@@ -37,7 +37,7 @@ This should only be enabled if you have the appropriate hardware and may result 
 
 The **thread count setting** allows you to specify how many processors to allocate to each transcoding job. In almost all cases, this should be left to Auto as the system will adapt based on current conditions.
 
-## Temporary Path
+### Temporary Path
 
 The server will need to create temporary files throughout the transcoding process. The location of these files can be configured.
 
@@ -48,7 +48,7 @@ If you specify a custom path, please ensure the following conditions are met:
 - The folder is writable
 - The folder is not used for any other purpose, as the server will delete all contents to keep it clean.
 
-## Audio Boost
+### Audio Boost
 
 When surround audio is converted to 2-channel stereo audio, this often results in a lower volume level. To offset this, you can configure an audio boost scale factor to increase the volume.
 

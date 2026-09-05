@@ -11,7 +11,7 @@ Emby for Xbox is a modern app for Xbox One and Xbox Series X|S. Find it on Micro
 > [!NOTE]
 > To take full advantage of everything Emby for Xbox offers, you will need a valid Emby Premiere key, read more here: [Emby Premiere](https://emby.media/premiere.html)
 
-# Emby in the Microsoft Store
+## Emby in the Microsoft Store
 
 Emby for Xbox is available in the Microsoft Store:
 

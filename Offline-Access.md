@@ -12,7 +12,7 @@ The Emby apps that currently support offline downloading are:
 - [Emby for iOS](iOS.md)
 - [Emby Windows](Emby-Theater-for-Windows.md)
 
-# How it Works
+## How it Works
 
 Emby client Apps that support offline downloading will have a Download icon and the **Download** context menu button. They will also be listed as possible targets of the **Download to** context action.
 
