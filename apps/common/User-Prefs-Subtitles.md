@@ -35,6 +35,6 @@ The **Subtitles** user preferences cover the following:
 * Top Edge Position (x%)
 
 
-![](images/server/users54.png)
+![](../../images/server/users54.png)
 
 

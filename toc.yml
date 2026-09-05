@@ -42,21 +42,6 @@
         href: User-Customization.md
       - name: User Preferences
         href: User-Prefs.md
-        items:
-        - name: User Preferences - Display
-          href: User-Prefs-Display.md
-        - name: User Preferences - Home Screen
-          href: User-Prefs-HomeScreen.md
-        - name: User Preferences - Home Screen (Legacy)
-          href: User-Prefs-HomeScreen-Legacy.md
-        - name: User Preferences - Playback
-          href: User-Prefs-Playback.md
-        - name: User Preferences - Subtitles
-          href: User-Prefs-Subtitles.md
-        - name: User Preferences - Profile
-          href: User-Prefs-Profile.md
-        - name: User Preferences - Notifications
-          href: User-Prefs-Notifications.md
       - name: Parental Controls
         href: Parental-Controls.md
       - name: Copy User Settings
@@ -271,20 +256,23 @@
   items:
   - name: Common
     items:
-    - name: User Preferences - Display
-      href: User-Prefs-Display.md
-    - name: User Preferences - Home Screen
-      href: User-Prefs-HomeScreen.md
-    - name: User Preferences - Home Screen (Legacy)
-      href: User-Prefs-HomeScreen-Legacy.md
-    - name: User Preferences - Playback
-      href: User-Prefs-Playback.md
-    - name: User Preferences - Subtitles
-      href: User-Prefs-Subtitles.md
-    - name: User Preferences - Profile
-      href: User-Prefs-Profile.md
-    - name: User Preferences - Notifications
-      href: User-Prefs-Notifications.md
+    - name: User Preferences
+      href: apps/common/User-Preferences.md
+      items:
+      - name: Display
+        href: apps/common/User-Prefs-Display.md
+      - name: Home Screen
+        href: apps/common/User-Prefs-HomeScreen.md
+      - name: Home Screen (Legacy)
+        href: apps/common/User-Prefs-HomeScreen-Legacy.md
+      - name: Playback
+        href: apps/common/User-Prefs-Playback.md
+      - name: Subtitles
+        href: apps/common/User-Prefs-Subtitles.md
+      - name: Profile
+        href: apps/common/User-Prefs-Profile.md
+      - name: Notifications
+        href: apps/common/User-Prefs-Notifications.md
     - name: Emby Connect
       href: Emby-Connect-for-Users.md
     - name: Keyboard and Remote Support

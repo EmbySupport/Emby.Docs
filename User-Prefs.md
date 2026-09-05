@@ -7,9 +7,9 @@ Users are managed within the server dashboard by navigating to **Users**.
 
 ## User Profile and Preferences
 
-Preferences for the user account can be customized by the server administrator or the user. 
+Preferences for the user account can be customized by the server administrator or the user.
 
-The server administrator can do this by selecting **Users** from the server settings dashboard and selecting the user account and on the **Profile** tab, clicking on the **Edit this user's profile, image and personal preferences**. 
+The server administrator can do this by selecting **Users** from the server settings dashboard and selecting the user account and on the **Profile** tab, clicking on the **Edit this user's profile, image and personal preferences**.
 
 ![](images/server/users48.png)
 
@@ -22,11 +22,11 @@ The user can view and amend the user preferences by selecting **App Settings** a
 
 Please refer to the following documents for each of the Preferences:
 
-### **[User Preferences - Display](User-Prefs-Display.md)**
-### **[User Preferences - Home Screen](User-Prefs-HomeScreen.md)**
-### **[User Preferences - Home Screen (Legacy)](User-Prefs-HomeScreen-Legacy.md)**
-### **[User Preferences - Playback](User-Prefs-Playback.md)**
-### **[User Preferences - Subtitles](User-Prefs-Subtitles.md)**
-### **[User Preferences - Profile](User-Prefs-Profile.md)**
-### **[User Preferences - Notifications](User-Prefs-Notifications.md)**
+- **[Display](apps/common/User-Prefs-Display.md)**
+- **[Home Screen](apps/common/User-Prefs-HomeScreen.md)**
+- **[Home Screen (Legacy)](apps/common/User-Prefs-HomeScreen-Legacy.md)**
+- **[Playback](apps/common/User-Prefs-Playback.md)**
+- **[Subtitles](apps/common/User-Prefs-Subtitles.md)**
+- **[Profile](apps/common/User-Prefs-Profile.md)**
+- **[Notifications](apps/common/User-Prefs-Notifications.md)**
 

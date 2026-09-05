@@ -19,5 +19,5 @@ The **Profile** user preferences cover the following:
 
 
 
-![](images/server/users50.png)
+![](../../images/server/users50.png)
 
