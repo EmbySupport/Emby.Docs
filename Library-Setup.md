@@ -10,14 +10,14 @@ Setting up the library is handled within the startup wizard and also within the 
 
 It's important to first prepare your media. See other sections of the documentation for more information:
 
-* [Movie naming](Movie-Naming.md)
-* [TV naming](TV-Naming.md)
-* [Music naming](Music-Naming.md)
-* [Subtitles](Subtitles.md)
+- [Movie naming](Movie-Naming.md)
+- [TV naming](TV-Naming.md)
+- [Music naming](Music-Naming.md)
+- [Subtitles](Subtitles.md)
 
 ### Library Setup Page
 
-The configuration will display the media libraries you've configured and allow you to add, remove, rename or change the paths they're mapped to. 
+The configuration will display the media libraries you've configured and allow you to add, remove, rename or change the paths they're mapped to.
 
 > A media library is a grouping of one or more physical folders on your file system.
 
@@ -29,7 +29,7 @@ Clicking the "Add Media Library" button will open a dialog to add a library. You
 
 ### Content Type
 
-Choosing the right content type is important. See the above guide on media preparation for best practices for Movie, TV and Music sections. 
+Choosing the right content type is important. See the above guide on media preparation for best practices for Movie, TV and Music sections.
 
 Use the unset content type if you'd like to add a media folder that mixes different content. Please note that support for mixed content is limited. Initially you'll only be able to add one media path when setting up the library, but additional paths can be added after setting it up.
 
@@ -50,7 +50,7 @@ To add a library path, click the + button. A popup will be displayed allowing yo
 > If you have paths with more than 256 chars on Windows you may have a problem. Please refer to https://docs.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation for help with this.
 
 > [!TIP]
->  On some networks the visual browser may fail to display network devices. If this occurs you can still complete the dialog by typing in the path manually and clicking OK.
+> On some networks the visual browser may fail to display network devices. If this occurs you can still complete the dialog by typing in the path manually and clicking OK.
 
 ![](images/server/librarysetup4.png)
 
@@ -83,8 +83,8 @@ If you enable **Advanced Settings**, you will have additional settings per libra
 
 ![](images/server/librarysetup2d.png)
 
-Advanced Settings include options such as: 
+Advanced Settings include options such as:
 
-* Prefer embedded titles over filenames
-* Extract chapter images during the library scan
-* Enable [Open Subtitles](Open-Subtitles.md) subtitles
+- Prefer embedded titles over filenames
+- Extract chapter images during the library scan
+- Enable [Open Subtitles](Open-Subtitles.md) subtitles

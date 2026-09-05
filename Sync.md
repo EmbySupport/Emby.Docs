@@ -7,16 +7,16 @@ legacyUrl: /support/solutions/articles/44001162174-sync
 
 Emby client apps have a download icon and two buttons within the context menus, a **Download** button and a **Download to...** button. The latter gives the user the option to specify the target device, or if [Folder Sync](Folder-Sync.md) is configured and access to the user account is given, the target server folder to copy media to.
 
-User access rights and previously authenticated devices for the user, would determine what the available targets for the download are. 
+User access rights and previously authenticated devices for the user, would determine what the available targets for the download are.
 
-* The **Download** button will be shown on all Emby client apps which support downloads. 
+- The **Download** button will be shown on all Emby client apps which support downloads.
 
-* The **Download to** button will be shown when the user has at least one client app which supports downloads, or if the user has been granted access to a [Folder Sync](Folder-Sync.md) server folder. 
+- The **Download to** button will be shown when the user has at least one client app which supports downloads, or if the user has been granted access to a [Folder Sync](Folder-Sync.md) server folder.
 
-In all cases, there are options to select the quality of the download plus other options depending on the media type. 
+In all cases, there are options to select the quality of the download plus other options depending on the media type.
 
 > [!NOTE]
-> The **Download** button on the [Emby Web app](Web-Client.md) is different and does not form part of the **Downloads & Sync** feature. The button, which is for single item downloads, uses the web browser functionality to download the item, without any conversion, to the default browser downloads folder. 
+> The **Download** button on the [Emby Web app](Web-Client.md) is different and does not form part of the **Downloads & Sync** feature. The button, which is for single item downloads, uses the web browser functionality to download the item, without any conversion, to the default browser downloads folder.
 
 
 
@@ -100,7 +100,7 @@ The default setting for download location is the device "Internal storage".
 
 You have the option to change that by selecting the **Custom** location option. This allows you to have the downloads go to a folder that you create on the device.
 
-Use the Apple **Files** app to create the folder, e.g. **"My Emby Downloads"**. 
+Use the Apple **Files** app to create the folder, e.g. **"My Emby Downloads"**.
 
 Using the **Files** app, select **"On My iPad"** or **"On My iPhone"** in the **Locations** side-bar and use **Add Folder** to create the folder on the device.
 
@@ -145,7 +145,7 @@ For TV shows, for downloads other than for [Folder Sync](Folder-Sync.md), there 
 
 ![](images/apps/downloads5.png)
 
-On some apps, there is an option to select a profile. 
+On some apps, there is an option to select a profile.
 
 ![](images/apps/downloads6.png)
 
@@ -163,7 +163,7 @@ Clicking the **Download** button would then create a download job. See [Download
 
 ### Deleting Downloads
 
-Downloaded items can be removed directly on the device within the Downloads area 
+Downloaded items can be removed directly on the device within the Downloads area
 
 ![](images/apps/downloads11.png)
 
@@ -173,7 +173,7 @@ Downloaded items can be removed directly on the device within the Downloads area
 
 When content is archived in multiple resolutions, Emby apps will automatically choose the version that is most efficient for them. This will help relieve stress on your server's CPU.
 
-The following shows how it appears when playing an item that has a synced copy. 
+The following shows how it appears when playing an item that has a synced copy.
 
 ![](images/apps/downloads12.png)
 
@@ -185,7 +185,7 @@ The above showed how a download can be initiated. See [Download jobs](Sync-Jobs.
 
 ## User Access
 
-Access to the downloads feature can be managed individually for each user. 
+Access to the downloads feature can be managed individually for each user.
 
 ![](images/server/users35.png)
 

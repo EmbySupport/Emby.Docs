@@ -103,30 +103,30 @@ There are two ways to get **5.1 Audio**
 
 **1. Change the shared mode speaker layout**
 
-* Go to Windows **Settings** > **System** > **Sound**
-* Scroll down
-* Click on **More Sound Settings**
-* In the list of Playback devices, right-click your HDMI output device
-* Choose **Configure Speakers**
-* Configure for a 5.1 layout
+- Go to Windows **Settings** > **System** > **Sound**
+- Scroll down
+- Click on **More Sound Settings**
+- In the list of Playback devices, right-click your HDMI output device
+- Choose **Configure Speakers**
+- Configure for a 5.1 layout
 
 **2. Use exclusive audio mode**
 
-* Go to Windows **Settings** > **System** > **Sound**
-* Scroll down
-* Click on **More Sound Settings**
-* In the list of Playback devices, right-click your HDMI output device
-* Choose **Properties**
-* Go to the **Advanced** tab
-* Under **Exclusive Mode**, make sure both checkboxes are checked: 
-* **Allow applications to take exclusive control of this device** and **Give exclusive mode applications priority**
-* In the Emby App, under **Settings** > **Video Player** > **Audio Options** tab
-* For **Audio Device**, make sure, your specific audio output device is selected (instead of **Default system Audio Device**)
-* Toggle to **on** the **Enable exclusive audio mode** setting
+- Go to Windows **Settings** > **System** > **Sound**
+- Scroll down
+- Click on **More Sound Settings**
+- In the list of Playback devices, right-click your HDMI output device
+- Choose **Properties**
+- Go to the **Advanced** tab
+- Under **Exclusive Mode**, make sure both checkboxes are checked:
+- **Allow applications to take exclusive control of this device** and **Give exclusive mode applications priority**
+- In the Emby App, under **Settings** > **Video Player** > **Audio Options** tab
+- For **Audio Device**, make sure, your specific audio output device is selected (instead of **Default system Audio Device**)
+- Toggle to **on** the **Enable exclusive audio mode** setting
 
 
 
-### I have installed the app, but it doesn't look like it does in some of the screenshots.
+### I have installed the app, but it doesn't look like it does in some of the screenshots
 
 These are showing the Windows theme as it's new and exclusive to the Windows app.
 To enable the Windows theme, click the gear icon at the right top and choose **Setting**, then click **Display** and find the **Theme** setting.
@@ -142,7 +142,7 @@ Selection of a custom folder is planned for a future update.
 
 
 
-### I am changing the subtitle style settings, but it doesn't seem that they have any effect.
+### I am changing the subtitle style settings, but it doesn't seem that they have any effect
 
 There can be multiple reasons for this:
 

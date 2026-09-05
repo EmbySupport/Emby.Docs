@@ -9,11 +9,13 @@ redirFromUrl: Collections-Pre46.md
 Collections are the grouping of like media such as:
 
 Back to the Future Collection
+
 - Back to the Future
 - Back to the Future II
 - Back to the Future III
 
 The Terminator Collection
+
 - The Terminator
 - Terminator 2: Judgment Day
 - Terminator 3: Rise of the Machines
@@ -32,9 +34,9 @@ The second option is the required number of movies your system must have to be c
 
 To create a collection manually, start with a Movie, Series, or any other item in your Emby library. Open the context menu for that item using one of the following methods:
 
-* Right click on the poster
-* Use the 3-Dot menu on the detail screen
-* Mouse over the poster and use the 3-Dot menu
+- Right click on the poster
+- Use the 3-Dot menu on the detail screen
+- Mouse over the poster and use the 3-Dot menu
 
 ![collections1.png](images/server/collections1.png)
 
@@ -67,7 +69,7 @@ We fill in the proper information and click OK to create a new collection.
 
 ![collections-multi3.png](images/server/collections-multi3.png)
 
-We now have a collection added for Charlie Chaplin without poster art or meta-data. 
+We now have a collection added for Charlie Chaplin without poster art or meta-data.
 
 ![collections-multi4.png](images/server/collections-multi4.png)
 
@@ -105,7 +107,7 @@ We now have a completed manual collection that we have edited.  As you can see i
 
 ## Removing Items from a Collection
 
-To remove an item from a collection, first browse to the detail screen for that collection. Each item in the collection will have a 3-dot menu. 
+To remove an item from a collection, first browse to the detail screen for that collection. Each item in the collection will have a 3-dot menu.
 
 To remove an item, click the 3-dot menu, then select "Remove from Collection".
 

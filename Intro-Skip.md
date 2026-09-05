@@ -56,7 +56,7 @@ Nothing more need be done on the Emby Server.
 
 > [!NOTE]
 > The server will process all TV Show episodes in the background.
-This process may take a while depending on the number of episodes you have.. 
+This process may take a while depending on the number of episodes you have..
 
 
 ## Configure Emby Client for Automatic or Manual Intro Skip
@@ -76,7 +76,7 @@ Clicking the Skip Intro button immediately jumps right to the start of the Episo
 
 ![Intro Skip10](images/server/intro_skip10.png)
 
-With the client option set to Automatically skip intros our TV show intros have been put on auto pilot. 
+With the client option set to Automatically skip intros our TV show intros have been put on auto pilot.
 
 ![Intro Skip11](images/server/intro_skip11.png)
 

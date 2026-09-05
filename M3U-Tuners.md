@@ -19,10 +19,10 @@ Then select **M3U**
 
 On the M3U Tuner setup screen, Emby will accept either:
 
-* A file path to an M3U file
-* A URL to an M3U file that can be downloaded
+- A file path to an M3U file
+- A URL to an M3U file that can be downloaded
 
-The setup page will have the options showing on the screenshot below. 
+The setup page will have the options showing on the screenshot below.
 
 Leaving the **Referer http header** and **user agent http header** fields blank will result in Emby Server's default values being used.
 
@@ -36,11 +36,11 @@ You can also set the simultaneous stream limit if there is one.
 
 The following M3U properties are supported:
 
-* tvg-name - Channel name
-* tvg-id - Channel unique ID
-* tvg-chno - Channel number
-* tvg-shift - Number of hours to shift the EPG (only used as needed)
-* tvg-group - Group the channel belongs to for group management of the guide.  These groups will be imported as tags by Emby for use in parental filtering as well.
+- tvg-name - Channel name
+- tvg-id - Channel unique ID
+- tvg-chno - Channel number
+- tvg-shift - Number of hours to shift the EPG (only used as needed)
+- tvg-group - Group the channel belongs to for group management of the guide.  These groups will be imported as tags by Emby for use in parental filtering as well.
 
 If any are missing, Emby will attempt to automatically detect the information using whatever tags are available.
 

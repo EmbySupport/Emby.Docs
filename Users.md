@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160237-users
 
 Most operations within Emby are based around users. Users can have their own personalized media libraries, user data, recommendations, security settings, and more.
 
-Users are managed within the server dashboard by navigating to **Users**. 
+Users are managed within the server dashboard by navigating to **Users**.
 
 ## Local Users
 
@@ -48,7 +48,7 @@ You can control remote connections to the server at the user level.
 
 ![](images/server/users18.png)
 
-To manage user feature access, you can do this now or later by visiting the Users page and clicking on a user account. 
+To manage user feature access, you can do this now or later by visiting the Users page and clicking on a user account.
 
 ## Feature Access
 
@@ -58,7 +58,7 @@ Features can be granted or denied, such as the ability to delete media, download
 
 ![](images/server/users39.png)
 
-You can set a limit on the number of concurrent video streaming sessions for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced. 
+You can set a limit on the number of concurrent video streaming sessions for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced.
 
 ![](images/server/users40.png)
 

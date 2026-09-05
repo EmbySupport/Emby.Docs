@@ -7,6 +7,7 @@ legacyUrl: /support/solutions/articles/44001849875-server-installation-on-shield
 There are several manual steps that need to be completed to install Emby Server on the Shield TV.
 
 ## Step 1 Install Downloader
+
 - On the Shield TV, open the **Google Play Store** App,
 
 - Search for "Downloader by AFTVnews".
@@ -69,13 +70,13 @@ There are several manual steps that need to be completed to install Emby Server 
 
 - After launching the APK file you will be prompted with a screen asking:
 
-  "Do you want to install this application?" 
+  "Do you want to install this application?"
 
 ![Server Install Shield12](images/server/server_install_shield12.png)
 
 - Please select INSTALL to continue.
   
-- The install will now start. You may get a prompt from **Google Play Protect** that the install has been blocked. Select **More details** and **Install anyway**. 
+- The install will now start. You may get a prompt from **Google Play Protect** that the install has been blocked. Select **More details** and **Install anyway**.
 
 ![Server Install Shield14](images/server/server_install_shield14.png)
 
@@ -111,7 +112,7 @@ There are several manual steps that need to be completed to install Emby Server 
 
 - From a PC you will now connect to the Emby Server running on the Shield TV.
 
-- Enter the url shown on the screen, example: 
+- Enter the url shown on the screen, example:
 
            `http://192.168.1.219:8096`
 

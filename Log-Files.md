@@ -22,13 +22,14 @@ Downloading the logs through either method anonymizes the log files and is the r
 > [!WARNING]
 > For Emby Servers that are directly connected to the internet with the network port having a WAN connection, the Local IP Address would be the WAN Public IP Address and this will not get anonymized in the downloaded logs. This is because local IP addresses are not removed from logs. For such cases, report the issue as normal in the forums and indicate that logs can be sent privately if required.
 
-The physical location of log files is displayed on the **View Server Info** button which is available through the **...** button next to the server name on the server dashboard main page. 
+The physical location of log files is displayed on the **View Server Info** button which is available through the **...** button next to the server name on the server dashboard main page.
 
 ![](images/server/logs5.png)
 
 ![](images/server/logs6.png)
 
 ## Log Rollover
+
 By default, Emby Server will start a new log file every day at midnight. The current log file will be renamed and postfixed by a timestamp value.
 
 You can control log rollover through in the Scheduled Tasks section by modifying the execution schedule of the **Rotate log file** task
@@ -40,13 +41,13 @@ There are four types of log files:
 - embyserver_xxxxx.txt  
 The main server log file, rotated as described above. The current log file would just be called embyserver.txt
 
-* ffmpeg-xxxx.txt
+- ffmpeg-xxxx.txt
 Transcoding logs created for each transcoding or remuxing operation
 
-* hardware_detection-xxxxx.txt  
+- hardware_detection-xxxxx.txt  
 Hardware detection log. Created on every startup of Emby Server
 
-* quick-extract-xxxxx.txt  
+- quick-extract-xxxxx.txt  
 ffmpeg logs for image extractions
 
 ## Debug Logging
@@ -64,10 +65,12 @@ The schema is:
 ```
 AUTH-ERROR: {0} - {1}
 ```
+
 where {0} is the source IP address and {1} is the error message.
 
 
 For example:
+
 ```
 2018-12-28 00:00:00.007 Error AUTH-ERROR: 1.1.1.1 - Invalid username or password entered.
 ```

@@ -14,7 +14,7 @@ The commandline flags documented below might be useful to fix certain issues you
 
 ## How to use
 
-In a terminal window, navigate to the install location of the Emby Linux app. 
+In a terminal window, navigate to the install location of the Emby Linux app.
 In most cases, this will be `/opt/Emby-Beta`. The executable is named `Emby`.
 
 **Example**
@@ -67,7 +67,7 @@ Changes the type of the video window. Should only be used when instructed to.
 ./Emby -usenormalwindow
 ```
 
-#### stack1, stack2, stack3, stack4, 
+#### stack1, stack2, stack3, stack4
 
 The application uses different ways for window stacking (z-order).
 If you encounter issues with incorrect stacking you can try all the available modes.
@@ -79,7 +79,7 @@ Example:
 ```
 
 
-#### mini1, mini2, mini3, mini4, 
+#### mini1, mini2, mini3, mini4
 
 The application uses different ways for handling the video window on minimize and unminimize.
 If you encounter issues with incorrect minimize behaviour you can try all the available modes.

@@ -17,8 +17,8 @@ If it does not show the latest backup, check that the path for the backup/restor
 
 ![](images/plugins/backup-20.png)
 
-On the **Current Backup Info** screen, Click on **Restore from Backup**. 
- 
+On the **Current Backup Info** screen, Click on **Restore from Backup**.
+
 This will show the following screen:
 
 ![](images/plugins/backup-06.png)

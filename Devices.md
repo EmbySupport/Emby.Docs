@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001159497-devices
 
 The devices section displays all devices that have connected to your server, both active and inactive. It also allows you to customize the display name.
 
-Devices are accessed from the server dashboard by navigating to **Devices**. A list of devices will be displayed, for example: 
+Devices are accessed from the server dashboard by navigating to **Devices**. A list of devices will be displayed, for example:
 
 ![Devices1](images/server/devices1.png)
 

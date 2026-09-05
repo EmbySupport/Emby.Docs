@@ -7,12 +7,12 @@ We recommend using the Backup & Restore plugin, which is designed to make this p
 
 The Backup & Restore plugin can help you backup and restore the following:
 
-* Server configuration
-* Users
-* User data: play-states & favorites
-* Plugin settings
-* Playlists
-* Live TV Schedule
+- Server configuration
+- Users
+- User data: play-states & favorites
+- Plugin settings
+- Playlists
+- Live TV Schedule
 
 This will not backup library contents. For metadata, there are options to include all metadata in the backups. You can configure your libraries to save nfo and image files alongside the media within the media folders and they would then be included in your own library media content backups.
 
@@ -68,7 +68,7 @@ Now click **"Save"**.
 
 > [!Note]
 > If running Emby Server on Windows as a Windows Service, the backup path needs to be to a local drive or using UNC path if it is an external shared network drive. This is because Mapped Network Drives would not be available to a Windows Service. e.g. Use `\\server-name\share-name\backups-folder-name` as path and not a mapped network drive.
- 
+
 
 By default, the backup process will run once a day soon after midnight. This can be changed in **Scheduled Tasks** settings.
 
@@ -80,4 +80,3 @@ In Scheduled Tasks, you can manually run the schedule for **"Emby Server Backup"
 
 > [!Note]
 > Keep a record of what plugins you add to the Emby Server, as whilst the backup operation does save the configurations of all installed plugins, any added plugins will need to be manually installed after the restore of the server. Some plugins may have database files. These are not included in the Emby Server backups. The Plugins should only be added to the new server after you have confirmed that the restored Emby Server is operational.
- 

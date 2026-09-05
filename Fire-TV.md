@@ -10,16 +10,25 @@ Emby for Fire TV can be installed from the App store on your Fire TV device (Fir
 Emby for Fire TV can handle just about any type of media thanks to Emby Server transcoding. If you would like to learn how to prepare your media for Direct Play, read below.
 
 ## Setup Guide
+
 Install the app using one of the above methods, the app will then automatically find your local Emby Server(s).  If it cannot find your server or you are attempting to connect to a remote server, the app will present you with options to connect manually or use Emby Connect.
 
 ## Direct Play Media Formats
-Video — m4v,mov,xvid,vob,mkv,wmv,asf,ogm,ogv,mp4,webm Note: The exact containers and codecs that will direct play depends on both the exact version of Fire TV and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.). 
-Subtitles - srt,vobsub,ssa,pgs,pgssub,ass,sub,vtt 
-Audio – flac,aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,ac3 (Dolby Digital)
+
+- **Video**
+  m4v,mov,xvid,vob,mkv,wmv,asf,ogm,ogv,mp4,webm
+- **Subtitles**
+  srt,vobsub,ssa,pgs,pgssub,ass,sub,vtt
+- **Audio**
+  flac,aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,ac3 (Dolby Digital)
+
+> [!NOTE]
+> The exact containers and codecs that will direct play depends on both the exact version of Fire TV and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.).
 
 You can check the capabilities of your Fire model [here](https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-cube.html?v=ftvcubegen2).
 
 ## Best Practices for Direct Play
+
 Ensure your media meets the above criteria.
 
 Leave the app's streaming bitrate setting on the default value of Auto, if possible. The app will perform bandwidth tests with your Emby Server to determine the maximum playable bitrate.

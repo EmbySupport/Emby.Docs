@@ -6,9 +6,9 @@ legacyUrl: /support/solutions/articles/44001159229-identify
 
 On occasion, content may be mismatched as something else.
 
-To correct this, there is the **IDENTIFY** option available on a per-item basis. 
+To correct this, there is the **IDENTIFY** option available on a per-item basis.
 
-In the web app open the item's detail screen, click the 3-dot menu and then then click Identify. 
+In the web app open the item's detail screen, click the 3-dot menu and then then click Identify.
 
 ![Identify1.png](images/server/Identify1.png)
 

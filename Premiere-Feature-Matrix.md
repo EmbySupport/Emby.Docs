@@ -9,16 +9,16 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 <style type="text/css">
 
     table.premiere-matrix-table {
-        width: 100%; 
+        width: 100%;
         margin-right: calc(0%);
     }
-     
+
     table.premiere-matrix-table th {
         background-color: rgb(97, 189, 109);
         color: rgb(255, 255, 255);
         text-align: center;
     }
-     
+
     table.premiere-matrix-table td {
         text-align: center;
     }
@@ -26,27 +26,28 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
     table.premiere-matrix-table tr td:nth-child(1) {
         text-align: left;
     }
-     
+
     table.premiere-matrix-table tr th:nth-child(1) {
         width: 58%;
         text-align: left;
     }
-     
+
     table.premiere-matrix-table tr th:nth-child(2) {
         width: 14%;
     }
-     
+
     table.premiere-matrix-table tr th:nth-child(3) {
         width: 14%;
     }
-     
+
     table.premiere-matrix-table tr th:nth-child(4) {
         width: 14%;
     }
-     
+
 </style>
 
 ## Server / All Apps
+
 <table class="premiere-matrix-table">
     <thead>
     <tr>

@@ -14,12 +14,12 @@ When setting up the library, make sure to select **Books** as the content type.
 
 For electronic books, the following types are supported:
 
-* pdf
-* epub
-* mobi
-* cbr
-* cbz
-* azw3
+- pdf
+- epub
+- mobi
+- cbr
+- cbz
+- azw3
 
 For audio books, the all of the same audio formats from [music libraries](Music-Naming.md) are also supported.
 

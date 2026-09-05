@@ -4,13 +4,13 @@ Guests are users that you've invited using [Emby Connect](Emby-Connect.md). By d
 
 ## Inviting a Guest
 
-To invite a guest, click the + button next to the Users header. 
+To invite a guest, click the + button next to the Users header.
 
 ![](images/server/users8.png)
 
 Click on "Invite with Emby Connect".
 
-You'll then be prompted to enter their Emby username or email address. 
+You'll then be prompted to enter their Emby username or email address.
 
 ![](images/server/users25.png)
 
@@ -30,7 +30,7 @@ Once a guest has been accepted, they can be configured in the same way as a loca
 
 ## Pending Invitations
 
-Guests that you've invited will display as pending until they accept the invitation. 
+Guests that you've invited will display as pending until they accept the invitation.
 
 ![](images/server/users3.png)
 

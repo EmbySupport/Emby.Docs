@@ -6,6 +6,6 @@ You can use Emby to eliminate the need for cable STBs (Set Top Boxes) throughout
 
 Emby supports multiple EPG (Electronic Programming Guide) sources so you can use whatever source of guide content required for your unique setup. If are in the USA, Canada or the United Kingdom, Emby will provide this data for you out of the box for no additional cost using the excellent feature rich guide data built right in.
 
-If that wasn't enough, not only can you mix and match all of this into one easy to use system, but you can also configure which of your users have access.  You determine what users can view Live TV and which of your users can setup Recordings. 
+If that wasn't enough, not only can you mix and match all of this into one easy to use system, but you can also configure which of your users have access.  You determine what users can view Live TV and which of your users can setup Recordings.
 
 How’s that for a powerful Live TV & DVR solution?

@@ -37,6 +37,7 @@ so in the end, its those 2 steps up there ... may someone with a synology or so 
 ***
 
 ### NVIDIA in Docker
+
 #### Tested with P2000 on Debian 9 (stretch)
 
 - Install nvidia drivers
@@ -80,9 +81,10 @@ so in the end, its those 2 steps up there ... may someone with a synology or so 
     ```
 
 - Required Docker environment variables
-    - NVIDIA_VISIBLE_DEVICES=all         
+    - NVIDIA_VISIBLE_DEVICES=all
     - NVIDIA_DRIVER_CAPABILITIES=compute,utility,video
 
 #### Further Reading
+
 [Transcoding with Nvidia in Docker](https://www.funkypenguin.co.nz/note/gpu-transcoding-with-emby-plex-using-docker-nvidia)
 

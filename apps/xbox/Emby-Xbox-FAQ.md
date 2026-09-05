@@ -3,11 +3,11 @@ uid: Emby-Xbox-FAQ
 title: Emby Xbox FAQ
 ---
 
-[I am changing the subtitle style settings, but it doesn't seem that they have any effect.](#i-am-changing-the-subtitle-style-settings-but-it-doesnt-seem-that-they-have-any-effect.)
+[I am changing the subtitle style settings, but it doesn't seem that they have any effect.](#i-am-changing-the-subtitle-style-settings-but-it-doesnt-seem-that-they-have-any-effect)
 
 [The start animation is nice, but it takes a long time and the previous Xbox app was starting up faster, can the animation be disabled?](#the-start-animation-is-nice-but-it-takes-a-long-time-and-the-previous-xbox-app-was-starting-up-faster-can-the-animation-be-disabled)
 
-### I am changing the subtitle style settings, but it doesn't seem that they have any effect.
+### I am changing the subtitle style settings, but it doesn't seem that they have any effect
 
 There can be multiple reasons for this:
 

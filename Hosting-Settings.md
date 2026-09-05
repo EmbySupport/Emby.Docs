@@ -34,7 +34,7 @@ Here is an example of two 256-addresses subnets defined as being local for the s
 
 ## Local IP Address
 
-The local IP address will automatically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface. 
+The local IP address will automatically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface.
 
 ![](images/server/hosting12.png)
 
@@ -138,7 +138,7 @@ You have an option to specify the streaming bitrate limit in Mbps for streaming 
 
 ## Network Request Protocol
 
-This allows you to optionally disable iPv6 for outgoing requests made by Emby Server. Selecting iPv4 instead of Auto would disable use of iPv6 for outgoing requests. 
+This allows you to optionally disable iPv6 for outgoing requests made by Emby Server. Selecting iPv4 instead of Auto would disable use of iPv6 for outgoing requests.
 
 ![](images/server/hosting20.png)
 

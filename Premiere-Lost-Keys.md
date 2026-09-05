@@ -14,5 +14,5 @@ Go to your Emby Server configuration and select Help->Emby Premiere and then exp
 Fill in the email address you provided at purchase (the primary email on the PayPal account if you used PayPal) and it will be re-sent to you.
 
 
- 
+
 If you cannot remember the email or the email doesn't arrive properly (after checking spam traps), please send an email to [billingsupport@emby.media](mailto:billingsupport@emby.media) for help.

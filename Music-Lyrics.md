@@ -15,7 +15,7 @@ You can quickly and easily use a tool such as MediaHuman Lyrics Finder that make
 
 This is a great new feature that's easy to implement, uses hardly any storage space (text files) and gives you great results! (first icon bottom left)
 
- 
+
 ## Audio now playing screen
 
 The above picture shows one view of our new audio Now Playing Screens. Here's another version of the same screen without the lyrics showing your current queue:

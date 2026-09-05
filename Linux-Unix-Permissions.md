@@ -52,7 +52,7 @@ setfacl -R -m g:media:rwX /mnt/library
 
 Define default permissions for media group. Applies to new items:
 setfacl -R -m d:g:media:rwX /mnt/library
- 
+
 
 If you're using SMB/CIFS you can enforce similar rules. Assuming the users are the same and the group can be added.
 

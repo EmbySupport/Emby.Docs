@@ -10,14 +10,14 @@ Emby 4.0 includes a new way to do Merged Libraries that is very powerful.  If yo
 
 To get an idea of what merged libraries are and how to effectively use them let’s take an example where you have multiple types of TV Show content broken up and stored on disk by categories. Below is the category of TV Show and the physical location to the parent directory of each.
 
-* Anime – G:\TV Shows\Anime
-* Reality TV – G:\TV Shows\Reality TV
-* Cartoons – H:\TV Shows\Cartoons
-* Talk Shows - H:\TV Shows\Talk Shows
-* Sporting Events – I:\TV Shows\Sporting Events
-* News – I:\TV Shows\News
-* Kids Shows – J:\TV Shows\Kids Shows
-* Shows – J:\TV Shows\Shows
+- Anime – G:\TV Shows\Anime
+- Reality TV – G:\TV Shows\Reality TV
+- Cartoons – H:\TV Shows\Cartoons
+- Talk Shows - H:\TV Shows\Talk Shows
+- Sporting Events – I:\TV Shows\Sporting Events
+- News – I:\TV Shows\News
+- Kids Shows – J:\TV Shows\Kids Shows
+- Shows – J:\TV Shows\Shows
 
 ## Setup the Library
 
@@ -73,8 +73,8 @@ Then, you could also have "ChildDoe" and configure them to only see Cartoons and
 
 So to recap:
 
-* JOHNDOE has access to Anime, Cartoons, Shows, Sporting Events
-* JANEDOE has access to News, Reality TV, Shows, Talk Shows
-* CHILDDOE has access to Cartoons, Kid Shows
+- JOHNDOE has access to Anime, Cartoons, Shows, Sporting Events
+- JANEDOE has access to News, Reality TV, Shows, Talk Shows
+- CHILDDOE has access to Cartoons, Kid Shows
 
 But each one of them sees the same "TV Shows" library on their home screen.  It is just tailored to their specific needs.

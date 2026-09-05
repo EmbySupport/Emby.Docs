@@ -11,7 +11,7 @@ To set the optional Advanced settings, click **Advanced** in the administrator d
 
 ## Live Stream Buffer
 
-You will have an option to limit the Live Stream buffer. 
+You will have an option to limit the Live Stream buffer.
 
 ![](images/server/dvr-setting1b.png)
 
@@ -73,7 +73,7 @@ In the following example, instead of changing the Mixed Content default recordin
 
 > [!Note]
 > If you are changing the defaults for recording libraries, make sure you have full read/write permissions for Emby Server.
-> 
+>
 
 
 ## Automatic Post Processing of recordings

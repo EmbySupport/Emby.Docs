@@ -9,15 +9,15 @@ The Search feature allows you to search all libraries, Live TV sources and chann
 
 Search patterns are not case sensitive and words / character sequences can be in any order
 
-* Search for any of the specified words:
+- Search for any of the specified words:
 
-    `word1 word2 word3` 
+    `word1 word2 word3`
 
-* Search for all the specified words
+- Search for all the specified words
 
     `"word1 word2 word3"`
 
-* Search for character sequence(s) / partial word(s). This will be similar to the above two but with partial words.
+- Search for character sequence(s) / partial word(s). This will be similar to the above two but with partial words.
 
 
 **Examples**

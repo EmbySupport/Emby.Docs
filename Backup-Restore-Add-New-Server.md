@@ -81,7 +81,7 @@ You will have the latest full backup preselected: "**embyserver-backup-full"**.
 As this is an additional server, make sure the "**Restore Server ID**" is **NOT** ticked.
 
 ![](images/plugins/backup-33.png)
- 
+
 If you are using [Emby Connect](Emby-Connect.md), re-link local accounts to Emby Connect after the restore. See [Emby Connect for Users](Emby-Connect-for-Users.md).
 
 Click on **Restore from Backup**
@@ -97,7 +97,7 @@ When the restore completes, Emby Server will automatically restart.
 Make sure you close all previous browser sessions accessing the server and open a new browser session to access the restored emby server.
 
 
-## Edit all libraries 
+## Edit all libraries
 
 As this is an additional server, go through the libraries and configure them to what media you wish to have on this server, adding new folder paths / removing obsolete folder paths.
 

@@ -43,7 +43,7 @@ Review your server machine for:
 
 After (and only after) you have done the above:
 
-- Disable external network access 
+- Disable external network access
 - Go to the following folder under the [Emby Server Data Folder](Server-Data-Folder.md):
   `plugins/configurations`
   - Find the file named `ReadyState.xml` and delete it.
@@ -57,7 +57,7 @@ After (and only after) you have done the above:
   - Consider changing IP address, port, or DNS name  (whatever applicable)
 
 > [!NOTE]
-> If possible, it would be great when you could send us the malware dll file so we can analyze to see whether different versions exist.    
+> If possible, it would be great when you could send us the malware dll file so we can analyze to see whether different versions exist.
 > Please send the file via private message in the forums to [softworkz](https://emby.media/community/index.php?/profile/20815-softworkz/).
 
 ## Install Emby Server 4.7.12 Security Update

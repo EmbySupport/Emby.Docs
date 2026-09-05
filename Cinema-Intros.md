@@ -22,8 +22,8 @@ A vast library of internet trailers are available for use with cinema intros. Th
 
 This feature has two requirements:
 
-* An [active Emby Premiere subscription](http://emby.media/donate)
-* Installation of the [Trailer plugin](Plugins.md), either before or after enabling cinema intros.
+- An [active Emby Premiere subscription](http://emby.media/donate)
+- Installation of the [Trailer plugin](Plugins.md), either before or after enabling cinema intros.
 
 ## Local Trailers
 
@@ -45,18 +45,18 @@ Codec intros allow you to create intros based on the media information of the ma
 
 The following fields are used to determine a match:
 
-* Video Codec
-* Audio Codec
-* Audio Profile
-* Tags
+- Video Codec
+- Audio Codec
+- Audio Profile
+- Tags
 
 Here are some examples: (extension doesn't matter)
 
-* A movie has h264 video, intro file is named "h264.mp4"
-* A movie has ac3 audio, intro file is named "ac3.mkv"
-* A movie has eac3 audio, intro file is named eac3.mp4
-* A movie has DTS-HD MA audio profile, intro file is named "dts-hd ma.avi"
-* You've added a tag to a movie called "waffle", intro file is named "waffle.mpg".
+- A movie has h264 video, intro file is named "h264.mp4"
+- A movie has ac3 audio, intro file is named "ac3.mkv"
+- A movie has eac3 audio, intro file is named eac3.mp4
+- A movie has DTS-HD MA audio profile, intro file is named "dts-hd ma.avi"
+- You've added a tag to a movie called "waffle", intro file is named "waffle.mpg".
 
 > [!TIP]
 > The file name (before extension) should be the same name as the codec shown when looking at a video for either audio codec or video codec. To review the media information for one of your videos, visit the detail screen in the web app.

@@ -5,10 +5,11 @@ legacyUrl: /support/solutions/articles/44001160798-amazon-alexa
 ---
 
 .
+
 ## What is Alexa?  
 
 Amazon Alexa is a cloud-based voice service that allows you to retrieve information via voice as well as control device and apps in your Environment including Emby.  You can ask Alexa to play music, hear the news, check weather, control your smart home, and more.
- 
+
 The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
@@ -62,6 +63,7 @@ If Alexa is set to English US, you have access to voice training. Using this, Al
 `Settings > Under Accounts > Voice training`
 
 #### Every languages
+
 The Amazon Alexa app offers feedback cards for skills. This allows Alexa to self-correct, by marking these cards positively or negatively depending on if Alexa understood you or not. In the Amazon Alexa app or the Amazon Alexa web app, navigate to the either:
 
 `Home > Cards regarding Emby > More > Did Alexa understand you?`
@@ -69,6 +71,7 @@ The Amazon Alexa app offers feedback cards for skills. This allows Alexa to self
 `Settings > General > History > Did Alexa do what you wanted?`
 
 ### Commands
+
 #### How to use Alexa
 
 - Every command needs to start with: **Alexa, tell/ask m. b. home  -to [insert command]**
@@ -217,11 +220,12 @@ Transfer will stop playback first. Copy will simply resume playback where you le
 - switch/copy the stream/playback (to {player}) (from {player})
 
 For example
+
 - Transfer the playback from chrome to theater.
-- Copy playback to iphone. omitting the origin of the playback 
-will automatically grab it from your default player
+- Copy playback to iphone. omitting the origin of the playback will automatically grab it from your default player
 
 #### Help
+
 If you are ever uncertain what commands the player supports, ask Emby for:
 
 - the available commands
