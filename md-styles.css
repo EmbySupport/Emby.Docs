@@ -6168,10 +6168,6 @@ article li {
     color: var(--header-ft-color);
 }
 
-b, optgroup, strong {
-    font-weight: 500;
-}
-
 .article img {
     margin: 0.6rem 0;
 }
