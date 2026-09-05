@@ -58,7 +58,7 @@ Features can be granted or denied, such as the ability to delete media, download
 
 ![](images/server/users39.png)
 
-You can set a limit on the number of concurrent video streaming sessions for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced. 
+You can set a limit on the number of concurrent video streaming sessions for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced.
 
 ![](images/server/users40.png)
 

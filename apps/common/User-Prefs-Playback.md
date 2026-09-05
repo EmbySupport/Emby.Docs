@@ -29,5 +29,5 @@ The **Playback** user preferences cover the following:
     * Chapters / Live TV Guide
 
 
-![](images/server/users53.png)
+![](../../images/server/users53.png)
 
