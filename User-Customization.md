@@ -1,6 +1,13 @@
 ---
 uid: User-Customization
 title: User Customization
+seeAlso:
+  - User-Copy-Settings
+  - User-Prefs
+  - Content-Access
+  - Device-Access
+  - Parental-Controls
+  - Passwords
 ---
 
 Users are managed within the server dashboard by navigating to **Users**.
@@ -45,11 +52,6 @@ The server administrator can disable the user's ability to change their password
 ![](images/server/users20.png)
 
 
-## Copying user preferences and settings from one user to other users
-
-See [Copy User Settings](User-Copy-Settings.md)
-
-
 ## Feature Access
 
 Features can be granted or denied, such as the ability to delete media, download media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
@@ -91,28 +93,3 @@ Other features can also be configured: Downloads, Subtitles, Camera Upload, Medi
 ![](images/server/users46.png)
 
 ![](images/server/users47.png)
-
-
-## User Profile and Preferences
-
-See [User Preferences](User-Prefs.md).
-
-
-## Content Access
-
-See [Content Access](Content-Access.md).
-
-
-## Device Access
-
-See [Device Access](Device-Access.md).
-
-
-## Parental Controls
-
-See [Parental Controls](Parental-Controls.md).
-
-
-## User Password
-
-See [Passwords](Passwords.md).

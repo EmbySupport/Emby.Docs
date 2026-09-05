@@ -2,6 +2,11 @@
 uid: Subtitles
 title: Subtitles Naming
 legacyUrl: /support/solutions/articles/44001159160-subtitles
+seeAlso:
+  - Open-Subtitles
+  - Plugins
+  - Automatic-Subtitle-Downloads
+  - Manual-Subtitle-Downloads
 ---
 
 External subtitles should use the same file name as the movie/show except for the extension(s) as shown below.
@@ -80,13 +85,6 @@ It is sometimes useful to have other "names" in the subtitle to help identify it
 - [Open Subtitles](Open-Subtitles.md).
 - Podnapisi
 - SubDb
-
-##### See also
-
-- [Open Subtitles](Open-Subtitles.md)
-- [Plugins](Plugins.md) for more information on use
-- [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md)
-- [Manual Subtitle Downloads](Manual-Subtitle-Downloads.md)
 
 ## ISO and Country codes used together
 

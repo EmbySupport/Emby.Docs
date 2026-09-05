@@ -2,6 +2,11 @@
 uid: Library-Setup
 title: Library Setup
 legacyUrl: /support/solutions/articles/44001159319-library-setup
+seeAlso:
+  - Movie-Naming
+  - TV-Naming
+  - Music-Naming
+  - Subtitles
 ---
 
 Setting up the library is handled within the startup wizard and also within the server dashboard, located by clicking on the **Library** tab.

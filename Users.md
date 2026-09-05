@@ -2,6 +2,8 @@
 uid: Users
 title: Users
 legacyUrl: /support/solutions/articles/44001160237-users
+seeAlso:
+  - User-Customization
 ---
 
 Most operations within Emby are based around users. Users can have their own personalized media libraries, user data, recommendations, security settings, and more.
@@ -46,11 +48,6 @@ After saving, you will then be able to do more customization for this user accou
 > [!Important]
 > Make sure you set user Password for the new account before you start to do any customization. See [Passwords](Passwords.md). 
 > 
-
-
-## User Customization
-
-Please refer to [User Customization](User-Customization.md) for all the specific user preferences and feature access controls.
 
 
 ## Deleting a User
