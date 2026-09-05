@@ -2,6 +2,13 @@
 uid: Movie-Naming
 title: Movie Naming
 legacyUrl: /support/solutions/articles/44001159102-movie-naming
+seeAlso:
+  - 3D-Videos
+  - Media-Stubs
+  - Strm-Files
+  - Subtitles
+  - Theme-Songs-Videos
+  - Trailers
 ---
 
 This file naming guide applies to movies, home videos and music videos. For tv episode naming, see [TV naming](TV-Naming.md).
@@ -254,27 +261,3 @@ Examples:
 \Movies\Avatar (2009)\Avatar (2009)-cd1.mkv
 \Movies\Avatar (2009)\Avatar (2009)-cd2.mkv
 ```
-
-## 3D videos
-
-3D video files are supported. See [3D videos](3D-Videos.md).
-
-## Media stubs
-
-Media stubs are supported. See [media stubs](Media-Stubs.md).
-
-## Strm files
-
-Strm files are supported. See [strm files](Strm-Files.md).
-
-## Subtitles
-
-Subtitles are supported. See [subtitles](Subtitles.md).
-
-## Theme songs & videos
-
-Theme songs & videos are supported. See [theme songs & videos](Theme-Songs-Videos.md).
-
-## Trailers
-
-Trailers are supported. See [trailers](Trailers.md).

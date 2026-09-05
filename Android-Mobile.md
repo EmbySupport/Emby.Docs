@@ -2,6 +2,8 @@
 uid: Android-Mobile
 title: Android Mobile
 legacyUrl: /support/solutions/articles/44001161551-android-mobile
+seeAlso:
+  - Chromecast
 ---
 
 Emby for Android Mobile is available in multiple ways:
@@ -40,5 +42,3 @@ Install the app using one of the above methods, then use the startup wizard to c
 The app supports casting to Chromecast devices. To connect to your Chromecast device, simply click the cast icon in the top right corner of the app. You'll then be asked which device you'd like to connect to.
 
 Once connected, any content you play will be sent to the Chromecast device. You're able to play individual files, entire folders, shuffle, instant mix, queue, and more.
-
-For more information, see [Chromecast](Chromecast.md).

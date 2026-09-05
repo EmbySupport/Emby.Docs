@@ -2,6 +2,11 @@
 uid: Installation
 title: Installation
 legacyUrl: /support/solutions/articles/44001159243-installation
+seeAlso:
+  - Hosting-Settings
+  - Server-Settings333
+  - Users
+  - Library-Setup
 ---
 
 Emby Server is available on the following platforms:
@@ -64,10 +69,3 @@ Accept the Emby Terms of Use
 ![](images/server/wizard7.png)
 
 Once you've completed the above screens, you'll then be taken to the Sign in screen for the Emby Server. You're now ready to explore the features of the server while waiting for your media scan to complete.
-
-Be sure to check out:
-
-- [Network Setup](Hosting-Settings.md)
-- [Server Settings](Server-Settings.md)
-- [Users](Users.md)
-- [Library Setup](Library-Setup.md)

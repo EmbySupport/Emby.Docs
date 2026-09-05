@@ -2,6 +2,11 @@
 uid: TV-Naming
 title: TV Naming
 legacyUrl: /support/solutions/articles/44001159110-tv-naming
+seeAlso:
+  - 3D-Videos
+  - Media-Stubs
+  - Strm-Files
+  - Subtitles
 ---
 
 For a simple TV folder structure, the recommended folder layout is Series (year)\Season #\Episode. The Episode name itself should contain the show name,  the season and the episode episode number which is covered below.
@@ -421,19 +426,3 @@ For example:
           Glee S02E01.mp4
 
 ```
-
-## 3D episodes
-
-3D episodes files are supported. See [3D videos](3D-Videos.md).
-
-## Media stubs
-
-Media stubs are supported as episodes. See [media stubs](Media-Stubs.md).
-
-## Strm files
-
-Strm files are supported as episodes. See [strm files](Strm-Files.md).
-
-## Subtitles
-
-Subtitles for episode files are supported. See [subtitles](Subtitles.md).

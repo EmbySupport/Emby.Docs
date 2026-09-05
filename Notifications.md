@@ -2,6 +2,8 @@
 uid: Notifications
 title: Notifications
 legacyUrl: /support/solutions/articles/44001159719-notifications
+seeAlso:
+  - User-Prefs-Notifications
 ---
 
 Server notifications allow you to stay informed of your server's activity.
@@ -17,6 +19,4 @@ Installing a notification service is just like any other Plugin. Read the instru
 ## Configuring Notifications
 
 After choosing the notification services you'd like to use, it's time to configure the individual notifications you'd like to receive. The Emby server administrator can configure that for specific user accounts, by selecting **Users** from the server settings dashboard and selecting the user account and on the **Profile** tab, clicking on the **Edit this user's profile, image and personal preferences** link and clicking on **Notifications**.
-
-See [User User Preferences - Notifications](User-Prefs-Notifications.md).
 
