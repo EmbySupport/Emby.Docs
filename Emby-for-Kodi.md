@@ -41,7 +41,9 @@ Select the repository. You are done! You can install both repositories (stable a
 
 
 ### Final step
+
 You can now install the Emby for Kodi add-on found via installing from repository > Kodi Emby add-ons > video add-ons > Emby. You can also find the latest Emby for Kodi alpha/beta version in the public testing folder, found in the Emby source added earlier (posted above)
 
 ### Public testing folder
+
 You can find the public testing folder inside the Emby source you've just added (install from zip). If this is a fresh install, you'll need to install the dependencies first. You can find them within the public testing > dependencies folder. The public testing contains the latest Emby for Kodi beta (sometimes alpha) version. It's useful if you want to upgrade to the latest version available, without installing the Emby beta repository.

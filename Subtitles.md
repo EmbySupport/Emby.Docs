@@ -21,6 +21,7 @@ External subtitles should use the same file name as the movie/show except for th
 ## Default Subtitles
 
 External subtitles can be marked as default using either ".default".
+
 ```
 /Movies
    /Home Alone (1990)
@@ -32,6 +33,7 @@ External subtitles can be marked as default using either ".default".
 ## Forced Subtitles
 
 External subtitles can be marked as forced using either ".forced" or ".foreign".
+
 ```
 /Movies
    /Home Alone (1990)
@@ -54,6 +56,7 @@ Hearing impaired subtitles can be marked using ".sdh".
 ```
 
 ## Other Names
+
 It is sometimes useful to have other "names" in the subtitle to help identify it from the client.  This can be useful for cases like "Director's Commentary" or similar.
 
 ```
@@ -66,19 +69,20 @@ It is sometimes useful to have other "names" in the subtitle to help identify it
 
 ## Supported formats
 
-* ass
-* srt
-* ssa
-* sub/idx
-* vtt
+- ass
+- srt
+- ssa
+- sub/idx
+- vtt
 
 ## Plugins that automate subtitle downloading
 
-* [Open Subtitles](Open-Subtitles.md).
-* Podnapisi
-* SubDb
+- [Open Subtitles](Open-Subtitles.md).
+- Podnapisi
+- SubDb
 
 ##### See also
+
 - [Open Subtitles](Open-Subtitles.md)
 - [Plugins](Plugins.md) for more information on use
 - [Automatic Subtitle Downloads](Automatic-Subtitle-Downloads.md)
@@ -91,11 +95,12 @@ Sometimes you may need to use a country code in addition to the ISO code.  This 
 Using both the ISO and Country code allows you to specify this. zh is the ISO code for Chinese. To distinguish simplified vs traditional in the naming of your subtitle files you would follow the following format:
 
 |       |                                     |
-|-------|-------------------------------------|
+| ----- | ----------------------------------- |
 | zh-CN | ext for mainland China (simplified) |
 | zh-SG | ext for Singapore (simplified)      |
 | zh-TW | ext for Taiwan (traditional)        |
 | zh-HK | ext for Hong Kong (traditional)     |
 
 ##### Reference
+
 - [ISO Codes for the Representation of Names of Languages](https://www.loc.gov/standards/iso639-2/php/code_list.php)

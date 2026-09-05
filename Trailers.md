@@ -36,7 +36,7 @@ A trailers subfolder should be placed underneath the series folder, or any seaso
 
 ## Trailer Plugins of Interest
 
-* Trailers - Streams trailers for your movies.
-* Cinema Mode - Can be used to simulate the theater experience where you want a couple of trailers before the main show!
+- Trailers - Streams trailers for your movies.
+- Cinema Mode - Can be used to simulate the theater experience where you want a couple of trailers before the main show!
 
 For more information, see [plugins](Plugins.md).

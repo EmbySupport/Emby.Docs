@@ -28,24 +28,28 @@ For example:
 
 
 ## ID Tags in Folder & File Names
+
 Emby can also read a Meta-Data ID from the name.
 
 Supported Formats:
-* Name (Year) [tvdbid=xxxx]
-* Name (Year) [tvdbid-xxxx]
-* Name (Year) [tvdb=xxxx]
-* Name (Year) [tvdb-xxxx]
-* Name (Year) {tvdbid=xxxx}
-* Name (Year) {tvdbid-xxxx}
-* Name (Year) {tvdb=xxxx}
-* Name (Year) {tvdb-xxxx}
+
+- Name (Year) [tvdbid=xxxx]
+- Name (Year) [tvdbid-xxxx]
+- Name (Year) [tvdb=xxxx]
+- Name (Year) [tvdb-xxxx]
+- Name (Year) {tvdbid=xxxx}
+- Name (Year) {tvdbid-xxxx}
+- Name (Year) {tvdb=xxxx}
+- Name (Year) {tvdb-xxxx}
 
 Supported ID's:
-* tvdb
-* tmdb (Moviedb)
-* imdb
+
+- tvdb
+- tmdb (Moviedb)
+- imdb
 
 Example:
+
 ```
 The Vampire Diaries (2009) [tvdbid=95491]
 ```
@@ -62,7 +66,7 @@ Emby supports the following tags with the host website for lookup.
 
 ## Complex Folder Structure
 
-In more complex situations where your top-level directory is further sub-divided before the show folders, the recommended option is to create a TV media folder and add the sub-folder locations instead of the top level folder. 
+In more complex situations where your top-level directory is further sub-divided before the show folders, the recommended option is to create a TV media folder and add the sub-folder locations instead of the top level folder.
 
 For example:
 
@@ -79,13 +83,13 @@ For example:
 
 ```
 
-In the above example, the recommended setup is to create a TV media folder, and then add the **A-M** and **N-Z** library paths. 
+In the above example, the recommended setup is to create a TV media folder, and then add the **A-M** and **N-Z** library paths.
 
 For more information on setting up the library, see [Library Setup](Library-Setup.md).
 
 ### DVD and Blu-ray episodes
 
-Dvd and Blu-ray folder structures are also supported. The folders can have any name, but using episode numbers will improve the ability to download and display metadata. 
+Dvd and Blu-ray folder structures are also supported. The folders can have any name, but using episode numbers will improve the ability to download and display metadata.
 
 To be recognized as a dvd structure, the folder must contain either a VIDEO_TS subfolder, or a VIDEO_TS.ifo file. To be recognized as a blu-ray structure, the folder must contain a BDMV subfolder.
 
@@ -107,15 +111,16 @@ To be recognized as a dvd structure, the folder must contain either a VIDEO_TS s
 Special features for TV series can be stored as video files in an extras folder under TV Series folders. It is also possible to add these extras folders at the season or episode level.
 
 In addition to extras, several other sub-folder names are supported:
-* extras
-* specials
-* shorts
-* scenes
-* featurettes
-* behind the scenes
-* deleted scenes
-* interviews
-* trailers
+
+- extras
+- specials
+- shorts
+- scenes
+- featurettes
+- behind the scenes
+- deleted scenes
+- interviews
+- trailers
 
 The following examples show extras at the TV series level.
 
@@ -180,14 +185,14 @@ The following examples demonstrate season and episode level extras:
 
 It is also possible to add the type of extra as filename suffix extensions, as for the following:
 
-* -behindthescenes
-* -deleted
-* -featurette
-* -interview
-* -other
-* -scene
-* -short
-* -trailer
+- -behindthescenes
+- -deleted
+- -featurette
+- -interview
+- -other
+- -scene
+- -short
+- -trailer
 
 Examples:
 The examples below are not real extras but just given as examples of the syntax used.
@@ -227,33 +232,33 @@ TV series are supported in mixed content libraries using the Unset content type,
 
 A number of naming conventions are supported:
 
-* show name - S01E01 - Episode Name.ext
-* show name S01E01 Episode Name.ext
-* anything_s01e02.ext
-* anything_s1e2.ext
-* anything_s01.e02.ext
-* anything_s01_e02.ext
-* anything_1x02.ext
-* anything_102.ext
-* anything_1x02.ext
-* 02 Episode Name.ext
-* s01e02.ext
-* 1x02.ext
+- show name - S01E01 - Episode Name.ext
+- show name S01E01 Episode Name.ext
+- anything_s01e02.ext
+- anything_s1e2.ext
+- anything_s01.e02.ext
+- anything_s01_e02.ext
+- anything_1x02.ext
+- anything_102.ext
+- anything_1x02.ext
+- 02 Episode Name.ext
+- s01e02.ext
+- 1x02.ext
 
 ### By date
 
 Common for long-running daily shows, you can also use the date the episode aired.
 
-* anything_1996.11.14.ext
-* anything_1996-11-14.ext
-* anything_14.11.1996.ext
+- anything_1996.11.14.ext
+- anything_1996-11-14.ext
+- anything_14.11.1996.ext
 
 ## Multi-Version Episodes
 
 Multi-Version Episodes are best using the following format:
 
-* show name - S01E01 - Display Name 1.ext
-* show name - S01E01 - Display Name 2.ext
+- show name - S01E01 - Display Name 1.ext
+- show name - S01E01 - Display Name 2.ext
 
 For example:
 Star Trek, The Next Generation - S01E01 - Original Broadcast.mkv
@@ -270,38 +275,38 @@ All multi-episode files must be part of the same season.
 
 The following conventions are supported:
 
-* 01x02x03 episode name.ext
-* S01x02x03 episode name.ext
-* S01E02E03 episode name.ext
-* S01xE02xE03 episode name.ext
-* S01E02-E03 episode name.ext
-* S01E02-X03 episode name.ext
-* 01x02 01x03 episode name.ext
-* 01x02 - 01x03 episode name.ext
-* 01x02 - 01x05 episode name.ext (includes episodes 2,3,4 and 5)
-* 01x02 - x03 episode name.ext
-* 01x02 - x05 episode name.ext
-* S01x02.S01x03 episode name.ext
-* S01x02 - S01x03 episode name.ext
-* show name 01x02x03 episode name.ext
-* show name S01x02x03 episode name.ext
-* show name S01E02E03 episode name.ext
-* show name S01xE02xE03 episode name.ext
-* show name S01E02-E03 episode name.ext
-* show name S01E02-X03 episode name.ext
-* show name 01x02 01x03 episode name.ext
-* show name 01x02 - 01x03 episode name.ext
-* show name 01x02 - x03 episode name.ext
-* show name S01x02.S01x03 episode name.ext
-* show name S01x02 - S01x03 episode name.ext
+- 01x02x03 episode name.ext
+- S01x02x03 episode name.ext
+- S01E02E03 episode name.ext
+- S01xE02xE03 episode name.ext
+- S01E02-E03 episode name.ext
+- S01E02-X03 episode name.ext
+- 01x02 01x03 episode name.ext
+- 01x02 - 01x03 episode name.ext
+- 01x02 - 01x05 episode name.ext (includes episodes 2,3,4 and 5)
+- 01x02 - x03 episode name.ext
+- 01x02 - x05 episode name.ext
+- S01x02.S01x03 episode name.ext
+- S01x02 - S01x03 episode name.ext
+- show name 01x02x03 episode name.ext
+- show name S01x02x03 episode name.ext
+- show name S01E02E03 episode name.ext
+- show name S01xE02xE03 episode name.ext
+- show name S01E02-E03 episode name.ext
+- show name S01E02-X03 episode name.ext
+- show name 01x02 01x03 episode name.ext
+- show name 01x02 - 01x03 episode name.ext
+- show name 01x02 - x03 episode name.ext
+- show name S01x02.S01x03 episode name.ext
+- show name S01x02 - S01x03 episode name.ext
 
 ## Specials
 
 Specials should be named using one of the following season folder names:
 
-* Season 0
-* Season 00
-* Specials
+- Season 0
+- Season 00
+- Specials
 
 For example:
 
@@ -322,34 +327,34 @@ Images are supported in both series and season folders. Below is a table of the 
 
 Several image types support multiple file names. They are listed in the order that they're checked for.
 
-| Image Type | Supported file names                                 |
-|------------|------------------------------------------------------|
-| Primary    | folder.ext                                           |
-|            | poster.ext                                           |
-|            | cover.ext                                            |
-|            | default.ext                                          |
-|            | show.ext (in series folder only)                     |
-|            | seasonXX-poster.ext (in series folder only)          |
-|            | season-specials-poster.ext (in series folder only)   |
-| Art        | clearart.ext                                         |
-| Backdrop   | backdrop.ext, backdropX.ext                          |
-|            | fanart.ext, fanart-X.ext                             |
-|            | background.ext, background-X.ext                     |
-|            | art.ext, art-X.ext                                   |
-|            | extrafanart (subfolder)/fanartX.ext                  |
-|            | seasonXX-fanart.ext  (in series folder only)         |
-|            | season-specials-fanart.ext (in series folder only)   |
-| Banner     | banner.ext                                           |
-|            | seasonXX-banner.ext (in series folder only)          |
-|            | season-specials-banner.ext (in series folder only)   |
-| Disc       | disc.ext                                             |
-|            | cdart.ext                                            |
-| Logo       | clearlogo.ext                                        |
-|            | logo.ext                                             |
-| Thumb      | thumb.ext                                            |
-|            | landscape.ext                                        |
-|            | seasonXX-landscape.ext (in series folder only)       |
-|            | season-specials-landscape.ext (in series folder only)|
+| Image Type | Supported file names                                  |
+| ---------- | ----------------------------------------------------- |
+| Primary    | folder.ext                                            |
+|            | poster.ext                                            |
+|            | cover.ext                                             |
+|            | default.ext                                           |
+|            | show.ext (in series folder only)                      |
+|            | seasonXX-poster.ext (in series folder only)           |
+|            | season-specials-poster.ext (in series folder only)    |
+| Art        | clearart.ext                                          |
+| Backdrop   | backdrop.ext, backdropX.ext                           |
+|            | fanart.ext, fanart-X.ext                              |
+|            | background.ext, background-X.ext                      |
+|            | art.ext, art-X.ext                                    |
+|            | extrafanart (subfolder)/fanartX.ext                   |
+|            | seasonXX-fanart.ext  (in series folder only)          |
+|            | season-specials-fanart.ext (in series folder only)    |
+| Banner     | banner.ext                                            |
+|            | seasonXX-banner.ext (in series folder only)           |
+|            | season-specials-banner.ext (in series folder only)    |
+| Disc       | disc.ext                                              |
+|            | cdart.ext                                             |
+| Logo       | clearlogo.ext                                         |
+|            | logo.ext                                              |
+| Thumb      | thumb.ext                                             |
+|            | landscape.ext                                         |
+|            | seasonXX-landscape.ext (in series folder only)        |
+|            | season-specials-landscape.ext (in series folder only) |
 
 For backdrops, X represents a number, and you can have any amount of numbered backdrops. For example:
 
@@ -368,16 +373,16 @@ For backdrops, X represents a number, and you can have any amount of numbered ba
 
 If season folders are not used, season images can still be supplied directly in the series folder, using a naming convention to indicate the season.
 
-| Image Type | Supported file names                                 |
-|------------|------------------------------------------------------|
-| Primary    | seasonXX-poster.ext                                  |
-|            | season-specials-poster.ext                           |
-| Backdrop   | seasonXX-fanart.ext                                  |
-|            | season-specials-fanart.ext                           |
-| Banner     | seasonXX-banner.ext                                  |
-|            | season-specials-banner.ext                           |
-| Thumb      | seasonXX-landscape.ext                               |
-|            | season-specials-landscape.ext                        |
+| Image Type | Supported file names          |
+| ---------- | ----------------------------- |
+| Primary    | seasonXX-poster.ext           |
+|            | season-specials-poster.ext    |
+| Backdrop   | seasonXX-fanart.ext           |
+|            | season-specials-fanart.ext    |
+| Banner     | seasonXX-banner.ext           |
+|            | season-specials-banner.ext    |
+| Thumb      | seasonXX-landscape.ext        |
+|            | season-specials-landscape.ext |
 
 For example:
 
@@ -399,8 +404,8 @@ For example:
 
 The following naming conventions are supported for episode images:
 
-* {name}-thumb.ext (in same folder)
-* {name}.ext (in metadata sub-folder)
+- {name}-thumb.ext (in same folder)
+- {name}.ext (in metadata sub-folder)
 
 Supported image extensions are **jpg**, **jpeg**, **png** and **tbn**.
 

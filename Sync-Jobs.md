@@ -45,7 +45,7 @@ Individual users can manage their own download jobs on each device. First select
 
 ![](images/server/downloadjobs1.png)
 
-Then open the **Manage Downloads** tab. This will list the download jobs for that user and device giving the status for each and through 
+Then open the **Manage Downloads** tab. This will list the download jobs for that user and device giving the status for each and through
 the dot menu button, there is an option to edit the download job or delete the download.
 
 ![](images/server/downloadjobs5.png)

@@ -8,7 +8,7 @@ By allowing Emby apps direct access to media folders on the server, they may be 
 
 Network Paths are entered in UNC format and care should be taken to make sure the case (caps and lower case letters) are exact.  Some devices will only mount and use a server name with all capital letters. This will require you to rename your file server and NAS boxes using all capital letters.
 
-### Example:
+### Example
 
 You have a Movies library on the server using C:\Movies. This folder is also shared on the network with a share name of "Movies-C". The UNC format of this resource would then be similar to \\SERVER\Movies-C
 

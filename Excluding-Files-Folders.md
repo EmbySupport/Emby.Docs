@@ -12,7 +12,7 @@ Media files can be excluded by adding a file named `.embyignore` containing the 
 
 On Windows. the `.embyignore` file can be created using Notepad with the "Save as type" set to "All files (\*.\*)"
 
-![](images/server/excludes2.png) 
+![](images/server/excludes2.png)
 
 When adding the `.embyignore` to a root folder of a library, the rules would apply to all folders.
 
@@ -36,6 +36,7 @@ When adding the `.embyignore` to a root folder of a library, the rules would app
 The following are specific examples for a Home Videosa and Photos library with two root folders. The names have been chosen to make it easier to see the folder levels and where the files are located. The two root folders for the library identified as Root1 and Root2 with subfolders identified as A, B and C amd lower levels ientified as I, II and III.
 
 We have an `.embyignore` in each of the two library root folders `Root1-Videos` and `Root2-Photos` and an `.embyignore` in folder `Root2-Photos\R2-Folder-A` to ignore a specific photo in that folder. The media files and folders are as follows:
+
 ```
 My Videos and Photos
 ├───Root1-Videos
@@ -115,6 +116,7 @@ My Videos and Photos
 ```
 
 The `.embygnore` in `Root1-Videos` has the following content:
+
 ```
 # This is the .embyignore file stored in the library root folder: Root1-Videos
 
@@ -124,7 +126,9 @@ private-*
 # ignore lower sub-directory R1-B-SubFolder-I
 /R1-Folder-B/R1-B-SubFolder-I/
 ```
+
 The `.embyignore` in `Root2-Photos` has the following content:
+
 ```
 # This is the .embyignore file stored in the library root folder: Root2-Photos
 
@@ -137,9 +141,11 @@ private-*
 # ignore all images saved as *.png files 
 *.png
 ```
+
 These will result in all media or folders with names starting with "private-" getting ignored. All screenshots which would be png files get excluded from the photos folders. A specific photo folder and all its content excluded `R2-Folder-B`. A specific video folder `R1-B-SubFolder-I` getting excluded.
 
 The 3rd `.embyignore` file is in photo folder `Root2-Photos\R2-Folder-A` to exclude a specific photo. The `.embyignore` content is:
+
 ```
 # This is the .embyignore file stored in folder Root2-Photos\R2-Folder-A
 
@@ -164,6 +170,6 @@ To exclude a folder from the library scan, place a file named .ignore inside the
 
 This will cause Emby to ignore all sub-folders as well.
 
-On Windows. the .ignore file can be created using Notepad with the "Save as type" set to "All types (\*.\*)" 
+On Windows. the .ignore file can be created using Notepad with the "Save as type" set to "All types (\*.\*)"
 
 ![](images/server/excludes1.png)

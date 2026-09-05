@@ -3,17 +3,21 @@ uid: Automatic-Subtitle-Downloads
 title: Automatic Subtitle Downloads
 legacyUrl: /support/solutions/articles/44001848854-automatic-subtitle-downloads
 seeAlso:
+
   - Subtitles
   - Open-Subtitles
   - Manual-Subtitle-Downloads
+
 ---
 
 Emby can automatically download subtitle files for your media.  There are multiple subtitle plugin that can be used.
 
 ## Install a Subtitle Plugin
+
 Before being able to setup automatic downloading of subtitles you will need to setup a plugin such as [Open Subtitles](Open-Subtitles.md). Please make sure you have configured your plugin before continuing.
 
 ## Setup your libraries to download subtitles
+
 Once you've installed a subtitle plugin, restarted the server and configured the plugin you are ready to configure each of your libraries to use the plugin.
 
 You can now edit or setup a new library.  When editing a library make sure to click the top right option "show advanced settings".  You can now scroll down to find the following items.
@@ -31,9 +35,11 @@ The above picture shows several options available for you to configure. These sh
 Subtitles will now be downloaded as needed when available, via the Download Subtitles [Scheduled Task](Scheduled-Tasks.md).
 
 ## If Subtitles are not automatically downloading
+
 If subtitles are not automatically downloading you should check the options listed above.  For example "Require a hash match" requires your media file to exactly match (byte for byte) the source file of the subtitle.  This option when activated can greatly reduce your chances of downloading subtitles but will make sure the subtitle is "perfect" for you file.
 
 You should also check the following link to see how to manage [Manual Subtitle Downloads](Manual-Subtitle-Downloads.md).
 
 ## Tips
+
 Emby supports many subtitle providers including: Addic7ed, NapiSub, OpenSubtitles, Podnapisi & SubDb. You can find the latest list in the [Plugins](Plugins.md) Catalog.

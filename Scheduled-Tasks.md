@@ -20,11 +20,11 @@ Clicking on a task will display the triggers that cause the task to run:
 
 The available triggers are:
 
-* Daily at set time
-* Weekly at set day and time
-* Interval (Based on a number of hours)
-* At application startup
-* When the server resumes from sleep
+- Daily at set time
+- Weekly at set day and time
+- Interval (Based on a number of hours)
+- At application startup
+- When the server resumes from sleep
 
 Triggers can be removed by clicking the minus button on the right-hand side. Clicking the "Add Trigger" button will display a menu to add a trigger. The required fields will change depending on the trigger chosen.
 

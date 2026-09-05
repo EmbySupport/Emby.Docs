@@ -34,7 +34,7 @@ Or even a flat library of song files:
     2- Song.mp3
 ```
 
-Any naming convention for audio files is acceptable. Track numbers are retrieved using embedded ID3 tag information. 
+Any naming convention for audio files is acceptable. Track numbers are retrieved using embedded ID3 tag information.
 
 Your first step in setting up a music library is to select your folder structure.
 
@@ -60,34 +60,34 @@ Supported image extensions are **jpg**, **jpeg**, **png** and **tbn**.
 
 Several image types support multiple file names.
 
-| Image Type | Supported file names                                  |
-|------------|-------------------------------------------------------|
-| Primary    | folder.ext                                            |
-|            | poster.ext                                            |
-|            | cover.ext                                             |
-|            | default.ext                                           |
-|            | artist.ext                                            |
-|            | artist-cover.ext                                      |
-|            | artist-default.ext                                    |
-|            | default.ext                                           |
-|            | artist-folder.ext                                     |
-|            | artist-poster.ext                                     |
-| Backdrop   | backdrop.ext, backdropX.ext                           |
-|            | fanart.ext, fanartX.ext, fanart-X.ext                 |
-|            | background.ext, background-X.ext                      |
-|            | art.ext, art-X.ext                                    |
-|            | artist-art.ext, artist-artX.ext                       |
-|            | artist-backdrop.ext, artist-backdropX.ext             |
-|            | artist-background.ext, artist-backgroundX.ext         |
-|            | artist-fanart.ext, artist-fanartX.ext                 |
-|            | In subfolder extrafanart:  fanartX.ext, fanart-X.ext  |
-| Disc       | disc.ext                                              |
-|            | cdart.ext                                             |
-| Logo       | logo.ext                                              |
-|            | clearlogo.ext                                         |
-| Thumb      | thumb.ext                                             |
-|            | landscape.ext                                         |
-|            | `<folder name>.ext`                                     |
+| Image Type | Supported file names                                 |
+| ---------- | ---------------------------------------------------- |
+| Primary    | folder.ext                                           |
+|            | poster.ext                                           |
+|            | cover.ext                                            |
+|            | default.ext                                          |
+|            | artist.ext                                           |
+|            | artist-cover.ext                                     |
+|            | artist-default.ext                                   |
+|            | default.ext                                          |
+|            | artist-folder.ext                                    |
+|            | artist-poster.ext                                    |
+| Backdrop   | backdrop.ext, backdropX.ext                          |
+|            | fanart.ext, fanartX.ext, fanart-X.ext                |
+|            | background.ext, background-X.ext                     |
+|            | art.ext, art-X.ext                                   |
+|            | artist-art.ext, artist-artX.ext                      |
+|            | artist-backdrop.ext, artist-backdropX.ext            |
+|            | artist-background.ext, artist-backgroundX.ext        |
+|            | artist-fanart.ext, artist-fanartX.ext                |
+|            | In subfolder extrafanart:  fanartX.ext, fanart-X.ext |
+| Disc       | disc.ext                                             |
+|            | cdart.ext                                            |
+| Logo       | logo.ext                                             |
+|            | clearlogo.ext                                        |
+| Thumb      | thumb.ext                                            |
+|            | landscape.ext                                        |
+|            | `<folder name>.ext`                                  |
 
 For backdrops, X represents a number, and you can have any amount of numbered backdrops. For example:
 
@@ -100,6 +100,7 @@ For backdrops, X represents a number, and you can have any amount of numbered ba
        backdrop3.ext
 
 ```
+
 Examples of `<folder name>.ext`
 
  In artist folder where folder is named "Ed Sheeran", a jpg thumb file would be "ed sheeran.jpg"
@@ -111,11 +112,12 @@ Examples of `<folder name>.ext`
 
 
 ## Tagging Your Tracks
+
 All music tracks should be tagged with whatever information you want displayed in Emby.  Emby should support all common tags written by Musicbrainz Picard. Other common software used to alter/write tags is Mp3tag and Tagscanner.
 
 
 
-Please make sure to write all tag version or to remove old tags. All tags should be written using unicode format. 
+Please make sure to write all tag version or to remove old tags. All tags should be written using unicode format.
 
 Tagging your albums and tracks should be straightforward with the possible exception of various artist or compilation albums.
 

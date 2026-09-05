@@ -8,8 +8,8 @@ Camera upload allows automatic uploading of photos taken from mobile devices to 
 
 Currently, the apps that support automatic camera upload are:
 
-* Android
-* Emby for iOS
+- Android
+- Emby for iOS
 
 ## Enabling Camera Upload
 
@@ -29,4 +29,4 @@ It is also possible to assign a custom upload path individually for a device. Fo
 
 ## Uploading from Apps
 
-Uploading is automatic and does not require any intervention on the part of the user. Please note that some apps will only upload under certain conditions, such as being on wifi, having a certain connection speed, or a certain battery charge percentage, as well as other device-specific factors. 
+Uploading is automatic and does not require any intervention on the part of the user. Please note that some apps will only upload under certain conditions, such as being on wifi, having a certain connection speed, or a certain battery charge percentage, as well as other device-specific factors.

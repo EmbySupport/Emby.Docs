@@ -12,38 +12,38 @@ Here are some tips to consider.
 
 ### Server Admin Account
 
-*   Avoid having a name for the admin user account for Emby Server as admin or root. 
+- Avoid having a name for the admin user account for Emby Server as admin or root.
 
    If the user name is already set as that, you can edit it through the server settings / users screen and editing the profile.
 
    ![](images/server/users26.png)
 
 
-*  Separate your admin and normal use of the emby server. Have a separate account for normal use and streaming and keep the account with server admin privilege as a separate account used just for server admin.
+- Separate your admin and normal use of the emby server. Have a separate account for normal use and streaming and keep the account with server admin privilege as a separate account used just for server admin.
 
    You can control which accounts have the ability to manage the server through this user profile setting
 
    ![](images/server/users27.png)
 
 
-*  Consider hiding the admin user account (or any account with server admin privilege) from the list of displayed user accounts for login. When hidden, use the Manual Login option and enter the username an password. The following shows the various options available for hiding a user name
+- Consider hiding the admin user account (or any account with server admin privilege) from the list of displayed user accounts for login. When hidden, use the Manual Login option and enter the username an password. The following shows the various options available for hiding a user name
 
    ![](images/server/users28.png)
 
 
-*  Consider disabling remote connections for the server admin account. This can be done once the remote connections configuration is in place and working. If there is a need to make changes to the server configuration, use tools such as Team Viewer, Remote Desktop, AnyDesk etc.
+- Consider disabling remote connections for the server admin account. This can be done once the remote connections configuration is in place and working. If there is a need to make changes to the server configuration, use tools such as Team Viewer, Remote Desktop, AnyDesk etc.
 
    ![](images/server/users18.png)
 
 
 ### User Account Passwords
 
-*  Ensure all user accounts have passwords set on the server, including user accounts linked to an [Emby Connect](Emby-Connect.md) username.
+- Ensure all user accounts have passwords set on the server, including user accounts linked to an [Emby Connect](Emby-Connect.md) username.
 
 
 ### User Account Privileges
 
-*  Check all the accounts privileges in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server. 
+- Check all the accounts privileges in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server.
 
 The following shows the control level you have at the user account level. E.g. remote access can be controlled at the user level.
 
@@ -56,7 +56,7 @@ Check that media deletion is controlled and restricted only to the accounts that
 > [!NOTE]
 > You can deselect “All libraries” and select specific libraries and channels.
 
-Similarly for subtitle deletions. 
+Similarly for subtitle deletions.
 
    ![](images/server/users31.png)
 
@@ -64,14 +64,14 @@ And for remote control, restrict the permission to control for other users to ju
 
    ![](images/server/users32.png)
 
-You can also disable user accounts 
+You can also disable user accounts
 
    ![](images/server/users33.png)
 
 
 ### Remote Connections
 
-*  If the server is only to be used locally, disable remote access at the server level by deselecting this server network setting.
+- If the server is only to be used locally, disable remote access at the server level by deselecting this server network setting.
 
    ![](images/server/hosting7.png)
 
@@ -79,15 +79,15 @@ You can also disable user accounts
 > If using a vpn on the local network, you may need to have this allowed, alternatively add the vpn network subnet to the list of LAN Networks in the server [network settings](Hosting-Settings.md).
 
 
-*  When using a domain name for access to the emby server, consider not having the word “emby” as part of the domain name.
+- When using a domain name for access to the emby server, consider not having the word “emby” as part of the domain name.
 
 
-*  Use https secure connections for remote connections. See **Using secure https connections** section below. 
+- Use https secure connections for remote connections. See **Using secure https connections** section below.
 
 ![](images/server/hosting8.png)
 
 
-*  When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers from 8096 and 8920 to other port numbers.
+- When enabled for remote access and not using a reverse proxy, consider changing the default public port numbers from 8096 and 8920 to other port numbers.
 
    ![](images/server/hosting10.png)
 
@@ -96,7 +96,7 @@ You can also disable user accounts
 The public ports would need to be mapped to the local ports. This can be done either by using the automatic port mapping functionality of the Emby Server or by setting up port forwards manually in the router. See [Automatic Port Mapping](Connectivity.md#automatic-port-mapping) and [Setup Port Forwarding](Connectivity.md#setup-port-forwarding).
 
 
-*  You also have the option to restrict remote connections to only be allowed from specific public/WAN IP addresses or subnets. The reverse is also possible, blocking specific remote IP addresses and/or subnets. The default is that all remote addresses would be allowed.
+- You also have the option to restrict remote connections to only be allowed from specific public/WAN IP addresses or subnets. The reverse is also possible, blocking specific remote IP addresses and/or subnets. The default is that all remote addresses would be allowed.
 
 ![](images/server/hosting13.png)
 
@@ -104,10 +104,12 @@ The public ports would need to be mapped to the local ports. This can be done ei
 ## Using secure https connections
 
 You'll need two things:
-* A domain that supports TXT records
-* A ssl certificate (PKCS #12)
+
+- A domain that supports TXT records
+- A ssl certificate (PKCS #12)
 
 ### Get your domain
+
 Sign up for a free domain of your choice. You could use [Dynu](https://www.dynu.com/) which is what will be covered in the instructions below. Alternatively use a paid-for registered domain name.
 
 > [!Note]
@@ -115,15 +117,14 @@ Sign up for a free domain of your choice. You could use [Dynu](https://www.dynu.
 
 1. Create an account with https://dynu.com
 
-3. Login to your account and open the Control Panel
+2. Login to your account and open the Control Panel
 
-![](images/server/hosting21.png)
+  ![](images/server/hosting21.png)
 
 3. Select "**DDNS Services**"
 
-4. Click on "**+Add**" to add a domain to the Dynamic DNS Service. 
-
-![](images/server/hosting24.png)
+4. Click on "**+Add**" to add a domain to the Dynamic DNS Service.
+  ![](images/server/hosting24.png)
 
 
 Next, either choose a free domain name provided by **Dynu**, selecting one of the many Top Level domain names with your hostname as the prefix, or adding a domain you already own.
@@ -154,15 +155,19 @@ Go to the web site through either [SSL for free](https://www.sslforfree.com/) or
 
 1. Enter your domain on the site. i.e. yourdomain.com and create a free SSL certificate
 
-2. Select Manual Verification (DNS) > Manually verify domain. We now have 2 TXT records (step 2 on the SSL for free website). We will copy back the TXT records to the domain provider. Leave the SSL for free page open. We will come back to it.
+2. Select Manual Verification (DNS) > Manually verify domain
 
-![](images/server/hosting25.jpg)
+   We now have 2 TXT records (step 2 on the SSL for free website). We will copy back the TXT records to the domain provider. Leave the SSL for free page open. We will come back to it.
 
-3. On the domain provider website, select your domain > Manage DNS. Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
+   ![](images/server/hosting25.jpg)
 
-For Dynu DNS, login and open the Control Panel and select DDNS Services, then select the domain from the list of domains for your account, and click on **DNS Records** and then fill the template for Adding a DNS Record. In the **Node Name** field replace the preset "www" with `_acme-challenge`. For the **type** field, open the drop-down and select **"TXT - text"**. In the **"Text"** field, you would enter the text character requested for the certificate domain verification process.
+3. On the domain provider website, select your domain > Manage DNS
 
-You should end up with a TXT DNS Record like this - these are just examples:
+   Let's create a new TX record. Repeat the steps for both TXT records on SSL for free. Your information should look like this.
+
+   For Dynu DNS, login and open the Control Panel and select DDNS Services, then select the domain from the list of domains for your account, and click on **DNS Records** and then fill the template for Adding a DNS Record. In the **Node Name** field replace the preset "www" with `_acme-challenge`. For the **type** field, open the drop-down and select **"TXT - text"**. In the **"Text"** field, you would enter the text character requested for the certificate domain verification process.
+
+   You should end up with a TXT DNS Record like this - these are just examples:
 
    **Name**: _acme-challenge.{yourdomain.com}
 
@@ -172,21 +177,33 @@ You should end up with a TXT DNS Record like this - these are just examples:
 
    **Target**: qariKbGVafpb5MespqHdMaGi933yW-Z2A3shE0wIyZA
 
-4. You'll notice Type A records in the same section. You can remove the WWW entry. Ensure your external IP is correct. If you have a dynamic IP, you'll need to keep this updated when it changes.
+4. You'll notice Type A records in the same section
 
-5. Wait about 15 minutes. Let the domain name and changes propagate.
+   You can remove the WWW entry. Ensure your external IP is correct. If you have a dynamic IP, you'll need to keep this updated when it changes.
 
-6. Back to the **SSL for free** / **ZeroSSL** website. Look at step 3, you'll see a link or two to click. Click them. If it is successful, go ahead and click Download SSL certificate. If it is not successful, wait a little longer and retry.
+5. Wait about 15 minutes
 
-7. After the certificate is created, you should be able to remove the TXT DNS records for the domain
+   Let the domain name and changes propagate.
 
-Now you should have a domain and a folder of ssl certificate (ca_bundle.crt, certificate.crt, private.key).
+6. Back to the SSL for free / ZeroSSL website
 
-We are almost done. Your Emby server requires a PKCS #12 certificate (certificate.crt and private.key combined).
+   Look at step 3, you'll see a link or two to click. Click them. If it is successful, go ahead and click Download SSL certificate. If it is not successful, wait a little longer and retry.
 
-8. You now need to create the PKCS #12 pfx certificate to use with Emby Server. Use this [online certificate converter](https://www.sslshopper.com/ssl-converter.html).
+7. After the certificate is created
 
-9. Select type to convert to: PKCS #12. This should expand the number of fields. Once completed, you'll get a new .pfx certificate.
+   You should be able to remove the TXT DNS records for the domain.
+
+   Now you should have a domain and a folder of ssl certificate (ca_bundle.crt, certificate.crt, private.key).
+
+   We are almost done. Your Emby server requires a PKCS #12 certificate (certificate.crt and private.key combined).
+
+8. You now need to create the PKCS #12 pfx certificate to use with Emby Server
+
+   Use this [online certificate converter](https://www.sslshopper.com/ssl-converter.html).
+
+9. Select type to convert to: PKCS #12
+
+   This should expand the number of fields. Once completed, you'll get a new .pfx certificate.
 
    **Certificate file**: certificate.crt
 
@@ -196,7 +213,9 @@ We are almost done. Your Emby server requires a PKCS #12 certificate (certificat
 
    **PFX password**: Since the private key is combined with the certificate, set a password to secure the new ssl certificate. Remember this password, you'll need it in Emby.
 
-10. Copy the pfx file to where you want to keep the Emby Server certificate and you will also need the pfx password. Next go to the following section [Setup Emby Server with your domain and SSL certificate](#setup-emby-server-with-your-domain-and-ssl-certificate).
+10. Copy the pfx file to where you want to keep the Emby Server certificate
+
+    You will also need the pfx password. Next go to the following section [Setup Emby Server with your domain and SSL certificate](#setup-emby-server-with-your-domain-and-ssl-certificate).
 
 
 ### Let's Encrypt certificate
@@ -216,29 +235,35 @@ The following instructions are for the windows platform. Powershell should be av
 Start a PowerShell session running as administrator.
 
 Install the Posh-Acme package
+
 ```
 Install-Module -Name Posh-ACME -Scope CurrentUser
 ```
+
 Answer "Y" to trust the install.
 
 You may need to add the PowerShell Gallery if not already available.
 
 You may need to change the PowerShell execution policy to import the Posh-Acme module, through these PowerShell commands:
+
 ```
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 Import-Module Posh-ACME
 ```
+
 Let's Encrypt have two sets of server platforms, a staging one for testing purposes and the production set.
 
 Execute the following Powershell command to select the Production environment.
+
 ```
 Set-PAServer LE_PROD
 ```
+
 (If you wish to experiment with the staging test environment, run this command `Set-PAServer LE_STAGE`)
 
 You will be shown a link to the Terms of Service, follow the link to read the terms.
 
-You are now ready to request the certificate. 
+You are now ready to request the certificate.
 
 Select a password to use with the pfx certificate to be configured in the Emby Server Network Settings. This will need to be passed on in the new certificate request.
 
@@ -260,12 +285,15 @@ The additional parameters being:
 
 
 Example:
+
 ```
 New-PACertificate my.domain.org -AcceptTOS -PfxPass gTsjAd!02 -Contact 'my-email@mail-provider.com' -Verbose -Force
 ```
+
 You would then get the TXT record to add your domain DNS Records for the DDNS service.
 
 Exmaple of response from Posh-Acme:
+
 ```
 Please create the following TXT records:
 ------------------------------------------
@@ -274,6 +302,7 @@ _acme-challenge.<your domain> -> xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 Press any key to continue.:
 ```
+
 where xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx would be the TXT string displayed by Posh-Acme that needs to be in the TXT DNS record.
 
 Now login your DDNS service provider, eg [https://www.dynu.com](https://www.dynu.com/) and click on the **Control Panel** button.
@@ -310,6 +339,7 @@ When validated, Posh-Acme will now request that you remove this DNS record and i
 Go back to the DDNS service DNS Records page for your domain, and for the `_acme-challenge.your-domain` DNS record, click on the recycle bin icon and confirm the deletion.
 
 To see where the certificate files are stored by Posh-Acme, go back to the Powershell session and enter the following command:
+
 ```
 Get-PACertificate | fl
 ```
@@ -323,7 +353,7 @@ Now proceed with the following section to add the domain and certificate to the 
 
 ### Setup Emby Server with your domain and SSL certificate
 
-Go to your Emby server Settings dashboard > Network. 
+Go to your Emby server Settings dashboard > Network.
 
 The following will be the fields you will need to specify:
 
@@ -331,7 +361,7 @@ The following will be the fields you will need to specify:
 
    ![](images/server/hosting17b.png)
 
-where: 
+where:
    **External domain**: yourdomain.com
 
    **Custom SSL certificate path**: point to your new certificate.pfx file
@@ -342,12 +372,12 @@ where:
 
 Your Emby Server Settings dashboard should now reflect your remote access through this url `https://yourdomain:port`.
 
-If you followed all the steps, then navigating a browser from outside your local network to this new remote url should reach your Emby server. 
+If you followed all the steps, then navigating a browser from outside your local network to this new remote url should reach your Emby server.
 
 If it doesn't work, verify your https ports and try connecting from outside of your network. If the dashboard is still showing the domain url with http, check that you have entered the correct certificate password. You may need to look at the server logs to see if there was an error in processing the certificate.
 
 > [!Note]
-> The test needs to be made from outside your local network as connections into your public WAN IP address from within the local network are normally blocked. 
+> The test needs to be made from outside your local network as connections into your public WAN IP address from within the local network are normally blocked.
 
 **Save all your certificate files and keys in safe location.** You'll need the private key when you are ready to renew your SSL certificate.
 

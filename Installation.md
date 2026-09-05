@@ -6,18 +6,18 @@ legacyUrl: /support/solutions/articles/44001159243-installation
 
 Emby Server is available on the following platforms:
 
-* Windows
-* Mac
-* Linux
-* FreeBSD
-* NAS Devices - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
-* Docker
-* Android
-* Cloudron
-* Cloudzy
-* SNAP 
-* Flatpack
-* NVIDIA Shield
+- Windows
+- Mac
+- Linux
+- FreeBSD
+- NAS Devices - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
+- Docker
+- Android
+- Cloudron
+- Cloudzy
+- SNAP
+- Flatpack
+- NVIDIA Shield
 
 To install Emby Server, begin by visiting the download page and following the instructions for your operating system:
 
@@ -67,7 +67,7 @@ Once you've completed the above screens, you'll then be taken to the Sign in scr
 
 Be sure to check out:
 
-* [Network Setup](Hosting-Settings.md)
-* [Server Settings](Server-Settings.md)
-* [Users](Users.md)
-* [Library Setup](Library-Setup.md)
+- [Network Setup](Hosting-Settings.md)
+- [Server Settings](Server-Settings.md)
+- [Users](Users.md)
+- [Library Setup](Library-Setup.md)

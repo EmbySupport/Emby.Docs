@@ -43,7 +43,7 @@ Go through the options applicable to your region, type of tuner and channels ava
 
 ![](images/tvtuners/hauppauge-8.png)
 
-On completion of the scan and setup, use the WinTV app to test that the channels do stream and the signal and quality is good. 
+On completion of the scan and setup, use the WinTV app to test that the channels do stream and the signal and quality is good.
 
 Close the WinTV application and prepare to add the Hauppauge tuner to the Emby Server.
 

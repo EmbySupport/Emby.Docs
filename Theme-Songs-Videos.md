@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001159179-theme-songs-videos
 ---
 
 ## Theme Songs
- 
+
 Any folder (movie, series, season, game, etc) can have theme songs. Emby apps will play the songs in the background while browsing through the content.
 
 There are two supported conventions, theme.ext, or the 'theme-music' sub-folder, where ext is any valid audio extension.
@@ -29,7 +29,7 @@ or
           song2.wma
           song3.flac
 ```
- 
+
 ## Theme Videos
 
 Any folder (movie, series, season, game, etc) can have theme videos using a 'backdrops' sub-folder. Some Emby apps will play the videos in the background while browsing through the content.
@@ -46,9 +46,10 @@ Any folder (movie, series, season, game, etc) can have theme videos using a 'bac
 ## Plugins for Theme Video and Theme Music
 
 There are several optional Premium plugins that can assist with this.  See individual plugins for information:
-* Movie Theme Songs
-* Movie Theme Videos
-* TV Theme Songs
-* TV Theme Videos
+
+- Movie Theme Songs
+- Movie Theme Videos
+- TV Theme Songs
+- TV Theme Videos
 
 See [Plugins](Plugins.md) for more information on use.

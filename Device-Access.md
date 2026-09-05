@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160273-device-access
 
 Device access allows you to configure the devices a user is allowed to sign in from. By default, users can use any device.
 
-To manage device access for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Access**. 
+To manage device access for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Access**.
 
 ![](images/server/users17.png)
 

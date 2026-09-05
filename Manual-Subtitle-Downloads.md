@@ -20,7 +20,7 @@ From a video file click the 3 dot/more menu and select the Edit Subtitles menu c
 
 ![Manual Subtitle Download 1](images/subtitles/manual-subtitle-download-1.png)
 
-You will get a new screen with a couple of option. Select the language 
+You will get a new screen with a couple of option. Select the language
 
 and any options you need and then click the magnifying glass/search icon.
 

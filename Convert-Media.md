@@ -8,14 +8,14 @@ Want to reduce on the fly transcoding? We now have a feature that can help you c
 
 
 ![Convert Media1](images/server/convert-media1.png)
- 
+
 
 
 
 Then specify the options you want:
                                     Posted Image
 
- 
+
 ![Convert Media2](images/server/convert-media2.png)
 
 The media will then be converted and stored in the original media folder with the original item.
@@ -37,9 +37,10 @@ This option allows you to select Mobile, TV or Custom profiles to use. Mobile an
 The quality drop down box gives you several choices in Megabits per second to choose.
 
 #### Automatic Conversions
+
 Want to convert new content automatically as it gets added to your library? It's simple, just convert a folder such as a TV series, and then enable the option to automatically convert new content.
 
- 
+
 
 Posted Image
 

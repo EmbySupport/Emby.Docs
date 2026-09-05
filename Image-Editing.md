@@ -5,6 +5,7 @@ legacyUrl: /support/solutions/articles/44002196420-image-editing-and-image-types
 ---
 
 ## Live TV
+
 Primary - This channel logo is the historic logo used for channels and third party plugins. On newer Emby clients it is used on light colored backgrounds.
 
 
@@ -49,22 +50,29 @@ Here is a thumb view (vs coverart) view of a movie library.  Note in this pictur
 
 
 ##### Primary
+
 This is the normal cover art used.
 
 ##### Logo
+
 Option image usually superimposed over backdrops
 
 ##### Backdrops/Fanart
+
 This is the background used behind all other graphics and text.  Many clients can alternate these backgrounds if more than one graphic is present.
 
 ##### Thumb
+
 Used for thumbnail views
 
 ##### Banner
+
 Used for banner views
 
 ##### Disc
+
 Used for disk views
 
-##### Art 
+##### Art
+
 Used in some clients similar to the Logo image type

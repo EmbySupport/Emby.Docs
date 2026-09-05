@@ -36,7 +36,7 @@ Check your monitor configuration to see whether it runs at a high refresh rate.
 You can see the detail options applied by a preset by selecting one of the presets first and switching to Customize directly after.  
 Switching to Customize keeps the values of the previously selected preset. This allows you to see how options are set by each preset.
 
-### I am changing the subtitle style settings, but it doesn't seem that they have any effect.
+### I am changing the subtitle style settings, but it doesn't seem that they have any effect
 
 There can be multiple reasons for this:
 

@@ -18,7 +18,7 @@ Restart Emby Server to complete the plugin installation.
 
 ## Add Folders
 
-Decide what type of sync folders you will want to have. Examples would be sync folders containing media converted to specific resolution eg 4Mb for streaming to mobile devices or a folder to hold archived copies of the media at original resolution. These destination sync folders can be local disc drives or network shares. The **Download to...** button, available within the media and libraries context menus, becomes the mechanism to create the synced media files in these folder paths. 
+Decide what type of sync folders you will want to have. Examples would be sync folders containing media converted to specific resolution eg 4Mb for streaming to mobile devices or a folder to hold archived copies of the media at original resolution. These destination sync folders can be local disc drives or network shares. The **Download to...** button, available within the media and libraries context menus, becomes the mechanism to create the synced media files in these folder paths.
 
 Each sync folder path will need to have a name assigned. Choose naming that will make it clear to users what it is. The name will be visible when selecting media for playback and also on the **Download to...** menus for users that have been granted access to create Folder Sync jobs.
 
@@ -32,13 +32,13 @@ Enter the path and the display name.
 
 Deselect the **Grant access to all users** to specify which user account(s) will be allowed to create Folder Sync jobs that will write to this folder.
 
-![](images/plugins/foldersync4.png) 
+![](images/plugins/foldersync4.png)
 
 ## Ready to Sync
 
 Once a sync folder has been added, it will then show as as an available destination when creating download jobs. The target would only show for users that have been granted access. The following is what server admin user would see on a **Download to...** screen. See [Download Options](Sync.md) for more detail.
 
-![](images/plugins/foldersync6.png) 
+![](images/plugins/foldersync6.png)
 
 ## Playback
 
@@ -46,7 +46,7 @@ Once synced, Emby apps will automatically use the additional media sources when 
 
 In this example, folder sync was used to create mobile 4Mbps versions of some media. They are available as alternative versions in playback and in this example this version was pre-selected automatically.
 
-![](images/plugins/foldersync7.png) 
+![](images/plugins/foldersync7.png)
 
 > [!NOTE]
 > There is a limit on the number of different versions for a media item. Up to 8 different versions will appear in any list of media item versions.

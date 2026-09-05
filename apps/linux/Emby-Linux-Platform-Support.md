@@ -41,7 +41,7 @@ Fixing issues and bugs on these targets will always be given priority over other
 
 ### Extended Tier
 
-Environments from the extended tier are outside of the core focus. 
+Environments from the extended tier are outside of the core focus.
 We are trying to get the Emby client app working on these, but rather on a best-effort basis. If it turns out that fixing or addressing a specific issue would require an unusually high amount of work, we may choose not to implement it.  
 
 ### Unsupported
@@ -56,25 +56,26 @@ We will not perform any kind of work nor discuss or answer any questions about i
 
 - Primary Tier
   - Ubuntu
-	- 22.04, 24.04, 25.10 and later
+    - 22.04, 24.04, 25.10 and later
   - Debian
-	- 11, 12, 13 and later
+    - 11, 12, 13 and later
 - Extended Tier
   - Arch Linux
-	- Current (rolling)
+    - Current (rolling)
   - Fedora
-	- 42, 43 and later
+    - 42, 43 and later
   - Linux Mint
-	- 22, 22.1, 22.2 and later
+    - 22, 22.1, 22.2 and later
   - OpenSUSE Tumbleweed
-	- Current (rolling)
+    - Current (rolling)
   - Manjaro
-	- Current (rolling)
+    - Current (rolling)
   - SteamOS
-	- 3.7.x and later
-	- Game Mode is unsupported!
+    - 3.7.x and later
+    - Game Mode is unsupported!
 
 ##### Notes
+
 Any distro not in this list is unsupported.
 
 
@@ -90,6 +91,7 @@ Any distro not in this list is unsupported.
   - LXQt
 
 ##### Notes
+
 Any DE not in this list is unsupported.
 
 
@@ -100,6 +102,7 @@ Any DE not in this list is unsupported.
   - Wayland via Xwayland
 
 ##### Notes
+
 Native Wayland is unsupported.
 
 
@@ -111,7 +114,8 @@ Native Wayland is unsupported.
   - arm64 (limited)
 
 ##### Notes
-Hardware acceleration for ARM64 devices is not available yet (see below), which limits the value of running the app on ARM64 devices at this time. 
+Hardware acceleration for ARM64 devices is not available yet (see below), which limits the value of running the app on ARM64 devices at this time.
+
 
 ### GPU Hardware and Hardware Acceleration
 
@@ -122,6 +126,7 @@ Hardware acceleration for ARM64 devices is not available yet (see below), which 
   - Nvidia
 
 ##### Notes
+
 Nvidia is planned to become Primary Tier after more testing
 Video Hardware acceleration for ARM64 devices is planned for a future update
 

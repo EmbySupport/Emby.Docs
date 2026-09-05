@@ -16,17 +16,20 @@ Video Acceleration API for Linux is supported by several device manufacturers
  Intel's brand for its dedicated video encoding and decoding hardware core
 
 ## Nvidia NVDEC & NVENC
-Nvidia provides two hardware acceleration interfaces: 
+
+Nvidia provides two hardware acceleration interfaces:
+
 - NVENC API for video encode acceleration
 - NVDEC API for video decode acceleration (formerly called NVCUVID API)
 
-NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations. 
+NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations.
 
-GPU hardware accelerator engines for video decoding (referred to as NVDEC) and video encoding (referred to as NVENC) support faster than real-time video processing which makes them suitable to be used for transcoding applications, in addition to video playback. 
+GPU hardware accelerator engines for video decoding (referred to as NVDEC) and video encoding (referred to as NVENC) support faster than real-time video processing which makes them suitable to be used for transcoding applications, in addition to video playback.
 
 #### Supported Accelerations
+
 The following accelerations are currently supported by Emby.
-Please note that Emby may not support all accelerations offered by the hardware 
+Please note that Emby may not support all accelerations offered by the hardware
 and that not all hardware devices will support all accelerations.
 
 - Decoders
@@ -41,9 +44,8 @@ and that not all hardware devices will support all accelerations.
   - H.264 (AVC)
 
 #### Hardware Requirements
-Hardware acceleration is available for most Nvidia devices starting with GPUs from the 
-Kepler generation (e.g. GeForce GT 630) onwards, including both consumer and professional
-devices. Detailed information about supported hardware can be found in Nvidia's
+
+Hardware acceleration is available for most Nvidia devices starting with GPUs from the Kepler generation (e.g. GeForce GT 630) onwards, including both consumer and professional devices. Detailed information about supported hardware can be found in Nvidia's
 [GPU Support Matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix).
 
 #### Required Setup Steps
@@ -52,10 +54,9 @@ devices. Detailed information about supported hardware can be found in Nvidia's
 > Always follow the instructions on the Nvidia site, even when the installed driver version appears to be sufficient!
 
 Install drivers from here:
-[Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx) 
+[Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx)
 
 **Not from your distro**
-
 
 The minimum required driver version on Linux is **470.57**
 
@@ -70,7 +71,7 @@ The minimum required driver version on Linux is **470.57**
 [Nvidia Video Codec SDK](https://developer.nvidia.com/nvidia-video-codec-sdk)  
 [GPU Support Matrix](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix)  
 [Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx)  
-[NVENC](https://en.wikipedia.org/wiki/Nvidia_NVENC), 
+[NVENC](https://en.wikipedia.org/wiki/Nvidia_NVENC),
 [NVDEC](https://en.wikipedia.org/wiki/Nvidia_NVDEC)
 
 ## VA API
@@ -78,9 +79,9 @@ The minimum required driver version on Linux is **470.57**
 VAAPI (Video Acceleration API) is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor.
 
 #### Supported Accelerations
+
 The following accelerations are currently supported by Emby.
-Please note that Emby may not support all accelerations offered by the hardware 
-and that not all hardware devices will support all accelerations.
+Please note that Emby may not support all accelerations offered by the hardware and that not all hardware devices will support all accelerations.
 
 - Decoders
   - H.264 (AVC)
@@ -127,12 +128,13 @@ The latest Intel drivers are included with Emby server.
 [Intel Video and Audio for Linux](https://01.org/vaapi)
 
 ## Intel QuickSync Video
+
 Intel® Quick Sync Video uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
 
 #### Supported Accelerations
+
 The following accelerations are currently supported by Emby.
-Please note that Emby may not support all accelerations offered by the hardware 
-and that not all hardware devices will support all accelerations.
+Please note that Emby may not support all accelerations offered by the hardware and that not all hardware devices will support all accelerations.
 
 - Decoders
   - H.264 (AVC)
@@ -148,9 +150,9 @@ and that not all hardware devices will support all accelerations.
   - Deinterlacing
 
 #### Hardware Requirements
+
 Quick Sync was initially built into some Sandy Bridge CPUs, but not into Sandy Bridge Pentium or Celeron CPUs.  
-An overview of acceleration capabilities built into the various CPU generations
-can be found under the following links: 
+An overview of acceleration capabilities built into the various CPU generations can be found under the following links:
 
 - [Driver Support Matrix for Intel® Media SDK and OpenCL™](https://software.intel.com/en-us/articles/driver-support-matrix-for-media-sdk-and-opencl)
 - [Hardware decoding and encoding](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding).
@@ -166,6 +168,7 @@ The steps for installing the Intel Media SDK may vary depending on your actual s
 - [System Analyzer Utility for Linux](https://software.intel.com/en-us/articles/mss-sys-analyzer-linux)  
 
 #### Further Reading
+
 [Intel QuickSync Video](https://www.intel.com/content/www/us/en/architecture-and-technology/quick-sync-video/quick-sync-video-general.html)  
 [Driver Support Matrix for Intel® Media SDK and OpenCL™](https://software.intel.com/en-us/articles/driver-support-matrix-for-media-sdk-and-opencl)  
 [Codec Support by CPU Generation](https://en.wikipedia.org/wiki/Intel_Quick_Sync_Video#Hardware_decoding_and_encoding)  

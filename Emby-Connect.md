@@ -15,12 +15,14 @@ The user no longer needs to remember the URL or IP/port of each Emby Server, not
 
 
 #### Example
-You have 2 brothers and 3 cousins running Emby Servers. You have been given access to each server by your family members running the servers. You might have different usernames on each system, IE "bob", "sbob", "bobs", "cousin-bob", "lil-bro", etc. With Emby Connect you no longer need to remember the login credentials or addresses of each server as you can login via Emby Connect with a central username/password. 
+
+You have 2 brothers and 3 cousins running Emby Servers. You have been given access to each server by your family members running the servers. You might have different usernames on each system, IE "bob", "sbob", "bobs", "cousin-bob", "lil-bro", etc. With Emby Connect you no longer need to remember the login credentials or addresses of each server as you can login via Emby Connect with a central username/password.
+
 
 ## Guide for Administrators
 
 You can optionally use Emby Connect for any user that requests it. Have them give you their Emby Connect username which you add to their account on your system and your job is done.
-  Your Emby Server needs to be setup and tested to allow Internet access to your server. 
+  Your Emby Server needs to be setup and tested to allow Internet access to your server.
  If this hasn't been done follow the KB article to get remote access working before using Emby Connect  Remote Setup
 
 

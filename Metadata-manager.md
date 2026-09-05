@@ -81,7 +81,7 @@ To keep a user profile from accessing certain content
 - Save the changes to the user profile and media tags.
 
 You can also do the inverse and only allow access to content with specific tags. Add the tag to the **Allow only items with these tags** field.
- 
+
 To make sure the tags don't disappear in a library refresh, lock the **Tags** field in the item's metadata.
 
 ![](images/server/metadatamanager6.png)
@@ -123,13 +123,13 @@ Emby Server can automatically download images to improve the presentation of med
 
 ![](images/server/metadatamanager5d.png)
 
-Images are downloaded from Fanart.tv, TheMovieDB, The Open Movie Database, and TheTVDB. 
+Images are downloaded from Fanart.tv, TheMovieDB, The Open Movie Database, and TheTVDB.
 
 For each item, you have an option to Edit Images that the emby server presents for your Emby Server clients.
 
 ![](images/server/metadatamanager15.png)
 
-To change the image used, you can select the "..." options button 
+To change the image used, you can select the "..." options button
 
 ![](images/server/metadatamanager16a.png)
 

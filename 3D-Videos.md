@@ -25,22 +25,22 @@ Tags need be be surrounded be either a space ( ), hyphen -, dot . or underscore 
 
 Examples:
 
-* moviename (year).3d.hsbs.mkv
-* moviename (year) 3d sbs.mkv
-* moviename (year).3D-HTAB.mkv
-* moviename (year)-3D.sbs-720p.mkv
-* moviename (year)-3D.mvc.mkv
+- moviename (year).3d.hsbs.mkv
+- moviename (year) 3d sbs.mkv
+- moviename (year).3D-HTAB.mkv
+- moviename (year)-3D.sbs-720p.mkv
+- moviename (year)-3D.mvc.mkv
 
 ## Identify using older conventions
 
 Older file naming conventions are still accepted  by placing one of the following tags within the filename:
 
-* [fsbs]
-* [ftab]
-* [hsbs]
-* [htab]
-* [3d] - Indicates half side by side
-* [sbs3d] - Indicates half side by side
+- [fsbs]
+- [ftab]
+- [hsbs]
+- [htab]
+- [3d] - Indicates half side by side
+- [sbs3d] - Indicates half side by side
 
 For example:
 

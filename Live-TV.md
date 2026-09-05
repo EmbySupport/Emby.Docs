@@ -15,9 +15,10 @@ Emby provides free guide data (US, UK & Canada) right out of the box at no addit
 ## Overview of Setup
 
 Setup of Live TV can be broken down into a few steps:
-* Configure your TV Tuner(s) or M3U based IPTV sources
-* Add TV Guide Data Source(s)
-* Match your Channel Lineup to Guide Data (Channel Mapping)
+
+- Configure your TV Tuner(s) or M3U based IPTV sources
+- Add TV Guide Data Source(s)
+- Match your Channel Lineup to Guide Data (Channel Mapping)
 
 The LiveTV and DVR feature requires a valid [Emby Premiere](Emby-Premiere.md) subscription.
 
@@ -37,15 +38,16 @@ In most cases, Emby Server will automatically discover your HDHomerun on your ne
 
 Out of the box, Emby Server currently supports the following TV Guide data sources:
 
-* [Emby Guide Data](Emby-Guide-Data.md)  
+- [Emby Guide Data](Emby-Guide-Data.md)  
   (United States, Canada and United Kingdom)
-* [Schedules Direct](Schedules-Direct.md)  
+- [Schedules Direct](Schedules-Direct.md)  
   (Do not use on new setups. Will stop working June 1st, 2021)
-* [Xml TV](Xml-Tv.md)
+- [Xml TV](Xml-Tv.md)
 
 Support for additional sources can be added by installing a [Live TV Plugin](Live-TV-Plugins.md).
 
 ## Match your Channel Lineup to Guide Data
+
 The final step of setting up Live TV is matching the tuner's stations to the Guide Data you have setup.
 
 [Live TV Channel Mapping](Live-TV-Channel-Mapping.md)
@@ -53,14 +55,16 @@ The final step of setting up Live TV is matching the tuner's stations to the Gui
 ## Live TV Advanced Settings (optional)
 
 You can optionally change a few options used for DVR purposes.  These options include:
-* Live stream buffer
-* Amount of days of Guide Data loaded
-* Option to wake the server for scheduled recordings
-* Default recording paths
-* Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
-* Post-processing script to run after recording
+
+- Live stream buffer
+- Amount of days of Guide Data loaded
+- Option to wake the server for scheduled recordings
+- Default recording paths
+- Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
+- Post-processing script to run after recording
 
 [Live TV Advanced Settings](DVR-Settings.md)
 
-## Emby Live TV & DVR is Ready to Use.
+## Emby Live TV & DVR is Ready to Use
+
 Congratulations, your Emby Server should now be configured properly and ready to use for Live TV and DVR.

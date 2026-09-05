@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001904299-ordering-tv-show-special-extr
 
 Please follow directions in our TV Naming articles for directions of how to add Specials/Extras to your TV Libraries. Please note the following:
 
-1. Name any Extras that match season 0 from tvdb - with the correct S00Exx 
+1. Name any Extras that match season 0 from tvdb - with the correct S00Exx
 
 2. Any remaining extras also name as S00Eyy - where yy is your own numbering - leave a gap between xx and yy so any updates to tvdb do not clash - say start at 50
 

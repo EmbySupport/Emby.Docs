@@ -32,12 +32,13 @@ Emby Server has 4 databases: `activitylog.db`, `authentication.db`, `library.db`
 
 There would be clues in the [embyserver log file](Log-Files.md) as to which database is corrupt. The following maps the internal database names to the actual database filenames:
 
-```
-SqliteItemRepository			library.db
-SqliteUserRepository			users.db
-AuthenticationRepository		authentication.db
-ActivityRepository			activitylog.db
-```
+|                          |                   |
+| ------------------------ | ----------------- |
+| SqliteItemRepository     | library.db        |
+| SqliteUserRepository     | users.db          |
+| AuthenticationRepository | authentication.db |
+| ActivityRepository       | activitylog.db    |
+
 As an example, the following log line within the logged error block indicates that the corrupt database is the `library.db`:
 
 `at Emby.Server.Implementations.Data.SqliteItemRepository.Initialize`
@@ -46,7 +47,7 @@ As an example, the following log line within the logged error block indicates th
 
 If the Emby Server is not launching due to the corruption, please refer to [Server-Data-Folder](Server-Data-Folder.md) for establishing where the Emby Server data is stored. The database files are in the "data" sub-directory below the path shown in the support document.
 
-Alternatively, you can find the path by using the "**...**" top menu right above the server information box in the Emby Server Settings Dashboard. 
+Alternatively, you can find the path by using the "**...**" top menu right above the server information box in the Emby Server Settings Dashboard.
 
 ![Corrupt Db1](images/server/corrupt-db-01.png)
 
@@ -65,66 +66,81 @@ You will need to use a command-line window, linux shell window, mac terminal ses
 1. Shutdown Emby Server if it is running and check that the EmbyServer process is no longer showing before proceeding to the next step. Check with Windows **Task Manager**, macOS **Activity Monitor**, **top** or "**ps -aux | grep emby**" on linux and NAS.
 
 2. In a command line window or terminal session on macOS, or shell window on linux and NAS, navigate to the `data` directory containing your database file. The following are a few examples, refer to the [Server Data Folder](Server-Data-Folder.md) document for the complete list.
- 
+
 On some NAS systems, you may need to gain root privileges first by executing "**sudo -s**" first.
 
 Examples:
 
-**Windows** 
+**Windows**
+
 ```
 cd "%AppData%\Emby-Server\programdata\data"
 ```
 
-**Linux** 
+**Linux**
+
 ```
 cd /var/lib/emby/data
 ```
 
 **macOS**
+
 ```
 cd ~/.config/emby-server/data
 ```
+
 or
+
 ```
 cd ~/emby-server/data
 ```
 
 **Western Digital NAS**
+
 ```
 cd /mnt/HD/HD_a2/emby/data
 ```
 
 **Synology DSM 7 NAS**
+
 ```
 cd /volume1/@appdata/EmbyServer/data
 ```
 
 **Synology DSM 6 NAS**
+
 ```
 cd /volume1/Emby/data
 ```
 
 **QNAP NAS**
+
 ```
 cd /share/CACHEDEV1_DATA/.qpkg/EmbyServer/programdata/data
 ```
+
 or
+
 ```
 cd /share/HDA_DATA/.qpkg/EmbyServer/programdata/data
 ```
+
 (see [Server Data Folder](Server-Data-Folder.md) for the paths for other platforms)
 
 
 3. Delete the `library.db-shm` & `library.db-wal` files if present. You can check if they are present using `dir` on windows or `ls` on other platforms.
 
 **Windows**
+
 ```
    del library.db-shm
    del library.db-wal
 ```
+
 **Other platforms**
 
 You may need to gain root privileges by executing "**sudo -s**" first.
+
 ```
    rm library.db-shm
    rm library.db-wal
@@ -175,6 +191,7 @@ type in `.quit` to exit
 Examples of results:
 
 Corruption detected
+
 ```
 SQLite version 3.50.1 2025-06-06 14:52:32
 Enter ".help" for usage hints.
@@ -182,7 +199,9 @@ sqlite> PRAGMA integrity_check;
 Parse error: database disk image is malformed (11)
 sqlite> .quit
 ```
+
 Successful integrity check
+
 ```
 SQLite version 3.50.1 2025-06-06 14:52:32
 Enter ".help" for usage hints.
@@ -196,10 +215,13 @@ sqlite>.quit
 With Emby Server shutdown, save a copy of the existing database file and then work on the actual database file.
 
 **Windows**
+
 ```
 copy library.db library-saved.db
 ```
+
 **Other Platforms**
+
 ```
 cp library.db library-saved.db
 ```
@@ -211,6 +233,7 @@ sqlite3 library.db
 VACUUM;
 REINDEX;
 ```
+
 The commands may take a while to complete. You may get errors indicating corruption.
 
 At the end, close the database and exit, with the `.quit` command.
@@ -230,6 +253,7 @@ sqlite3 library.db
 .output recovered-librarydb.sql
 .recover
 ```
+
 This may take a while to run. At the end, type `.quit` to close the database file.
 
 The `recovered-librarydb.sql`file will contain the sqlite3 commands to recover the database. The file may be large but it is a text file, and you should be able to view its contents - using text editors that can handle potentially very large files.
@@ -237,22 +261,27 @@ The `recovered-librarydb.sql`file will contain the sqlite3 commands to recover t
 We can now create a new database file using this recovery file.
 
 Create a new database file and lets call it `library-recovered.db`. The following creates this new db file:
+
 ```
 sqlite3 library-recovered.db
 .read recovered-librarydb.sql
 ```
+
 (this may take a while to run, so please wait for it to finish)
 
 Enter `.quit` command to close the database and exit.
 
 We will now check the integrity of our recovered database by running:
+
 ```
 sqlite3 library-recovered.db
 PRAGMA integrity_check;
 ```
+
 This should return an integrity_check back of "ok" with no errors reported. If errors are returned, please report this in the forum before proceeding to Reset the Library Database. If "ok" and no errors are reported, continue with the next step.
 
 At this point, we have
+
 ```
 library-saved.db        Original corrupt/suspect database
 library.db              Original corrupt/suspect database
@@ -261,16 +290,20 @@ library-recovered.db    The new repaired database
 
 We will now rename the `library.db` to `library.db.old` and switch the new repaired database to be the `library.db`.
 
-**Windows** 
+**Windows**
+
 ```
 rename library.db library.db.old
 rename library-recovered.db library.db
 ```
+
 **Other platforms**
+
 ```
 mv library.db library.db.old
 mv library-recovered.db library.db
 ```
+
 If this is for a NAS and is being repaired on a computer, we now need to copy the new repaired library.db to the NAS databases directory.
 
 Similarly, if the repair was done working in a temporary directory, we need now to copy the new repaired library.db to the correct directory overwriting the corrupt/suspect database file.
@@ -286,19 +319,22 @@ Check you server log for SQLite errors and only continue to the next step if the
 
 1. Shutdown Emby Server
 
-2. Navigate to the databases folder as per the earlier instructions 
+2. Navigate to the databases folder as per the earlier instructions
 
 3. Rename library.db to library.db.corrupt
 
 **Windows**
+
 ```
 rename library.db library.db.corrupt
 ```
+
 **Other platforms**
+
 ```
 mv library.db library.db.corrupt
 ```
 
 4. Restart Emby Server
 
-5. Recreate your media libraries
+5. Recreate your media libraries <!-- markdownlint-disable-line MD029 -->

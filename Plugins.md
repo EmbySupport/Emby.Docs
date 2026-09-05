@@ -9,7 +9,7 @@ Plugins extend the functionality of Emby by providing additional features and se
 
 ## My Plugins
 
-The my plugins tab displays your installed plugins. Clicking the dot menu on a plugin will allow you to configure it (if applicable), or uninstall it. 
+The my plugins tab displays your installed plugins. Clicking the dot menu on a plugin will allow you to configure it (if applicable), or uninstall it.
 
 ![](images/server/plugins1.png)
 
@@ -19,17 +19,17 @@ If a plugin does not require any configuration, there will not be a Settings but
 
 The catalog allows you to browse and install new plugins. Some of the available categories are:
 
-* **Channels** - Internet channels provide access to streaming audio or video. For more information, see [Channels](Channels.md).
+- **Channels** - Internet channels provide access to streaming audio or video. For more information, see [Channels](Channels.md).
 
-* **Content Providers** - Allows new kinds of media to be added to the library, such as books and games, or allows downloading of related content for existing media.
+- **Content Providers** - Allows new kinds of media to be added to the library, such as books and games, or allows downloading of related content for existing media.
 
-* **Live TV** - Provides access to live tv channels. For  more information, see [Live TV](Live-TV.md).
+- **Live TV** - Provides access to live tv channels. For  more information, see [Live TV](Live-TV.md).
 
-* **Metadata** - Adds new metadata scrapers or filters.
+- **Metadata** - Adds new metadata scrapers or filters.
 
-* **Notifications** - Adds new notification targets for use with the notifications feature. For  more information, see [Notifications](Notifications.md).
+- **Notifications** - Adds new notification targets for use with the notifications feature. For  more information, see [Notifications](Notifications.md).
 
-* **Social Integration** - Access to social networking features.
+- **Social Integration** - Access to social networking features.
 
 ## Installing Plugins
 
@@ -43,7 +43,7 @@ Click the Install button install. After the installation has completed, the serv
 
 Sometimes you may need to install a plugin manually. It could be because there is a new pre-release version made available in the forum or a plugin that is not in the catalogue.
 
-The installed plugins are stored in the "plugins" directory which is below the Emby Server Data Folder. 
+The installed plugins are stored in the "plugins" directory which is below the Emby Server Data Folder.
 
 See this article for where the [Emby Server Data Folder](Server-Data-Folder.md) is for the various platforms. The "plugins" folder is directly below this folder.
 
@@ -65,7 +65,7 @@ Now you can launch Emby Server.
 
 The plugin catalog has a vast library of plugins available. Below are some of the more popular choices:
 
-* **Cover Art** - Enhance your media images
-* **GameBrowser** - Adds game support to Emby.
-* **Trailers** - Stream internet trailers
-* **Trakt** - Provides integration to the trakt service
+- **Cover Art** - Enhance your media images
+- **GameBrowser** - Adds game support to Emby.
+- **Trailers** - Stream internet trailers
+- **Trakt** - Provides integration to the trakt service

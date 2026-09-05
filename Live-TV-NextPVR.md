@@ -18,8 +18,8 @@ Select the "**Next Pvr**" option from above then setup NextPVR similar to this:
 
 ![Nextpvr 3](images/tvtuners/nextpvr-3.png)
 
-The pin number is the pin configured in the NextPVR server Settings / Access screen under the "Application Access" section. 
+The pin number is the pin configured in the NextPVR server Settings / Access screen under the "Application Access" section.
 
-> 
+>
 > [!IMPORTANT]
 > There is a 5 channel limit imposed by NextPVR unless you become a donator. Refer to the [NextPVR](https://www.nextpvr.com) web site.

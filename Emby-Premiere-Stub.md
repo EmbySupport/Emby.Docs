@@ -7,7 +7,7 @@ An Emby Premiere subscription allows you to enjoy additional features in both th
 
 For information on the features of Emby Premiere as well as the purchase options, please see the web site [Emby Premiere page](https://emby.media/premiere.html).
 
-&nbsp;    
+&nbsp;
 For answers to common and support related questions:
 
 ### [All About Emby Premiere](Emby-Premiere.md)

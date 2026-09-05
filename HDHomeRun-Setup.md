@@ -6,12 +6,13 @@ legacyUrl: /support/solutions/articles/44001848794-hdhomerun-setup
 
 Emby has native support for current Silicon Dust HDHomeRun Network Tuners (must support DLNA which all models 2015+ should). Unlike other brands of tuners, HDHomeRun tuners run as standalone devices connected to your network. No need to have open PCI slots available in your server or free USB ports. Being a standalone device allows you to install these in close proximity to your OTA antenna or cable drop. As long as you can connect the device to your home Ethernet network you can install them anywhere in your home. Silicon Dust makes both OTA (Over the Air) models as well as Cable Tuners (using Cable Cards) to Receive DRM free digital cable subscription channels.
 
-In most cases, Emby can automatically discover your HDHomerun devices on your network with no configuration required. You can also manually setup a tuner as well. 
+In most cases, Emby can automatically discover your HDHomerun devices on your network with no configuration required. You can also manually setup a tuner as well.
 
 The following guide assumes you have already setup your HDHomeRun on your network and have connected it to your cable or antenna.
 
 Note: If you have an older HDHomeRun model that does not support DLNA or have a built in web server please perform these steps before continuing.
-* [Older HDHomeRun Support](Older-HDHomeRun-Support.md)
+
+- [Older HDHomeRun Support](Older-HDHomeRun-Support.md)
 
 The Live TV & DVR feature requires a valid [Emby Premiere](Emby-Premiere.md) subscription. This would be indicated on the setup screen when there is no subscription.
 
@@ -34,7 +35,7 @@ Emby will search your network and present all HDHomeRun devices it finds on your
 
 ![hdhomerun3.png](images/server/hdhomerun3.png)
 
-In this example we are going to setup OTA (Over the Air) using the HDHomeRun Quatro. Click the Quatro (3rd on this list). 
+In this example we are going to setup OTA (Over the Air) using the HDHomeRun Quatro. Click the Quatro (3rd on this list).
 
 Emby will start the setup of this tuner and will provide you with the ability to set a couple of options including:
 The ability to import all channels or only FAVORITE channels (already configured on the tuner itself).  See configuration of HDHomeRun favorites below for more information on using favorites.
@@ -43,7 +44,7 @@ The ability to use hardware transcoding on your tuner.  Note: this is only suppo
 
 ![hdhomerun4.png](images/server/hdhomerun4.png)
 
-For this example using a Quatro we will enable the restriction of favorite channels and disable the hardware transcoding option. Once we’ve set our options the click save button and we will have added our first tuner. 
+For this example using a Quatro we will enable the restriction of favorite channels and disable the hardware transcoding option. Once we’ve set our options the click save button and we will have added our first tuner.
 
 ![hdhomerun5.png](images/server/hdhomerun5.png)
 

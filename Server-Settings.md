@@ -66,7 +66,7 @@ Recent activity can be seen on the dashboard.
 
 ![](images/server/serversettings18.png)
 
-##  General
+## General
 
 The **Preferred display language** is used to set the language for the server's web interface.
 
@@ -93,7 +93,7 @@ You can also add a Custom css for the web interface.
 
 ### Maintenance Mode
 
-A **General** settings option is available to allow you to indicate to users that the server is not available and is undergoing maintenance. 
+A **General** settings option is available to allow you to indicate to users that the server is not available and is undergoing maintenance.
 
 ![](images/server/serversettings19.png)
 

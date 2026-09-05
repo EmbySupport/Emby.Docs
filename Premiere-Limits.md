@@ -13,11 +13,11 @@ The Emby configuration dashboard will warn you if you are close to or over your 
 
 Important points to remember:
 
-* Very few users actually require more device support than the standard license.
-* The limit applies only to Emby Premiere features so only apps that utilize those features will count towards the limit.
-* The limit is a device limit NOT a concurrent connection limit.
-* Each of your devices will need access to the internet and, specifically, mb3admin.com in order to validate the limit.
-* The limit is tied to an Emby Premiere key, not a server so, if your key is in use on more than one server, then the limit will apply across all of them cumulatively.
+- Very few users actually require more device support than the standard license.
+- The limit applies only to Emby Premiere features so only apps that utilize those features will count towards the limit.
+- The limit is a device limit NOT a concurrent connection limit.
+- Each of your devices will need access to the internet and, specifically, mb3admin.com in order to validate the limit.
+- The limit is tied to an Emby Premiere key, not a server so, if your key is in use on more than one server, then the limit will apply across all of them cumulatively.
 
 ## So how do I determine if the limit will be okay for me?
 
@@ -41,8 +41,11 @@ No.  Only apps that use a Premiere-only feature count.
 
 
 ## Can I "stack" licenses to get more devices?
-No. The licenses are only for the number of devices they indicate.  The 50 device upgrade is for 50 devices exactly, not 50 additional devices. 
+
+No. The licenses are only for the number of devices they indicate.  The 50 device upgrade is for 50 devices exactly, not 50 additional devices.
+
 
 
 ## Can I buy more than one Premiere key?
+
 Yes, but you must use a different email address (which means different PayPal account if using that payment method) for each key.  Since we don't require you to have an account, the email address is all we have to identify you and your key by so you cannot have two on the same email.

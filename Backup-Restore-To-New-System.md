@@ -10,6 +10,7 @@ The Backup and Restore plugin will be used for this.
 In the example covered below, the media tree looks like this:
 
 **Media Tree Folders (original)**
+
 ```
 H:\EMBY-MEDIA
 ├───Movies1
@@ -35,6 +36,7 @@ H:\EMBY-MEDIA
 ```
 
 **Media Tree Folders (replacement server)**
+
 ```
 C:\MEDIA
 ├───Movies1
@@ -62,14 +64,15 @@ C:\MEDIA
 In this example, the **Movies** library has two library root folders defined **Movies1** and **Movies2**. The server has a child user account that has no access to the TV Library and the Photos library. The child account has folder level access restrictions for the **Movies** library with only **Movies1** allowed.
 
 The steps assume that:
+
 - You are doing the restore whilst accessing the new server locally and not through a remote access connection, and
 - all metadata options will be selected in the backup used for the migration, and
 - that you would be copying or restoring from your own backups, all the media to the new system, and
 - any media held within the programdata area for Emby Server, e.g. camera uploads, LiveTV recording default library would be backed up by you and restored into the equivalent program data paths on the new system,
 - you will be maintaining the same sub-directory structure and filenames below the libraries top level folders, and
 - you will be migrating from a Windows PC to another Windows PC, or from any Linux/NAS/Mac machine to another, and
-- where library root folders change and you have folder level access restrictions, you will go through the user accounts and re-apply the restrictions for the new server libraries folder paths. 
- 
+- where library root folders change and you have folder level access restrictions, you will go through the user accounts and re-apply the restrictions for the new server libraries folder paths.
+
 
 ## Backup your media
 
@@ -114,7 +117,7 @@ The default directories for Camera-Uploads and Live TV Recordings should be copi
 
 ## Make sure permissions are correct for Emby Server to read / write to the media directories
 
-Have all the media available on the new computer / NAS. 
+Have all the media available on the new computer / NAS.
 
 Ensure that the Emby Server process running on the new system, will have full permissions access to the media.
 
@@ -123,7 +126,7 @@ Ensure that the Emby Server process running on the new system, will have full pe
 
 You can copy the top level folder that was configured on the original system for the Backup & Restore plugin to the new system.
 
-In the example for the configured backup [here](Backup-Using-Plugin.md), we had `H:\BACKUP-DELL-INSPIRON14` as the Emby Server backups parent folder. 
+In the example for the configured backup [here](Backup-Using-Plugin.md), we had `H:\BACKUP-DELL-INSPIRON14` as the Emby Server backups parent folder.
 Copy that directory contents to the new system, so we have it, for example, as `C:\Emby-Inspiron14-Backups`. The `embyserver-backup-full` directory will be directly below that.
 
 
@@ -165,7 +168,7 @@ This will show the following screen:
 
 ![](images/plugins/backup-06.png)
 
-You will have the latest full backup preselected: "**embyserver-backup-full"**. 
+You will have the latest full backup preselected: "**embyserver-backup-full"**.
 
 Ensure the "**Restore Server ID**" is ticked.
 
@@ -261,9 +264,9 @@ All libraries will now show just the new paths.
 
 ## Check the new restored server
 
-Go to the restored server Home Screen and check out the libraries. 
+Go to the restored server Home Screen and check out the libraries.
 
-In this restore example, the Movies library images are in place 
+In this restore example, the Movies library images are in place
 
 ![](images/plugins/backup-31.png)
 
@@ -271,7 +274,7 @@ and picking a TV show from the TV library, posters and actors all in place.
 
 ![](images/plugins/backup-32.png)
 
-Switching user to the **childuser** account, the Movies library view 
+Switching user to the **childuser** account, the Movies library view
 
 ![](images/plugins/backup-39.png)
 
@@ -297,7 +300,7 @@ If you are using manually created Port Forwards in the router, you will need to 
 
 > [!IMPORTANT]
 > Ensure you have a DHCP Reservation in the router for the IP Address of the new server.
-> 
+>
 
 If you are using automatic uPnP Port Mapping, then you will most likely need to change the public port, because there would be a port forward for the old server and there is a 7 day expiry period before that public port can be switched to another IP Address.
 

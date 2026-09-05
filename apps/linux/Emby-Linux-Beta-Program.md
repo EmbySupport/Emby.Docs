@@ -18,7 +18,7 @@ title: "Emby Linux: Beta Program"
 
 ## Platform Support
 
-To see which platforms are currently supported, please see 
+To see which platforms are currently supported, please see
 [Emby Linux Platform Support](Emby-Linux-Platform-Support.md).
 
 
@@ -51,9 +51,9 @@ We are planning to make the Linux app available in additional package formats du
 - **AppImage**  
   coming soon
 - **Snap**  
-  depending on user demand 
+  depending on user demand
 - **Flatpack**  
-  depending on user demand 
+  depending on user demand
 
 
 ## Commandline Flags

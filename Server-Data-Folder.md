@@ -10,9 +10,11 @@ The Emby Server data folder can generally be located in one of the following loc
 For NAS platforms, tools like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and [WinSCP](https://winscp.net/eng/download.php) can be used to access the Emby Server Data Folder area, once SSH has been enabled on the NAS.
 
 ### Windows
+
 C:\Users\\{user}\AppData\Roaming\Emby-Server\programdata
 
 ### macOS
+
 /Users/{user}/emby-server
 
 or
@@ -20,17 +22,20 @@ or
 /Users/{user}/.config/emby-server
 
 ### Android
+
 /storage/emulated/0/Android/data/com.emby.embyserver/files
- 
+
 See this NVIDIA Shield article for how to access this area from a PC:
 https://nvidia.custhelp.com/app/answers/detail/a_id/4172/~/how-do-i-share-shield-tv-folders-with-a-pc
 
 ### Linux
+
 /var/lib/emby
 
 ### Asustor
+
 /home/emby
- 
+
 Accessing this folder directly will require SSH. See the SSH section within an ASUSTOR course here:
 https://www.asustor.com/en/online/College_topic?topic=109#lux5
 
@@ -46,6 +51,7 @@ Accessing this folder directly will require SSH. Check out our SSH Tutorial with
 https://emby.media/community/index.php?/topic/118986-tutorial-ssh-into-synology-nas-with-useful-examples/
 
 ### QNAP
+
 /share/CACHEDEV1_DATA/.qpkg/EmbyServer/programdata
 
 or
@@ -63,15 +69,18 @@ Path Example for QuTS Hero:
 Accessing this folder directly will require SSH.
 
 ### TerraMaster
+
 /home/emby
 
 Accessing this folder directly will require SSH.
 
 ### Western Digital
+
 /mnt/HD/HD_a2/emby
 
 Accessing this folder directly will require SSH.
 
 ### Thecus
+
 /raid/data/module/EmbyServer/programdata
 

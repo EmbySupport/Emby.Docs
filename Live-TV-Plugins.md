@@ -7,14 +7,15 @@ legacyUrl: /support/solutions/articles/44001160487-live-tv-plugins
 Out of the box, Emby supports the most popular tuners on the market. If you need to add support for other tuners, need specific tuner functionality not included in the base Emby TV experience or already run a dedicated DVR/PVR server you can install a Live TV Plugin to gain functionality of an external program dedicated to your needs.
 
 Emby Server currently supports the most popular DVR servers on the market including:
-* DVBLink
-* DVBViewer
-* MediaPortal
-* NextPVR
-* ServerWMC
-* TVHeadEnd
-* TVMosaic
-* Vu+
+
+- DVBLink
+- DVBViewer
+- MediaPortal
+- NextPVR
+- ServerWMC
+- TVHeadEnd
+- TVMosaic
+- Vu+
 
 Please note that each plugin depends on a standalone application of the same name. For example, the ServerWMC plugin for Emby requires the standalone ServerWMC application, the NextPVR plugin requires NextPVR installed on your network, etc
 
@@ -22,7 +23,7 @@ Each plugin will provide it's own documentation, including the tuner hardware su
 
 ## How to Install a Live TV Plugin
 
-Live TV Service providers are available in the plugin catalog. 
+Live TV Service providers are available in the plugin catalog.
 
 ![live](images/server/livetv5.png)
 
@@ -32,4 +33,4 @@ For more information on plugins, as well as how to install and configure them, s
 
 ## Service Provider Settings
 
-To configure the settings for your service provider, simply click on it within [My Plugins](Plugins.md#my-plugins). 
+To configure the settings for your service provider, simply click on it within [My Plugins](Plugins.md#my-plugins).

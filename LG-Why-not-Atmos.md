@@ -12,7 +12,8 @@ by rbjtech
 Why does the Emby App for my LG TV not play the Dolby Atmos TrueHD Audio without Transcoding?
 
 ## Background
-There are two primary types of Audio that can be played with Media files – 
+There are two primary types of Audio that can be played with Media files –
+
 
 
 
@@ -54,7 +55,7 @@ So in summary, you have two options to play HD Audio Dolby Atmos
 If your LG TV is year 2019+ and has eARC, then you can pass the HD Audio to your Receiver or Soundbar by means of an External Player via the TV eARC HDMI Interface.  
 
 ### Option 2
- 
+
 ![Lg Atmos12](images/server/lg_atmos12.png)
 If your LG TV does not have eARC, then you can pass the HD Audio to your Receiver or Soundbar(*) directly by means of an External Player. Video only is then passed to the LG TV. No ARC or eARC is required. (*) Note the soundbar/receiver must have an HDMI passthrough interface.
 

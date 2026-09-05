@@ -33,6 +33,7 @@ It will look like this:
 
 
 ## Other Folder Structures
+
 The default library views are not by folder structure. Instead they offer metadata-based views of your library that are created automatically. If, instead, you wish to use a custom set of category folders, you could do that by adding a set of folders below the library root folder and the movies split between these category folders. Emby will work just fine with or without this additional level of folders! These category folders will be visible in the library **Folders** view.
 
 In the following examples, movies are stored in year bands, each being a 30-year span category, as an example:
@@ -60,19 +61,21 @@ In the following examples, movies are stored in year bands, each being a 30-year
 Emby can also read a Meta-Data ID from the name.
 
 Supported Formats:
-* Name (Year) [tmdbid=xxxx]
-* Name (Year) [tmdbid-xxxx]
-* Name (Year) [tmdb=xxxx]
-* Name (Year) [tmdb-xxxx]
-* Name (Year) {tmdbid=xxxx}
-* Name (Year) {tmdbid-xxxx}
-* Name (Year) {tmdb=xxxx}
-* Name (Year) {tmdb-xxxx}
+
+- Name (Year) [tmdbid=xxxx]
+- Name (Year) [tmdbid-xxxx]
+- Name (Year) [tmdb=xxxx]
+- Name (Year) [tmdb-xxxx]
+- Name (Year) {tmdbid=xxxx}
+- Name (Year) {tmdbid-xxxx}
+- Name (Year) {tmdb=xxxx}
+- Name (Year) {tmdb-xxxx}
 
 Supported ID's:
-* tvdb
-* tmdb (Moviedb)
-* imdb
+
+- tvdb
+- tmdb (Moviedb)
+- imdb
 
 Example:
 Casino Royale (2006) [tmdbid=36557]
@@ -87,7 +90,7 @@ tvdbid (https://thetvdb.com/)
 
 
 ## Multi-version movies
- 
+
 Multiple versions of the same content must be stored in a single movie folder.
 
 ```
@@ -101,7 +104,7 @@ Multiple versions of the same content must be stored in a single movie folder.
   /300 (2006)/300 (2006) - 3D.hsbs.mp4
 ```
 
-Each version must begin with the folder name, followed by " - ". 
+Each version must begin with the folder name, followed by " - ".
 
 If using the dash method anything following the dash will be what you see in the Emby client app.
 
@@ -113,19 +116,20 @@ If using the dash method anything following the dash will be what you see in the
 
 ## Movie extras
 
-Special features for movies can be stored as video files in an extras folder under movie folders. Nested folders are not supported. 
+Special features for movies can be stored as video files in an extras folder under movie folders. Nested folders are not supported.
 
 In addition to extras, several other sub-folder names are supported:
-* extras
-* specials
-* shorts
-* scenes
-* featurettes
-* behind the scenes
-* deleted scenes
-* interviews
-* trailers
- 
+
+- extras
+- specials
+- shorts
+- scenes
+- featurettes
+- behind the scenes
+- deleted scenes
+- interviews
+- trailers
+
 ```
 /Movies
    /Home Alone (1990)
@@ -152,7 +156,7 @@ Images are supported in video folders. Below is a table of the supported image f
 Several image types support multiple file names. They are listed in the order that they're checked for.
 
 | Image Type | Supported file names                |
-|------------|-------------------------------------|
+| ---------- | ----------------------------------- |
 | Primary    | {name}.ext                          |
 |            | {name}-poster.ext                   |
 |            | {name}-cover.ext                    |
@@ -231,15 +235,16 @@ ISOs should be named just like any other video file, with one minor difference. 
 
 The following are default stacking extensions that can be added to file names. # can be 1 through 9 or A through D. Stacking is supported for video files (but only when each video is in its own folder as in the example below) as well as dvd and blu-ray folder structures. Split videos require all parts be in the same movie folder with no other videos present in that folder.
 
-* ​part#​
-* ​cd#​
-* ​dvd#​
-* ​pt#​
-* ​disk#​
-* ​disc#​
+- ​part#​
+- ​cd#​
+- ​dvd#​
+- ​pt#​
+- ​disk#​
+- ​disc#​
 
 You can also use:
-* moviename#.ext
+
+- moviename#.ext
 
 Where # can be A through D.
 
