@@ -3,6 +3,7 @@ uid: Hwa-Fails-with-RDP
 title: HWA fails with RDP
 longTitle: Hardware Acceleration Fails with Remote Desktop (RDP) on Windows
 legacyUrl: /support/solutions/articles/44001894172-hardware-acceleration-fails-with-remote-desktop-rdp-on-windows
+redirFromUrl: Hwa-Fails-with-RDP.md
 ---
 
 
@@ -40,7 +41,7 @@ To avoid this problem, you need to change the configuration of the RDP Session H
 In the right pane, locate the entry highlighted below
 ('Use hardware graphics adapters for all Remote Desktop Services sessions')
 
-![Rdp Hwa](images/server/rdp_hwa.png)
+![Rdp Hwa](../../images/server/rdp_hwa.png)
 
   - Right click the entry and select 'Edit'
   - In the dialog, change the policy setting to 'Disabled' and click 'OK'

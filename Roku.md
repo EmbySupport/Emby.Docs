@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001161839-roku
 
 Emby for Roku is available in the [Roku App Store](https://channelstore.roku.com/details/904d20cb3bd4aa340a35aa9c83c9a128/emby).  It is compatible with any Roku model running at least version 7.5 4099 of the Roku firmware.
 
-Emby for Roku can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Roku can handle just about any type of media thanks to [Emby Server transcoding](server/transcoding/Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
 
 ## Setup Guide
 

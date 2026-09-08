@@ -12,7 +12,7 @@ Emby for Android Mobile is available in multiple ways:
 - [Google Play Store](https://play.google.com/store/apps/details?id=com.mb.android)
 - [APK Download](http://emby.media/emby-for-android.html)
 
-Emby for Android Mobile can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Android Mobile can handle just about any type of media thanks to [Emby Server transcoding](server/transcoding/Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
 
 ## Setup Guide
 

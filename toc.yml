@@ -21,6 +21,17 @@
       href: Server-Installation-Shield.md
     - name: Network Setup
       href: Hosting-Settings.md
+    - name: GPU Setup
+      href: server/setup/gpu-setup/GPU-Setup.md
+      items:
+      - name: GPU Setup
+        href: server/setup/gpu-setup/GPU-Setup.md
+      - name: Windows
+        href: server/setup/gpu-setup/Windows.md
+      - name: Linux
+        href: server/setup/gpu-setup/Linux.md
+      - name: Containers
+        href: server/setup/gpu-setup/Containers.md
   - name: Server Management
     href: Server-Settings.md
     items:
@@ -80,22 +91,6 @@
         href: Ordering-TV-Specials.md
       - name: Image Editing & Image Types
         href: Image-Editing.md
-    - name: Transcoding
-      href: Transcoding.md
-      items:
-      - name: Transcoding
-        href: Transcoding.md
-      - name: Hardware Acceleration
-        href: Hardware-Acceleration-Overview.md
-        items:
-        - name: Overview
-          href: Hardware-Acceleration-Overview.md
-        - name: Windows
-          href: Hardware-Acceleration-on-Windows.md
-        - name: Linux
-          href: Hardware-Acceleration-on-Linux.md
-        - name: Android
-          href: Hardware-Acceleration-on-Android.md
     - name: Scheduled Tasks
       href: Scheduled-Tasks.md
     - name: Log Files
@@ -123,8 +118,6 @@
       href: Plugins.md
   - name: Features & Plugins
     items:
-    - name: Playback Methods
-      href: DirectPlay-Stream-Transcoding.md
     - name: Search
       href: Search.md
     - name: Collections
@@ -171,6 +164,65 @@
       href: Webhooks.md
     - name: Notifications
       href: Notifications.md
+  - name: Transcoding
+    href: server/transcoding/Transcoding.md
+    items:
+    - name: Transcoding
+      href: server/transcoding/Transcoding.md
+    - name: Playback Methods
+      href: server/transcoding/Playback-Methods.md
+    - name: Configuration
+      href: server/transcoding/configuration/Transcoding-Configuration.md
+      items:
+      - name: Configuration
+        href: server/transcoding/configuration/Transcoding-Configuration.md
+      - name: Basic Mode
+        href: server/transcoding/configuration/Basic-Mode.md
+      - name: Advanced Mode
+        href: server/transcoding/configuration/Advanced-Mode.md
+      - name: Expert Mode
+        href: server/transcoding/configuration/Expert-Mode.md
+        items:
+        - name: Expert Mode
+          href: server/transcoding/configuration/Expert-Mode.md
+        - name: Graph Evaluation
+          href: server/transcoding/configuration/Expert-Graph-Evaluation.md
+        - name: Node Types
+          href: server/transcoding/configuration/Expert-Node-Types.md
+        - name: Node Conditions
+          href: server/transcoding/configuration/Expert-Conditions.md
+        - name: Fallback Paths
+          href: server/transcoding/configuration/Expert-Fallback-Paths.md
+        - name: Load Balancing
+          href: server/transcoding/configuration/Expert-Load-Balancing.md
+    - name: Settings
+      href: server/transcoding/Settings.md
+    - name: Hardware Acceleration
+      href: server/transcoding/hardware/Overview.md
+      items:
+      - name: Overview
+        href: server/transcoding/hardware/Overview.md
+      - name: Nvidia
+        href: server/transcoding/hardware/vendors/Nvidia.md
+      - name: Intel
+        href: server/transcoding/hardware/vendors/Intel.md
+      - name: AMD
+        href: server/transcoding/hardware/vendors/AMD.md
+      - name: Apple
+        href: server/transcoding/hardware/vendors/Apple.md
+      - name: Android
+        href: server/transcoding/hardware/vendors/Android.md
+      - name: Rockchip
+        href: server/transcoding/hardware/vendors/Rockchip.md
+    - name: Troubleshooting
+      href: server/transcoding/Troubleshooting.md
+      items:
+      - name: Troubleshooting
+        href: server/transcoding/Troubleshooting.md
+      - name: Why Is My Media Transcoding?
+        href: server/transcoding/Why-Media-Transcodes.md
+      - name: HWA fails with RDP
+        href: server/transcoding/Hwa-Fails-with-RDP.md
   - name: Live TV
     href: Live-TV.md
     items:
@@ -244,8 +296,6 @@
       href: Corrupt-Database.md
     - name: Synology Permissions
       href: Synology-Set-Permissions.md
-    - name: HWA fails with RDP
-      href: Hwa-Fails-with-RDP.md
     - name: QNAP SSL Certificate Renewal
       href: QNAP-SSL-Certificate-Renewal.md
     - name: Manage Collections (Legacy)

@@ -3,6 +3,7 @@ uid: DirectPlay-Stream-Transcoding
 title: Playback Methods
 longTitle: Direct Play vs Direct Streaming vs Transcoding
 legacyUrl: /support/solutions/articles/44001920144-direct-play-vs-direct-streaming-vs-transcoding
+redirFromUrl: DirectPlay-Stream-Transcoding.md
 ---
 
 Emby can presently deliver your media in one of three ways:
