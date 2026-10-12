@@ -253,7 +253,10 @@
     - name: Manage Playlists (Legacy)
       href: Playlist-Manual-Migration.md
 - name: Emby Apps
+  href: Apps.md
   items:
+  - name: Apps
+    href: Apps.md
   - name: Common
     items:
     - name: User Preferences
