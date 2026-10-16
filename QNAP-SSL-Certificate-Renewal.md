@@ -239,7 +239,7 @@ The key will appear in the list of Api Keys. To be able to copy the api key to t
 
 The following lists all the lines that should be edited and set.
 
-The `PFX_PASSWORD` is the password for the Emby Server pfx certificate file that will be generated and will be set when the pfx file update is notified to Emby Server.
+The `PFX_PASSWORD` is the password for the Emby Server pfx certificate file that will be generated and will be set when the pfx file update is notified to Emby Server. It is a password set by you and will be used for the Emby Server certificate.
 
 The `EMBY_API_KEY` will hold the api key you generated above.
 
