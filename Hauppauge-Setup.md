@@ -64,11 +64,11 @@ This will show the following
 
 Click on **Detect Devices**
 
-You will then see all the detected new Live TV tuner devices, select the Hauppauge device you wish to add
+You will then see all the detected new Live TV tuner devices, select the **Hauppauge** device you wish to add
 
 ![](images/server/hauppauge-server3.png)
 
-You will be back to this screeen. Click on **Add TV Source**
+You will now see a screen with the Hauppauge device showing. Click on **Add TV Source**
 
 ![](images/server/hauppauge-server4.png)
 
