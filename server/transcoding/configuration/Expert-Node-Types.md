@@ -54,9 +54,11 @@ decoding in software while encoding on the GPU is a normal thing to configure.
 **Options** - vendor-specific behaviour, where the context has any. Currently only the Nvidia CUDA context
 does; see [Nvidia](../hardware/vendors/Nvidia.md).
 
-**Fallback point** - whether evaluation ends successfully here. Only offered in Expert Mode, since it is the
-only mode where nodes can be arranged, and a fallback point has to be the last node in its group. See
-[Fallback Paths](Expert-Fallback-Paths.md).
+**Fallback point** - makes this node eligible for a retry after an earlier selected configuration fails.
+A marked node can still be selected for the first attempt. The switch is only offered in Expert Mode.
+Inside a load-balancing group, only one node may be marked as a fallback point, and it must be the last
+node in that group. This placement restriction does not apply at the top level or inside a condition
+group. See [Fallback Paths](Expert-Fallback-Paths.md).
 
 Every encoder and decoder dropdown also carries a **Skip** option. Selecting it opts this node out of
 handling that media type entirely, which is how you express "use this card, but not for AV1".

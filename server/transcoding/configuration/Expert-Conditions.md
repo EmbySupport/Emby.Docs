@@ -29,7 +29,14 @@ conditions on top.
 | Error Count | How many failed attempts precede this node being used - see below |
 
 An operation can involve more than one processing step at once - tone mapping and subtitle burn-in
-together, for instance.
+together, for instance. **Processing Equals Tone Mapping** matches whenever tone mapping is needed, even
+when other steps are needed too. **Processing Does not equal Tone Mapping** matches only when tone
+mapping is absent.
+
+To require both tone mapping and subtitle burn-in, combine their Equals conditions in an **And** group.
+Processing conditions can be nested and combined with other fields just like any other condition.
+When an operation has no processing steps, **Equals** and **Is any of** do not match any step;
+**Does not equal** and **Is none of** match because the selected steps are absent.
 
 ![The Condition Builder's field selector](images/expert-condition-fields.jpg)
 

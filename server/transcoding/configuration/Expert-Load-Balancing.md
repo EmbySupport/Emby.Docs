@@ -16,8 +16,9 @@ they will accept.
 draws these as an ordered, left-to-right row, because the order is what determines which node is used
 first.
 
-**Balance** uses whichever node is currently least loaded. The graph draws these as an unordered row,
-since position carries no meaning here.
+**Balance** uses whichever eligible node is currently least loaded. The graph draws these as an unordered
+row because load determines the selection. When two nodes have equal load, the first in the configured
+order is selected.
 
 In the dialog, **Fill one, then the next** selects Overflow, and **Spread across all** selects Balance.
 
@@ -43,8 +44,15 @@ These two only apply to **Balance**, since Overflow never compares one node agai
 - **Global** (**The device behind it**) counts the operations running through the device behind it,
   across the whole graph
 
-The difference between the two only matters when the same device appears more than once in the graph -
-which Expert Mode allows, and which is one of the reasons this setting exists.
+For example, suppose N1 has one running operation and N2 has three, both on the same GPU. N1's load is
+**1** with **This entry**, or **4** with **The device behind it**. The device total includes N2 even if N2
+is outside a load-balancing group.
+
+For **Relative** comparisons, **This entry** uses the node's own limit, while **The device behind it**
+uses the device limit. If that limit is empty, the raw operation count is used instead of a proportion.
+For example, a node with one operation and no limit has a comparison value of 1, while a node with five
+operations and a limit of ten has a value of 0.5. Set a positive limit for every candidate in the selected
+scope when you want all candidates compared as proportions.
 
 ## Limits
 
@@ -55,18 +63,22 @@ menu. Two limits are edited together there, because neither reads sensibly on it
 limit. Once the limit is reached, the container passes work to another node instead, which is what makes
 Overflow possible at all.
 
-**This device, everywhere in the graph** - how many operations the device behind the node may run at once
-in total, counted across every node in the graph that refers to it. Leave it empty for no limit.
+**This device, everywhere in the graph** - a limit checked against all operations running on the device,
+counted across every node in the graph that refers to it. When that total reaches the limit, this node is
+passed over. Leave it empty for no limit.
 
-Only operations routed through a load-balancing container are counted, since nothing elsewhere in the graph
-would cause a device to be passed over for being busy.
+Both limits are checked when selecting a node inside a load-balancing group, regardless of **Count load
+per**. That choice only determines how Balance compares the load of eligible nodes. Operations elsewhere
+in the graph contribute to the device total, but nodes outside load-balancing groups are not passed over
+because of these limits.
 
 ![Example limits of two parallel operations for this entry and four for the device across the graph](images/load-balancing-limits.jpg)
 
 ## Evaluation Inside a Load Balancing Group
 
-The ordinary top-to-bottom, left-to-right reading order does not apply inside these containers - which
-node is used is a matter of load rather than of position. This is one of the exceptions noted in
+Inside an **Overflow** group, nodes are considered from left to right, and the first eligible node below
+both limits is selected. Inside a **Balance** group, eligible nodes are compared by load, with configured
+order used only to break ties. This is one of the exceptions noted in
 [Graph Evaluation](Expert-Graph-Evaluation.md#exceptions).
 
 ## Fallback Points in a Load Balancing Group
