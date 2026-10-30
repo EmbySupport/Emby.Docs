@@ -11,6 +11,8 @@ What it does not do is change how the graph is shaped: it remains a list of devi
 transcoding at the end, and the software fallback cannot be altered. Composing the decision itself -
 containers, load balancing, failure points, custom fallback paths - is [Expert Mode](Expert-Mode.md).
 
+![Advanced Mode with Nvidia, Intel, and AMD devices in priority order, followed by software fallback](images/advanced-mode.jpg)
+
 ## Differences from Basic to Advanced Mode
 
 - Multiple GPUs can be configured and each can be restricted to specific operations like offline conversion, Live TV transcoding or playback transcoding
@@ -38,13 +40,20 @@ offers a simple list of the operation kinds:
 
 - **Conversions** - offline conversions, not related to an active playback session
 - **Live TV** - transcoding of Live TV
-- **Playback** - transcoding for an active playback session
+- **Playback** - progressive transcoding for an active playback session
 - **HLS Playback** - HLS transcoding for an active playback session
 - **Live Stream** - transcoding of a live stream for an active playback session - a source without an end,
   such as a TV channel or a recording that is still in progress
 
 All kinds apply until you exclude one. A node whose conditions exclude the operation being evaluated is
 passed over, and the next node is tried.
+
+![The operation kinds available in an Advanced Mode node's Conditions dialog](images/advanced-conditions.jpg)
+
+Each operation belongs to one of these kinds. **Playback** does not include **HLS Playback** or
+**Live Stream**: turning off Playback alone still allows those operations on the device. For example, to
+exclude HLS playback from a GPU, turn off **HLS Playback** for that node. An endless source, such as a channel
+or a recording in progress, is classified as **Live Stream** even when it is delivered using HLS.
 
 Expert Mode replaces this list with a filter builder that can also match on source and output codec, on
 processing steps such as tone mapping, and on user and library - see
@@ -67,6 +76,8 @@ The **Configure** command on a node opens everything about how that device is us
 
 Anything left alone keeps its automatic default, and stays in step with it if that default later changes -
 see [Delta Storage](Transcoding-Configuration.md#delta-storage).
+
+![Device configuration showing the hardware context and per-codec encoder selections](images/device-configuration.jpg)
 
 ## Switching Devices Off
 

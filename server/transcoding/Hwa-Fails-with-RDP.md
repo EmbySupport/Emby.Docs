@@ -9,7 +9,6 @@ redirFromUrl: Hwa-Fails-with-RDP.md
 
 Product: Emby Server
 Affected Platforms:    Windows 8.1, Windows 10, Windows Server 2016, Windows Server 2019
-Affected Hardware:    [Intel QuickSync](xref:Learn-Hardware-Intel-QSV), [AMD AMF](xref:Learn-Hardware-AMD-AMF), [DXVA2](xref:Learn-Hardware-Windows-DXVA2) and [D3D11VA](xref:Learn-Hardware-Windows-D3D11VA) Codecs
 
 
 ## Symptoms
@@ -56,22 +55,3 @@ When these RDP features are activated and a client connects via Remote Desktop, 
 Under these circumstances, and when Emby Server is running in a local session and this session is not the one being logged into via RDP, it can happen that D3D9 based hardware accelerations are still working (sometimes with flaws, though), because D3D9 is always related to a user session context.
 
 Hardware acceleration based on D3D11 will never work in the described situation.
-
-
-
-### Affected Hardware Codecs
-
-#### Direct3D 9
-
-QuickSync Video Decoders
-(without D3D11 in the name)
-QuickSync Video Encoders
-(without D3D11 in the name)
-AMD AMF Encoders
-[DXVA2](xref:Learn-Hardware-Windows-DXVA2) Decoders
-
-#### Direct3D 11
-
-QuickSync D3D11 Video Decoders
-QuickSync D3D11 Video Encoders
-[D3D11VA](xref:Learn-Hardware-Windows-D3D11VA) Video Decoders

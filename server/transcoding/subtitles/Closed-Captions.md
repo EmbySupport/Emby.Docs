@@ -9,6 +9,8 @@ but are [carried inside the video stream](xref:Learn-Subtitle-In-Band). How Emby
 
 ## Settings
 
+![Closed-caption options for incremental display, traditional styling, and client-side decoding](images/closed-captions.jpg)
+
 - **Disable Incremental Line Display** - captions are often sent letter by letter. With this on, only
   complete lines are shown.
 - **Use Traditional Display Style** - shows captions in white on a black box.

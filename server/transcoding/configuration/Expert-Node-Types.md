@@ -12,9 +12,11 @@ it exists. Evaluation reports nodes by this ID, so a line in a log can be follow
 about.
 
 Nodes can also be given a **Name**, which the graph shows instead of what the node is. For nodes other than
-GPU and software entries, the **Configure** command opens a dialog with just the name and the ID; a
+GPU and software nodes, the **Configure** command opens a dialog with just the name and the ID; a
 load-balancing group has its name at the top of its [load balancing](Expert-Load-Balancing.md) dialog.
 Leaving the name empty names the node after what it is again.
+
+![Editing a node's display name while its CG1 ID remains unchanged](images/node-name.jpg)
 
 ## GPU Config
 
@@ -35,7 +37,7 @@ typically offers [Nvidia CUDA](xref:Learn-Hardware-NVIDIA-CUDA) and [Vulkan (Nvi
 contexts differ in performance, in which filters they support, and in maturity. Where a device offers only
 one, this is not shown. See [Hardware Acceleration](../hardware/Overview.md) for what each vendor offers.
 
-**Encoding** - which encoder to use for H.264, H.265 and AV1 output. Each has its own parameters, reachable
+**Encoding** - which encoder to use for H.264, HEVC and AV1 output. Each has its own parameters, reachable
 from the button beside it, and an info button describing what the encoder reports about itself - see
 [Encoders](encoders/Encoders.md).
 
@@ -45,7 +47,7 @@ parameters - see [Filters](filters/Filters.md).
 **Subtitles** - how text subtitles and graphic subtitles are burned into the video when that is necessary -
 see [Subtitle Burn-In](Subtitle-Burn-In.md).
 
-**Decoding** - which decoder to use per source codec: H.264, H.265, AV1, MPEG-2, H.263, MPEG-4, VC-1, VP8
+**Decoding** - which decoder to use per source codec: H.264, HEVC, AV1, MPEG-2, H.263, MPEG-4, VC-1, VP8
 and VP9. Every one of these lists the software decoder for that codec alongside the hardware ones, so
 decoding in software while encoding on the GPU is a normal thing to configure.
 
@@ -53,10 +55,10 @@ decoding in software while encoding on the GPU is a normal thing to configure.
 does; see [Nvidia](../hardware/vendors/Nvidia.md).
 
 **Fallback point** - whether evaluation ends successfully here. Only offered in Expert Mode, since it is the
-only mode where entries can be arranged, and a fallback point has to be the last entry in its group. See
+only mode where nodes can be arranged, and a fallback point has to be the last node in its group. See
 [Fallback Paths](Expert-Fallback-Paths.md).
 
-Every encoder and decoder dropdown also carries a **Skip** entry. Selecting it opts this node out of
+Every encoder and decoder dropdown also carries a **Skip** option. Selecting it opts this node out of
 handling that media type entirely, which is how you express "use this card, but not for AV1".
 
 Anything you do not change stays on the device's automatic choice rather than being frozen at whatever was
@@ -65,13 +67,17 @@ current when you configured it - see [Delta Storage](Transcoding-Configuration.m
 ## Software Config
 
 A Software Config node is transcoding on the CPU, represented as a node so that it can take part in the
-graph like any other entry. In a default configuration it is the last entry, marked as the fallback point -
+graph like any other node. In a default configuration it is the last node, marked as the fallback point -
 which is what Emby's built-in software fallback amounts to. In Expert Mode neither of those is fixed.
 
-It is configured the same way a GPU node is, with two differences. There is no Hardware Context to choose,
-software being the only one, and there are no vendor options. What remains is Encoding, Decoding,
-Tone Mapping and Subtitles, populated with software codecs, tone mapping filters and the CPU choices for
-subtitle burn-in.
+It is configured the same way a GPU node is, but there is no Hardware Context to choose, software being the
+only one. Encoding, Decoding, Tone Mapping and Subtitles offer software codecs, tone mapping filters and
+the CPU choices for subtitle burn-in.
+
+**Software Specific Options** includes **Video Resolution Limit**, which scales larger video down before
+CPU tone mapping to reduce the processing load. The default is no limit.
+
+![The software configuration's encoder and tone mapping selections](images/software-configuration.jpg)
 
 Its decoding section differs from a GPU node's in one respect worth knowing: it offers every software
 decoder present, rather than a subset chosen for compatibility with the encoder. Software encoders and
@@ -92,6 +98,8 @@ In this regard, a Condition Group is rather a kind of visual/syntactical sugar f
 simplified configuration, especially when considering that nodes inside a Condition Group can have their
 own conditions atop.
 
+![A Condition Group containing an AMD device node](images/condition-group.jpg)
+
 ## Load Balancing Group
 
 With a Load Balancing Group, you can distribute transcoding load across multiple GPUs.
@@ -103,4 +111,4 @@ Details for setting up Load Balancing are described in [Load Balancing](Expert-L
 You can insert a Failure Point wherever you want to stop any further transcoding attempts to be made.
 By default, a Failure Point hits in both passes (see [Graph Evaluation](Expert-Graph-Evaluation.md)).
 If you want a Failure Point to be effective only in fallback cases (PASS 2), you can set a condition
-on it for ErrorCount > 0.
+on it for Error Count > 0.

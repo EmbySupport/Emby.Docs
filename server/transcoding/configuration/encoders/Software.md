@@ -5,11 +5,13 @@ longTitle: "Software Encoder Parameters"
 ---
 
 The software encoders run on the CPU. They belong to the Software context type and are used by the
-software entry of the transcoding configuration. For live transcoding, a software encoder has to keep up
+software node of the transcoding configuration. For live transcoding, a software encoder has to keep up
 with playback on the server's CPU, which makes the preset the parameter with the largest effect on whether
 it can. How the dialog works is described in [Encoders](Encoders.md).
 
 ## x264
+
+![x264 encoding preset, tuning, ABR mode, and constant rate factor controls](images/x264.jpg)
 
 The `libx264` encoder for [H.264](xref:Learn-Video-Codec-H264), offered by the Software context type.
 
@@ -90,6 +92,8 @@ Profile**.
 
 ## x265
 
+![x265 encoding preset, tuning, ABR mode, and constant rate factor controls](images/x265.jpg)
+
 The `libx265` encoder for [HEVC](xref:Learn-Video-Codec-HEVC), offered by the Software context type. HEVC
 encoding in software takes considerably more CPU time than H.264, so real-time transcoding usually needs
 one of the faster presets.
@@ -145,6 +149,7 @@ limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Choice
 ## SVT-AV1
 
 The `libsvtav1` encoder for [AV1](xref:Learn-Video-Codec-AV1), offered by the Software context type.
+AV1 encoding is used for media conversions only, not for transcoding during playback.
 
 **Encoding Preset** - trades encoding speed against compression efficiency, as a number (ffmpeg
 `preset`). Lower values are slower and give better quality; higher values are faster. Range 0 (slowest) to

@@ -41,6 +41,8 @@ Below each selection, a line states whether the selected filter is *Using defaul
 *Custom configuration:*, followed by the values that differ from the defaults. Filters without parameters
 show no such line.
 
+![The four HDR-specific tone mapping selections in a software device configuration](images/tone-mapping-selection.jpg)
+
 ## Filters per Context Type
 
 Which filters are offered depends on the device's
@@ -84,6 +86,8 @@ The dialog is titled with the filter's name and lists its parameters:
 - **Reset to Default** sets every parameter back to the filter's defaults. These can depend on the kind of
   HDR - Emby Tonemap, for example, starts with a different algorithm for HDR10+ than for HDR10
 - **Save** keeps the changes; closing the dialog discards them
+
+![The Emby Tonemap CUDA HDR10 parameters dialog](images/emby-tonemap-cuda.jpg)
 
 Only the values that differ from the filter's defaults are stored - see
 [Delta Storage](../Transcoding-Configuration.md#delta-storage). Every value you have not changed keeps

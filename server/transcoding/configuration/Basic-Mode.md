@@ -20,6 +20,8 @@ something that is no longer there. This is the default.
 
 Changes take effect when you save them.
 
+![Basic Mode with automatic hardware selection, a software fallback, and unused devices below the divider](images/basic-mode.jpg)
+
 ## Software Fallback
 
 Choosing a device does not disable software transcoding. It stays enabled behind the chosen device, as what

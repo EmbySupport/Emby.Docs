@@ -31,6 +31,8 @@ conditions on top.
 An operation can involve more than one processing step at once - tone mapping and subtitle burn-in
 together, for instance.
 
+![The Condition Builder's field selector](images/expert-condition-fields.jpg)
+
 ## Building a Condition
 
 The **Conditions** command on a node opens the Condition Builder. A condition compares one field with a
@@ -49,6 +51,8 @@ The builder starts out with a single, empty group.
    operation kinds, codecs, processing steps, users and libraries - offer them in a list.
 
 To remove a condition, or a group with everything in it, click the **×** button in front of it.
+
+![An And group matching HEVC output that requires tone mapping](images/expert-conditions.jpg)
 
 ### Operations
 
@@ -74,6 +78,8 @@ choose another:
 | Not And | not all of its conditions match |
 | Not Or | none of its conditions match |
 
+![Choosing And, Or, Not And, or Not Or for a condition group](images/expert-condition-groups.jpg)
+
 Conditions are combined with **and** or **or**, but not both within one group. To express a mixture, nest
 a group inside another with **+** and **Add Group**: the inner group counts as a single condition of the
 outer one, and its own operator is independent of the outer one's.
@@ -90,7 +96,8 @@ Or
 
 Written out, that is *(Output Codec Equals AV1 And Library Equals Movies) Or User Equals Alice*.
 
-The conditions take effect when the dialog is saved.
+Save the dialog to update the node in the graph, then save the configuration to make the conditions take
+effect - see [Saving](Transcoding-Configuration.md#saving).
 
 ## Conditions on Fallback and Failure Points
 
@@ -117,5 +124,5 @@ evaluation outright. Giving it `Error Count > 0` leaves the first attempt alo
 ones - "try this, but do not keep trying if it fails" - see
 [Failure Point](Expert-Node-Types.md#failure-point).
 
-The same applies to a device entry marked as a fallback point: a condition on Error Count decides whether
-that entry is used as a fallback at all, and whether only as the first one.
+The same applies to a device node marked as a fallback point: a condition on Error Count decides whether
+that node is used as a fallback at all, and whether only as the first one.

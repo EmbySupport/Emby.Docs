@@ -20,6 +20,8 @@ build*.
 
 ## Settings
 
+![OCR conversion enabled with recognition mode, applicability, and downloaded language models](images/ocr-settings.jpg)
+
 - **Use OCR Conversion** - off by default. Recognition results vary between excellent and moderate,
   depending on the formatting of the subtitles (outlines) and their colors.
 - **Recognition Mode** - *Default*, which is recommended, or *LSTM*, which is slower. Try LSTM only when
@@ -37,6 +39,8 @@ build*.
   delivered as text, only part of it is carried over.
 - **Font Size Adjustment** - in percent, 20 to 500, 100 by default. Only effective when the subtitles are
   burned in; delivered as text, the client decides the size.
+
+![OCR language, recognition features, and font-size adjustment controls](images/ocr-recognition.jpg)
 
 ## Further Reading
 

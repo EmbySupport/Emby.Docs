@@ -11,6 +11,8 @@ dialog works. The Vulkan (Nvidia) context type uses the [Vulkan](Vulkan.md) enco
 
 ## H.264
 
+![NVENC H.264 encoding preset, tune, and rate control parameters](images/nvidia-h264.jpg)
+
 The `h264_nvenc` encoder for [H.264](xref:Learn-Video-Codec-H264), offered by the Nvidia CUDA context
 type.
 
@@ -74,9 +76,10 @@ Default: off.
 changes over time (ffmpeg `temporal-aq`). It complements spatial adaptive quantization, and both can be on
 at the same time. Default: off.
 
-**Adaptive Quantization Strength** - how aggressively adaptive quantization redistributes bits, from 1
-(gentle) to 15 (aggressive) (ffmpeg `aq-strength`). Leave it empty (the default) to let NVENC choose.
-Shown only when **Spatial Adaptive Quantization** or **Temporal Adaptive Quantization** is on.
+**Adaptive Quantization Strength** - how aggressively spatial adaptive quantization redistributes bits,
+from 1 (gentle) to 15 (aggressive) (ffmpeg `aq-strength`). Empty (the default) uses **8**. Shown only when
+**Spatial Adaptive Quantization** or **Temporal Adaptive Quantization** is on, but has no effect when only
+temporal adaptive quantization is enabled.
 
 **Encoding Profile Limit** - the highest H.264 profile the encoder may use; empty (the default) means no
 limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers those of
@@ -84,6 +87,10 @@ limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers
 reports.
 
 ## HEVC
+
+![NVENC HEVC parameters with Low Latency tuning selected](images/nvidia-hevc.jpg)
+
+*Example with Low Latency tuning selected.*
 
 The `hevc_nvenc` encoder for [HEVC](xref:Learn-Video-Codec-HEVC), offered by the Nvidia CUDA context
 type.
@@ -153,9 +160,10 @@ Default: off.
 changes over time (ffmpeg `temporal-aq`). It complements spatial adaptive quantization, and both can be on
 at the same time. Default: off.
 
-**Adaptive Quantization Strength** - how aggressively adaptive quantization redistributes bits, from 1
-(gentle) to 15 (aggressive) (ffmpeg `aq-strength`). Leave it empty (the default) to let NVENC choose.
-Shown only when **Spatial Adaptive Quantization** or **Temporal Adaptive Quantization** is on.
+**Adaptive Quantization Strength** - how aggressively spatial adaptive quantization redistributes bits,
+from 1 (gentle) to 15 (aggressive) (ffmpeg `aq-strength`). Empty (the default) uses **8**. Shown only when
+**Spatial Adaptive Quantization** or **Temporal Adaptive Quantization** is on, but has no effect when only
+temporal adaptive quantization is enabled.
 
 **Encoding Profile Limit** - the highest HEVC profile the encoder may use; empty (the default) means no
 limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers those of

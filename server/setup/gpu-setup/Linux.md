@@ -14,13 +14,18 @@ What each vendor's hardware can actually do is described under
 ## Nvidia
 
 > [!NOTE]
-> Always follow the instructions on the Nvidia site, even when the installed driver version appears to be
-> sufficient.
+> A sufficient driver version alone does not mean that all components needed for video encoding and
+> decoding are installed.
 
-Install the drivers from [Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx) - **not**
-from your distribution. The drivers a distribution ships, or offers through its own package manager, often
-include [only a subset of what Nvidia provides](xref:Learn-Hardware-Driver-Capabilities), and the missing pieces are frequently exactly the ones
-needed for video encoding and decoding.
+On older Linux distribution releases, install the drivers from
+[Nvidia Driver Downloads](https://www.nvidia.com/Download/index.aspx), following Nvidia's installation
+instructions, rather than using the driver packages supplied by the distribution. Older distributions
+frequently package [only a subset of what Nvidia provides](xref:Learn-Hardware-Driver-Capabilities),
+omitting components needed for video encoding and decoding.
+
+On the latest Linux distribution releases available as of **2026**, the Nvidia drivers supplied through
+the distribution's package manager can be used, provided the required video encoding and decoding
+components are included. This exception does not apply to older distribution releases.
 
 The minimum required version on Linux is **520.56.06**.
 

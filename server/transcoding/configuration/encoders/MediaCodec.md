@@ -57,13 +57,14 @@ There is no automatic choice for this encoder; a mode is always passed. Default:
 **Encoding Profile Limit** - the highest HEVC profile that may be used; empty (the default) means no
 limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers those of
 **Main Profile**, **Main 10 Profile** and **Range Extension (REXT)** that the device's encoder reports.
-Emby does not pass a profile to this encoder, so the limit only decides whether this device entry is used
+Emby does not pass a profile to this encoder, so the limit only decides whether this device node is used
 for a transcode.
 
 ## AV1
 
 The `av1_mediacodec` encoder for [AV1](xref:Learn-Video-Codec-AV1), offered by the MediaCodec context
 type.
+AV1 encoding is used for media conversions only, not for transcoding during playback.
 
 **Bitrate Mode** - how the device's encoder reaches the bitrate Emby requests (ffmpeg `bitrate_mode`).
 There is no automatic choice for this encoder; a mode is always passed. Default: **Variable Bitrate
