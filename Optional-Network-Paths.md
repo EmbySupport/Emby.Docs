@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001159320-optional-network-paths
 
 By allowing Emby apps direct access to media folders on the server, they may be able to play them directly over the network and avoid using server resources to stream and transcode. Optional Network Paths can help achieve this without having to change your local mount points.
 
-Network Paths are entered in UNC format and care should be taken to make sure the case (caps and lower case letters) are exact.  Some devices will only mount and use a server name with all capital letters. This will require you to rename your file server and NAS boxes using all capital letters.
+Network Paths are entered in [UNC format](xref:Learn-Storage-UNC) and care should be taken to make sure the case (caps and lower case letters) are exact.  Some devices will only mount and use a server name with all capital letters. This will require you to rename your file server and NAS boxes using all capital letters.
 
 ### Example
 

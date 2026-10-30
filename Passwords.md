@@ -13,7 +13,7 @@ If you would like to set or change the password for a user, navigate to the serv
 > [!NOTE]
 > Make sure a local user password is set even when the user account is linked to an [Emby Connect](Emby-Connect.md) email address. The passwords for the Emby Connect](Emby-Connect.md) accounts can only be changed by the users themselves.
 
-By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be remembered on that device enabling easy switching between profiles without needing to re-enter the password.
+By default all Emby apps will require authentication on each device ONCE per user.  After that, the credentials will be [remembered on that device](xref:Learn-Network-Login-Sessions) enabling easy switching between profiles without needing to re-enter the password.
 
 ## Profile PIN (optional)
 

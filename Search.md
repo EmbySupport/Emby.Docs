@@ -3,7 +3,7 @@ uid: Search
 title: Search
 ---
 
-The Search feature allows you to search all libraries, Live TV sources and channels using a search pattern. The search would be for any metadata. A minimum of two search characters is required to start a search.  
+The Search feature allows you to search all libraries, Live TV sources and channels using a search pattern. The search would be for any metadata. [Search indexing](xref:Learn-Metadata-Search-Indexing) explains how stored media information becomes searchable. A minimum of two search characters is required to start a search.  
 
 ## Search Patterns
 

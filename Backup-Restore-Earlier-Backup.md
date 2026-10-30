@@ -3,7 +3,7 @@ uid: Backup-Restore-Earlier-Backup
 title: Restoring an Earlier Backup of the Database
 ---
 
-If you have [configured backups](Backup-Using-Plugin.md) to keep extra backups of the emby server databases, you can do a restore that would revert the databases to an earlier backup set. The restore will use the last full backup data but the databases will be from the backup date you select.
+If you have [configured backups](Backup-Using-Plugin.md) to keep extra backups of the emby server databases, you can do a restore that would revert the databases to an earlier backup set. The restore will use the last full backup data but the databases will be from the backup date you select. [Application-data backups](xref:Learn-Storage-App-Backups) explain why the captured state and backup scope matter.
 
 Launch the Backup & Restore plugin by clicking on Backup & Restore from the Advanced section of the server dashboard left sidebar.
 

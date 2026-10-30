@@ -27,8 +27,8 @@ Emby publishes two channels:
 
 The repository URL also depends on your architecture:
 
-- `x86_64` (most desktop/server installs)
-- `aarch64` (ARM64)
+- [`x86_64`](xref:Learn-Server-X86-64) (most desktop/server installs)
+- [`aarch64` (ARM64)](xref:Learn-Server-ARM64)
 
 The published server format is:
 

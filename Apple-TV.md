@@ -7,7 +7,7 @@ legacyUrl: /support/solutions/articles/44001160796-apple-tv
 Emby for Apple TV can be installed from the App store on your 4th generation Apple TV device.
 
 
-Emby for Apple TV can handle just about any type of media thanks to Emby Server transcoding. If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Apple TV can handle just about any type of media thanks to Emby Server transcoding. If you would like to learn how to prepare your media for [Direct Play](xref:Learn-Playback-Direct-Play), read below.
 
 ## Setup Guide
 

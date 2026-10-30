@@ -76,7 +76,7 @@ The steps assume that:
 
 ## Backup your media
 
-You are responsible for ensuring your media is backed up and is available to copy to the new system. Any artwork/nfo files stored alongside the media files, should be included in your migration of the media to the new system.
+You are responsible for ensuring your [media is backed up](xref:Learn-Storage-Media-Backups) and is available to copy to the new system. Any artwork/nfo files stored alongside the media files, should be included in your migration of the media to the new system.
 
 
 ## Backup you camera-uploads and Live TV recordings
@@ -119,7 +119,7 @@ The default directories for Camera-Uploads and Live TV Recordings should be copi
 
 Have all the media available on the new computer / NAS.
 
-Ensure that the Emby Server process running on the new system, will have full permissions access to the media.
+Ensure that the Emby Server process running on the new system, will have full [permissions access](xref:Learn-Storage-Permissions) to the media.
 
 
 ## Make the Emby Server backup available on the new system
@@ -222,7 +222,7 @@ Ensure you also cover the special case of default CameraUploads and Live TV reco
 
 ## Adjust any users Folder Level Access settings
 
-If you have Library Folder Level access restrictions for users, these will need to re-configured for the new folder paths. Whole Library access restrictions will carry forward without need for any adjustments, but folder level restrictions will need to be re-instated for the libraries new folder paths.
+If you have [Library Folder Level access restrictions](xref:Learn-Network-Library-Permissions) for users, these will need to re-configured for the new folder paths. Whole Library access restrictions will carry forward without need for any adjustments, but folder level restrictions will need to be re-instated for the libraries new folder paths.
 
 In this example, we have one user account which had no access to the TV and Photos library and a folder level access restriction for the Movies library:
 
@@ -264,7 +264,7 @@ All libraries will now show just the new paths.
 
 ## Check the new restored server
 
-Go to the restored server Home Screen and check out the libraries.
+Go to the restored server Home Screen and check out the libraries. [Backup restoration](xref:Learn-Storage-Restore) explains the checks that connect recovered files to a usable server.
 
 In this restore example, the Movies library images are in place
 

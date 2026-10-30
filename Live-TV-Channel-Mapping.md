@@ -4,7 +4,7 @@ title: Live TV Channel Mapping
 legacyUrl: /support/solutions/articles/44001848809-live-tv-channel-mapping
 ---
 
-The last thing to do after setting up your tuner and guide data provider is to map your channel lineup.
+The last thing to do after setting up your tuner and guide data provider is to [map your channel lineup](xref:Learn-TV-Channel-Mapping).
 
 Emby Server will try to automate matching of your channels to any guides you have setup for this tuner. You can manually change any channel by picking the guide, then the Station.
 

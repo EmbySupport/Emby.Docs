@@ -15,8 +15,8 @@ Emby Server is available on the following platforms:
 - Mac
 - Linux
 - FreeBSD
-- NAS Devices - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
-- Docker
+- [NAS Devices](xref:Learn-Storage-NAS) - Asustor, FreeNAS, Netgear, Open Media Vault, QNAP, Synology, Terramaster, Thecus, TrueNAS, TrueNAS Scale, unRAID, Western Digital
+- [Docker](xref:Learn-Server-Docker-Images)
 - Android
 - Cloudron
 - Cloudzy
@@ -52,7 +52,7 @@ Now, you'll add your media libraries. See [Library Setup](Library-Setup.md) for 
 
 ## Configure Remote Access
 
-Automatic port mapping for remote access can be enabled or disabled at this initial stage:
+[Automatic port mapping](xref:Learn-Network-UPnP-Mapping) for remote access can be enabled or disabled at this initial stage:
 
 ![](images/server/wizard5.png)
 

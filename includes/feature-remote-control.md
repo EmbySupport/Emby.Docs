@@ -1,6 +1,6 @@
 
 
-Support for remote control input has been extended. More button mappings are supported, including all buttons found on classic Windows Media Center remotes (Windows app). The Xbox app supports a smaller set of RC buttons only.
+Support for remote control input has been extended. More button mappings are supported, including all buttons found on [classic Windows Media Center remotes](xref:Learn-Input-Infrared-Remotes) (Windows app). The Xbox app supports a smaller set of RC buttons only.
 
 The new settings UI allows to test all remote control buttons as to whether they are recognized by the app.
 

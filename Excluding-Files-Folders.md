@@ -4,7 +4,7 @@ title: Excluding Files & Folders
 legacyUrl: /support/solutions/articles/44001159118-excluding-files-folders
 ---
 
-Media files can be excluded during a library scan. This article shows how this can be done and gives details of the feature update that came in Emby Server version 4.9.
+Media files can be excluded during a [library scan](xref:Learn-Library-Scanning). This article shows how this can be done and gives details of the feature update that came in Emby Server version 4.9.
 
 ## Emby Server 4.9 and later
 

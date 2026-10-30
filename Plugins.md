@@ -5,7 +5,7 @@ legacyUrl: /support/solutions/articles/44001162214-plugins-overview
 # TODO: Duplicated as Plugins-Duplicate.md
 ---
 
-Plugins extend the functionality of Emby by providing additional features and services. To manage your plugins, open the server dashboard and navigate to **Plugins**.
+[Plugins](xref:Learn-Automation-Plugins) extend the functionality of Emby by providing additional features and services. To manage your plugins, open the server dashboard and navigate to **Plugins**.
 
 ## My Plugins
 
@@ -41,7 +41,7 @@ Click the Install button install. After the installation has completed, the serv
 
 ### Manual Install of Plugins
 
-Sometimes you may need to install a plugin manually. It could be because there is a new pre-release version made available in the forum or a plugin that is not in the catalogue.
+Sometimes you may need to install a plugin manually. It could be because there is a new pre-release version made available in the forum or a plugin that is not in the catalogue. Check [plugin compatibility](xref:Learn-Automation-Plugin-Compatibility) for the host, runtime and stored-data relationships involved.
 
 The installed plugins are stored in the "plugins" directory which is below the Emby Server Data Folder.
 

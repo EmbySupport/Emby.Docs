@@ -3,7 +3,7 @@ uid: QNAP-SSL-Certificate-Renewal
 title: QNAP SSL Certificate Renewal
 ---
 
-For Emby Servers running on **[QNAP QTS](https://www.qnap.com/en-uk/operating-system/qts)** and **[QNAP QuTS hero](https://www.qnap.com/en-uk/operating-system/quts-hero)** that have configured automatic SSL certificate renewals in QNAP, this article details a method for updating the SSL PFX certificate file used by Emby Server when Secure Connections are enabled for Emby Server as outlined in [Using Secure https Connections](Secure-Your-Server.md#using-secure-https-connections).
+For Emby Servers running on **[QNAP QTS](https://www.qnap.com/en-uk/operating-system/qts)** and **[QNAP QuTS hero](https://www.qnap.com/en-uk/operating-system/quts-hero)** that have configured [automatic SSL certificate renewals](xref:Learn-Network-ACME) in QNAP, this article details a method for updating the SSL PFX certificate file used by Emby Server when Secure Connections are enabled for Emby Server as outlined in [Using Secure https Connections](Secure-Your-Server.md#using-secure-https-connections).
 
 A shell script `QNAPEmbyCertRenew.sh` is provided that can be customized and scheduled to run daily, to check if the QNAP NAS has updated its SSL Certificate. If that is detected, the Emby Server SSL certificate pfx file would be replaced with one based on the renewed QNAP SSL certificate, with a password as specified in the script.
 
@@ -27,7 +27,7 @@ A shell script `QNAPEmbyCertRenew.sh` is provided that can be customized and sch
 ## Requirements
 
 - A share folder for holding the Emby Server certificate pfx file and the script and its log file: defaulted to `/share/Emby-SSL-Certificate`.
-- An Emby API Key to use for notifying Emby Server of the updated SSL certificate pfx file.
+- An [Emby API Key](xref:Learn-Automation-API-Keys) to use for notifying Emby Server of the updated SSL certificate pfx file.
 - SSH connection to the QNAP NAS to setup the script. Refer to [QNAP: How Do I Access My QNAP NAS Using ssh](https://www.qnap.com/en/how-to/faq/article/how-do-i-access-my-qnap-nas-using-ssh).
 - Tools such as **[PuTTY](https://putty.org/index.html)** for Windows to access the NAS through ssh.
 - If using windows to edit the script, ensuring end of line characters are correct for linux - by using tool such as **[dos2unix](https://sourceforge.net/projects/dos2unix/)**.

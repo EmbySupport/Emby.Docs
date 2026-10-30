@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001848795-m3u-tuners
 # This is an internal comment
 ---
 
-Emby Live TV supports setting up M3U files as TV Tuners. Each M3U file will contain a list of channels, along with information such as channel name, id, and how to play the channel.
+Emby Live TV supports setting up [M3U files](xref:Learn-TV-M3U) as TV Tuners. Each M3U file will contain a list of channels, along with information such as channel name, id, and how to play the channel.
 
 To add an M3U tuner, simply open the Emby Server dashboard, navigate to **Live TV Setup** and click **Add TV Source**
 
@@ -28,7 +28,7 @@ Leaving the **Referer http header** and **user agent http header** fields blank 
 
 It will be possible to choose how the **Referer** header item is included in the streaming requests. Some providers may only accept **Referrer**, whilst others may expect it to be **Referer**. The default is to include both variants. You have a choice of including both, either **Referer** or **Referrer** or none. The wrong **Referer** or **User Agent** could give rise to http 403 (Forbidden) errors being returned.
 
-You can also set the simultaneous stream limit if there is one.
+You can also set the [simultaneous stream limit](xref:Learn-TV-IPTV-Limits) if there is one.
 
 ![](images/server/m3utuner3.png)
 

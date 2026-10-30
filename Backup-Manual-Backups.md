@@ -6,7 +6,7 @@ title: How to Backup Manually
 The following instructions will detail how to manually backup or migrate an Emby Server installation.
 
 > [!Important]
-> It is important that the Emby Server process is not running when files are backed up.
+> It is important that the Emby Server process is not running when files are backed up. See [application-data backups](xref:Learn-Storage-App-Backups) for why a consistent copy matters.
 
 ### Locate Emby's program data folder
 
@@ -48,7 +48,7 @@ If you are migrating to a different operating system, make sure you match up dir
  - After running through the setup wizard, shut down Emby Server
  - If space allows, make a copy of the installation to another location on disk. This is only needed if you need to check/fix access rights.
  - Restore the backup from your old machine right over the current installation on the new system.
- - Compare each folder's access rights on the new machine restore to the fresh installation copy.
+ - Compare each folder's [access rights](xref:Learn-Storage-Permissions) on the new machine restore to the fresh installation copy.
  - Adjust access rights as needed so they match
  - Start Emby Server.
  - Make any adjustments to file location you may need to make.

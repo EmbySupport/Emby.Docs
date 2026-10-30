@@ -12,7 +12,7 @@ We're excited to provide an all-new Emby Linux app, built to deliver the best po
 
 ## Goals of the native Linux App
 
-While the Emby web app works well across platforms, there are limits to what a browser-based player can achieve, especially when it comes to modern video and audio playback.  
+While the Emby web app works well across platforms, there are limits to what a [browser-based player](xref:Learn-Playback-Browser) can achieve, especially when it comes to modern video and audio playback.  
 Browsers continue to improve, but they inevitably lag behind native applications when it comes to advanced video technologies, hardware acceleration, and reliable fullscreen playback. Emby users expect smooth, high-quality playback — and delivering that consistently requires a native application.
 
 ## Benefits Over the Web Player

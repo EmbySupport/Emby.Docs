@@ -46,6 +46,8 @@ legacyUrl: /support/solutions/articles/44001173099-emby-premiere-feature-matrix
 
 </style>
 
+For technical background, see [hardware-accelerated media processing](xref:Learn-Hardware-Media-Acceleration) and [HDR tone mapping](xref:Learn-Tone-Mapping-Why).
+
 ## Server / All Apps
 
 <table class="premiere-matrix-table">

@@ -24,10 +24,10 @@ Once connected, any content you play will be sent to the Chromecast device. You'
 
 ## Direct Play Media Formats
 
-The Emby Web app can direct play media to your browser when the browser supports the format natively. Please check your web browser of choice for it's supported media formats.
+The Emby Web app can direct play media to your browser when the [browser supports the format natively](xref:Learn-Playback-Browser). Please check your web browser of choice for it's supported media formats.
 
 ## Best Practices for Direct Play
 
 Leave the app's streaming bitrate setting on the default value of Auto, if possible. The app will perform bandwidth tests with your Emby Server to determine the maximum playable bitrate.
 
-If you are customizing the bitrate setting, then you will need to compare the bitrate of your files to the bitrate setting in the app. You can find the bitrate of a file by checking the media info in the web interface. If the bitrate of a file is higher than the setting in the app, transcoding will be required. Increasing the bitrate setting in the app can help reduce transcoding, but may impact playback performance if your network connection is not fast enough to handle it.
+If you are customizing the bitrate setting, then you will need to compare the [bitrate of your files](xref:Learn-Media-Bitrate) to the bitrate setting in the app. You can find the bitrate of a file by checking the media info in the web interface. If the bitrate of a file is higher than the setting in the app, transcoding will be required. Increasing the bitrate setting in the app can help reduce transcoding, but may impact playback performance if your network connection is not fast enough to handle it.

@@ -4,7 +4,7 @@ title: Offline Access
 legacyUrl: /support/solutions/articles/44001161858-offline-access
 ---
 
-The offline downloading feature allows you to copy your content to mobile device or desktop PC for offline viewing. Download jobs are created using either the server's web interface or an Emby app on a mobile or desktop device. The server will then convert the media for the device as necessary. The apps will then download the content by running a periodic background sync process.
+The offline downloading feature allows you to copy your content to mobile device or desktop PC for [offline viewing](xref:Learn-Playback-Offline). Download jobs are created using either the server's web interface or an Emby app on a mobile or desktop device. The server will then convert the media for the device as necessary. The apps will then download the content by running a periodic background sync process.
 
 The Emby apps that currently support offline downloading are:
 

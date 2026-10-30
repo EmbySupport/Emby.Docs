@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160108-new-folder-based-access-contr
 ---
 
 
-Emby 4.0 includes a new way to do Merged Libraries that is very powerful.  If you were using merged libraries in a previous version of Emby you will want to redo your setup to take advantage of this new server based way to accomplish the same thing.  The previous method was a user preference to combine different libraries of liked content.  Now with version 4.0 this is all handled in the library access control making it much easier to manage.
+Emby 4.0 includes a new way to do Merged Libraries that is very powerful.  If you were using merged libraries in a previous version of Emby you will want to redo your setup to take advantage of this new server based way to accomplish the same thing.  The previous method was a user preference to combine different libraries of liked content.  Now with version 4.0 this is all handled in the [library access control](xref:Learn-Network-Library-Permissions) making it much easier to manage.
 
 To get an idea of what merged libraries are and how to effectively use them let’s take an example where you have multiple types of TV Show content broken up and stored on disk by categories. Below is the category of TV Show and the physical location to the parent directory of each.
 

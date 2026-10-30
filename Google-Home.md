@@ -25,7 +25,7 @@ legacyUrl: /support/solutions/articles/44001161655-google-home
 
 Google Home is a powerful speaker and voice Assistant. Play your music. Call your friends. Ask it questions. Control your home. It's your own Google, always ready to help.
 
-The Emby Skill enables users to control playback of their media library or Live TV on any Emby compatible device. Once you have successfully linked your Emby account to Google Home and have remote access configured on the emby server, you can start controlling playback of your movies, TV shows, music or Live TV on your devices with your voice.
+The Emby Skill enables users to [control playback](xref:Learn-Playback-Remote-Control) of their media library or Live TV on any Emby compatible device. Once you have successfully linked your Emby account to Google Home and have remote access configured on the emby server, you can start controlling playback of your movies, TV shows, music or Live TV on your devices with your voice.
 
 ## Get started
 
@@ -42,7 +42,7 @@ It is necessary for [Emby Connect](Emby-Connect.md) to be used for the emby serv
 
 #### Why is Emby connect required?
 
-Emby connect is used to provide your server information to Google Home.
+[Emby connect](xref:Learn-Network-Emby-Connect) is used to provide your server information to Google Home.
 
 #### Why is Emby Server Remote Access required?
 

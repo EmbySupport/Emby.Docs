@@ -4,7 +4,7 @@ title: Audio Book Naming
 legacyUrl: /support/solutions/articles/44001159114-audio-book-naming
 ---
 
-The recommended folder structure for audio books is Author\Book Name\Chapter
+The recommended [folder structure for audio books](xref:Learn-Library-Audiobook-Organization) is Author\Book Name\Chapter
 
 ```
  \AudioBooks
@@ -31,7 +31,7 @@ Or even a flat library of chapter files:
      2- Book Name - Chapter 2.mp3
 ```
 
-Track/Chapter numbers are retrieved using embedded ID3 tag information if present.
+[Track/Chapter numbers](xref:Learn-Library-Audiobook-Chapters) are retrieved using embedded ID3 tag information if present.
 
 ## Multi-Disc Audio Books
 

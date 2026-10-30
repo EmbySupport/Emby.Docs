@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001162190-folder-sync
 
 Folder sync allows you to copy content to folders and external hard drives, for backup as well as archiving in multiple resolutions. This is an [Emby Premiere](Emby-Premiere.md) server administration feature.
 
-When content is archived in multiple resolutions, Emby apps will automatically choose the version that is most efficient for them. This will help relieve stress on your server's CPU. The availability of these versions would depend on the permissions granted when setting up Folder Sync.
+When content is archived in multiple resolutions, Emby apps will automatically [choose the version](xref:Learn-Playback-Source-Selection) that is most efficient for them. This will help relieve stress on your server's CPU. The availability of these versions would depend on the permissions granted when setting up Folder Sync.
 
 ## Installation
 
@@ -44,7 +44,7 @@ Once a sync folder has been added, it will then show as as an available destinat
 
 Once synced, Emby apps will automatically use the additional media sources when possible. For example, suppose you have a high bitrate movie that requires transcoding to Roku. By syncing to a folder and selecting a conversion profile that is compatible with Roku, the Roku app can then direct stream the synced version rather than transcoding the original.
 
-In this example, folder sync was used to create mobile 4Mbps versions of some media. They are available as alternative versions in playback and in this example this version was pre-selected automatically.
+In this example, folder sync was used to create mobile 4Mbps versions of some media. They are available as [alternative versions](xref:Learn-Library-Alternate-Versions) in playback and in this example this version was pre-selected automatically.
 
 ![](images/plugins/foldersync7.png)
 

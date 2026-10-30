@@ -28,7 +28,7 @@ You can edit libraries later to remove what is not required for this additional 
 
 Have all the media available on the new computer / NAS.
 
-Ensure that the Emby Server process running on the new system, will have full permissions access to the media.
+Ensure that the Emby Server process running on the new system, will have full [permissions access](xref:Learn-Storage-Permissions) to the media.
 
 
 ## Make the Emby Server backup available on the new system
@@ -115,7 +115,7 @@ Open Backup & Restore and you should now see the Current Backup Information.
 
 ## Configuring Remote Access
 
-The remote access settings for the public port will need to be changed as this will clash with the original server. You need to change the public ports used for http and https to be different from what you had on the existing server.
+The remote access settings for the public port will need to be changed as this will clash with the original server. You need to change the [public ports](xref:Learn-Network-Ports) used for http and https to be different from what you had on the existing server.
 
 > [!IMPORTANT]
 > Ensure you have a DHCP Reservation in the router for the IP Address of the additional server.

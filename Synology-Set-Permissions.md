@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44002313183-how-to-set-permissions-on-dsm
 ---
 
 .
-For Synology versions of DSM 7 and higher you need to assign read or read/write permissions to the system internal emby user for any directories used by Emby such as your media folders. We recommend setting read/write permissions to take full advantage of Emby's features.
+For Synology versions of DSM 7 and higher you need to assign [read or read/write permissions](xref:Learn-Storage-Read-Only) to the system internal emby user for any directories used by Emby such as your media folders. We recommend setting read/write permissions to take full advantage of Emby's features.
 
 
 To set permission open the Control Panel on Synology DSM.  Then open Shared Folders.  

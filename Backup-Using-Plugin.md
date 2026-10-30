@@ -14,7 +14,7 @@ The Backup & Restore plugin can help you backup and restore the following:
 - Playlists
 - Live TV Schedule
 
-This will not backup library contents. For metadata, there are options to include all metadata in the backups. You can configure your libraries to save nfo and image files alongside the media within the media folders and they would then be included in your own library media content backups.
+This will not backup library contents. See [media backups](xref:Learn-Storage-Media-Backups) for protecting those source files. For metadata, there are options to include all metadata in the backups. You can configure your libraries to save [nfo](xref:Learn-Metadata-NFO) and image files alongside the media within the media folders and they would then be included in your own library media content backups.
 
 > [!Note]
 > If you have configured camera uploads and/or Live TV recordings, the default directories for these (data\camerauploads and data\livetv\recordings) are not part of the backup. You would need to back these up yourself and re-instate on the target new location.
@@ -46,7 +46,7 @@ The default backup will backup some of the metadata sub-folders and others will 
 
 
 > [!Important]
-> You must set a path for backups by changing the default "undefined" path setting to an actual path and saving that for the backups to start. Please ensure that the system user account that Emby Server runs in, has full permissions to this backups path. Paths must be absolute and not relative.
+> You must set a path for backups by changing the default "undefined" path setting to an actual path and saving that for the backups to start. Please ensure that the system user account that Emby Server runs in, has full [permissions](xref:Learn-Storage-Permissions) to this backups path. Paths must be absolute and not relative.
 
 Enter a path for the backups, e.g.:
 
@@ -67,7 +67,7 @@ Now click **"Save"**.
 ![](images/plugins/backup-02.png)
 
 > [!Note]
-> If running Emby Server on Windows as a Windows Service, the backup path needs to be to a local drive or using UNC path if it is an external shared network drive. This is because Mapped Network Drives would not be available to a Windows Service. e.g. Use `\\server-name\share-name\backups-folder-name` as path and not a mapped network drive.
+> If running Emby Server on Windows as a Windows Service, the backup path needs to be to a local drive or using UNC path if it is an external shared network drive. This is because Mapped Network Drives would not be available to a Windows Service. See [storage access from background services](xref:Learn-Storage-Service-Access) for the difference from a desktop session. e.g. Use `\\server-name\share-name\backups-folder-name` as path and not a mapped network drive.
 
 
 By default, the backup process will run once a day soon after midnight. This can be changed in **Scheduled Tasks** settings.

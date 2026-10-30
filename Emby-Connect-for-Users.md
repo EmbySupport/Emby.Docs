@@ -13,7 +13,7 @@ Emby Connect is a free optional service that allows a person to use one set of u
 
 #### Does This Mean My Streaming is Passing Through the Cloud?
 
-No, all connections are direct from your devices to your Emby Server. The sole purpose of the Emby Connect feature is to help your devices locate your Emby Server so that you don't have to set it up yourself.
+No, all connections are direct from your devices to your Emby Server. The sole purpose of the Emby Connect feature is to help your devices locate your Emby Server so that you don't have to set it up yourself. [Emby Connect and server connectivity](xref:Learn-Network-Emby-Connect) explains how account linking relates to that connection.
 
 ## User Guide
 

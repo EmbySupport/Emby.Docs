@@ -41,7 +41,7 @@ In addition you can specify your own custom videos to be used with cinema intros
 
 ## Codec Intros
 
-Codec intros allow you to create intros based on the media information of the main feature you are watching. For example, if you're watching a movie with AC3 audio, you can create an ac3 intro called ac3.mp4, and place this in your codec intro path.
+Codec intros allow you to create intros based on the [media information](xref:Learn-Metadata-Technical) of the main feature you are watching. For example, if you're watching a movie with AC3 audio, you can create an ac3 intro called ac3.mp4, and place this in your codec intro path.
 
 The following fields are used to determine a match:
 

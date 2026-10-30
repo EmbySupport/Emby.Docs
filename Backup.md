@@ -5,6 +5,8 @@ legacyUrl: /support/solutions/articles/44001159936-configuration-backup
 legacyUrl: /support/solutions/articles/44001159936-backup
 ---
 
+[Application-data backups](xref:Learn-Storage-App-Backups) preserve server state, while [media backups](xref:Learn-Storage-Media-Backups) protect the source files in your collection.
+
 The guides will go over the following:
 
 - how to setup regular backups using the Backup & Restore Plugin. See [Backing Up Emby Server](Backup-Using-Plugin.md).

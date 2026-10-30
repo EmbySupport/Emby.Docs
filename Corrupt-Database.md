@@ -63,6 +63,8 @@ You will need to use a command-line window, linux shell window, mac terminal ses
 
 ### Remove Database Locks
 
+[Database locking](xref:Learn-Server-Database-Locking) and [write-ahead logging](xref:Learn-Server-WAL) explain the different roles of coordination state and persisted database changes. A WAL can contain committed changes that have not yet reached the main database file.
+
 1. Shutdown Emby Server if it is running and check that the EmbyServer process is no longer showing before proceeding to the next step. Check with Windows **Task Manager**, macOS **Activity Monitor**, **top** or "**ps -aux | grep emby**" on linux and NAS.
 
 2. In a command line window or terminal session on macOS, or shell window on linux and NAS, navigate to the `data` directory containing your database file. The following are a few examples, refer to the [Server Data Folder](Server-Data-Folder.md) document for the complete list.
@@ -308,7 +310,7 @@ If this is for a NAS and is being repaired on a computer, we now need to copy th
 
 Similarly, if the repair was done working in a temporary directory, we need now to copy the new repaired library.db to the correct directory overwriting the corrupt/suspect database file.
 
-Ensure the new `library.db` has the same permissions and ownership as the original library. Adjust the permissions and ownership if not. For linux and NAS, the owner, group and permissions can be seen for files in the `data` directory by executing `ls -ail`.
+Ensure the new `library.db` has the same [permissions and ownership](xref:Learn-Storage-Permissions) as the original library. Adjust the permissions and ownership if not. For linux and NAS, the owner, group and permissions can be seen for files in the `data` directory by executing `ls -ail`.
 
 Restart Emby Server
 

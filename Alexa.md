@@ -10,7 +10,7 @@ legacyUrl: /support/solutions/articles/44001160798-amazon-alexa
 
 Amazon Alexa is a cloud-based voice service that allows you to retrieve information via voice as well as control device and apps in your Environment including Emby.  You can ask Alexa to play music, hear the news, check weather, control your smart home, and more.
 
-The Emby Skill enables users to get information about and control playback of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
+The Emby Skill enables users to get information about and [control playback](xref:Learn-Playback-Remote-Control) of their media library on any Emby compatible device. Once you have successfully linked your Emby account to Alexa, you can start playing your favorite movies, TV shows on your devices with your voice.
 
 ## Get started  
 
@@ -87,7 +87,7 @@ The Amazon Alexa app offers feedback cards for skills. This allows Alexa to self
 
 ### Using Alexa as a player
 
-Audio playback is supported at this time. This feature requires your server to be secured with ssl encryption. Refer to this guide if you need help. Self-signed certificates are not supported for this.
+Audio playback is supported at this time. This feature requires your server to be [secured with ssl encryption](xref:Learn-Network-HTTPS-TLS). Refer to this guide if you need help. [Self-signed certificates](xref:Learn-Network-TLS-Chains) are not supported for this.
 
 Ask m. b. home to play music. Specify "on this player" or "on Alexa" at the end of your request to skip the player selection. Once music playback is initiated with the skill, you can use these controls (notice you don't invoke m. b. home):
 

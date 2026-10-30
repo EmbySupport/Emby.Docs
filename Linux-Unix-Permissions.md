@@ -31,7 +31,7 @@ Then "/mnt/library" is your base. Servers with multiple storage volumes and exte
 
 
 
-On the Emby server with the media to be shared, create a group for media if it doesn't exist. The group name is arbitrary though it helps to be descriptive:
+On the Emby server with the media to be shared, create a [group](xref:Learn-Storage-Linux-IDs) for media if it doesn't exist. The group name is arbitrary though it helps to be descriptive:
 group add media
 
 
@@ -41,7 +41,7 @@ usermod -a -G media my-user
 usermod -a -G media emby
 ...
 
-We'll use ACLs. First to set the permissions and then to set the defaults. It can be done in one command but it's easier to follow this way. Members of the media group will be able to access and modify files and directories under /mnt/library. New files and directories will be created with permissions for the media group.
+We'll use [ACLs](xref:Learn-Storage-ACLs). First to set the permissions and then to set the defaults. It can be done in one command but it's easier to follow this way. Members of the media group will be able to access and modify files and directories under /mnt/library. New files and directories will be created with permissions for the media group.
 
 
 
@@ -54,7 +54,7 @@ Define default permissions for media group. Applies to new items:
 setfacl -R -m d:g:media:rwX /mnt/library
 
 
-If you're using SMB/CIFS you can enforce similar rules. Assuming the users are the same and the group can be added.
+If you're using [SMB/CIFS](xref:Learn-Storage-SMB) you can enforce similar rules. Assuming the users are the same and the group can be added.
 
 In smb.conf and for each of the shares add to current config:
 [share name]
