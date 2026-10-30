@@ -10,7 +10,7 @@ Server notifications allow you to stay informed of your server's activity.
 
 ## Notification Services
 
-Notification services represent the ways in which notifications are sent out. Notification services are available through a number of Plugins. To install a notification service, open the server dashboard, navigate to the **Plugin Catalog** and scroll down to the Notifications section. A number of options are available:
+[Notification services](xref:Learn-Automation-Notifications) represent the ways in which notifications are sent out. Notification services are available through a number of Plugins. To install a notification service, open the server dashboard, navigate to the **Plugin Catalog** and scroll down to the Notifications section. A number of options are available:
 
 ![](images/server/notifications3.png)
 

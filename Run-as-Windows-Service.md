@@ -5,7 +5,7 @@ longTitle: Running Emby Server as a Windows Service
 legacyUrl: /support/solutions/articles/44001159984-running-emby-server-as-a-windows-service
 ---
 
-Before setting up a Windows Service, you'll need to [install Emby Server from the Emby website](https://emby.media/download.html).
+Before setting up a [Windows Service](xref:Learn-Server-Processes), you'll need to [install Emby Server from the Emby website](https://emby.media/download.html).
 
 To setup a Windows Service, we'll be using a program called [NSSM](https://nssm.cc/) that can turn any app into a Windows Service. To begin:
 
@@ -26,6 +26,8 @@ Then, on the exit actions tab, make sure to configure the exit action to **not**
 ![NSSM Service Editor](images/server/nssm1.jpg)
 
 This is important because without this, using the **Shutdown** button inside Emby Server will cause NSSM to automatically restart Emby Server.
+
+The service account's [storage access](xref:Learn-Storage-Service-Access) determines which media folders it can use.
 
 > [!WARNING]
 > Emby will not auto update while running as a service.  To upgrade Emby Server, download the latest version from https://emby.media/windows-server.html. Stop the service and perform the install using the version downloaded. Restart service.

@@ -4,6 +4,8 @@ title: Image Editing and Image Types
 legacyUrl: /support/solutions/articles/44002196420-image-editing-and-image-types
 ---
 
+[Media artwork roles](xref:Learn-Metadata-Artwork-Roles) explain how posters, backgrounds, logos and other image types are used in a library.
+
 ## Live TV
 
 Primary - This channel logo is the historic logo used for channels and third party plugins. On newer Emby clients it is used on light colored backgrounds.

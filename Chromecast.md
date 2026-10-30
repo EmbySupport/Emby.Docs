@@ -4,7 +4,7 @@ title: Chromecast
 legacyUrl: /support/solutions/articles/44001161600-chromecast
 ---
 
-Emby supports casting to Chromecast in the following apps:
+Emby supports [casting to Chromecast](xref:Learn-Playback-Google-Cast) in the following apps:
 
 - [Android Mobile (Google Play)](https://play.google.com/store/apps/details?id=com.mb.android "Android Mobile (Play Store)")
 - [iPad](https://itunes.apple.com/us/app/emby/id992180193?ls=1&mt=8 "iPad")
@@ -14,7 +14,7 @@ Emby supports casting to Chromecast in the following apps:
 
 To connect to your Chromecast device, simply click the cast icon in the top right corner of the app. You'll then be asked which device you'd like to connect to.
 
-Emby for Chromecast can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Chromecast can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for [Direct Play](xref:Learn-Playback-Direct-Play), read below.
 
 ## Direct Play Media Formats
 

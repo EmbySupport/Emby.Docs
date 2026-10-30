@@ -22,7 +22,7 @@ When the LAN Networks field is filled, any subnet not defined here will be deeme
 Here is an example of two 256-addresses subnets defined as being local for the server: 192.168.1.0/24,10.253.0.0/24.
 
 > [!IMPORTANT]
-> When specifying IP subnets, make sure you use the correct netmask/cidr value. A `/24` denotes 256 addresses
+> When specifying IP subnets, make sure you use the correct [netmask/cidr value](xref:Learn-Network-CIDR). A `/24` denotes 256 addresses
 
 ![](images/server/connectivity5.png)
 
@@ -34,12 +34,12 @@ Here is an example of two 256-addresses subnets defined as being local for the s
 
 ## Local IP Address
 
-The local IP address will automatically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with multiple network interfaces and you wish to set a specific network interface.
+The local IP address will automatically be detected by Emby Server and this field should be left blank. But, if you wish to override that, enter here the local IP address that Emby Server should present to Emby apps. An example of when you may need to do that, is for a server with [multiple network interfaces](xref:Learn-Network-Multiple-Interfaces) and you wish to set a specific network interface.
 
 ![](images/server/hosting12.png)
 
 > [!Important]
-> Ensure the specified IP Address is a static or DHCP reserved IP Address.
+> Ensure the specified IP Address is a static or [DHCP reserved IP Address](xref:Learn-Network-DHCP-Reservations).
 
 ## Local Ports
 
@@ -77,20 +77,20 @@ By default this setting is enabled and the Emby Server will attempt to automatic
 ![](images/server/hosting6.png)
 
 > [!Important]
-> Automatic port mapping uses uPnP which would need to be enabled on the router.
+> Automatic port mapping uses [uPnP](xref:Learn-Network-UPnP-Mapping) which would need to be enabled on the router.
 
 > [!Important]
 > If automatic port mapping is disabled but remote connections are to be used, you must setup port forward rules manually in the router configuration. Refer to [Setup Port Forwarding](Connectivity.md#setup-port-forwarding) section for information on this.
 
 ## External Domain
 
-When using a Dynamic DNS service (DDNS) or a domain name, enter it here without the port number. Emby apps will use this when connecting remotely. The field should be used when a custom SSL certificate is used for Secure Connections. Example: mydomain.com
+When using a [Dynamic DNS service (DDNS)](xref:Learn-Network-DDNS) or a domain name, enter it here without the port number. Emby apps will use this when connecting remotely. The field should be used when a custom SSL certificate is used for Secure Connections. Example: mydomain.com
 
 ![](images/server/hosting14.png)
 
 ## Checking Proxy headers to determine real client IP addresses
 
-The setting is on by default and gives added security where the server checks request headers such as X-Real-Ip or X-Forwarded-For to determine the real IP address of the sender.
+The setting is on by default and gives added security where the server checks request headers such as [X-Real-Ip or X-Forwarded-For](xref:Learn-Network-Forwarded-Addresses) to determine the real IP address of the sender.
 
 ![](images/server/hosting15.png)
 
@@ -100,7 +100,7 @@ Optionally you can disable it or limit it to just check when the headers indicat
 
 ## Secure Connections (https / SSL)
 
-To enable secure connections, you will need to acquire a certificate and provide the filesystem path to the certificate and the certificate password. By default, use of https for requests made to the server is disabled. The path is to be to a PKCS #12 file containing a certificate and private key to enable TLS support on a custom domain. The Certificate password should be entered if it requires a password.
+To enable secure connections, you will need to acquire a certificate and provide the filesystem path to the certificate and the certificate password. By default, use of https for requests made to the server is disabled. The path is to be to a PKCS #12 file containing a [certificate and private key](xref:Learn-Network-TLS-Certificates) to enable TLS support on a custom domain. The Certificate password should be entered if it requires a password.
 
 Three secure connections modes are available to choose from,
 
@@ -129,7 +129,7 @@ With [Emby Premiere](Emby-Premiere.md), you can limit the number of concurrent v
 
 ## Internet streaming bitrate limit
 
-You have an option to specify the streaming bitrate limit in Mbps for streaming to remote devices. This limit is per stream. Bandwidth limits are not enforced by default.
+You have an option to specify the streaming bitrate limit in Mbps for streaming to remote devices. This limit is per stream. Bandwidth limits are not enforced by default. For the combined demand of several remote streams, see [upload bandwidth](xref:Learn-Network-Upload).
 
 ![](images/server/hosting19.png)
 

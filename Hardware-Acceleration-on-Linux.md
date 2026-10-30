@@ -19,8 +19,8 @@ Video Acceleration API for Linux is supported by several device manufacturers
 
 Nvidia provides two hardware acceleration interfaces:
 
-- NVENC API for video encode acceleration
-- NVDEC API for video decode acceleration (formerly called NVCUVID API)
+- [NVENC API](xref:Learn-Hardware-NVIDIA-NVENC) for video encode acceleration
+- [NVDEC API](xref:Learn-Hardware-NVIDIA-NVDEC) for video decode acceleration (formerly called NVCUVID API)
 
 NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations.
 
@@ -76,7 +76,7 @@ The minimum required driver version on Linux is **470.57**
 
 ## VA API
 
-VAAPI (Video Acceleration API) is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and driver-specific acceleration backends for each supported hardware vendor.
+[VAAPI (Video Acceleration API)](xref:Learn-Hardware-Linux-VAAPI) is an open-source library and API specification, which provides access to graphics hardware acceleration capabilities for video processing. It consists of a main library and [driver-specific acceleration backends](xref:Learn-Hardware-Linux-VAAPI-Drivers) for each supported hardware vendor.
 
 #### Supported Accelerations
 
@@ -129,7 +129,7 @@ The latest Intel drivers are included with Emby server.
 
 ## Intel QuickSync Video
 
-Intel® Quick Sync Video uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
+[Intel® Quick Sync Video](xref:Learn-Hardware-Intel-QSV) uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
 
 #### Supported Accelerations
 

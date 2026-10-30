@@ -12,7 +12,7 @@ When setting up the library, make sure to select **Books** as the content type.
 
 ### Supported Media Types
 
-For electronic books, the following types are supported:
+For [electronic books](xref:Learn-Library-Electronic-Books), the following types are supported:
 
 - pdf
 - epub

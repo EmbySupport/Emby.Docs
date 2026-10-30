@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001159241-new-media-date-handling
 
 When adding new media to Emby there are two ways the date can be configured for newly added media.
 The first method is to have Emby use the date the file is scanned into the system.
-The second method is to have Emby use the date created time stamp of the media file itself.
+The second method is to have Emby use the [date created time stamp](xref:Learn-Storage-Timestamps) of the media file itself.
 
 As an example if the current date is March 20th and you have media that was created on January 10th then there are two different dates that could be used depending on the setting you have set in Emby.  If you use the date created, then once this new media is scanned into Emby it will be available but likely may not show up as "new" media since it will have a date added of Jan 10th.  If you use the scan date, then Emby will ignore the creation date and will use the date added of the exact day it first sees the media added to the system which would be March 20th.  In this case the media would show up as new.
 

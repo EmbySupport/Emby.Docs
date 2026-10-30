@@ -14,7 +14,7 @@ Please follow directions in our TV Naming articles for directions of how to add 
 
 4 Optional - you could update the TVDB with your extras that it does not have.
 
-Once you have these extras available in the Specials Season you can edit the metadata for each special and adjust the timeline where it should show.
+Once you have these extras available in the [Specials Season](xref:Learn-Library-Television-Specials) you can edit the metadata for each special and adjust the timeline where it should show.
 
 
 

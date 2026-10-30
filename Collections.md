@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44002311268-collections-emby-server-versi
 redirFromUrl: Collections-Pre46.md
 ---
 
-Collections are the grouping of like media such as:
+[Collections](xref:Learn-Library-Collections) are the grouping of like media such as:
 
 Back to the Future Collection
 

@@ -6,7 +6,7 @@ seeAlso:
 ---
 
 
-Users and the server administrator can customize the Home Screen content and as from Emby Server version 4.10.x, the functionality has been greatly enhanced to allow you to view your media grouped in the way you like.
+Users and the server administrator can customize the Home Screen content and as from Emby Server version 4.10.x, the functionality has been greatly enhanced to allow you to view your media grouped in the way you like. [Virtual library organization](xref:Learn-Library-Virtual-Organization) explains how these views relate to the stored files.
 
 This article covers the features introduced in Emby Server version 4.10.x onwards. For earlier versions of Emby Server (4.8.x and 4.9.x), refer to [User Preferences - Home Screen (Legacy)](User-Prefs-HomeScreen-Legacy.md).
 
@@ -106,7 +106,7 @@ A drop-down list of all libraries will be shown where you can exclude/include in
 
 **Next Up episodes**
 
-The **"Continue Watching"** Home Section has an option for including or excluding the Next Up episodes. Toggle the **"Include next up episodes in Continue Watching"** option to include or exclude Next up episodes.
+The **"Continue Watching"** Home Section has an option for including or excluding the [Next Up episodes](xref:Learn-Library-Next-Episode). Toggle the **"Include next up episodes in Continue Watching"** option to include or exclude Next up episodes.
 
 ![](../../images/server/users119.png)
 
@@ -576,7 +576,7 @@ These are treated as libraries and would be available in the libraries selection
 
 ### What filtering is available?
 
-This varies for Home Section Types. With the exception of the **"Latest Media"** section type, all sections that have filtering will have **Favourites** and **Tags** as filter options. Some section types will offer Genre and Studio filtering as well. See the [Home Section Types Matrix](#home-section-types-matrix) for the section types that have filtering on whether a media item has been played or not.
+This varies for Home Section Types. With the exception of the **"Latest Media"** section type, all sections that have filtering will have **Favourites** and **Tags** as filter options. Some section types will offer Genre and Studio filtering as well. See the [Home Section Types Matrix](#home-section-types-matrix) for the section types that have filtering on [whether a media item has been played or not](xref:Learn-Library-Watched-Status).
 
 ### What can I achieve with the "Dynamic Media" Home section type?
 

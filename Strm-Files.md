@@ -4,7 +4,7 @@ title: STRM Files
 legacyUrl: /support/solutions/articles/44001159147-strm-files
 ---
 
-Various internet video and audio streams can be played back in Emby as if they were locally stored on your media center by using STRM files. As long as the format and streaming-method (network-protocol) is supported by Emby, the stream can be used. These are basic text files named to look like <name>.strm and contain a URL to the internet stream. This can also be used for locally stored and shared media where instead of a URL, the strm file contains the path to the media file.
+Various internet video and audio streams can be played back in Emby as if they were locally stored on your media center by using [STRM files](xref:Learn-Media-STRM-Files). As long as the format and streaming-method (network-protocol) is supported by Emby, the stream can be used. These are basic text files named to look like <name>.strm and contain a URL to the internet stream. This can also be used for locally stored and shared media where instead of a URL, the strm file contains the path to the media file.
 
 ### Usage
 

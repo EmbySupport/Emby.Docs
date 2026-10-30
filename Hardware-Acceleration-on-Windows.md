@@ -21,8 +21,8 @@ API for video encoding and decoding acceleration using Nvidia GPUs
 ## Nvidia NVDEC & NVENC
 Nvidia provides two hardware acceleration interfaces:
 
-- NVENC API for video encode acceleration
-- NVDEC API for video decode acceleration (formerly called NVCUVID API)
+- [NVENC API](xref:Learn-Hardware-NVIDIA-NVENC) for video encode acceleration
+- [NVDEC API](xref:Learn-Hardware-NVIDIA-NVDEC) for video decode acceleration (formerly called NVCUVID API)
 
 NVIDIA GPUs contain one or more hardware-based decoder and encoder(s) (separate from the CUDA cores) which provides fully-accelerated hardware-based video decoding and encoding for several popular codecs. With decoding/encoding offloaded, the graphics engine and the CPU are free for other operations.
 
@@ -71,7 +71,7 @@ It is not required to install any other tools or SDKs from Nvidia.
 
 ## Intel QuickSync Video
 
-Intel® Quick Sync Video uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
+[Intel® Quick Sync Video](xref:Learn-Hardware-Intel-QSV) uses the dedicated media processing capabilities of Intel® Graphics Technology to decode and encode fast, enabling the processor to complete other tasks and improving system responsiveness.
 
 #### Supported Accelerations
 
@@ -105,7 +105,7 @@ It is not required to install the Intel Media SDK.
 
 #### Remarks
 
-- Emby only supports headless operation (and running as a service) with Intel QuickSync when using the D3D11 codec.  For normal mode you will need to connect a physical monitor to the video output.
+- Emby only supports headless operation (and running as a service) with Intel QuickSync when using the [D3D11](xref:Learn-Hardware-Windows-D3D11VA) codec.  For normal mode you will need to connect a physical monitor to the video output.
 
 #### Further Reading
 
@@ -116,7 +116,7 @@ It is not required to install the Intel Media SDK.
 
 ## AMD AMF
 
-AMD Advanced Media Framework is a light-weight, portable multimedia framework that abstracts away most of the platform and API-specific details and allows for easy implementation of multimedia applications using a variety of technologies, such as DirectX 11, OpenGL, and OpenCL and facilitates an efficient interoperability between them.
+[AMD Advanced Media Framework](xref:Learn-Hardware-AMD-AMF) is a light-weight, portable multimedia framework that abstracts away most of the platform and API-specific details and allows for easy implementation of multimedia applications using a variety of technologies, such as DirectX 11, OpenGL, and OpenCL and facilitates an efficient interoperability between them.
 
 #### Supported Accelerations
 
@@ -176,7 +176,7 @@ Installing the latest drivers from the manufacturers' websites might still be a 
 
 #### Remarks
 
-- Emby only supports headless operation (and running as a service) with D311VA codecs.  For plain DXVA2 you will need to connect a physical monitor to the video output.
+- Emby only supports headless operation (and running as a service) with D311VA codecs.  For plain [DXVA2](xref:Learn-Hardware-Windows-DXVA2) you will need to connect a physical monitor to the video output.
 
 ### Common Issues and Solutions
 

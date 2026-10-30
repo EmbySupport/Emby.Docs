@@ -25,7 +25,7 @@ Install the app using one of the above methods, the app will then automatically 
   aac,mp3,mpa,wav,mp2,ogg,oga,webma,ape,opus,ac3 (Dolby Digital), DTS, DTS-HD MA, TrueHD
 
 > [!NOTE]
-> The exact containers and codecs that will direct play depends on both the device the app is on and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.). The device with the widest support is the NVidia Shield.
+> The exact containers and codecs that will direct play depends on both the [device the app is on and the audio equipment it is connected to](xref:Learn-Playback-Client-Capabilities) (and the type of connection - e.g. HDMI, optical, etc.). The device with the widest support is the NVidia Shield.
 >
 > Dolby Digital and DTS direct play requires Android version 6.0+.
 >

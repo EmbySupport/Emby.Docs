@@ -42,7 +42,7 @@ Follow these steps to set up your own Emby Server
 
 ## Prepare your media
 
-Emby identifies your media according to folder structure, file name, and type of library to which it is assigned. Once identified, Emby downloads a rich assortment of information about your media including ratings, cast, descriptions & poster art. It can often provide other content media such as movie trailers. The combination of this information creates a very rich client experience.
+Emby [identifies your media](xref:Learn-Metadata-Identification) according to folder structure, file name, and type of library to which it is assigned. Once identified, Emby downloads a rich assortment of information about your media including ratings, cast, descriptions & poster art. It can often provide other content media such as movie trailers. The combination of this information creates a very rich client experience.
 
 The requirements for organizing and naming files are quite flexible, but will require some basic structure.
 
@@ -76,7 +76,7 @@ http://app.emby.media
 
 ## Add Users
 
-You may wish to add users and invite your family and friends. Users will have their own account & password and can have their own personalized media libraries, user data, favorites, recommendations and more. You will be able to completely control access to your system at the library or feature level such as granting access to Live TV if this is setup on your system.
+You may wish to add users and invite your family and friends. Users will have their own account & password and can have their own personalized media libraries, [user data](xref:Learn-Library-User-History), favorites, recommendations and more. You will be able to completely control access to your system at the library or feature level such as granting access to Live TV if this is setup on your system.
 
 For more information, see [users](Users.md).
 

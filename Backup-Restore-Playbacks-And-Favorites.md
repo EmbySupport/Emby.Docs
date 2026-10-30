@@ -3,7 +3,7 @@ uid: Backup-Restore-Playbacks-And-Favorites
 title: Using Restore to Copy Playback States and Favorites
 ---
 
-You can use Backup and Restore to copy the playback state and favorites information to a different Emby user account.
+You can use Backup and Restore to copy the [playback state and favorites information](xref:Learn-Library-User-History) to a different Emby user account.
 
 Launch the Backup & Restore plugin by clicking on Backup & Restore from the Advanced section of the server dashboard left sidebar.
 

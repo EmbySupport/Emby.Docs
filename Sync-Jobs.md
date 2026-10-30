@@ -17,7 +17,7 @@ Available settings are:
 
 **Quality**
 
-The desired quality level of the synced content. Higher produces better video quality but will require more storage space on the mobile device. The "Original" option can be used to force the process to utilize the original file, but this may result in the file not being playable on the device.
+The desired quality level of the synced content. Higher produces better video quality but will require more [storage space](xref:Learn-Media-File-Size-Duration) on the mobile device. The "Original" option can be used to force the process to utilize the original file, but this may result in the file not being playable on the device.
 
 **Profile**
 
@@ -37,7 +37,7 @@ The maximum number of items that will be downloaded to the device at any given t
 
 ## Subtitles
 
-All available text-based subtitles are included with download jobs, allowing you to enjoy subtitle selection even when offline.
+All available [text-based subtitles](xref:Learn-Subtitle-Text) are included with download jobs, allowing you to enjoy subtitle selection even when offline.
 
 ## Managing Download Jobs
 

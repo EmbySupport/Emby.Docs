@@ -85,8 +85,8 @@ Done!
 First of all, make sure you haven't chosen **Video Player** settings >> **Video Quality**. Also, don't use "Customize" but try both the "Balanced" and the "Efficiency" presets.  
 Then, look at the Windows Task Manager and check both CPU and GPU usage, and look for high values.  
 Look at the Media Info on the item detail screen at the bottom and check whether the video has a high bitrate (> 20,000 Mbps).  
-Open Stats for Nerds and see whether it's DirectPlay or Transcoding.  
-Check your monitor configuration to see whether it runs at a high refresh rate (you can see that directly in the Emby app in the "Display Control" section.
+Open [Stats for Nerds](xref:Learn-Playback-Information) and see whether it's DirectPlay or Transcoding.  
+Check your monitor configuration to see whether it runs at a high [refresh rate](xref:Learn-Display-Refresh-Rate) (you can see that directly in the Emby app in the "Display Control" section.
 
 
 
@@ -99,7 +99,7 @@ Switching to Customize keeps the values of the previously selected preset. This 
 
 ### How do I get 5.1 Audio
 
-There are two ways to get **5.1 Audio**
+There are two ways to get **[5.1 Audio](xref:Learn-Surround-Sound-5-1)**
 
 **1. Change the shared mode speaker layout**
 
@@ -110,7 +110,7 @@ There are two ways to get **5.1 Audio**
 - Choose **Configure Speakers**
 - Configure for a 5.1 layout
 
-**2. Use exclusive audio mode**
+**2. Use [exclusive audio mode](xref:Learn-Audio-Exclusive-Output)**
 
 - Go to Windows **Settings** > **System** > **Sound**
 - Scroll down
@@ -146,10 +146,10 @@ Selection of a custom folder is planned for a future update.
 
 There can be multiple reasons for this:
 
-- The subtitles are "graphic" subtitles.
+- The subtitles are ["graphic" subtitles](xref:Learn-Subtitle-Bitmap).
   The appearance of those cannot be changed.
   Typical subtitle formats using bitmaps are: DVDSub DVBSub, PGS/HDMV Subtitles
-- The subtitles are SSA/ASS subtitles
+- The subtitles are [SSA/ASS subtitles](xref:Learn-Subtitle-ASS-Typesetting)
   Those subtitles have built-in styling which cannot be overridden
 
 
@@ -183,13 +183,13 @@ See here for more details: https://emby.media/community/index.php?/topic/134058-
 
 ### I have selected the High Quality preset in the video quality options, why doesn't it use hardware acceleration?
 
-Short: While it does not perform hardware decoding and filtering, everything at the video presentation side (rendering on screen) is done by GPU shaders. This includes scaling, tone mapping and possibly subtitle overlay.
+Short: While it does not perform hardware decoding and filtering, everything at the video presentation side (rendering on screen) is done by [GPU shaders](xref:Learn-Hardware-GPU-Compute). This includes scaling, tone mapping and possibly subtitle overlay.
 
 Long: On the decoding side, sw decoding can provide better quality, also you get the best deinterlacing by sw implementations, other filtering (e.g. dynamic bounds detection) works only with sw filtering. The best scaling is achieved by using GPU shaders (which happens at the end of the chain).
 When doing sw filtering and scaling only at the end, then there's no advantage in using hw decoding. The computational effort weighs less than the data transfer between CPU and GPU memory.  
-Actually, hw decoding is generally a bit overestimated. CPUs can do that easily as well. The main advantage of hw decoding is the avoidance of data transfer between GPU and CPU mem, when further processing happens in GPU memory. But hw decoding and just downloading it back to CPU memory right after it, is worse than doing CPU decoding using CPU memory right away. That's why there's no hw decoding in case of the high-quality mode. This mode is for achieving the best quality without compromise and without caring about efficiency and energy consumption.  
+Actually, hw decoding is generally a bit overestimated. CPUs can do that easily as well. The main advantage of hw decoding is the avoidance of data transfer between GPU and CPU mem, when further processing happens in GPU memory. But hw decoding and just [downloading it back to CPU memory](xref:Learn-Hardware-Copy-Back) right after it, is worse than doing CPU decoding using CPU memory right away. That's why there's no hw decoding in case of the high-quality mode. This mode is for achieving the best quality without compromise and without caring about efficiency and energy consumption.  
 But this doesn't mean that the GPU isn't used: it's used for tone mapping and scaling and there are some scaling modes to choose which can get your GPU really hot.  
-The energy efficient mode entirely disables the shader-based scaling and does the scaling in hardware (which is deemed to be of lower quality than shader-based scaling), and also maintains a full hardware processing pipeline (never does copying between GPU and CPU).  
+The energy efficient mode entirely disables the shader-based scaling and does the scaling in hardware (which is deemed to be of lower quality than shader-based scaling), and also maintains a [full hardware processing pipeline](xref:Learn-Hardware-Zero-Copy) (never does copying between GPU and CPU).  
 In balanced mode, sw filtering is being used as well as shader-based scaling, but it uses hw decoding and in certain cases (when the video is much larger than the resolution of the current display) it downscales in hardware to reduce the amount of data while the eventual scaling is still done by GPU shaders (but at less load because of smaller video frames to scale).
 
 

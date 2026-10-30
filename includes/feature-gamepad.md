@@ -1,5 +1,5 @@
 
-Support for gamepad input has been significantly updated. On the technical side, unnecessary power drain is avoided and the reliability of key input detection has been improved. Functionally, mappings have been extended, allowing to control more things with game pad buttons.
+Support for [gamepad input](xref:Learn-Input-Gamepads) has been significantly updated. On the technical side, unnecessary power drain is avoided and the reliability of key input detection has been improved. Functionally, mappings have been extended, allowing to control more things with game pad buttons.
 
 The new settings UI serves two purposes:
 

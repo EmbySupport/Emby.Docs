@@ -7,13 +7,13 @@ The **Playback** user preferences cover the following:
 
 ## Audio
 
-  * Preferred audio language
+  * [Preferred audio language](xref:Learn-Playback-Track-Selection)
   * Play default audio track regardless of language
   * Remember audio track selections
 
 ## Advanced
 
-  * Play next episode automatically
+  * [Play next episode automatically](xref:Learn-Library-Next-Episode)
   * Show up next preview
   * Skip forward length
   * Skip back length

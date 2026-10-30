@@ -74,7 +74,7 @@ The **Preferred display language** is used to set the language for the server's 
 
 ### Advanced setting
 
-**Cache path**: set a custom cache path if you do not want the cache to be located in the server's default app data directory.
+**Cache path**: set a custom [cache](xref:Learn-Server-Caches) path if you do not want the cache to be located in the server's default app data directory.
 
 ![](images/server/serversettings8.png)
 

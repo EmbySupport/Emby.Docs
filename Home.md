@@ -38,6 +38,8 @@ See the menu on the right-hand side of this page for a complete listing. Some ke
 Find setup guides, app-specific features, and common settings in the [Emby Apps documentation](Apps.md).
 
 
+For explanations of the media and networking technology behind these guides, visit [Emby Learn](xref:Learn-Emby-Learn).
+
 ## Emby Premiere
 
 See the [Emby Premiere documentation](Emby-Premiere.md) for help with features, membership options, Premiere keys, and subscriptions.

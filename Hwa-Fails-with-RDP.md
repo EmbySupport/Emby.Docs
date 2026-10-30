@@ -67,10 +67,10 @@ QuickSync Video Decoders
 QuickSync Video Encoders
 (without D3D11 in the name)
 AMD AMF Encoders
-DXVA2 Decoders
+[DXVA2](xref:Learn-Hardware-Windows-DXVA2) Decoders
 
 #### Direct3D 11
 
 QuickSync D3D11 Video Decoders
 QuickSync D3D11 Video Encoders
-D3D11VA Video Decoders
+[D3D11VA](xref:Learn-Hardware-Windows-D3D11VA) Video Decoders

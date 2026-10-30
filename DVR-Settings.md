@@ -11,7 +11,7 @@ To set the optional Advanced settings, click **Advanced** in the administrator d
 
 ## Live Stream Buffer
 
-You will have an option to limit the Live Stream buffer.
+You will have an option to limit the [Live Stream buffer](xref:Learn-TV-Time-Shift-Buffers).
 
 ![](images/server/dvr-setting1b.png)
 
@@ -25,14 +25,14 @@ Also you can specify the amount of Guide Data that is loaded.  You can manually 
 
 ## Waking from Sleep for Scheduled Recordings
 
-There is an option for waking the server machine to perform scheduled recordings.
+There is an option for [waking the server machine](xref:Learn-Server-Sleep) to perform scheduled recordings.
 
 ![](images/server/dvr-setting1d.png)
 
 
 ## Start / End recordings padding
 
-You can set custom start and end times to pad your recordings.  These are blank by default but in this example below, both were set to 5 minutes.
+You can set custom start and end times to [pad your recordings](xref:Learn-TV-Recording-Padding).  These are blank by default but in this example below, both were set to 5 minutes.
 
 ![](images/server/dvr-setting2.png)
 
@@ -72,13 +72,13 @@ In the following example, instead of changing the Mixed Content default recordin
 ![](images/server/dvr-setting4f.png)
 
 > [!Note]
-> If you are changing the defaults for recording libraries, make sure you have full read/write permissions for Emby Server.
+> If you are changing the defaults for recording libraries, make sure you have full [read/write permissions](xref:Learn-Storage-Permissions) for Emby Server.
 >
 
 
 ## Automatic Post Processing of recordings
 
-These next two sections are advanced functionality that won’t be covered here. This is for people who create scripts or programs that manipulate recordings after they finish.  This post processing can be used for many different things including commercial cutting, converting files to specific formats, moving files to other parts of the system.
+These next two sections are advanced functionality that won’t be covered here. This is for people who create scripts or programs that manipulate recordings after they finish.  This [post processing](xref:Learn-TV-Post-Processing) can be used for many different things including commercial cutting, converting files to specific formats, moving files to other parts of the system.
 
 ![](images/server/dvr-setting3.png)
 

@@ -4,7 +4,7 @@ title: Identify
 legacyUrl: /support/solutions/articles/44001159229-identify
 ---
 
-On occasion, content may be mismatched as something else.
+On occasion, content may be mismatched as something else. [Title disambiguation](xref:Learn-Metadata-Title-Disambiguation) explains why similar names can identify different media.
 
 To correct this, there is the **IDENTIFY** option available on a per-item basis.
 

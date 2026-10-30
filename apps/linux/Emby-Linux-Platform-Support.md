@@ -109,9 +109,9 @@ Native Wayland is unsupported.
 ### CPU Architectures
 
 - Primary Tier
-  - x86-64
+  - [x86-64](xref:Learn-Server-X86-64)
 - Extended Tier
-  - arm64 (limited)
+  - [arm64](xref:Learn-Server-ARM64) (limited)
 
 ##### Notes
 Hardware acceleration for ARM64 devices is not available yet (see below), which limits the value of running the app on ARM64 devices at this time.
@@ -120,7 +120,7 @@ Hardware acceleration for ARM64 devices is not available yet (see below), which 
 ### GPU Hardware and Hardware Acceleration
 
 - Primary Tier
-  - Intel via VAAPI
+  - Intel via [VAAPI](xref:Learn-Hardware-Linux-VAAPI)
   - AMD via VAAPI
 - Extended Tier
   - Nvidia

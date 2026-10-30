@@ -27,7 +27,7 @@ and any options you need and then click the magnifying glass/search icon.
 ![Manual Subtitle Download 2](images/subtitles/manual-subtitle-download-2.png)
 
 
-The page will expand with any subtitles it found that matched your results and will look like this.
+The page will expand with any subtitles it found that matched your results and will look like this. [Subtitle release matching](xref:Learn-Subtitle-Release-Matching) explains what to check when choosing a candidate.
 
 ![Manual Subtitle Download 3](images/subtitles/manual-subtitle-download-3.png)
 

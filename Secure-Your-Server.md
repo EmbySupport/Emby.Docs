@@ -4,7 +4,7 @@ title: Secure Your Server
 legacyUrl: /support/solutions/articles/44001160086-secure-your-server
 ---
 
-This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa, which requires https connections.
+This is a quick tutorial on how to secure your Emby server for free. If you are opening your server to the world, securing it is a good idea. It is also useful to provide required secured streams to external services such as Amazon Alexa, which requires [https connections](xref:Learn-Network-HTTPS-TLS).
 
 ## General tips & best practice
 
@@ -43,7 +43,7 @@ Here are some tips to consider.
 
 ### User Account Privileges
 
-- Check all the accounts privileges in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server.
+- Check all the [accounts privileges](xref:Learn-Network-Authorization) in the user profiles (Server Settings / [Users](Users.md)) and give the least privileges, ensuring only your server admin account has the privilege to manage the server.
 
 The following shows the control level you have at the user account level. E.g. remote access can be controlled at the user level.
 
@@ -106,14 +106,14 @@ The public ports would need to be mapped to the local ports. This can be done ei
 You'll need two things:
 
 - A domain that supports TXT records
-- A ssl certificate (PKCS #12)
+- A [ssl certificate](xref:Learn-Network-TLS-Certificates) (PKCS #12)
 
 ### Get your domain
 
 Sign up for a free domain of your choice. You could use [Dynu](https://www.dynu.com/) which is what will be covered in the instructions below. Alternatively use a paid-for registered domain name.
 
 > [!Note]
-> For the SSL certificate setup, you will need to edit the DNS record for verification of the domain and **Dynu** no longer allow creation of TXT DNS records in the first 30 days after setting up a new domain. This restriction may be only for updates through the Dynu DDNS Service Control Panel and it may be possible to make early changes through api using 3rd party products. Otherwise, wait 30 days after creating the domain before getting and adding the ssl certificate.
+> For the SSL certificate setup, you will need to edit the [DNS record](xref:Learn-Network-DNS) for verification of the domain and **Dynu** no longer allow creation of TXT DNS records in the first 30 days after setting up a new domain. This restriction may be only for updates through the Dynu DDNS Service Control Panel and it may be possible to make early changes through api using 3rd party products. Otherwise, wait 30 days after creating the domain before getting and adding the ssl certificate.
 
 1. Create an account with https://dynu.com
 
@@ -209,7 +209,7 @@ Go to the web site through either [SSL for free](https://www.sslforfree.com/) or
 
    **Private key**: private.key
 
-   **Chain certificate**: The ca_bundle.crt or you can also find it here, Let's Encrypt [Intermediate certificate](https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem.txt). Save the text into a .txt file.
+   **[Chain certificate](xref:Learn-Network-TLS-Chains)**: The ca_bundle.crt or you can also find it here, Let's Encrypt [Intermediate certificate](https://letsencrypt.org/certs/lets-encrypt-x3-cross-signed.pem.txt). Save the text into a .txt file.
 
    **PFX password**: Since the private key is combined with the certificate, set a password to secure the new ssl certificate. Remember this password, you'll need it in Emby.
 
@@ -220,7 +220,7 @@ Go to the web site through either [SSL for free](https://www.sslforfree.com/) or
 
 ### Let's Encrypt certificate
 
-For certificates provided by **Let's Encrypt**, you will need to select an Acme Client application that would interact with the **Let's Encrypt** servers. See [ACME Client Implementations](https://letsencrypt.org/docs/client-options/) for the list of available Acme clients.
+For certificates provided by **Let's Encrypt**, you will need to select an [Acme Client](xref:Learn-Network-ACME) application that would interact with the **Let's Encrypt** servers. See [ACME Client Implementations](https://letsencrypt.org/docs/client-options/) for the list of available Acme clients.
 
 The instructions given below are for the [Posh-ACME](https://poshac.me/) Powershell Acme client for Windows. Powershell should be available for MacOS and Linux as well. The sequence of steps should be similar whichever Acme client is used. The method that is documented here requires the addition of a TXT DNS Record to the DDNS Service DNS records for your domain.
 
@@ -370,7 +370,7 @@ where:
 
    **Secure connection mode**: Set it to either "**Preferred but not required**" or "**Required for all remote connections**".
 
-Your Emby Server Settings dashboard should now reflect your remote access through this url `https://yourdomain:port`.
+Your Emby Server Settings dashboard should now reflect your remote access through this url `https://yourdomain:port`. The [certificate hostname](xref:Learn-Network-TLS-Names) must match the hostname used for the connection.
 
 If you followed all the steps, then navigating a browser from outside your local network to this new remote url should reach your Emby server.
 

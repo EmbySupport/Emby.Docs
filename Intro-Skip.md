@@ -51,7 +51,7 @@ Nothing more need be done on the Emby Server.
 
 
 > [!NOTE]
-> Intro detection is per TV show season and requires the presence of at least two episodes in the season before it can start looking for the intro sequence for that season. Emby Server analyzes the first 10 minutes of the episodes to look for the sequence.
+> [Intro detection](xref:Learn-Library-Intro-Detection) is per TV show season and requires the presence of at least two episodes in the season before it can start looking for the intro sequence for that season. Emby Server analyzes the first 10 minutes of the episodes to look for the sequence.
 
 
 > [!NOTE]

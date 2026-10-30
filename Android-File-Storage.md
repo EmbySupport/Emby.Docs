@@ -4,7 +4,7 @@ title: Android TV Storage Attachment
 legacyUrl: /support/solutions/articles/44002058102-android-tv-storage-attachment
 ---
 
-Before starting the attachment process please make sure any NAS or File Server you will be attaching to is named using all CAPS. If not the android device will not be able to access your files. This is a critical step needed before continuing.
+Before starting the attachment process please make sure any [NAS](xref:Learn-Storage-NAS) or File Server you will be attaching to is named using all CAPS. If not the android device will not be able to access your files. This is a critical step needed before continuing.
 
 
 

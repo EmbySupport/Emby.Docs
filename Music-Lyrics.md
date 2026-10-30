@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44002394743-music-lyrics
 
 ## Embedded Lyrics Support for Music Files
 
-Emby now supports display of musical lyrics you provide.  This doesn't require modifying your actual music tracks but is done using a text file residing next to the track!
+Emby now supports display of [musical lyrics](xref:Learn-Library-Unsynchronized-Lyrics) you provide.  This doesn't require modifying your actual music tracks but is done using a text file residing next to the track!
 
 
 You can quickly and easily use a tool such as MediaHuman Lyrics Finder that makes quick work of adding Lyrics to your existing content.  Rescan your music library and have this:

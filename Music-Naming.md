@@ -4,7 +4,7 @@ title: Music Naming
 legacyUrl: /support/solutions/articles/44001159113-music-naming
 ---
 
-Emby is completely tag based which means all information is read from the tags embedded in your music tracks. Folder structure in Emby 4.6 and later versions is not mandatory but can be a useful way to organize you media.
+Emby is completely tag based which means all information is read from the [tags embedded in your music tracks](xref:Learn-Metadata-Embedded). Folder structure in Emby 4.6 and later versions is not mandatory but can be a useful way to organize you media.
 
 
 The recommended folder structure for music is Artist\Album\Song
@@ -54,7 +54,7 @@ If it's important to you to have these files written and stored next to your med
 
 ## Music Images
 
-Images are supported in both artist and album folders, as well as images embedded within audio files. Below is a table of the supported image file names:
+Images are supported in both artist and album folders, as well as [images embedded within audio files](xref:Learn-Metadata-Embedded-Cover-Art). Below is a table of the supported image file names:
 
 Supported image extensions are **jpg**, **jpeg**, **png** and **tbn**.
 
@@ -117,13 +117,13 @@ All music tracks should be tagged with whatever information you want displayed i
 
 
 
-Please make sure to write all tag version or to remove old tags. All tags should be written using unicode format.
+Please make sure to write all tag version or to remove old tags. All tags should be written using [unicode format](xref:Learn-Metadata-Unicode).
 
 Tagging your albums and tracks should be straightforward with the possible exception of various artist or compilation albums.
 
 
 
-For these types of compilation albums if you want all tracks to show up as a single entity you want to make sure both the "album" and "album artist" fields are the same for all tracks. Otherwise the album will be split up for the various artists listed.
+For these types of [compilation albums](xref:Learn-Library-Compilation-Albums) if you want all tracks to show up as a single entity you want to make sure both the "album" and "album artist" fields are the same for all tracks. Otherwise the album will be split up for the various artists listed.
 
 > [!NOTE]
 > Where there is not a single artist you can assign to a compilation album in the 'album artist' tag, you can set it to 'Various' or other unique value.
@@ -134,7 +134,7 @@ For the 'artist' tag, multiple artists can be listed for tracks and should be se
 ![Music Naming Multiple Artists](images/server/music-naming-multiple-artists.png)
 
 > [!NOTE]
-> if you have an artist with two albums of the same name you will need to use mbzalbumids or slightly change one title to differentiate the albums or they will get combined. An example is artist Kim Wilde who has two albums name "The Very Best Of Kim Wilde", one from 1984, one from 2001.
+> if you have an artist with two albums of the same name you will need to use [mbzalbumids](xref:Learn-Metadata-MusicBrainz-IDs) or slightly change one title to differentiate the albums or they will get combined. An example is artist Kim Wilde who has two albums name "The Very Best Of Kim Wilde", one from 1984, one from 2001.
 
 
 
