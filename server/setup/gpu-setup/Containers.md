@@ -1,3 +1,15 @@
+---
+uid: Server-Gpu-Setup-Containers
+title: "GPU Setup in Containers"
+redirFromUrl: Hardware-Acceleration-with-Docker.md
+---
+
+REVIEW: whole page. This is the previous "Hardware Acceleration with Docker" article restored
+     verbatim - it was assembled from forum posts, never edited, and was not referenced from toc.yml.
+     Unverified throughout, written in the first person in places, and it references superseded tooling
+     (nvidia-docker2, Debian 9, driver 410). Needs a rewrite.
+
+-----
 
 ### VA API in Docker
 
