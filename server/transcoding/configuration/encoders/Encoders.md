@@ -6,20 +6,25 @@ longTitle: "Encoder Parameters"
 
 Every encoder Emby can use for transcoding has a parameters dialog of its own. The parameters decide how
 the encoder works: how much time it spends on each frame, how it reaches the bitrate it is given, and which
-of its own features it uses. They are set per device entry and per encoder, and everything you leave alone
+of its own features it uses. They are set per device node and per encoder, and everything you leave alone
 keeps Emby's default.
 
 Emby sets the target bitrate, the frame rate and the encoding profile of each transcode itself, based on
 what the client needs. The parameters control how the encoder works within those limits, and
 [Encoding Profile Limit](#encoding-profile-limit) narrows the profile choice.
 
+AV1 encoding is available for [media conversions](../../../../Convert-Media.md) only. Selecting an AV1
+encoder here does not make Emby transcode playback to AV1; playback uses other supported output codecs.
+
 ## Opening the Dialog
 
 The **Encoding** section of a device's configuration dialog - see
 [Device Configuration](../Advanced-Mode.md#device-configuration) and [GPU Config](../Expert-Node-Types.md#gpu-config) -
 has one dropdown per output codec: **H.264 (AVC)**, **H.265 (HEVC)** and **AV1**. Each lists the encoders
-the device offers, followed by **Skip this configuration**. The configuration dialog of the software entry
+the device offers, followed by **Skip this configuration**. The configuration dialog of the software node
 has the same section for the software encoders - see [Software Config](../Expert-Node-Types.md#software-config).
+
+![Encoder selections with a settings button and a codec information button beside each codec](images/encoder-selection.jpg)
 
 Two buttons sit beside each dropdown:
 
@@ -48,6 +53,8 @@ soon as you change such a field. For H.264 and HEVC encoders, the last field is 
   an empty field passes nothing to the encoder, so the encoder's own default applies
 - **Text fields** - the software encoders accept additional options in their own `key=value` syntax
 
+![Choice help listing the NVENC encoding presets and their descriptions](images/encoder-choice-help.jpg)
+
 ### Reset to Default
 
 **Reset to Default** puts every field of the dialog back to its default value. Like every other change in
@@ -55,7 +62,7 @@ the dialog, it takes effect when you press **Save**. Closing the dialog without 
 changes.
 
 The device dialog has a **Reset to Default** button of its own. When the device dialog is saved after
-using it, all encoder and filter parameters stored for that device entry are removed.
+using it, all encoder and filter parameters stored for that device node are removed.
 
 ### Saving
 
@@ -104,7 +111,7 @@ The limit has two effects:
   change the bit depth of the output: if no profile at or below the limit can carry it, the lowest profile
   that can is used
 - **Device choice** - if every profile that both the client and the encoder support is above the limit,
-  this device entry is not used for the transcode, and the next one in the
+  this device node is not used for the transcode, and the next one in the
   [order](../Advanced-Mode.md#priority) is tried
 
 Emby does not pass a profile to the VideoToolbox HEVC and MediaCodec HEVC encoders; those choose it
@@ -115,6 +122,8 @@ themselves. For them, the limit only has the second effect.
 The info button beside an encoder in the **Encoding** section, and beside each decoder in the **Decoding**
 section, opens a read-only overview of what the selected codec reports about itself. It is titled with the
 codec's name - for software codecs, with the media type, such as `H.264 (AVC)`. **Close** closes it.
+
+![Detected NVENC codec information including bitrate, frame-size, and color-format capabilities](images/codec-information.jpg)
 
 **General** lists the following, leaving out anything the codec does not report:
 

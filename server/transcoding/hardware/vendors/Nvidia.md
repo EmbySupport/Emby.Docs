@@ -42,8 +42,10 @@ codecs each [chip generation](xref:Learn-Index-hardware-acceleration-generations
 
 ## Drivers
 
-Nvidia cards need drivers installed on the server, and on Linux specifically they need Nvidia's own
-drivers rather than the ones a distribution ships. See [GPU Setup](../../../setup/gpu-setup/GPU-Setup.md).
+Nvidia cards need drivers installed on the server. On older Linux distribution releases, use Nvidia's
+own driver packages rather than the packages supplied by the distribution. On the latest releases
+available as of **2026**, the distribution's package-manager drivers can be used if they include the
+required video encoding and decoding components. See [GPU Setup](../../../setup/gpu-setup/GPU-Setup.md).
 
 ## What Your Card Can Do
 

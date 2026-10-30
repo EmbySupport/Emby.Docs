@@ -22,6 +22,8 @@ Emby's own tone mapping filter, for all four kinds of HDR. For [HDR10+](xref:Lea
 - **Emby Tonemap Vulkan** (`embytonemap_vulkan`) - Vulkan (Nvidia), Vulkan (Intel), Vulkan (AMD) and AMF on
   Vulkan, when [Vulkan](xref:Learn-Tone-Mapping-Vulkan) is available on the device
 
+![Emby Tonemap software parameters for HDR10](images/emby-tonemap-software.jpg)
+
 **Tonemap Algorithm** - the curve that fits the HDR brightness range into SDR. It decides how bright the
 picture looks overall and how highlights are compressed - see [Algorithm Choices](#algorithm-choices).
 Always shown. The choices are *SMPTE ST 2094-40*, *SMPTE ST 2094-10*, *BT.2390*, *Spline*, *Linear*,
@@ -56,6 +58,8 @@ HDR10+ list, it tone maps HDR10+ video as HDR10.
 
 - **Super Tonemap** (`supertonemap`) - Software
 - **Super Tonemap OpenCL** (`supertonemap_opencl`) - QSV on D3D11, when OpenCL is available on the device
+
+![Super Tonemap's algorithm, desaturation, and signal peak controls](images/super-tonemap.jpg)
 
 **Tonemap Algorithm** - the curve that fits the HDR brightness range into SDR. It decides how bright the
 picture looks overall and how highlights are compressed - see [Algorithm Choices](#algorithm-choices).
@@ -116,6 +120,8 @@ tone maps HDR10+ video as HDR10.
 - **Tunemap OpenCL** (`tunemap_opencl`) - QSV on D3D11, QSV on VAAPI, VAAPI (Intel), AMF on D3D11 and
   Rockchip, when OpenCL is available on the device
 
+![Tunemap OpenCL algorithm, mode, and performance tradeoff parameters](images/tunemap-opencl.jpg)
+
 The defaults are the same for every kind of HDR.
 
 **Tonemap Algorithm** - the curve that fits the HDR brightness range into SDR. It decides how bright the
@@ -173,6 +179,8 @@ Dolby Vision profiles 5 and 8 it uses the per-scene metadata of the video.
 
 - **libplacebo** (`libplacebo`) - Vulkan (Nvidia), Vulkan (Intel), Vulkan (AMD) and AMF on Vulkan, when
   Vulkan is available on the device
+
+![libplacebo with the Reinhard algorithm selected, revealing Tonemap Parameter](images/libplacebo.jpg)
 
 **Tonemap Algorithm** - the curve that fits the HDR brightness range into SDR. It decides how bright
 the picture looks overall and how highlights are compressed - see [Algorithm Choices](#algorithm-choices).

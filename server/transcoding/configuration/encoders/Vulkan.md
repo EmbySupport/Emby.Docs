@@ -15,6 +15,8 @@ have none, and their settings button is disabled.
 
 ## HEVC
 
+![Vulkan Video HEVC rate control, tuning, and tier parameters](images/vulkan-hevc.jpg)
+
 The `hevc_vulkan` encoder for [HEVC](xref:Learn-Video-Codec-HEVC), offered by the Vulkan (Nvidia), Vulkan
 (Intel) and Vulkan (AMD) context types.
 

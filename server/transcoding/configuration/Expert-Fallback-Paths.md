@@ -3,15 +3,18 @@ uid: Server-Transcoding-Expert-Fallback
 title: "Fallback Paths"
 ---
 
-Hardware accelerated transcoding with FFmpeg is by a magnitude less reliable than software transcoding.
-One reason for that is test coverage. FFmpeg has an extensive suite for automated testing, but the
-majority of tests are limited to sw transcoding cases, and there are just a few for hw accelerated operations.
-Additional risk factors for successful hardware transcoding are hardware setup, GPU capabilities,
-OS support, [system/kernel drivers and user mode drivers](xref:Learn-Hardware-Driver-Capabilities) and [framework middleware](xref:Learn-Hardware-Media-APIs) (like Vulkan, OpenCL,
-DX11, VAAPI, et al).
+Hardware accelerated transcoding with FFmpeg is generally reliable, but it depends on more components
+than software transcoding. Hardware setup, GPU capabilities, OS support,
+[system/kernel drivers and user mode drivers](xref:Learn-Hardware-Driver-Capabilities) and
+[framework middleware](xref:Learn-Hardware-Media-APIs) (such as Vulkan, OpenCL, DX11 and VAAPI) can all
+affect whether a particular operation succeeds.
+
 Emby has its own built-in detection of hardware devices, codecs and capabilities, which is unparalleled
-in the industry. It allows us to minimize failing attempts to leverage hardware acceleration, but errors
-can still happen for a variety of reasons.
+in the industry. For each detected device and hardware context, it determines the available encoders and
+decoders and their capabilities, including supported profiles, pixel formats, bit depths and resolution
+limits. Emby uses these results when selecting codecs and building transcoding pipelines, helping avoid
+configurations that the hardware or driver cannot support. Detection reduces failed attempts, but cannot
+rule out every driver issue or failure with a particular combination of media and processing steps.
 
 ## Default Fallback: Software Transcoding
 
@@ -56,13 +59,15 @@ following specifics:
 - If the selected node is inside a container (Condition Group or Load Balancing Group), evaluation will
   continue inside this container
 - Subsequent containers are entered as well, to reach the fallback points inside them. Their conditions
-  are evaluated again, this time with the current ErrorCount
+  are evaluated again, this time with the current Error Count
 - The bottom end of the graph is treated like a (invisible) Failure Point
 - For all "considered" nodes, their conditions and applicability are evaluated just like normal
 - Additional control regarding fallback/failure point behavior is possible by configuring a condition
-  on ErrorCount
+  on Error Count
 
-Also worth mentioning is that the fallback paths are always calculated up-front, with the ErrorCount
+![The Fallback point switch in a device configuration's Evaluation section](images/fallback-point.jpg)
+
+Also worth mentioning is that the fallback paths are always calculated up-front, with the Error Count
 property starting with value 1 and being increased by 1, each time when a matching fallback point is found
 and added to the list.
 
@@ -84,6 +89,8 @@ from other nodes:
   The nodes are preceded by a colored arrow in the graph:
   - Red for Failure Points
   - Green for nodes marked as Fallback Point
+
+![A green software fallback followed by a red Failure Point](images/fallback-and-failure.jpg)
 
 ## Fallback Handling in Basic and Advanced Modes
 

@@ -9,6 +9,8 @@ independently of which device performs it. Which device does the work, and how, 
 [Settings tab](configuration/Transcoding-Configuration.md) instead. That includes HDR tone mapping for
 playback, which is chosen per device - see [Device Configuration](configuration/Advanced-Mode.md#device-configuration).
 
+![The Advanced transcoding settings tab with temporary path, throttling, audio boost, and subtitle extraction](images/advanced-settings.jpg)
+
 ## Transcoding Temporary Path
 
 Transcoding produces temporary files, and this is where they are written. Leaving it unset uses the
@@ -61,6 +63,8 @@ Caps the resolution transcoded output may have, regardless of the source. The ch
 The limit applies to all video transcoding, whatever quality is selected in the player, and so reduces
 the resources each transcode takes.
 
+![HEVC encoding, the resolution limit, and the image-extraction tone mapping switch](images/image-extraction-settings.jpg)
+
 ## Image Extraction
 
 Emby extracts still images from videos - the primary image, [chapter images](xref:Learn-Metadata-Chapter-Thumbnails)
@@ -79,3 +83,5 @@ tone mapping filter for each kind of HDR, and configures the filter's parameters
 Each list offers the software tone mapping filters, and *No tone mapping*. These choices are separate from
 the tone mapping used for playback. The filters and their parameters are described under
 [Tone Mapping](configuration/filters/Tone-Mapping.md).
+
+![The separate HDR-specific tone mapping selections for image extraction](images/image-extraction-tone-mapping.jpg)

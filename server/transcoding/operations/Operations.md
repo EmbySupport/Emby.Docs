@@ -17,6 +17,8 @@ hosts are currently doing, and gives access to remote hosts and to the logs. It 
 The Activity tab lists this server and every enabled remote host, each with the jobs running on it. The list
 refreshes on its own while jobs start and finish.
 
+![The Activity tab showing a ready local server and its three enabled GPUs with no jobs running](images/activity.jpg)
+
 - This server is shown as *(this server)* after its name, with a status of *Detecting hardware*,
   *Ready, software only*, or *Ready* with the number of GPUs.
 - A remote host is shown with its ID and name, the address Emby reaches it at, and its status. A host that

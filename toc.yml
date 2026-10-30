@@ -30,8 +30,6 @@
         href: server/setup/gpu-setup/Windows.md
       - name: Linux
         href: server/setup/gpu-setup/Linux.md
-      - name: Containers
-        href: server/setup/gpu-setup/Containers.md
   - name: Server Management
     href: Server-Settings.md
     items:
@@ -231,6 +229,23 @@
         href: server/transcoding/configuration/Subtitle-Burn-In.md
     - name: Settings
       href: server/transcoding/Settings.md
+    - name: Operations
+      href: server/transcoding/operations/Operations.md
+      items:
+      - name: Operations
+        href: server/transcoding/operations/Operations.md
+      - name: OmniTranscode™
+        href: server/transcoding/operations/OmniTranscode.md
+      - name: Logs
+        href: server/transcoding/operations/Logs.md
+    - name: Subtitle Processing
+      items:
+      - name: OCR Conversion
+        href: server/transcoding/subtitles/OCR-Conversion.md
+      - name: Closed Captions
+        href: server/transcoding/subtitles/Closed-Captions.md
+      - name: Content Change
+        href: server/transcoding/subtitles/Content-Change.md
     - name: Hardware Acceleration
       href: server/transcoding/hardware/Overview.md
       items:

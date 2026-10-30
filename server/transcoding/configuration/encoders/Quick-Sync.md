@@ -12,6 +12,8 @@ VAAPI (Linux) context types - see [Intel](../../hardware/vendors/Intel.md) for t
 
 ## H.264
 
+![Intel Quick Sync H.264 preset, bitrate mode, and low-power encoding controls](images/quick-sync-h264.jpg)
+
 The `h264_qsv` encoder for [H.264](xref:Learn-Video-Codec-H264), offered by the QSV on D3D11 and QSV on
 VAAPI context types.
 
@@ -98,6 +100,7 @@ limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers
 
 The `av1_qsv` encoder for [AV1](xref:Learn-Video-Codec-AV1), offered by the QSV on D3D11 and QSV on VAAPI
 context types.
+AV1 encoding is used for media conversions only, not for transcoding during playback.
 
 **Encoding Preset** - trades encoding speed against compression efficiency (ffmpeg `preset`). Faster
 presets encode more frames per second at lower quality for a given bitrate; slower presets the opposite.

@@ -20,6 +20,8 @@ The section has two selections:
 A selection is only shown when the device's context type offers at least one way of burning in that kind
 of subtitles.
 
+![A device's text and graphic subtitle burn-in selections](images/subtitle-burn-in.jpg)
+
 ## Choices
 
 The choices differ in where the subtitles are combined with the video - on the CPU or on the GPU - and in
@@ -46,8 +48,8 @@ the subtitles into the picture.
 with the same copying between GPU and CPU. It cannot burn in closed captions or ARIB captions, and for
 graphic subtitles it scales the whole subtitle canvas to the video.
 
-**Skip this configuration** - the device entry is not used for operations that have to burn in this kind of
-subtitles. Evaluation moves on to the next entry in the graph - see
+**Skip this configuration** - the device node is not used for operations that have to burn in this kind of
+subtitles. Evaluation moves on to the next node in the graph - see
 [Graph Evaluation](Expert-Graph-Evaluation.md).
 
 ## Choices per Context Type
@@ -56,12 +58,10 @@ subtitles. Evaluation moves on to the next entry in the graph - see
 |---|---|---|
 | Nvidia CUDA, QSV on D3D11, QSV on VAAPI, VAAPI (Intel), AMF on Vulkan, Vulkan (Nvidia), Vulkan (Intel), Vulkan (AMD), Rockchip | all choices | all choices |
 | AMF on D3D11 | GPU bitmaps only, and both CPU choices | GPU bitmaps only, and both CPU choices |
-| VideoToolbox, Software | both CPU choices | both CPU choices |
-| MediaCodec | both CPU choices | not offered |
+| VideoToolbox, Software, MediaCodec | both CPU choices | both CPU choices |
 
 The default is the first choice a context type offers: **Burn in on GPU, bitmaps only (Emby)** where it is
-available, otherwise **Burn in on CPU (Emby)**. With MediaCodec, a device entry is never used when graphic
-subtitles have to be burned in.
+available, otherwise **Burn in on CPU (Emby)**.
 
 ## Avoiding Burn-In
 

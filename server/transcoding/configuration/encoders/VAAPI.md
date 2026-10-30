@@ -82,6 +82,7 @@ limit - see [Encoding Profile Limit](Encoders.md#encoding-profile-limit). Offers
 
 The `av1_vaapi` encoder for [AV1](xref:Learn-Video-Codec-AV1), offered by the VAAPI (Intel) and VAAPI
 (AMD) context types.
+AV1 encoding is used for media conversions only, not for transcoding during playback.
 
 **Bitrate Mode** - how the bitrate Emby requests is passed to the encoder. Default: **Classic
 (CBR-like)**.

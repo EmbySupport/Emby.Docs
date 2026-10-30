@@ -9,6 +9,10 @@ GPUs. Hosts are managed on the **OmniTranscode™** tab of the [Operations](Oper
 
 OmniTranscode™ is available when Emby Server runs on Windows or Linux.
 
+![OmniTranscode host management with the local server and a disabled remote host](images/omni-hosts.jpg)
+
+*Remote connection details are redacted.*
+
 ## How It Works
 
 Emby Server connects to a remote host over SSH and logs in as a user of its own, which is created on the
@@ -29,7 +33,7 @@ When the configuration picks a remote GPU for a job, that job's FFmpeg runs on t
 remote GPU.
 
 Any number of hosts can be saved, and up to two can be enabled at a time. A host that is switched off is not
-used, and its entries in the configuration show *Host disabled*.
+used, and its nodes in the configuration show *Host disabled*.
 
 ## Requirements
 
@@ -63,9 +67,10 @@ and NAS systems.
 
 The requirements are checked when Emby logs in to the host, and again every time the host is prepared.
 
-Beyond that, a remote host needs exactly what Emby Server itself would need on the same system. The drivers
-for Intel and AMD GPUs are included, as they are with Emby Server - see
-[GPU Setup](../../setup/gpu-setup/GPU-Setup.md) for what has to be installed for other hardware.
+Beyond that, a remote host needs exactly what Emby Server itself would need on the same system. On Linux,
+the Intel and AMD user-space GPU drivers are included, as they are with Emby Server. Windows hosts still
+need the manufacturer's graphics drivers installed. See [GPU Setup](../../setup/gpu-setup/GPU-Setup.md)
+for the requirements for each platform and GPU.
 
 ## Adding a Host
 
@@ -78,6 +83,8 @@ Choose whether the host runs Windows, Linux or macOS. **Show system requirements
 that system. An SSH server must already be running on the host - check **Please show me how to install SSH
 on that machine** to get instructions for it.
 
+![Selecting the remote host's operating system and requesting SSH installation instructions](images/add-host-os.jpg)
+
 ### Installing an SSH Server
 
 Only shown when the instructions were requested:
@@ -88,12 +95,16 @@ Only shown when the instructions were requested:
   firewall (ufw or firewalld)
 - **macOS** - turn on Remote Login under System Settings → General → Sharing, or with a Terminal command
 
+![The wizard's OpenSSH Server installation instructions for a Windows host](images/add-host-ssh.jpg)
+
 ### Host Address
 
 - **ID** - 2 to 4 letters or digits that identify the host, for example *R1*. It cannot be changed later.
 - **Name**
 - **Host** - host name or IP address
 - **Port** - the SSH port, 22 by default
+
+![The host ID, name, hostname, and SSH port using an example hostname](images/add-host-address.jpg)
 
 At this point Emby only checks that an SSH server answers; logging in comes later. When the address is
 already used by another host entry, Emby warns about it, and **Next** has to be clicked again to continue

@@ -12,6 +12,8 @@ works. The VAAPI (AMD) context type uses the [VAAPI](VAAPI.md) encoders, and Vul
 
 ## H.264
 
+![AMD AMF H.264 encoding preset, usage, and rate control parameters](images/amf-h264.jpg)
+
 The `h264_amf` encoder for [H.264](xref:Learn-Video-Codec-H264), offered by the AMF on D3D11 and AMF on
 Vulkan context types.
 
@@ -149,6 +151,7 @@ output, 8 or 10 bit.
 
 The `av1_amf` encoder for [AV1](xref:Learn-Video-Codec-AV1), offered by the AMF on D3D11 and AMF on
 Vulkan context types.
+AV1 encoding is used for media conversions only, not for transcoding during playback.
 
 **Encoding Preset** - trades encoding speed against quality (ffmpeg `preset`). It has little effect with
 the **Constant QP** rate control method. Default: **Prefer Speed**.

@@ -22,6 +22,8 @@ The changes apply to [text subtitles](xref:Learn-Subtitle-Text), including
 - `speaker: text`
 - `speaker text`
 
+![Speaker-name display and prefix format on the Content Change tab](images/content-change.jpg)
+
 ## Text Modification
 
 Two modifications can be applied, one after the other, each switched on separately. **Modification Mode**
@@ -34,6 +36,8 @@ chooses what each one does:
 Words are separated by semicolons. When replacing, give as many replacement characters or words as there are
 characters or words to replace.
 
+![A word-replacement example changing colour and theatre to color and theater](images/text-modification.jpg)
+
 ## Profanity Filter
 
 **Enable Profanity Filter** obfuscates words that appear in subtitles.
@@ -42,6 +46,8 @@ characters or words to replace.
 - **Replacement Character** - the character used instead, `*` by default
 - **Word List** - the built-in English word list (default), a list loaded from a text file with the words
   separated by semicolons, or words entered directly for testing, up to 1000 characters
+
+![A profanity-filter example using the built-in English word list](images/profanity-filter.jpg)
 
 To cover all subtitles, the profanity filter should be used together with
 [OCR Conversion](OCR-Conversion.md), which makes graphical subtitles accessible to it, and with client-side

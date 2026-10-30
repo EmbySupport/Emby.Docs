@@ -17,6 +17,8 @@ can put in it in [Node Types](Expert-Node-Types.md), what makes a node apply in
 [Node Conditions](Expert-Conditions.md), and spreading work across devices in
 [Load Balancing](Expert-Load-Balancing.md).
 
+![An Expert Mode draft with a load-balancing group, a software fallback, and a Failure Point](images/expert-mode.jpg)
+
 ## Differences from Advanced to Expert Mode
 
 - Multiple nodes for the same GPU and multiple software nodes can be inserted

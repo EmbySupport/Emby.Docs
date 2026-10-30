@@ -16,9 +16,10 @@ There are three configuration modes, and they differ in how much they let you de
 - [Expert Mode](Expert-Mode.md) - not for everyday configurations, enables very advanced scenarios but
   also makes it easy to get a broken setup
 
-Each mode's configuration is stored separately, and only one of them is in effect at a time. Switching
-modes therefore never discards what the other modes hold - switching away and back returns you to the
-configuration you left behind.
+Only one mode's configuration is in effect at a time. Saved Advanced and Expert configurations are kept
+separately, so you can switch back to either mode and load its latest configuration. Basic Mode is the
+exception: switching back to it starts with **Auto**, rather than restoring an earlier **Off** or specific
+GPU selection.
 
 ## Change Configuration Wizard
 
@@ -28,8 +29,11 @@ going back to a configuration that was active earlier.
 
 ### Choosing a Mode
 
-The first page asks which mode to switch to. Choosing the mode you are already in is not a special case -
-it is how you reset or roll back within the current mode.
+The first page asks which mode to switch to. In Advanced and Expert Mode, choosing the mode you are already
+in is how you reset or roll back within that mode. Basic Mode cannot be selected again while it is already
+active.
+
+![Choosing Basic, Advanced, or Expert Mode in the Change Configuration wizard](images/change-configuration-mode.jpg)
 
 ### Choosing What to Start From
 
@@ -46,11 +50,15 @@ default.
 
 This page is skipped for Basic Mode, which keeps no history and therefore always starts from its default.
 
+![Choosing whether to restore a previous configuration, load the latest, or use defaults](images/change-configuration-source.jpg)
+
 ### Restoring an Earlier Configuration
 
 Choosing **Restore Previous** shows that mode's history, one row per saved configuration, with its revision
 number, its name if it was given one, when it was saved and by whom. Selecting a row restores that
 configuration.
+
+![Configuration history showing revision numbers, names, and save dates](images/configuration-history.jpg)
 
 ### Confirming Expert Mode
 
@@ -62,6 +70,8 @@ configuration may degrade or break transcoding, and testing it is your responsib
 The last page states what is about to happen - which mode is being switched to and which configuration is
 being applied - and applies it when you finish.
 
+![The wizard summary before applying the selected configuration](images/change-configuration-summary.jpg)
+
 ## Saving
 
 Changes to a configuration take effect when you save them, and the page tells you while there are unsaved
@@ -71,6 +81,8 @@ In Advanced and Expert Mode, saving asks for a name for the configuration you ar
 leave it blank and a name is made up for you. The name is what makes a configuration recognisable later in
 the history list, so it is worth filling in when you are trying something out that you may want to come
 back to.
+
+![Giving a configuration an optional name when saving](images/save-configuration.jpg)
 
 Basic Mode saves directly without asking, since there is no history for a name to distinguish anything in.
 
