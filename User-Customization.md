@@ -54,13 +54,13 @@ The server administrator can disable the user's ability to change their password
 
 ## Feature Access
 
-Features can be granted or denied, such as the ability to delete media, download media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
+[Features can be granted or denied](xref:Learn-Network-Authorization), such as the ability to delete media, download media, view live tv, manage live tv, etc. The "Allow media playback" option determines if the user is able to play media or not. This option is handy if you'd like to setup a user who can browse the library but not play anything.
 
 ![](images/server/users38.png)
 
 ![](images/server/users39.png)
 
-You can set a limit on the number of concurrent video streaming sessions for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced.
+You can set a limit on the number of [concurrent video streaming sessions](xref:Learn-Playback-Concurrent-Workloads) for the user. Note that this requires [Emby Premiere](Emby-Premiere.md) for it to be enforced.
 
 ![](images/server/users40.png)
 
@@ -76,7 +76,7 @@ If you want to allow media deletions by the user, you can select from the list o
 
 ![](images/server/users42.png)
 
-You can also decide how they can remote control shared devices. Remote controlling another user allows them to send content to devices for playback while another user is signed in. Remote controlling shared devices, such as Dlna devices, allows them to send content to those as well. These can be set now or later.
+You can also decide how they can [remote control shared devices](xref:Learn-Playback-Remote-Control). Remote controlling another user allows them to send content to devices for playback while another user is signed in. Remote controlling shared devices, such as Dlna devices, allows them to send content to those as well. These can be set now or later.
 
 ![](images/server/users19.png)
 

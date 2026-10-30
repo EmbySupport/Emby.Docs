@@ -26,7 +26,7 @@ It's important to first prepare your media. See other sections of the documentat
 
 The configuration will display the media libraries you've configured and allow you to add, remove, rename or change the paths they're mapped to.
 
-> A media library is a grouping of one or more physical folders on your file system.
+> A [media library](xref:Learn-Library-Overview) is a grouping of one or more physical folders on your file system.
 
 To get started, click the button to add a media library.
 
@@ -36,7 +36,7 @@ Clicking the "Add Media Library" button will open a dialog to add a library. You
 
 ### Content Type
 
-Choosing the right content type is important. See the above guide on media preparation for best practices for Movie, TV and Music sections.
+Choosing the right [content type](xref:Learn-Library-Content-Models) is important. See the above guide on media preparation for best practices for Movie, TV and Music sections.
 
 Use the unset content type if you'd like to add a media folder that mixes different content. Please note that support for mixed content is limited. Initially you'll only be able to add one media path when setting up the library, but additional paths can be added after setting it up.
 
@@ -69,7 +69,7 @@ To learn more, see [Optional Network Paths](Optional-Network-Paths.md).
 
 ## Enable real-time monitoring
 
-To have Emby monitor changes to files and addition of content, real-time monitoring should be enabled.
+To have Emby monitor changes to files and addition of content, [real-time monitoring](xref:Learn-Storage-Notifications) should be enabled.
 
 > [!Important]
 > This option is only available on supported file systems. You should restart your Emby Server after changing this option
@@ -93,5 +93,5 @@ If you enable **Advanced Settings**, you will have additional settings per libra
 Advanced Settings include options such as:
 
 - Prefer embedded titles over filenames
-- Extract chapter images during the library scan
+- Extract [chapter images](xref:Learn-Metadata-Chapter-Thumbnails) during the library scan
 - Enable [Open Subtitles](Open-Subtitles.md) subtitles

@@ -25,14 +25,14 @@ Compressed Audio uses a lot less data (bitrate) and thus is used for streaming s
 
 ### Where does Atmos come in?
 
-Dolby Atmos is a technology where the sound is given additional data to allow it to use extra positional speakers that you may have as part of your AV Sound setup.    Generally, these are ‘height’ speakers that give you the full 360 degrees experience.
+[Dolby Atmos](xref:Learn-Dolby-Atmos) is a technology where the sound is given additional data to allow it to use extra positional speakers that you may have as part of your AV Sound setup.    Generally, these are ‘height’ speakers that give you the full 360 degrees experience.
 
 
-Atmos data can be applied to both Compressed Audio (in the form of Dolby Digital PLUS – EAC3) and HD Audio in the form of True-HD (THD).
+Atmos data can be applied to both Compressed Audio (in the form of [Dolby Digital PLUS – EAC3](xref:Learn-Dolby-Digital-Plus-EAC3)) and HD Audio in the form of [True-HD (THD)](xref:Learn-Dolby-TrueHD).
 
 ### How can I get Emby to play Atmos using my Sound Bar or AV Receiver?
 
-As most people connected their DVD/Blu-Ray Player directly to the TV itself, a standard called ARC (Audio Return Channel) was introduced to pass the Audio back FROM the TV to the external amplifier.  This was originally via Optical or Co-Ax cable but these days it’s via HDMI.  This was great for DD/DD+/DTS compressed sound, but it was never designed for uncompressed sound as the hardware was not available.
+As most people connected their DVD/Blu-Ray Player directly to the TV itself, a standard called [ARC (Audio Return Channel)](xref:Learn-AV-HDMI-ARC) was introduced to pass the Audio back FROM the TV to the external amplifier.  This was originally via Optical or Co-Ax cable but these days it’s via HDMI.  This was great for DD/DD+/DTS compressed sound, but it was never designed for uncompressed sound as the hardware was not available.
 
 
 > [!NOTE]
@@ -40,7 +40,7 @@ As most people connected their DVD/Blu-Ray Player directly to the TV itself, a s
 
 
 
-For HD Audio however, a new standard was introduced called ‘eARC’ or Extended ARC.  This only works over HDMI and importantly both the TV Hardware, TV Software/Firmware and Amplifier must all support eARC.
+For HD Audio however, a new standard was introduced called [‘eARC’](xref:Learn-AV-HDMI-eARC) or Extended ARC.  This only works over HDMI and importantly both the TV Hardware, TV Software/Firmware and Amplifier must all support eARC.
 
 ## This is where the LG problem lies
 

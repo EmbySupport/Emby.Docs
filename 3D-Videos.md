@@ -19,7 +19,7 @@ Then select the 3D format:
 
 ## Identify using video file name flags
 
-In order to properly detect 3D, two tags need to be present in the filename. First, a '3D' tag has to be present. Second, one of the following must also be present, hsbs, fsbs, sbs, htab, ftab, or mvc.
+In order to properly detect 3D, two tags need to be present in the filename. First, a '3D' tag has to be present. Second, one of the following must also be present, hsbs, fsbs, sbs, htab, ftab, or mvc. See [side-by-side 3D](xref:Learn-Video-3D-Side-By-Side), [top-and-bottom 3D](xref:Learn-Video-3D-Top-And-Bottom), and [MVC](xref:Learn-Video-Codec-MVC) for the corresponding formats.
 
 Tags need be be surrounded be either a space ( ), hyphen -, dot . or underscore _. Tags are case-insensitive, so both 3d and 3D will work.
 

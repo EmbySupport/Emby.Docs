@@ -17,7 +17,7 @@ Emby Server currently supports the most popular DVR servers on the market includ
 - TVMosaic
 - Vu+
 
-Please note that each plugin depends on a standalone application of the same name. For example, the ServerWMC plugin for Emby requires the standalone ServerWMC application, the NextPVR plugin requires NextPVR installed on your network, etc
+Please note that each plugin depends on a standalone application of the same name. [Live TV backend adapters](xref:Learn-TV-Backends) explain how that application connects a source to Emby. For example, the ServerWMC plugin for Emby requires the standalone ServerWMC application, the NextPVR plugin requires NextPVR installed on your network, etc
 
 Each plugin will provide it's own documentation, including the tuner hardware supported as well as the installation requirements.
 

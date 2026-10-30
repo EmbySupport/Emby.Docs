@@ -11,7 +11,7 @@ If your key says it is invalid or missing and you're sure you've entered it prop
 
 2. Try blanking out the key and saving and then re-entering (paste) the key and saving again.
 
-3. Check your Firewall and router settings.  Be sure nothing is blocking the server application's access to mb3admin.com
+3. Check your [Firewall](xref:Learn-Network-Firewalls) and router settings.  Be sure nothing is blocking the server application's access to mb3admin.com
 
 4. Disable or remove any browser add-ins.  Some security add-ins (like Privacy Badger) can block our ability to validate the key
 

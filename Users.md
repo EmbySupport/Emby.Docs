@@ -6,7 +6,7 @@ seeAlso:
   - User-Customization
 ---
 
-Most operations within Emby are based around users. Users can have their own personalized media libraries, user data, recommendations, security settings, and more.
+Most operations within Emby are based around users. Users can have their own personalized media libraries, [user data](xref:Learn-Library-User-History), recommendations, security settings, and more.
 
 Users are managed within the server dashboard by navigating to **Users**.
 
@@ -36,7 +36,7 @@ You'll then be taken to the new user page page. The only required field is a use
 
 As you can see, settings and user preferences can be imported from another local user account. Functionality has also been added as from Emby Server 4.10.x to copy a user's preferences to other user accounts. See [Copy User Settings](User-Copy-Settings.md).
 
-Before saving, you can configure library and channel access, and this can easily be changed later. Deselect **All** to select specific libraries and channels:
+Before saving, you can configure [library access](xref:Learn-Network-Library-Permissions) and channel access, and this can easily be changed later. Deselect **All** to select specific libraries and channels:
 
 ![](images/server/users9.png)
 

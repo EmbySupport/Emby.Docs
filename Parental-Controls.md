@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001160251-parental-controls
 
 There are a number of tools at your disposal to restrict content from users. To manage parental controls for a user, navigate to the server dashboard -> **Users** -> **Click User** -> **Parental Control**.
 
-The simplest way is to set the max parental rating for a user.
+The simplest way is to set the [max parental rating](xref:Learn-Network-Rating-Restrictions) for a user.
 
 ## Parental Controls via Ratings
 

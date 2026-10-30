@@ -8,7 +8,7 @@ legacyUrl: /support/solutions/articles/44002058112-shield-tv-direct-file-access
 > If on Android 11+ this option is now only available for external players.
 
 
-In order to setup direct file access on Android TV for Emby you will first need to setup shares and UNC access of your libraries which is covered in Optional Network Paths.
+In order to setup direct file access on Android TV for Emby you will first need to setup shares and [UNC access](xref:Learn-Storage-UNC) of your libraries which is covered in Optional Network Paths.
 
 Next you will need to setup Android TV Storage Attachment so that you device will be able to access your media files.
 
@@ -24,6 +24,6 @@ You will now want to enable Pass Direct Path option (should be checked).
 
 
 
-Once you've performed these steps you should be able to see Emby access your files directly in Stats for Nerds.
+Once you've performed these steps you should be able to see Emby access your files directly in [Stats for Nerds](xref:Learn-Playback-Information).
 
 ![Server Shield Storage2](images/server/server_shield_storage2.png)

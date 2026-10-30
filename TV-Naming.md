@@ -9,7 +9,7 @@ seeAlso:
   - Subtitles
 ---
 
-For a simple TV folder structure, the recommended folder layout is Series (year)\Season #\Episode. The Episode name itself should contain the show name,  the season and the episode episode number which is covered below.
+For a simple [TV folder structure](xref:Learn-Library-Series-Hierarchy), the recommended folder layout is Series (year)\Season #\Episode. The Episode name itself should contain the show name,  the season and the episode episode number which is covered below.
 
 When setting up the library, make sure to select **TV** as the content type.  It is mandatory for each TV show to have its own folder under the library folder path(s).
 
@@ -34,7 +34,7 @@ For example:
 
 ## ID Tags in Folder & File Names
 
-Emby can also read a Meta-Data ID from the name.
+Emby can also read a [Meta-Data ID](xref:Learn-Metadata-Provider-IDs) from the name.
 
 Supported Formats:
 
@@ -252,7 +252,7 @@ A number of naming conventions are supported:
 
 ### By date
 
-Common for long-running daily shows, you can also use the date the episode aired.
+Common for long-running daily shows, you can also use [the date the episode aired](xref:Learn-Library-Date-Episodes).
 
 - anything_1996.11.14.ext
 - anything_1996-11-14.ext
@@ -260,7 +260,7 @@ Common for long-running daily shows, you can also use the date the episode aired
 
 ## Multi-Version Episodes
 
-Multi-Version Episodes are best using the following format:
+[Multi-Version Episodes](xref:Learn-Library-Alternate-Versions) are best using the following format:
 
 - show name - S01E01 - Display Name 1.ext
 - show name - S01E01 - Display Name 2.ext
@@ -276,7 +276,7 @@ anything following the "-" (dash) up to the file extension will be used in the d
 
 ## Multi-Episode files
 
-All multi-episode files must be part of the same season.
+All [multi-episode files](xref:Learn-Library-Multi-Episode-Files) must be part of the same season.
 
 The following conventions are supported:
 
@@ -307,7 +307,7 @@ The following conventions are supported:
 
 ## Specials
 
-Specials should be named using one of the following season folder names:
+[Specials](xref:Learn-Library-Television-Specials) should be named using one of the following season folder names:
 
 - Season 0
 - Season 00

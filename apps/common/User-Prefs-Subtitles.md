@@ -7,13 +7,13 @@ The **Subtitles** user preferences cover the following:
 
 ## Subtitles
 
-* Preferred subtitle language
+* [Preferred subtitle language](xref:Learn-Subtitle-Language-Preferences)
 * Subtitle mode
   * Always play subtitles
   * Default
   * Smart
-  * Only forced subtitles
-  * Hearing impaired
+  * Only [forced subtitles](xref:Learn-Subtitle-Forced)
+  * [Hearing impaired](xref:Learn-Subtitle-SDH)
   * No subtitles
 * Remember subtitle track selections
 

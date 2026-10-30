@@ -1,7 +1,7 @@
 
 ### VA API in Docker
 
-Docker usage on Unraid as sample
+[Docker usage](xref:Learn-Server-Containers) on Unraid as sample
 
 ```
 \flash\config\go
@@ -24,7 +24,7 @@ that's it
 
 i can only speak for intel here, but latest 3 gens i6, i7, i8 ... its for the end user side all there is ...
 enable intel on the host vie the go file, give the docker access ... either via the extra parameter in docker run OR by privileged access.
-that's it to get all features running with vaapi, decoding all formats from the site, encoding to h264
+that's it to get all features running with [vaapi](xref:Learn-Hardware-Linux-VAAPI), decoding all formats from the site, encoding to h264
 QuickSync ...another story which i don't really know (not needed in any way here cause vaapi does the job).
 when i remember there are no special drivers or so needed on most NAS system on intel base like freenas, unraid, etc ...
 also the boxes like synology etc are ready out of the box.

@@ -8,7 +8,7 @@ legacyUrl: /support/solutions/articles/44001160415-live-tv-setup
 
 Emby provides a flexible and very powerful Live TV and DVR solution.  With Emby’s TV you will be able to stream Live or Recorded TV content to any device you have with an Emby client or web browser.
 
-You can use Emby to eliminate the need for cable STBs (Set Top Boxes) or you can eliminate your cable provider entirely by cutting the cord and switching to OTA (Over the Air) broadcasts for local channels.
+You can use Emby to eliminate the need for cable STBs (Set Top Boxes) or you can eliminate your cable provider entirely by cutting the cord and switching to [OTA (Over the Air) broadcasts](xref:Learn-TV-OTA) for local channels.
 
 Emby provides free guide data (US, UK & Canada) right out of the box at no additional cost.
 
@@ -16,8 +16,8 @@ Emby provides free guide data (US, UK & Canada) right out of the box at no addit
 
 Setup of Live TV can be broken down into a few steps:
 
-- Configure your TV Tuner(s) or M3U based IPTV sources
-- Add TV Guide Data Source(s)
+- Configure your TV Tuner(s) or M3U based [IPTV sources](xref:Learn-TV-IPTV)
+- Add [TV Guide Data](xref:Learn-TV-EPG) Source(s)
 - Match your Channel Lineup to Guide Data (Channel Mapping)
 
 The LiveTV and DVR feature requires a valid [Emby Premiere](Emby-Premiere.md) subscription.
@@ -56,11 +56,11 @@ The final step of setting up Live TV is matching the tuner's stations to the Gui
 
 You can optionally change a few options used for DVR purposes.  These options include:
 
-- Live stream buffer
+- [Live stream buffer](xref:Learn-TV-Time-Shift-Buffers)
 - Amount of days of Guide Data loaded
 - Option to wake the server for scheduled recordings
 - Default recording paths
-- Default Pre and Post recording padding times.  This allows you set recording to start X minutes early and finish Y minutes late.
+- Default Pre and Post [recording padding](xref:Learn-TV-Recording-Padding) times.  This allows you set recording to start X minutes early and finish Y minutes late.
 - Post-processing script to run after recording
 
 [Live TV Advanced Settings](DVR-Settings.md)

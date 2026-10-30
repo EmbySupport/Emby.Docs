@@ -135,9 +135,9 @@ To get started with a download, click on the available **Download** icon/button.
 ![](images/apps/downloads3.png)
 
 > [!NOTE]
-> Forcing original quality may result in a download that is not playable on the device.
+> Forcing original quality may result in a download that is not playable on the device. See [playback compatibility](xref:Learn-Playback-Compatibility) for the properties involved.
 
-Custom quality allows you to set your own desired bitrate:
+Custom quality allows you to set your own desired [bitrate](xref:Learn-Media-Bitrate):
 
 ![](images/apps/downloads4.png)
 

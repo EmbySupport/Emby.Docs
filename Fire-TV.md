@@ -23,7 +23,7 @@ Install the app using one of the above methods, the app will then automatically 
   flac,aac,mp3,mpa,wav,wma,mp2,ogg,oga,webma,ape,ac3 (Dolby Digital)
 
 > [!NOTE]
-> The exact containers and codecs that will direct play depends on both the exact version of Fire TV and the audio equipment it is connected to (and the type of connection - e.g. HDMI, optical, etc.).
+> The exact containers and codecs that will direct play depends on both the [exact version of Fire TV and the audio equipment it is connected to](xref:Learn-Playback-Client-Capabilities) (and the type of connection - e.g. HDMI, optical, etc.).
 
 You can check the capabilities of your Fire model [here](https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-cube.html?v=ftvcubegen2).
 
@@ -33,4 +33,4 @@ Ensure your media meets the above criteria.
 
 Leave the app's streaming bitrate setting on the default value of Auto, if possible. The app will perform bandwidth tests with your Emby Server to determine the maximum playable bitrate.
 
-If you are customizing the bitrate setting, then you will need to compare the bitrate of your files to the bitrate setting in the app. You can find the bitrate of a file by checking the media info in the web interface. If the bitrate of a file is higher than the setting in the app, transcoding will be required. Increasing the bitrate setting in the app can help reduce transcoding, but may impact playback performance if your network connection is not fast enough to handle it.
+If you are customizing the bitrate setting, then you will need to compare the [bitrate of your files](xref:Learn-Media-Bitrate) to the bitrate setting in the app. You can find the bitrate of a file by checking the media info in the web interface. If the bitrate of a file is higher than the setting in the app, transcoding will be required. Increasing the bitrate setting in the app can help reduce transcoding, but may impact playback performance if your network connection is not fast enough to handle it.

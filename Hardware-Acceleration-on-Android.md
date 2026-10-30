@@ -7,10 +7,10 @@ legacyUrl: /support/solutions/articles/44001160208-hardware-acceleration-on-andr
 Emby supports the following hardware acceleration variants on Android
 
 - **Android MediaCodec**  
-MediaCodec is Android's integrated API for video de- and encoding.
+[MediaCodec](xref:Learn-Hardware-Android-MediaCodec) is Android's integrated API for video de- and encoding.
 
 - **OpenMax**  
-OpenMax is an API specification covering various aspects of media acceleration. On Android it is the standard API for codec implementations while applications are typically using MediaCodec
+[OpenMax](xref:Learn-Hardware-OpenMAX-IL) is an API specification covering various aspects of media acceleration. On Android it is the standard API for codec implementations while applications are typically using MediaCodec
 
 This applies to Emby as well. Emby supports hardware accelerated codecs through the MediaCodec API.
 We're mentioning OpenMax here to avoid confusion in that matter, because codecs are often named like "h26x.OMX.Google.encoder.*", where OMX is indicating the API of the codec implementation, even when accessed through the MediaCodec API.

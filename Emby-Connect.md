@@ -49,4 +49,4 @@ Please see [Emby Connect For Users](Emby-Connect-for-Users.md)
 
 ### Does This Mean My Streaming is Passing Through the Cloud?
 
-No, all connections are direct from your devices to your Emby Server. The sole purpose of the Emby Connect feature is to help your devices locate your Emby Server so that you don't have to set it up yourself.
+No, all connections are direct from your devices to your Emby Server. The sole purpose of the Emby Connect feature is to help your devices locate your Emby Server so that you don't have to set it up yourself. See [Emby Connect and server connectivity](xref:Learn-Network-Emby-Connect) for how account linking and the network connection fit together.

@@ -6,7 +6,7 @@ legacyUrl: /support/solutions/articles/44001161839-roku
 
 Emby for Roku is available in the [Roku App Store](https://channelstore.roku.com/details/904d20cb3bd4aa340a35aa9c83c9a128/emby).  It is compatible with any Roku model running at least version 7.5 4099 of the Roku firmware.
 
-Emby for Roku can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for Direct Play, read below.
+Emby for Roku can handle just about any type of media thanks to [Emby Server transcoding](Transcoding.md). If you would like to learn how to prepare your media for [Direct Play](xref:Learn-Playback-Direct-Play), read below.
 
 ## Setup Guide
 
@@ -26,9 +26,9 @@ A setup guide is available in the [Emby Community](http://emby.media/community/i
 > [!NOTE]
 > Multichannel AAC is not supported on all Roku models. Roku TV’s and Roku 4 set-top-boxes do support multichannel decode to PCM stereo.
 >
-> On Roku set-top-boxes Dolby Digital audio (AC3, EAC3) is only supported via pass through.
+> On Roku set-top-boxes Dolby Digital audio (AC3, EAC3) is only supported via [pass through](xref:Learn-Audio-Bitstream-Passthrough).
 >
-> DTS is only supported via pass through on both Roku set-top-boxes and Roku TV’s. You must connect your Roku player via HDMI or S/PDIF to a TV or receiver capable of decoding Dolby Digital or DTS in order to hear videos with audio tracks in those formats.
+> DTS is only supported via pass through on both Roku set-top-boxes and Roku TV’s. You must connect your Roku player via HDMI or [S/PDIF](xref:Learn-Audio-SPDIF) to a TV or receiver capable of decoding Dolby Digital or DTS in order to hear videos with audio tracks in those formats.
 
 ## Best Practices for Direct Play
 

@@ -32,7 +32,7 @@ The physical location of log files is displayed on the **View Server Info** butt
 
 By default, Emby Server will start a new log file every day at midnight. The current log file will be renamed and postfixed by a timestamp value.
 
-You can control log rollover through in the Scheduled Tasks section by modifying the execution schedule of the **Rotate log file** task
+You can control [log rollover](xref:Learn-Server-Log-Rotation) through in the Scheduled Tasks section by modifying the execution schedule of the **Rotate log file** task
 
 ## Log file types
 
@@ -42,7 +42,7 @@ There are four types of log files:
 The main server log file, rotated as described above. The current log file would just be called embyserver.txt
 
 - ffmpeg-xxxx.txt
-Transcoding logs created for each transcoding or remuxing operation
+[Transcoding logs](xref:Learn-Playback-Transcode-Logs) created for each transcoding or remuxing operation
 
 - hardware_detection-xxxxx.txt  
 Hardware detection log. Created on every startup of Emby Server
@@ -52,7 +52,7 @@ ffmpeg logs for image extractions
 
 ## Debug Logging
 
-A setting is available to allow you to enable additional debug logging. The following shows the various options available. By default, debug logging is not enabled. Debug logging should only be enabled when specifically requested to do so for a specific problem investigation.
+A setting is available to allow you to enable additional [debug logging](xref:Learn-Server-Log-Levels). The following shows the various options available. By default, debug logging is not enabled. Debug logging should only be enabled when specifically requested to do so for a specific problem investigation.
 
 ![](images/server/logs4.png)
 

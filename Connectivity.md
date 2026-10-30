@@ -20,7 +20,7 @@ This document is primarily designed for troubleshooting, when the automatic feat
 
 ## In-Network Connections
 
-Most Emby apps can automatically discover your Emby Server on your home network, so in those cases, there's nothing more you need to do. But in the event this does not work, you can still connect to your Emby Server by manually entering the server's address.
+Most Emby apps can [automatically discover your Emby Server](xref:Learn-Network-Emby-Discovery) on your home network, so in those cases, there's nothing more you need to do. But in the event this does not work, you can still connect to your Emby Server by manually entering the server's address.
 
 To locate your server's internal address, simply open the Emby Server Dashboard on the Emby Server machine, typically through http://localhost:8096 and clicking on the **Manage Emby Server** gear icon in the top right corner.
 
@@ -32,7 +32,7 @@ This information can then be entered into Emby apps when making a manual connect
 
 ![](images/server/connectivity3.png)
 
-It is recommended that the local IP Address for the Emby Server machine should be fixed. Use the router's DHCP Reservation feature to do that.
+It is recommended that the local IP Address for the Emby Server machine should be fixed. Use the router's [DHCP Reservation](xref:Learn-Network-DHCP-Reservations) feature to do that.
 Here is a general guide for doing this.
 https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router
 
@@ -58,7 +58,7 @@ The follows shows the differences between the two network profiles:
 ![](images/server/connectivity19.png)
 
 
-If this is set correctly as **Private** and you are still unable to connect to the emby server locally, then most likely the firewall on the server machine is not allowing access. Below are a list of troubleshooting steps that can be taken to resolve this.
+If this is set correctly as **Private** and you are still unable to connect to the emby server locally, then most likely the [firewall](xref:Learn-Network-Firewalls) on the server machine is not allowing access. Below are a list of troubleshooting steps that can be taken to resolve this.
 
 ### Open TCP Ports 8096 / 8920 & UDP Port 7359 on your server's firewall
 
@@ -96,15 +96,17 @@ If the **LAN Networks** setting is filled in with a value, make sure that the lo
 
 ### Router AP Isolation
 
-If you find that wired devices can access the Emby Server but not devices on wi-fi, check the router wi-fi settings to see if "**AP Isolation**" is enabled. Disabling this would allow wi-fi connected devices to see other devices on the local network. This would be a valid setting to have enabled for a "Guest Network", so check first if your wi-fi is configured as a Guest Netowrk.
+If you find that wired devices can access the Emby Server but not devices on wi-fi, check the router wi-fi settings to see if "**AP Isolation**" is enabled. Disabling this would allow wi-fi connected devices to see other devices on the local network. This would be a valid setting to have enabled for a "[Guest Network](xref:Learn-Network-Guest-Isolation)", so check first if your wi-fi is configured as a Guest Netowrk.
 
 ### Use of VPN
 
-When using a vpn on your router, the requests coming into the server from within the local network may not appear as local. You would need to add the local network subnet used by the vpn to the **LAN Networks** server Network setting. Ensure you also include the local network subnet that the server is connected to as well.
+When using a vpn on your router, the requests coming into the server from within the local network [may not appear as local](xref:Learn-Network-Local-Remote). You would need to add the local network subnet used by the vpn to the **LAN Networks** server Network setting. Ensure you also include the local network subnet that the server is connected to as well.
 
 As an example, if your local network is on subnet 192.168.1.xxx and the vpn is using subnet 10.253.0.xx, then you would enter: 10.253.0.0/24,192.168.1.0/24 in the LAN Networks server Network settings covering IP address ranges 10.253.0.1 to 10.253.0.255 and 192.168.1.1 to 192.168.1.255. See [LAN Networks](Hosting-Settings.md#LAN-Networks).
 
 ### CORS Mixed Content Block
+
+For the distinct browser checks involved, see [mixed content](xref:Learn-Network-Mixed-Content) and [same-origin policy and CORS](xref:Learn-Network-CORS).
 
 When using the hosted Emby Web app at **app.emby.media**, access to the Emby Server may be blocked when https secure connections is not enabled on the server and the access in the internet browser is through https://app.emby.media. It gets blocked by the browsers because mixed mode of https and http is not permitted. Entering the http url in the browser http://app.emby.media would get round this problem.
 
@@ -132,7 +134,7 @@ On the same page down below this section, you will see this option:
 
 ![](images/server/connectivity10.png)
 
-If you have a router that supports UPnP and have this turned on, you can enable the "Enable automatic port mapping" feature. If you do not see this option, please install the Port Mapper Plugin from the plugin catalog.
+If you have a router that supports [UPnP](xref:Learn-Network-UPnP-Mapping) and have this turned on, you can enable the "Enable automatic port mapping" feature. If you do not see this option, please install the Port Mapper Plugin from the plugin catalog.
 
 > [!NOTE]
 > Most routers have the UPnP option turned off by default.
@@ -165,7 +167,7 @@ If automatic port mapping does not work, you should disable the setting and swit
 
 ### Setup Port Forwarding
 
-If you're unable to connect after testing the above settings with automatic port mapping, then you may need to setup port forwarding manually in your router to allow external connectivity to your Emby Server.
+If you're unable to connect after testing the above settings with automatic port mapping, then you may need to setup [port forwarding](xref:Learn-Network-Port-Forwarding) manually in your router to allow external connectivity to your Emby Server.
 
 To do this, turn off the "Enable automatic port forwarding" option just set and open the web interface for your router. If using the default public port numbers, you will need to setup a port forward rule for TCP Port 8096 on your router to port 8096 on the Emby Server machine. Do the same for port 8920 as well (if using SSL/secure connections). If you have chosen different public port numbers, then it would be these that need to be specified in the port forward rules.
 
@@ -207,7 +209,7 @@ Set a different http and https port (where applicable) for each of the servers. 
 
 ### Multiple Routers / Mesh Network Added
 
-If you have more than one router, eg an ISP provided router and also your own router, or you've added a Mesh Network, then that could lead to a **Double NAT** which would give rise to failure to reach the server externally.
+If you have more than one router, eg an ISP provided router and also your own router, or you've added a Mesh Network, then that could lead to a **[Double NAT](xref:Learn-Network-Double-NAT)** which would give rise to failure to reach the server externally.
 
 To establish if you have a Double NAT and what steps you need to take to get round the issue, see [Multiple Routers Double NAT](#multiple-routers-double-nat) below. Basically you will have two ways to choose from, either by making sure there is only one operating as a router or to manually setting up port forwards to cascade all the way through.
 
@@ -223,7 +225,7 @@ Open a browser and visit [canyouseeme.org](http://www.canyouseeme.org).
 
 The IP you see listed here must match what Emby shows on the dashboard.  If it doesn't, remote access will not work and likely your ISP is using cgNAT or you are using a VPN.
 
-If the IP address matches, then you can proceed to test the connection through the public port. If your external IP addresses changes frequently, consider using a DDNS setup (Dynamic DNS).
+If the IP address matches, then you can proceed to test the connection through the public port. If your external IP addresses changes frequently, consider using a [DDNS setup (Dynamic DNS)](xref:Learn-Network-DDNS).
 
 ### Verify Public IP and Port
 
@@ -232,7 +234,7 @@ Again, you can use [canyouseeme.org](http://www.canyouseeme.org) in a browser an
 You can also test your external address and public port by opening a web browser while away from home, or inside your home using a smart phone or tablet with the wifi connection turned off.
 
 > [!IMPORTANT]
-> Testing your external address inside your home might not work, and this is OK. Some internet routers disable loopback capabilities (going out and coming back in), therefore you might not be able to test this from inside your home network. It's important that you test away from home, or with your smart phone's or tablet's wifi connection turned off.
+> Testing your external address inside your home might not work, and this is OK. Some internet routers disable [loopback capabilities](xref:Learn-Network-NAT-Loopback) (going out and coming back in), therefore you might not be able to test this from inside your home network. It's important that you test away from home, or with your smart phone's or tablet's wifi connection turned off.
 
 If these succeed, your Emby Server should be working remotely and can proceed with connecting from Emby apps. But, if you find that even with this being successful, a device is still failing to connect remotely, check that you have allowed remote connections for the user account that is making the attempt. Refer to [Users](Users.md) Settings and check that in the user settings, **"Allow remote connections to this Emby Server"** is ticked for that user account.
 
@@ -256,7 +258,7 @@ If you are using a manual port forward setup and the local IP Address changes, t
 See https://portforward.com/dhcp-reservation/#how-to-make-a-dhcp-reservation-in-your-router
 
 ### cgNAT Double NAT
-You could also be having a Double NAT setup through your ISP giving you a cgNAT (carrier grade Network Address Translation) public IP address.
+You could also be having a Double NAT setup through your ISP giving you a [cgNAT (carrier grade Network Address Translation)](xref:Learn-Network-CGNAT) public IP address.
 
 
 To check if you have been given a cgNAT public IP Address, see if it is within this IP range

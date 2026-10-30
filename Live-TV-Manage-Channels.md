@@ -15,7 +15,7 @@ Select the Edit Metadata option.
 
 ![Channels 2](images/livetv/channels-2.png)
 
-You can now set a sort title that will over ride the normal title sorting.  You can use the Parental rating field above to set the rating AND then use individual user parental control restrictions to hide channels from specific users using either the parental rating field above or a tag (see below)
+You can now set a [sort title](xref:Learn-Metadata-Sort-Titles) that will over ride the normal title sorting.  You can use the Parental rating field above to set the rating AND then use individual user [parental control restrictions](xref:Learn-Network-Rating-Restrictions) to hide channels from specific users using either the parental rating field above or a tag (see below)
 
 You can also click the + sign next to Tags and set a Tag such as "HideChannel".
 

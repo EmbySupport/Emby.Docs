@@ -3,9 +3,9 @@ uid: Emby-Theater-for-Windows
 title: Emby Windows
 ---
 
-Emby for Windows is a modern app, built for Windows 10, 11 and later. It can be downloaded from  here: [Emby for Windows](https://emby.media/emby-for-windows.html). Since Emby Windows is a native app, it allows support for a much wider range of codecs and formats, which enables direct play support for most kinds of video files.
+Emby for Windows is a modern app, built for Windows 10, 11 and later. It can be downloaded from  here: [Emby for Windows](https://emby.media/emby-for-windows.html). Since Emby Windows is a [native app](xref:Learn-Playback-Native-Players), it allows support for a much wider range of codecs and formats, which enables direct play support for most kinds of video files.
 
-- Emby for Windows can be used alongside remote control from either your phone or web browser so that Emby is ideal for an HTPC connected to your TV.
+- Emby for Windows can be used alongside [remote control](xref:Learn-Playback-Remote-Control) from either your phone or web browser so that Emby is ideal for an HTPC connected to your TV.
 - Emby for Windows can play just about any type of media thanks to Emby Server transcoding, however since this is on a Windows platform, chances are you will be using direct play most of the time. If you would like to learn how to prepare your media for Direct Play, read below
 
 > [!NOTE]

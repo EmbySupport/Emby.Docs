@@ -116,7 +116,7 @@ There are several manual steps that need to be completed to install Emby Server 
 
            `http://192.168.1.219:8096`
 
-- It is advisable that you make this NVIDIA Shield IP Address a static / DHCP Reserved IP address. For more information see [Connecting from Client Apps](Connectivity.md).
+- It is advisable that you make this NVIDIA Shield IP Address a static / [DHCP Reserved IP address](xref:Learn-Network-DHCP-Reservations). For more information see [Connecting from Client Apps](Connectivity.md).
 
 
 ## Step 8: Configuration and Setup
@@ -130,6 +130,6 @@ Congratulations, you have successfully installed Emby Server and are now ready t
 
 ## Step 9: Optional - Using USB Attached Storage
 
-If using USB attached storage on the Shield TV you may wish to read this Nvidia article on write access.
+If using [USB attached storage](xref:Learn-Storage-USB) on the Shield TV you may wish to read this Nvidia article on write access.
 
 https://nvidia.custhelp.com/app/answers/detail/a_id/4437/~/how-to-write-to-usb-shared-storage-on-shield

@@ -5,7 +5,7 @@ title: Emby Server Data Folder
 
 ## Emby Server Data Folder
 
-The Emby Server data folder can generally be located in one of the following locations, depending on the server platform. If your server is running, then The location can also be found on the Emby Server Dashboard by clicking the 3-dot menu, and then "Get Server Info".
+The [Emby Server data folder](xref:Learn-Server-Data-Roles) can generally be located in one of the following locations, depending on the server platform. If your server is running, then The location can also be found on the Emby Server Dashboard by clicking the 3-dot menu, and then "Get Server Info".
 
 For NAS platforms, tools like [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) and [WinSCP](https://winscp.net/eng/download.php) can be used to access the Emby Server Data Folder area, once SSH has been enabled on the NAS.
 

@@ -4,7 +4,7 @@ title: Hardware Acceleration Overview
 legacyUrl: /support/solutions/articles/44001160148-hardware-acceleration-overview
 ---
 
-Emby supports a broad range of hardware accelerated video transcoding methods on its supported platforms:
+Emby supports a broad range of [hardware accelerated video transcoding](xref:Learn-Hardware-Media-Acceleration) methods on its supported platforms:
 
 ## Windows
 
@@ -53,7 +53,7 @@ OpenMax is an API specification covering various aspects of media acceleration. 
 
 **I've enabled hardware acceleration but CPU usage is still very high when transcoding and PGS or DVD subtitles are enabled.**
 
-In many cases these subtitle formats will need to be burned into the video on the fly with transcoding. Most GPUs do not support this and as a result there will be some significant CPU involvement. This is a very taxing process for even a powerful server, and it's generally something you want to avoid. Here are the best ways to avoid burning in subtitles:
+In many cases these subtitle formats will need to be [burned into the video](xref:Learn-Subtitle-Burn-In) on the fly with transcoding. Most GPUs do not support this and as a result there will be some significant [CPU involvement](xref:Learn-Hardware-CPU-Work). This is a very taxing process for even a powerful server, and it's generally something you want to avoid. Here are the best ways to avoid burning in subtitles:
 
 - Turn off the subtitles prior to playback using the pre-playback subtitle selection menu
 - Use external text-based subtitles instead, such as .srt files. Emby Server's subtitle download features can help automate the process of acquiring these.

@@ -4,13 +4,13 @@ title: Transcoding
 legacyUrl: /support/solutions/articles/44001159897-transcoding
 ---
 
-Emby has the ability to convert your media during playback in order to make it compatible with all of your devices. This process is known as transcoding.
+Emby has the ability to convert your media during playback in order to make it compatible with all of your devices. This process is known as [transcoding](xref:Learn-Playback-Transcoding).
 
 In most cases, the server and the apps will automatically select the ideal settings to achieve smooth playback. This is based on a variety of factors including network performance, media information, device capabilities, and various configuration settings. In some cases though, you may choose to provide your own configuration in order to improve the playback experience.
 
 ## App Settings
 
-Every Emby app will have a setting known as "Max streaming bitrate". This is the most important setting to configure within the app that you're trying to use, and will have the greatest effect on image quality. As you increase the bitrate quality will improve, but will require a faster connection between the device and server.
+Every Emby app will have a setting known as "Max streaming bitrate". This is the most important setting to configure within the app that you're trying to use, and will have the greatest effect on image quality. As you increase the [bitrate](xref:Learn-Media-Bitrate) quality will improve, but will require a faster connection between the device and server.
 
 **Ineligible formats for transcode**
 
@@ -39,7 +39,7 @@ The **thread count setting** allows you to specify how many processors to alloca
 
 ### Temporary Path
 
-The server will need to create temporary files throughout the transcoding process. The location of these files can be configured.
+The server will need to create [temporary files](xref:Learn-Playback-Temporary-Files) throughout the transcoding process. The location of these files can be configured.
 
 ![Temporary Path](images/server/transcoding2.png)
 
@@ -50,7 +50,7 @@ If you specify a custom path, please ensure the following conditions are met:
 
 ### Audio Boost
 
-When surround audio is converted to 2-channel stereo audio, this often results in a lower volume level. To offset this, you can configure an audio boost scale factor to increase the volume.
+When [surround audio is converted to 2-channel stereo audio](xref:Learn-Audio-Downmixing), this often results in a lower volume level. To offset this, you can configure an audio boost scale factor to increase the volume.
 
 ![Audio Boost](images/server/transcoding3.png)
 
@@ -70,7 +70,7 @@ If the file is not natively supported, transcoding will be required.
 
 - Next, compare the bitrate of your file to the bitrate setting in the app. You can find the bitrate of your file by checking the media info in the web interface. If the bitrate of the file is higher than the setting in the app, transcoding will be required. Increasing the bitrate setting in the app can help reduce transcoding, but may impact playback performance if your network connection is not fast enough to handle it. Emby apps are beginning to support automatic bitrate detection in order to automatically select the highest bitrate possible. Most users will see best results by leaving the bitrate setting on Auto.
 
-- Lastly, are subtitles selected? If subtitles are selected, then this may trigger transcoding if the app does not natively support the subtitle format. Most Emby apps have native support for text-based subtitles (e.g. srt, vtt, etc). Graphical subtitles such as PGS and VobSub are more likely to trigger transcoding.
+- Lastly, are subtitles selected? If subtitles are selected, then this may trigger transcoding if the app does not natively support the subtitle format. See [subtitle rendering compatibility in Emby](xref:Learn-Subtitle-Compatibility-Emby) for how the delivery path is chosen. Most Emby apps have native support for text-based subtitles (e.g. srt, vtt, etc). Graphical subtitles such as PGS and VobSub are more likely to trigger transcoding.
 
 To learn more about the formats that are natively supported by each Emby app, please visit the documentation section for that app:
 
@@ -92,6 +92,6 @@ Please make sure to supply the following information:
 
 - A copy of the media info from the web interface
 - The Emby Server log from the time you played the content
-- The Emby Server transcoding logs from the same time (if any).
+- The Emby Server [transcoding logs](xref:Learn-Playback-Transcode-Logs) from the same time (if any).
 
 Logs can be accessed directly within the server's web interface by navigating to **Help** -> **Logs**.

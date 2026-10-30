@@ -21,4 +21,4 @@ Click SAVE when finished and your new tuner will be ready for use.
 If you've changed ports or don't know the IP just login into your Vbox device in a web browser and select Streaming->IPTV menus and you'll see a screen similar to this:
 
 
-You want to use the SimpleIPTV M3U8 URL.
+You want to use the [SimpleIPTV M3U8 URL](xref:Learn-TV-M3U).

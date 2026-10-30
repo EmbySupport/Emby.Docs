@@ -28,7 +28,7 @@ cd /opt/Emby-Beta
 
 #### nompv
 
-Disables playback via MPV player in a separate window and switches Emby Linux to use the HTML video player instead.
+Disables playback via MPV player in a separate window and switches Emby Linux to use the [HTML video player](xref:Learn-Playback-HTML-Media) instead.
 
 ```bash
 ./Emby -nompv

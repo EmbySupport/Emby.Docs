@@ -7,7 +7,7 @@ Emby has native support for current [Hauppauge](https://hauppauge.com/) PCIe and
 
 You will need first to install the Hauppauge WinTV app and go through the configuration process and ensuring latest drivers and channel data is in place. The product also needs to be activated. The earliest supported version is v8.5. The following is the link for the [WinTV v10 app](https://www.hauppauge.com/pages/support/support_wintv10.html).
 
-When installing the WinTV application, make sure that it is installed for all Windows users to access and that the folder paths for the installation and recordings are in directories that have full permissions set for the windows user account that Emby Server would run under. The following shows the paths that need to be defined at install time.
+When installing the WinTV application, make sure that it is installed for all Windows users to access and that the folder paths for the installation and recordings are in directories that have full [permissions set for the windows user account that Emby Server would run under](xref:Learn-Storage-Service-Access). The following shows the paths that need to be defined at install time.
 
 ![](images/tvtuners/hauppauge-1.png)
 
@@ -43,7 +43,7 @@ Go through the options applicable to your region, type of tuner and channels ava
 
 ![](images/tvtuners/hauppauge-8.png)
 
-On completion of the scan and setup, use the WinTV app to test that the channels do stream and the signal and quality is good.
+On completion of the scan and setup, use the WinTV app to test that the channels do stream and the [signal and quality](xref:Learn-TV-Signal-Quality) is good.
 
 Close the WinTV application and prepare to add the Hauppauge tuner to the Emby Server.
 

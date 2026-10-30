@@ -9,7 +9,7 @@ seeAlso:
   - Manual-Subtitle-Downloads
 ---
 
-External subtitles should use the same file name as the movie/show except for the extension(s) as shown below.
+[External subtitles](xref:Learn-Subtitle-External) should use the same file name as the movie/show except for the extension(s) as shown below.
 
 ```
 /Movies
@@ -37,7 +37,7 @@ External subtitles can be marked as default using either ".default".
 
 ## Forced Subtitles
 
-External subtitles can be marked as forced using either ".forced" or ".foreign".
+External subtitles can be marked as [forced](xref:Learn-Subtitle-Forced) using either ".forced" or ".foreign".
 
 ```
 /Movies
@@ -50,7 +50,7 @@ External subtitles can be marked as forced using either ".forced" or ".foreign".
 
 ## Hearing Impaired Subtitles
 
-Hearing impaired subtitles can be marked using ".sdh".
+[Hearing impaired subtitles](xref:Learn-Subtitle-SDH) can be marked using ".sdh".
 
 ```
 /Movies
@@ -88,7 +88,7 @@ It is sometimes useful to have other "names" in the subtitle to help identify it
 
 ## ISO and Country codes used together
 
-Sometimes you may need to use a country code in addition to the ISO code.  This might be the case when a country name is associated with different dialects.  For example written "Chinese" could be Simplified or Traditional Chinese.
+Sometimes you may need to use a country code in addition to the ISO code. [Language tags](xref:Learn-Metadata-Language-Tags) explain how language, region and script distinctions are represented.  This might be the case when a country name is associated with different dialects.  For example written "Chinese" could be Simplified or Traditional Chinese.
 
 Using both the ISO and Country code allows you to specify this. zh is the ISO code for Chinese. To distinguish simplified vs traditional in the naming of your subtitle files you would follow the following format:
 

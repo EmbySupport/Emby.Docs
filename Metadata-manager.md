@@ -4,7 +4,7 @@ title: Metadata Manager
 legacyUrl: /support/solutions/articles/44001848783-metadata-manager
 ---
 
-One of the areas in which Emby Server shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the metadata for every item in your library in one place.
+One of the areas in which Emby Server shines as a media server is the metadata management. The server has a metadata manager which allows you to view all of the [metadata](xref:Learn-Metadata-Overview) for every item in your library in one place.
 
 The metadata manager can be accessed via the side-bar in the web client and other emby client apps.
 
@@ -47,13 +47,13 @@ All media can get their information from online databases such as TheMovieDB and
 
 #### Database IDs
 
-Database IDs are extremely important to the server to determine what each media item is and whether it has been watched.
+[Database IDs](xref:Learn-Metadata-Provider-IDs) are extremely important to the server to determine what each media item is and whether it has been watched.
 
 One catch to this approach is that media items with the same IDs (for example, a movie that has both a 3D and 2D version) will be treated by the server as the exact same item regardless of the existence of two separate files. This can mean that it can show up in the Resume tab or other places twice. Also, if you watch the 3D version but not the 2D version, the server will mark both formats as watched.
 
 #### Saving metadata
 
-Be sure to hit **Save** after changing ANY metadata; otherwise, all of your changes will be lost when you navigate away from the page. If you wish for the changes that you made to be persistent through a refresh of the item, you will need to either lock the metadata field you changed, or lock the entire item. Examples of the lock option can be seen here:
+Be sure to hit **Save** after changing ANY metadata; otherwise, all of your changes will be lost when you navigate away from the page. If you wish for the changes that you made to be persistent through a refresh of the item, you will need to either lock the metadata field you changed, or lock the entire item. See [metadata precedence](xref:Learn-Metadata-Precedence) for how sources and field choices interact. Examples of the lock option can be seen here:
 
 ![](images/server/metadatamanager3.png)
 
@@ -95,7 +95,7 @@ For your movies and TV shows, the metadata manager can ve used to manage subtitl
 
 ![](images/server/metadatamanager8a.png)
 
-This will allow you to see which subtitles you have, whether they are graphical or text, and what languages the subtitles are in.
+This will allow you to see which subtitles you have, whether they are [graphical or text](xref:Learn-Subtitle-Formats), and what languages the subtitles are in.
 
 ![](images/server/metadatamanager8b.png)
 

@@ -3,9 +3,9 @@ uid: Emby-Xbox
 title: Emby Xbox
 ---
 
-Emby for Xbox is a modern app for Xbox One and Xbox Series X|S. Find it on Microsoft Store on Xbox: https://www.microsoft.com/en-us/store/p/emby-theater/9nblggh4t70l. As a native app, it supports a wide range of codecs and formats, enabling direct play for most kinds of video files.
+Emby for Xbox is a modern app for Xbox One and Xbox Series X|S. Find it on Microsoft Store on Xbox: https://www.microsoft.com/en-us/store/p/emby-theater/9nblggh4t70l. As a [native app](xref:Learn-Playback-Native-Players), it supports a wide range of codecs and formats, enabling direct play for most kinds of video files.
 
-- Emby for Xbox works with remote control from your phone or web browser, making it easy to control playback on your TV.
+- Emby for Xbox works with [remote control](xref:Learn-Playback-Remote-Control) from your phone or web browser, making it easy to control playback on your TV.
 - Emby for Xbox can play just about any type of media thanks to Emby Server transcoding; in many cases you will be using direct play most of the time.
 
 > [!NOTE]

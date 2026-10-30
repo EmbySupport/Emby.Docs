@@ -11,10 +11,10 @@ title: Emby Xbox FAQ
 
 There can be multiple reasons for this:
 
-- The subtitles are "graphic" subtitles.
+- The subtitles are ["graphic" subtitles](xref:Learn-Subtitle-Bitmap).
   The appearance of those cannot be changed.
   Typical subtitle formats using bitmaps are: DVDSub DVBSub, PGS/HDMV Subtitles
-- The subtitles are SSA/ASS subtitles
+- The subtitles are [SSA/ASS subtitles](xref:Learn-Subtitle-ASS-Typesetting)
   Those subtitles have built-in styling which cannot be overridden
 
 - System Settings may take precedence

@@ -11,7 +11,7 @@ If you had Emby installed on DSM 6 and just installed DSM 7 or are about to upgr
 
 [Adjusting Synology Inotify & Watches to Allow Real Time Monitoring (RTM)](https://emby.media/community/index.php?/topic/106276-fix-for-rtm-not-working-caused-by-limited-inotify-instanceswatches/#comment-1118343)
 
-If your Emby Server's media is stored on a Synology NAS but Emby's Realtime Monitoring is not finding new content added to your library you need to change your Inotify and Watches settings.
+If your Emby Server's media is stored on a Synology NAS but Emby's Realtime Monitoring is not finding new content added to your library you need to change your [Inotify and Watches settings](xref:Learn-Storage-Notifications).
 
 
 [How to Set Permissions on DSM 7](Synology-Set-Permissions.md)
