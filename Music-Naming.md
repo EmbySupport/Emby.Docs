@@ -111,6 +111,11 @@ Examples of `<folder name>.ext`
 > Support for the "artist.ext" and "artist-xxxx.ext" filenames requires Emby Server 4.10.
 
 
+> [!NOTE]
+> For imported music playlists and custom artwork for the playlist, the image file needs to be named the same as the m3u or m3u8 file. See [Playlists](Playlists.md) for examples.
+> 
+
+
 ## Tagging Your Tracks
 
 All music tracks should be tagged with whatever information you want displayed in Emby.  Emby should support all common tags written by Musicbrainz Picard. Other common software used to alter/write tags is Mp3tag and Tagscanner.
