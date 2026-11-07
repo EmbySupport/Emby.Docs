@@ -1,7 +1,7 @@
 
 # Startup Animation
 
-<video src="../../../videos/EmbyStartAnimFlat.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
+<video src="~/content/support/articles/videos/EmbyStartAnimFlat.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
 </video>
 
 ## Why it Exists

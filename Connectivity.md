@@ -102,7 +102,7 @@ If you find that wired devices can access the Emby Server but not devices on wi-
 
 When using a vpn on your router, the requests coming into the server from within the local network [may not appear as local](xref:Learn-Network-Local-Remote). You would need to add the local network subnet used by the vpn to the **LAN Networks** server Network setting. Ensure you also include the local network subnet that the server is connected to as well.
 
-As an example, if your local network is on subnet 192.168.1.xxx and the vpn is using subnet 10.253.0.xx, then you would enter: 10.253.0.0/24,192.168.1.0/24 in the LAN Networks server Network settings covering IP address ranges 10.253.0.1 to 10.253.0.255 and 192.168.1.1 to 192.168.1.255. See [LAN Networks](Hosting-Settings.md#LAN-Networks).
+As an example, if your local network is on subnet 192.168.1.xxx and the vpn is using subnet 10.253.0.xx, then you would enter: 10.253.0.0/24,192.168.1.0/24 in the LAN Networks server Network settings covering IP address ranges 10.253.0.1 to 10.253.0.255 and 192.168.1.1 to 192.168.1.255. See [LAN Networks](Hosting-Settings.md#lan-networks).
 
 ### CORS Mixed Content Block
 

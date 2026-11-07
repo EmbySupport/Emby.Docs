@@ -5,7 +5,7 @@ Support for remote control input has been extended. More button mappings are sup
 The new settings UI allows to test all remote control buttons as to whether they are recognized by the app.
 
 
-<video src="../../../videos/Emby_Enhanced_RemoteControl_Support.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
+<video src="~/content/support/articles/videos/Emby_Enhanced_RemoteControl_Support.mp4" controls="controls" style="max-height:640px; min-height: 200px; max-width: 100%;">
 </video>
 
 
