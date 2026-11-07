@@ -1,5 +1,5 @@
 ---
-uid: Emby-Theater-for-Windows
+uid: Emby-Theater-for-Windows-Legacy
 title: Emby Windows
 legacyUrl: /support/solutions/articles/44001161620-emby-theater-for-windows
 ---

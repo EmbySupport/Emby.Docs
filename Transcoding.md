@@ -16,7 +16,7 @@ Every Emby app will have a setting known as "Max streaming bitrate". This is the
 
 - [Dvd and Blu-ray](Movie-Naming.md#dvd-and-blu-ray-file-formats)
 - [ISOs](Movie-Naming.md#iso-format)
-- [3D videos](Movie-Naming.md#3d-videos)
+- [3D videos](3D-Videos.md)
 
 ## Server Settings
 

@@ -150,7 +150,7 @@ You may need to gain root privileges by executing "**sudo -s**" first.
 
 4. Restart Emby Server
 
-Check your [server log](server-logs.md) for SQLite errors and only continue to the next step if needed.
+Check your [server log](Log-Files.md) for SQLite errors and only continue to the next step if needed.
 
 
 ### Check Database Integrity and Recover Database
