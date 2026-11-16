@@ -132,6 +132,11 @@
       items:
       - name: Collections
         href: Collections.md
+    - name: Playlists
+      href: Playlists.md
+      items:
+      - name: Playlists
+        href: Playlists.md
     - name: Subtitles
       items:
       - name: Open Subtitles
